@@ -1,0 +1,80 @@
+{
+  "3": {
+    "instructions": [{"return": {
+      "eline": 13,
+      "epos": 58,
+      "spos": 10,
+      "sline": 13
+    }}],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = new java.lang.IllegalArgumentException": {
+        "eline": 13,
+        "epos": 59,
+        "spos": 4,
+        "sline": 13
+      }},
+      {"specialinvoke temp$1.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>(\"Not a valid month\")": {
+        "eline": 13,
+        "epos": 58,
+        "spos": 10,
+        "sline": 13
+      }},
+      {"throw temp$1": {
+        "eline": 13,
+        "epos": 58,
+        "spos": 10,
+        "sline": 13
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 12,
+      "epos": 11,
+      "spos": 8,
+      "sline": 12
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"virtualinvoke this.<Month: void setCurrentPos(int)>(pMonth)": {
+        "eline": 10,
+        "epos": 23,
+        "spos": 3,
+        "sline": 10
+      }},
+      {"this.<Month: Year y> = y": {
+        "eline": 11,
+        "epos": 8,
+        "spos": 8,
+        "sline": 11
+      }},
+      {"temp$0 = virtualinvoke this.<Month: boolean isValid()>()": {
+        "eline": 12,
+        "epos": 11,
+        "spos": 8,
+        "sline": 12
+      }},
+      {"if temp$0 == 0 goto block_2 #0": {
+        "eline": 12,
+        "epos": 11,
+        "ifpos": "(11, 2)-(11, 21)",
+        "spos": 8,
+        "sline": 12
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

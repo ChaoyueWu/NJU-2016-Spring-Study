@@ -1,0 +1,227 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 40,
+      "epos": 11,
+      "spos": 8,
+      "sline": 40
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<Date: Year y>": {
+        "eline": 40,
+        "epos": 11,
+        "spos": 8,
+        "sline": 40
+      }},
+      {"temp$2 = (Date) o": {
+        "eline": 40,
+        "epos": 11,
+        "spos": 8,
+        "sline": 40
+      }},
+      {"temp$3 = temp$2.<Date: Year y>": {
+        "eline": 40,
+        "epos": 11,
+        "spos": 8,
+        "sline": 40
+      }},
+      {"temp$4 = virtualinvoke temp$1.<Year: boolean equals(java.lang.Object)>(temp$3)": {
+        "eline": 40,
+        "epos": 11,
+        "spos": 8,
+        "sline": 40
+      }},
+      {"if temp$4 == 0 goto block_9 #1": {
+        "eline": 40,
+        "epos": 11,
+        "ifpos": "(39, 3)-(40, 35)",
+        "spos": 8,
+        "sline": 40
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      9
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 39,
+      "epos": 23,
+      "spos": 7,
+      "sline": 39
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = o instanceof Date": {
+        "eline": 39,
+        "epos": 23,
+        "spos": 7,
+        "sline": 39
+      }},
+      {"if temp$0 == 0 goto block_9 #0": {
+        "eline": 39,
+        "epos": 23,
+        "ifpos": "(38, 2)-(38, 23)",
+        "spos": 7,
+        "sline": 39
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      9
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 41,
+      "epos": 12,
+      "spos": 9,
+      "sline": 41
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$9 = this.<Date: Day d>": {
+        "eline": 41,
+        "epos": 12,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"temp$10 = (Date) o": {
+        "eline": 41,
+        "epos": 12,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"temp$11 = temp$10.<Date: Day d>": {
+        "eline": 41,
+        "epos": 12,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"temp$12 = virtualinvoke temp$9.<Day: boolean equals(java.lang.Object)>(temp$11)": {
+        "eline": 41,
+        "epos": 12,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"if temp$12 == 0 goto block_9 #1": {
+        "eline": 41,
+        "epos": 12,
+        "ifpos": "(39, 3)-(40, 35)",
+        "spos": 9,
+        "sline": 41
+      }}
+    ],
+    "preds": [5],
+    "succs": [
+      7,
+      9
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 40,
+      "epos": 42,
+      "spos": 39,
+      "sline": 40
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$5 = this.<Date: Month m>": {
+        "eline": 40,
+        "epos": 42,
+        "spos": 39,
+        "sline": 40
+      }},
+      {"temp$6 = (Date) o": {
+        "eline": 40,
+        "epos": 42,
+        "spos": 39,
+        "sline": 40
+      }},
+      {"temp$7 = temp$6.<Date: Month m>": {
+        "eline": 40,
+        "epos": 42,
+        "spos": 39,
+        "sline": 40
+      }},
+      {"temp$8 = virtualinvoke temp$5.<Month: boolean equals(java.lang.Object)>(temp$7)": {
+        "eline": 40,
+        "epos": 42,
+        "spos": 39,
+        "sline": 40
+      }},
+      {"if temp$8 == 0 goto block_9 #1": {
+        "eline": 40,
+        "epos": 42,
+        "ifpos": "(39, 3)-(40, 35)",
+        "spos": 39,
+        "sline": 40
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      5,
+      9
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$14 = 0": {
+        "reliable": false,
+        "eline": 42,
+        "epos": 16,
+        "spos": 5,
+        "sline": 42
+      }},
+      {"return temp$14": {
+        "eline": 44,
+        "epos": 15,
+        "spos": 3,
+        "sline": 44
+      }}
+    ],
+    "preds": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "succs": []
+  },
+  "8": {
+    "instructions": [
+      {"temp$13 = 1": {
+        "reliable": false,
+        "eline": 41,
+        "epos": 12,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"return temp$13": {
+        "eline": 42,
+        "epos": 16,
+        "spos": 5,
+        "sline": 42
+      }}
+    ],
+    "preds": [7],
+    "succs": []
+  }
+}

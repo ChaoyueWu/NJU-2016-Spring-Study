@@ -1,0 +1,1 @@
+导入项目junit报错——在项目上右键，点击build path-》add libraries，选junit，junit4，finish。OK。

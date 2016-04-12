@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<ArrayPartition: int[] a> = a": {
+      "eline": 25,
+      "epos": 11,
+      "spos": 11,
+      "sline": 25
+    }},
+    {"temp$0 = lengthof a": {
+      "eline": 26,
+      "epos": 9,
+      "spos": 6,
+      "sline": 26
+    }},
+    {"this.<ArrayPartition: int n> = temp$0": {
+      "eline": 26,
+      "epos": 11,
+      "spos": 11,
+      "sline": 26
+    }},
+    {"return": {
+      "eline": 26,
+      "epos": 11,
+      "spos": 11,
+      "sline": 26
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,72 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new Date": {
+      "eline": 4,
+      "epos": 111,
+      "spos": 6,
+      "sline": 4
+    }},
+    {"temp$1 = virtualinvoke d.<Date: Month getMonth()>()": {
+      "eline": 4,
+      "epos": 111,
+      "spos": 6,
+      "sline": 4
+    }},
+    {"temp$2 = virtualinvoke temp$1.<Month: int getCurrentPos()>()": {
+      "eline": 4,
+      "epos": 111,
+      "spos": 6,
+      "sline": 4
+    }},
+    {"temp$3 = virtualinvoke d.<Date: Day getDay()>()": {
+      "eline": 4,
+      "epos": 111,
+      "spos": 6,
+      "sline": 4
+    }},
+    {"temp$4 = virtualinvoke temp$3.<Day: int getCurrentPos()>()": {
+      "eline": 4,
+      "epos": 111,
+      "spos": 6,
+      "sline": 4
+    }},
+    {"temp$5 = virtualinvoke d.<Date: Year getYear()>()": {
+      "eline": 4,
+      "epos": 111,
+      "spos": 6,
+      "sline": 4
+    }},
+    {"temp$6 = virtualinvoke temp$5.<Year: int getCurrentPos()>()": {
+      "eline": 4,
+      "epos": 111,
+      "spos": 6,
+      "sline": 4
+    }},
+    {"specialinvoke temp$0.<Date: void <init>(int,int,int)>(temp$2, temp$4, temp$6)": {
+      "eline": 4,
+      "epos": 110,
+      "spos": 16,
+      "sline": 4
+    }},
+    {"dd = temp$0": {
+      "eline": 4,
+      "epos": 110,
+      "spos": 16,
+      "sline": 4
+    }},
+    {"virtualinvoke dd.<Date: void increment()>()": {
+      "eline": 5,
+      "epos": 23,
+      "spos": 9,
+      "sline": 5
+    }},
+    {"return dd": {
+      "eline": 6,
+      "epos": 18,
+      "spos": 9,
+      "sline": 6
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

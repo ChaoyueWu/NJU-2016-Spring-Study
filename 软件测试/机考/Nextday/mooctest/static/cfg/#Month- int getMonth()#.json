@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Month: int currentPos>": {
+      "eline": 18,
+      "epos": 19,
+      "spos": 10,
+      "sline": 18
+    }},
+    {"return temp$0": {
+      "eline": 18,
+      "epos": 20,
+      "spos": 3,
+      "sline": 18
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

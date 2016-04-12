@@ -1,0 +1,65 @@
+[
+  {
+    "codes": "\t\t\tsizeIndex[1] = 28; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn sizeIndex[currentPos - 1]; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean increment() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tcurrentPos += 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (currentPos > 12) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\treturn false; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\telse ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\treturn true; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isValid() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (y != null && y.isValid()) ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tif (this.currentPos >= 1 && this.currentPos <= 12) ",
+    "blocks": []
+  }
+]

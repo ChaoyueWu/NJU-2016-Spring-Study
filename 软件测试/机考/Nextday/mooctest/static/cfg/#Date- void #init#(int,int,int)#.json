@@ -1,0 +1,79 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new Year": {
+      "eline": 7,
+      "epos": 3,
+      "spos": 3,
+      "sline": 7
+    }},
+    {"specialinvoke temp$0.<Year: void <init>(int)>(pYear)": {
+      "eline": 7,
+      "epos": 21,
+      "spos": 7,
+      "sline": 7
+    }},
+    {"this.<Date: Year y> = temp$0": {
+      "eline": 7,
+      "epos": 3,
+      "spos": 3,
+      "sline": 7
+    }},
+    {"temp$1 = new Month": {
+      "eline": 8,
+      "epos": 3,
+      "spos": 3,
+      "sline": 8
+    }},
+    {"temp$2 = this.<Date: Year y>": {
+      "eline": 8,
+      "epos": 25,
+      "spos": 25,
+      "sline": 8
+    }},
+    {"specialinvoke temp$1.<Month: void <init>(int,Year)>(pMonth, temp$2)": {
+      "eline": 8,
+      "epos": 26,
+      "spos": 7,
+      "sline": 8
+    }},
+    {"this.<Date: Month m> = temp$1": {
+      "eline": 8,
+      "epos": 3,
+      "spos": 3,
+      "sline": 8
+    }},
+    {"temp$3 = new Day": {
+      "eline": 9,
+      "epos": 3,
+      "spos": 3,
+      "sline": 9
+    }},
+    {"temp$4 = this.<Date: Month m>": {
+      "eline": 9,
+      "epos": 21,
+      "spos": 21,
+      "sline": 9
+    }},
+    {"specialinvoke temp$3.<Day: void <init>(int,Month)>(pDay, temp$4)": {
+      "eline": 9,
+      "epos": 22,
+      "spos": 7,
+      "sline": 9
+    }},
+    {"this.<Date: Day d> = temp$3": {
+      "eline": 9,
+      "epos": 3,
+      "spos": 3,
+      "sline": 9
+    }},
+    {"return": {
+      "eline": 9,
+      "epos": 3,
+      "spos": 3,
+      "sline": 9
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

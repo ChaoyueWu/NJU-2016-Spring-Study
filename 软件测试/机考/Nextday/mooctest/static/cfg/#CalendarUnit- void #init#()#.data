@@ -1,0 +1,22 @@
+[
+  {
+    "codes": "public abstract class CalendarUnit { ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprotected int currentPos; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprotected void setCurrentPos(int pCurrentPos) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tcurrentPos = pCurrentPos; ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$6 = 0": {
+        "reliable": false,
+        "eline": 11,
+        "epos": 15,
+        "spos": 4,
+        "sline": 11
+      }},
+      {"return temp$6": {
+        "eline": 13,
+        "epos": 16,
+        "spos": 4,
+        "sline": 13
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$5 = 1": {
+        "reliable": false,
+        "eline": 10,
+        "epos": 21,
+        "spos": 21,
+        "sline": 10
+      }},
+      {"return temp$5": {
+        "eline": 11,
+        "epos": 15,
+        "spos": 4,
+        "sline": 11
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 10,
+      "epos": 21,
+      "spos": 21,
+      "sline": 10
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Day: int currentPos>": {
+        "eline": 9,
+        "epos": 12,
+        "spos": 3,
+        "sline": 9
+      }},
+      {"temp$1 = temp$0 + 1": {
+        "eline": 9,
+        "epos": 12,
+        "spos": 3,
+        "sline": 9
+      }},
+      {"this.<Day: int currentPos> = temp$1": {
+        "eline": 9,
+        "epos": 12,
+        "spos": 3,
+        "sline": 9
+      }},
+      {"temp$2 = this.<Day: Month m>": {
+        "eline": 10,
+        "epos": 21,
+        "spos": 21,
+        "sline": 10
+      }},
+      {"temp$3 = virtualinvoke temp$2.<Month: int getMonthSize()>()": {
+        "eline": 10,
+        "epos": 21,
+        "spos": 21,
+        "sline": 10
+      }},
+      {"temp$4 = this.<Day: int currentPos>": {
+        "eline": 10,
+        "epos": 21,
+        "spos": 21,
+        "sline": 10
+      }},
+      {"if temp$4 <= temp$3 goto block_2 #0": {
+        "eline": 10,
+        "epos": 21,
+        "ifpos": "(9, 2)-(9, 36)",
+        "spos": 21,
+        "sline": 10
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

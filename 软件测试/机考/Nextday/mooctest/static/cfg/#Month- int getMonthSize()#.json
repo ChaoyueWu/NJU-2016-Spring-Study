@@ -1,0 +1,155 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$5 = this.<Month: int[] sizeIndex>": {
+        "eline": 25,
+        "epos": 12,
+        "spos": 4,
+        "sline": 25
+      }},
+      {"temp$6 = 1": {
+        "reliable": false,
+        "eline": 25,
+        "epos": 12,
+        "spos": 4,
+        "sline": 25
+      }},
+      {"temp$7 = 28": {
+        "reliable": false,
+        "eline": 25,
+        "epos": 15,
+        "spos": 13,
+        "sline": 25
+      }},
+      {"temp$5[temp$6] = temp$7": {
+        "eline": 25,
+        "epos": 15,
+        "spos": 13,
+        "sline": 25
+      }}
+    ],
+    "preds": [0],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = this.<Month: int[] sizeIndex>": {
+        "eline": 23,
+        "epos": 12,
+        "spos": 4,
+        "sline": 23
+      }},
+      {"temp$3 = 1": {
+        "reliable": false,
+        "eline": 23,
+        "epos": 12,
+        "spos": 4,
+        "sline": 23
+      }},
+      {"temp$4 = 29": {
+        "reliable": false,
+        "eline": 23,
+        "epos": 15,
+        "spos": 13,
+        "sline": 23
+      }},
+      {"temp$2[temp$3] = temp$4": {
+        "eline": 23,
+        "epos": 15,
+        "spos": 13,
+        "sline": 23
+      }},
+      {"goto block_4": {
+        "eline": 25,
+        "epos": 21,
+        "spos": 3,
+        "sline": 22
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 22,
+      "epos": 7,
+      "spos": 7,
+      "sline": 22
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Month: Year y>": {
+        "eline": 22,
+        "epos": 7,
+        "spos": 7,
+        "sline": 22
+      }},
+      {"temp$1 = virtualinvoke temp$0.<Year: boolean isLeap()>()": {
+        "eline": 22,
+        "epos": 7,
+        "spos": 7,
+        "sline": 22
+      }},
+      {"if temp$1 == 0 goto block_3 #0": {
+        "eline": 22,
+        "epos": 7,
+        "ifpos": "(21, 2)-(21, 16)",
+        "spos": 7,
+        "sline": 22
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "4": {
+    "instructions": [
+      {"temp$8 = this.<Month: int[] sizeIndex>": {
+        "eline": 26,
+        "epos": 18,
+        "spos": 10,
+        "sline": 26
+      }},
+      {"temp$9 = this.<Month: int currentPos>": {
+        "eline": 26,
+        "epos": 29,
+        "spos": 20,
+        "sline": 26
+      }},
+      {"temp$10 = temp$9 - 1": {
+        "eline": 26,
+        "epos": 29,
+        "spos": 20,
+        "sline": 26
+      }},
+      {"temp$11 = temp$10": {
+        "eline": 26,
+        "epos": 29,
+        "spos": 20,
+        "sline": 26
+      }},
+      {"temp$12 = temp$8[temp$11]": {
+        "eline": 26,
+        "epos": 29,
+        "spos": 20,
+        "sline": 26
+      }},
+      {"return temp$12": {
+        "eline": 26,
+        "epos": 35,
+        "spos": 3,
+        "sline": 26
+      }}
+    ],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

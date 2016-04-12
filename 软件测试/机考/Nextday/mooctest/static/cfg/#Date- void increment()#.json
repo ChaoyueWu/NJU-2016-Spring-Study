@@ -1,0 +1,154 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 14,
+      "epos": 9,
+      "spos": 9,
+      "sline": 14
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = this.<Date: Month m>": {
+        "eline": 14,
+        "epos": 9,
+        "spos": 9,
+        "sline": 14
+      }},
+      {"temp$3 = virtualinvoke temp$2.<Month: boolean increment()>()": {
+        "eline": 14,
+        "epos": 9,
+        "spos": 9,
+        "sline": 14
+      }},
+      {"if temp$3 == 0 goto block_4 #1": {
+        "eline": 14,
+        "epos": 9,
+        "ifpos": "(13, 3)-(13, 21)",
+        "spos": 9,
+        "sline": 14
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_6": {
+      "eline": 13,
+      "epos": 8,
+      "spos": 8,
+      "sline": 13
+    }}],
+    "preds": [0],
+    "succs": [6]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Date: Day d>": {
+        "eline": 13,
+        "epos": 8,
+        "spos": 8,
+        "sline": 13
+      }},
+      {"temp$1 = virtualinvoke temp$0.<Day: boolean increment()>()": {
+        "eline": 13,
+        "epos": 8,
+        "spos": 8,
+        "sline": 13
+      }},
+      {"if temp$1 == 0 goto block_2 #0": {
+        "eline": 13,
+        "epos": 8,
+        "ifpos": "(12, 2)-(12, 20)",
+        "spos": 8,
+        "sline": 13
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "6": {
+    "instructions": [{"return": {
+      "eline": 18,
+      "epos": 16,
+      "spos": 16,
+      "sline": 18
+    }}],
+    "preds": [
+      1,
+      5
+    ],
+    "succs": []
+  },
+  "5": {
+    "instructions": [
+      {"temp$8 = this.<Date: Day d>": {
+        "eline": 18,
+        "epos": 4,
+        "spos": 4,
+        "sline": 18
+      }},
+      {"temp$9 = this.<Date: Month m>": {
+        "eline": 18,
+        "epos": 16,
+        "spos": 16,
+        "sline": 18
+      }},
+      {"virtualinvoke temp$8.<Day: void setDay(int,Month)>(1, temp$9)": {
+        "eline": 18,
+        "epos": 16,
+        "spos": 16,
+        "sline": 18
+      }}
+    ],
+    "preds": [
+      3,
+      4
+    ],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$4 = this.<Date: Year y>": {
+        "eline": 15,
+        "epos": 5,
+        "spos": 5,
+        "sline": 15
+      }},
+      {"virtualinvoke temp$4.<Year: boolean increment()>()": {
+        "eline": 15,
+        "epos": 5,
+        "spos": 5,
+        "sline": 15
+      }},
+      {"temp$6 = this.<Date: Month m>": {
+        "eline": 16,
+        "epos": 5,
+        "spos": 5,
+        "sline": 16
+      }},
+      {"temp$7 = this.<Date: Year y>": {
+        "eline": 16,
+        "epos": 19,
+        "spos": 19,
+        "sline": 16
+      }},
+      {"virtualinvoke temp$6.<Month: void setMonth(int,Year)>(1, temp$7)": {
+        "eline": 16,
+        "epos": 19,
+        "spos": 19,
+        "sline": 16
+      }}
+    ],
+    "preds": [2],
+    "succs": [5]
+  }
+}

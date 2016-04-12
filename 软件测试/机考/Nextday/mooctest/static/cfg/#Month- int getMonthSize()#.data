@@ -1,0 +1,69 @@
+[
+  {
+    "codes": "\tpublic int getMonth() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn currentPos; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getMonthSize() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (y.isLeap()) ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\t\tsizeIndex[1] = 29; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\telse ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\tsizeIndex[1] = 28; ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\treturn sizeIndex[currentPos - 1]; ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean increment() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tcurrentPos += 1; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (currentPos > 12) ",
+    "blocks": []
+  }
+]

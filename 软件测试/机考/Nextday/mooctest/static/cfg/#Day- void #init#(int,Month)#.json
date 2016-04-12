@@ -1,0 +1,19 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<CalendarUnit: void <init>()>()": {}},
+    {"virtualinvoke this.<Day: void setDay(int,Month)>(pDay, m)": {
+      "eline": 5,
+      "epos": 17,
+      "spos": 3,
+      "sline": 5
+    }},
+    {"return": {
+      "eline": 5,
+      "epos": 17,
+      "spos": 3,
+      "sline": 5
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,93 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = 1": {
+        "reliable": false,
+        "eline": 20,
+        "epos": 13,
+        "spos": 4,
+        "sline": 20
+      }},
+      {"return temp$4": {
+        "eline": 21,
+        "epos": 14,
+        "spos": 3,
+        "sline": 21
+      }}
+    ],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$3 = 1": {
+        "reliable": false,
+        "eline": 20,
+        "epos": 13,
+        "spos": 4,
+        "sline": 20
+      }},
+      {"this.<Year: int currentPos> = temp$3": {
+        "eline": 20,
+        "epos": 13,
+        "spos": 4,
+        "sline": 20
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 19,
+      "epos": 16,
+      "spos": 7,
+      "sline": 19
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Year: int currentPos>": {
+        "eline": 18,
+        "epos": 25,
+        "spos": 16,
+        "sline": 18
+      }},
+      {"temp$1 = temp$0 + 1": {
+        "eline": 18,
+        "epos": 25,
+        "spos": 16,
+        "sline": 18
+      }},
+      {"this.<Year: int currentPos> = temp$1": {
+        "eline": 18,
+        "epos": 12,
+        "spos": 3,
+        "sline": 18
+      }},
+      {"temp$2 = this.<Year: int currentPos>": {
+        "eline": 19,
+        "epos": 16,
+        "spos": 7,
+        "sline": 19
+      }},
+      {"if temp$2 == 0 goto block_2 #0": {
+        "eline": 19,
+        "epos": 16,
+        "ifpos": "(18, 2)-(18, 21)",
+        "spos": 7,
+        "sline": 19
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

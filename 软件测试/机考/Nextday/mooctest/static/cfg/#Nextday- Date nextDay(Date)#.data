@@ -1,0 +1,38 @@
+[
+  {
+    "codes": "public class Nextday { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static Date nextDay(Date d) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    Date dd = new Date(d.getMonth().getCurrentPos(), d.getDay().getCurrentPos(), d.getYear().getCurrentPos()); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        dd.increment(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return dd; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

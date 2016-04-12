@@ -1,0 +1,170 @@
+{
+  "3": {
+    "instructions": [{"goto block_7": {
+      "eline": 47,
+      "epos": 11,
+      "spos": 8,
+      "sline": 47
+    }}],
+    "preds": [2],
+    "succs": [7]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = (Month) o": {
+        "eline": 47,
+        "epos": 11,
+        "spos": 8,
+        "sline": 47
+      }},
+      {"temp$2 = this.<Month: int currentPos>": {
+        "eline": 47,
+        "epos": 11,
+        "spos": 8,
+        "sline": 47
+      }},
+      {"temp$3 = temp$1.<Month: int currentPos>": {
+        "eline": 47,
+        "epos": 11,
+        "spos": 8,
+        "sline": 47
+      }},
+      {"if temp$2 == temp$3 goto block_4 #1": {
+        "eline": 47,
+        "epos": 11,
+        "ifpos": "(46, 3)-(47, 36)",
+        "spos": 8,
+        "sline": 47
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 46,
+      "epos": 24,
+      "spos": 7,
+      "sline": 46
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = o instanceof Month": {
+        "eline": 46,
+        "epos": 24,
+        "spos": 7,
+        "sline": 46
+      }},
+      {"if temp$0 == 0 goto block_7 #0": {
+        "eline": 46,
+        "epos": 24,
+        "ifpos": "(45, 2)-(45, 24)",
+        "spos": 7,
+        "sline": 46
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      7
+    ]
+  },
+  "7": {
+    "instructions": [
+      {"temp$9 = 0": {
+        "reliable": false,
+        "eline": 49,
+        "epos": 16,
+        "spos": 5,
+        "sline": 49
+      }},
+      {"return temp$9": {
+        "eline": 51,
+        "epos": 15,
+        "spos": 3,
+        "sline": 51
+      }}
+    ],
+    "preds": [
+      0,
+      3,
+      4
+    ],
+    "succs": []
+  },
+  "6": {
+    "instructions": [
+      {"temp$8 = 1": {
+        "reliable": false,
+        "eline": 48,
+        "epos": 12,
+        "spos": 9,
+        "sline": 48
+      }},
+      {"return temp$8": {
+        "eline": 49,
+        "epos": 16,
+        "spos": 5,
+        "sline": 49
+      }}
+    ],
+    "preds": [5],
+    "succs": []
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 48,
+      "epos": 12,
+      "spos": 9,
+      "sline": 48
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$4 = this.<Month: Year y>": {
+        "eline": 48,
+        "epos": 12,
+        "spos": 9,
+        "sline": 48
+      }},
+      {"temp$5 = (Month) o": {
+        "eline": 48,
+        "epos": 12,
+        "spos": 9,
+        "sline": 48
+      }},
+      {"temp$6 = temp$5.<Month: Year y>": {
+        "eline": 48,
+        "epos": 12,
+        "spos": 9,
+        "sline": 48
+      }},
+      {"temp$7 = virtualinvoke temp$4.<Year: boolean equals(java.lang.Object)>(temp$6)": {
+        "eline": 48,
+        "epos": 12,
+        "spos": 9,
+        "sline": 48
+      }},
+      {"if temp$7 == 0 goto block_7 #1": {
+        "eline": 48,
+        "epos": 12,
+        "ifpos": "(46, 3)-(47, 36)",
+        "spos": 9,
+        "sline": 48
+      }}
+    ],
+    "preds": [2],
+    "succs": [
+      5,
+      7
+    ]
+  }
+}

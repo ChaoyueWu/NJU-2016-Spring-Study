@@ -1,0 +1,191 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 29,
+      "epos": 20,
+      "spos": 20,
+      "sline": 29
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<Day: Month m>": {
+        "eline": 29,
+        "epos": 20,
+        "spos": 20,
+        "sline": 29
+      }},
+      {"temp$2 = virtualinvoke temp$1.<Month: boolean isValid()>()": {
+        "eline": 29,
+        "epos": 20,
+        "spos": 20,
+        "sline": 29
+      }},
+      {"if temp$2 == 0 goto block_9 #0": {
+        "eline": 29,
+        "epos": 20,
+        "ifpos": "(28, 2)-(28, 30)",
+        "spos": 20,
+        "sline": 29
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      9
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_9": {
+      "eline": 29,
+      "epos": 7,
+      "spos": 7,
+      "sline": 29
+    }}],
+    "preds": [0],
+    "succs": [9]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Day: Month m>": {
+        "eline": 29,
+        "epos": 7,
+        "spos": 7,
+        "sline": 29
+      }},
+      {"if temp$0 != null goto block_2 #0": {
+        "eline": 29,
+        "epos": 7,
+        "ifpos": "(28, 2)-(28, 30)",
+        "spos": 7,
+        "sline": 29
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 30,
+      "epos": 51,
+      "spos": 51,
+      "sline": 30
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$4 = this.<Day: Month m>": {
+        "eline": 30,
+        "epos": 51,
+        "spos": 51,
+        "sline": 30
+      }},
+      {"temp$5 = virtualinvoke temp$4.<Month: int getMonthSize()>()": {
+        "eline": 30,
+        "epos": 51,
+        "spos": 51,
+        "sline": 30
+      }},
+      {"temp$6 = this.<Day: int currentPos>": {
+        "eline": 30,
+        "epos": 51,
+        "spos": 51,
+        "sline": 30
+      }},
+      {"if temp$6 <= temp$5 goto block_8 #1": {
+        "eline": 30,
+        "epos": 51,
+        "ifpos": "(29, 3)-(29, 66)",
+        "spos": 51,
+        "sline": 30
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_9": {
+      "eline": 30,
+      "epos": 11,
+      "spos": 8,
+      "sline": 30
+    }}],
+    "preds": [4],
+    "succs": [9]
+  },
+  "4": {
+    "instructions": [
+      {"temp$3 = this.<Day: int currentPos>": {
+        "eline": 30,
+        "epos": 11,
+        "spos": 8,
+        "sline": 30
+      }},
+      {"if temp$3 >= 1 goto block_6 #1": {
+        "eline": 30,
+        "epos": 11,
+        "ifpos": "(29, 3)-(29, 66)",
+        "spos": 8,
+        "sline": 30
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$8 = 0": {
+        "reliable": false,
+        "eline": 31,
+        "epos": 16,
+        "spos": 5,
+        "sline": 31
+      }},
+      {"return temp$8": {
+        "eline": 32,
+        "epos": 15,
+        "spos": 3,
+        "sline": 32
+      }}
+    ],
+    "preds": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "succs": []
+  },
+  "8": {
+    "instructions": [
+      {"temp$7 = 1": {
+        "reliable": false,
+        "eline": 30,
+        "epos": 51,
+        "spos": 51,
+        "sline": 30
+      }},
+      {"return temp$7": {
+        "eline": 31,
+        "epos": 16,
+        "spos": 5,
+        "sline": 31
+      }}
+    ],
+    "preds": [6],
+    "succs": []
+  }
+}

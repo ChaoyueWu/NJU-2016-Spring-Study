@@ -1,0 +1,42 @@
+[
+  {
+    "codes": "public class Day extends CalendarUnit { ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate Month m; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Day(int pDay, Month m) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetDay(pDay, m); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean increment() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tcurrentPos += 1; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (currentPos <= m.getMonthSize()) ",
+    "blocks": []
+  }
+]

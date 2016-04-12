@@ -1,0 +1,90 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = 1": {
+        "reliable": false,
+        "eline": 32,
+        "epos": 16,
+        "spos": 4,
+        "sline": 32
+      }},
+      {"return temp$4": {
+        "eline": 34,
+        "epos": 15,
+        "spos": 4,
+        "sline": 34
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$3 = 0": {
+        "reliable": false,
+        "eline": 31,
+        "epos": 16,
+        "spos": 7,
+        "sline": 31
+      }},
+      {"return temp$3": {
+        "eline": 32,
+        "epos": 16,
+        "spos": 4,
+        "sline": 32
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 31,
+      "epos": 16,
+      "spos": 7,
+      "sline": 31
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Month: int currentPos>": {
+        "eline": 30,
+        "epos": 12,
+        "spos": 3,
+        "sline": 30
+      }},
+      {"temp$1 = temp$0 + 1": {
+        "eline": 30,
+        "epos": 12,
+        "spos": 3,
+        "sline": 30
+      }},
+      {"this.<Month: int currentPos> = temp$1": {
+        "eline": 30,
+        "epos": 12,
+        "spos": 3,
+        "sline": 30
+      }},
+      {"temp$2 = this.<Month: int currentPos>": {
+        "eline": 31,
+        "epos": 16,
+        "spos": 7,
+        "sline": 31
+      }},
+      {"if temp$2 > 12 goto block_2 #0": {
+        "eline": 31,
+        "epos": 16,
+        "ifpos": "(30, 2)-(30, 21)",
+        "spos": 7,
+        "sline": 31
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

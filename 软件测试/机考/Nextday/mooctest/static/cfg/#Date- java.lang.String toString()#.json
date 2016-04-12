@@ -1,0 +1,96 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new java.lang.StringBuffer": {
+      "eline": 49,
+      "epos": 2,
+      "spos": 2,
+      "sline": 47
+    }},
+    {"specialinvoke temp$0.<java.lang.StringBuffer: void <init>()>()": {
+      "eline": 48,
+      "epos": 28,
+      "spos": 11,
+      "sline": 48
+    }},
+    {"temp$1 = this.<Date: Month m>": {
+      "eline": 48,
+      "epos": 11,
+      "spos": 11,
+      "sline": 48
+    }},
+    {"temp$2 = virtualinvoke temp$1.<Month: int getMonth()>()": {
+      "eline": 48,
+      "epos": 11,
+      "spos": 11,
+      "sline": 48
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$2)": {
+      "eline": 48,
+      "epos": 11,
+      "spos": 11,
+      "sline": 48
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"/\")": {
+      "eline": 48,
+      "epos": 28,
+      "spos": 11,
+      "sline": 48
+    }},
+    {"temp$3 = this.<Date: Day d>": {
+      "eline": 48,
+      "epos": 32,
+      "spos": 32,
+      "sline": 48
+    }},
+    {"temp$4 = virtualinvoke temp$3.<Day: int getDay()>()": {
+      "eline": 48,
+      "epos": 32,
+      "spos": 32,
+      "sline": 48
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$4)": {
+      "eline": 48,
+      "epos": 32,
+      "spos": 32,
+      "sline": 48
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"/\")": {
+      "eline": 48,
+      "epos": 47,
+      "spos": 11,
+      "sline": 48
+    }},
+    {"temp$5 = this.<Date: Year y>": {
+      "eline": 48,
+      "epos": 51,
+      "spos": 51,
+      "sline": 48
+    }},
+    {"temp$6 = virtualinvoke temp$5.<Year: int getYear()>()": {
+      "eline": 48,
+      "epos": 51,
+      "spos": 51,
+      "sline": 48
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$6)": {
+      "eline": 48,
+      "epos": 51,
+      "spos": 51,
+      "sline": 48
+    }},
+    {"temp$7 = virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.String toString()>()": {
+      "eline": 48,
+      "epos": 51,
+      "spos": 51,
+      "sline": 48
+    }},
+    {"return temp$7": {
+      "eline": 48,
+      "epos": 63,
+      "spos": 3,
+      "sline": 48
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,1 @@
+{"totalNum":3,"failureNum":0,"successNum":3,"classes":[{"testCases":[{"success":"1","methodName":"testIsWeaklySorted1"},{"success":"1","methodName":"testIsWeaklySorted2"},{"success":"1","methodName":"testIsWeaklySorted3"}],"className":"ArrayPartitionTest"}],"proName":"ArrayPartition"}

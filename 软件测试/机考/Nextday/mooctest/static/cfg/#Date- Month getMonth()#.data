@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic Day getDay() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn d; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Month getMonth() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn m; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Year getYear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn y; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

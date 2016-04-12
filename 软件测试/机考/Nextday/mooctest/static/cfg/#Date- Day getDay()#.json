@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Date: Day d>": {
+      "eline": 27,
+      "epos": 10,
+      "spos": 10,
+      "sline": 27
+    }},
+    {"return temp$0": {
+      "eline": 27,
+      "epos": 11,
+      "spos": 3,
+      "sline": 27
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

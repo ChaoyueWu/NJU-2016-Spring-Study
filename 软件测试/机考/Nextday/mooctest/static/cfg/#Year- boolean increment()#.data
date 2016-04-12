@@ -1,0 +1,61 @@
+[
+  {
+    "codes": "\tpublic int getYear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn currentPos; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean increment() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tcurrentPos = currentPos + 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (currentPos == 0) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tcurrentPos = 1; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\treturn true; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isLeap() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (currentPos >= 0 ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\t\t&& (((currentPos % 4 == 0) && (currentPos % 100 != 0)) || (currentPos % 400 == 0))) ",
+    "blocks": []
+  }
+]

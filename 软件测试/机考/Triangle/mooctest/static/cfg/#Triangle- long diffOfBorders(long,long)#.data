@@ -1,0 +1,52 @@
+[
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                       ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic long diffOfBorders(long a, long b) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn (a > b) ? (a - b) : (b - a); ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                          ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

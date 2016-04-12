@@ -1,0 +1,387 @@
+{
+  "17": {
+    "instructions": [
+      {"temp$18 = 1": {
+        "reliable": false,
+        "eline": 29,
+        "epos": 88,
+        "spos": 79,
+        "sline": 29
+      }},
+      {"return temp$18": {
+        "eline": 30,
+        "epos": 15,
+        "spos": 4,
+        "sline": 30
+      }}
+    ],
+    "preds": [
+      13,
+      15
+    ],
+    "succs": []
+  },
+  "18": {
+    "instructions": [
+      {"temp$19 = 0": {
+        "reliable": false,
+        "eline": 30,
+        "epos": 15,
+        "spos": 4,
+        "sline": 30
+      }},
+      {"return temp$19": {
+        "eline": 31,
+        "epos": 15,
+        "spos": 3,
+        "sline": 31
+      }}
+    ],
+    "preds": [
+      10,
+      16
+    ],
+    "succs": []
+  },
+  "15": {
+    "instructions": [
+      {"temp$15 = this.<Year: int currentPos>": {
+        "eline": 29,
+        "epos": 88,
+        "spos": 79,
+        "sline": 29
+      }},
+      {"temp$16 = temp$15 * -1": {
+        "eline": 29,
+        "epos": 88,
+        "spos": 79,
+        "sline": 29
+      }},
+      {"temp$17 = temp$16 % 400": {
+        "eline": 29,
+        "epos": 88,
+        "spos": 79,
+        "sline": 29
+      }},
+      {"if temp$17 == 1 goto block_17 #1": {
+        "eline": 29,
+        "epos": 88,
+        "ifpos": "(27, 7)-(28, 107)",
+        "spos": 79,
+        "sline": 29
+      }}
+    ],
+    "preds": [
+      12,
+      14
+    ],
+    "succs": [
+      16,
+      17
+    ]
+  },
+  "16": {
+    "instructions": [{"goto block_18": {
+      "eline": 29,
+      "epos": 88,
+      "spos": 79,
+      "sline": 29
+    }}],
+    "preds": [15],
+    "succs": [18]
+  },
+  "13": {
+    "instructions": [
+      {"temp$12 = this.<Year: int currentPos>": {
+        "eline": 29,
+        "epos": 53,
+        "spos": 44,
+        "sline": 29
+      }},
+      {"temp$13 = temp$12 * -1": {
+        "eline": 29,
+        "epos": 53,
+        "spos": 44,
+        "sline": 29
+      }},
+      {"temp$14 = temp$13 % 100": {
+        "eline": 29,
+        "epos": 53,
+        "spos": 44,
+        "sline": 29
+      }},
+      {"if temp$14 != 1 goto block_17 #1": {
+        "eline": 29,
+        "epos": 53,
+        "ifpos": "(27, 7)-(28, 107)",
+        "spos": 44,
+        "sline": 29
+      }}
+    ],
+    "preds": [11],
+    "succs": [
+      14,
+      17
+    ]
+  },
+  "14": {
+    "instructions": [{"goto block_15": {
+      "eline": 29,
+      "epos": 53,
+      "spos": 44,
+      "sline": 29
+    }}],
+    "preds": [13],
+    "succs": [15]
+  },
+  "11": {
+    "instructions": [
+      {"temp$9 = this.<Year: int currentPos>": {
+        "eline": 29,
+        "epos": 21,
+        "spos": 12,
+        "sline": 29
+      }},
+      {"temp$10 = temp$9 * -1": {
+        "eline": 29,
+        "epos": 21,
+        "spos": 12,
+        "sline": 29
+      }},
+      {"temp$11 = temp$10 % 4": {
+        "eline": 29,
+        "epos": 21,
+        "spos": 12,
+        "sline": 29
+      }},
+      {"if temp$11 == 1 goto block_13 #1": {
+        "eline": 29,
+        "epos": 21,
+        "ifpos": "(27, 7)-(28, 107)",
+        "spos": 12,
+        "sline": 29
+      }}
+    ],
+    "preds": [9],
+    "succs": [
+      12,
+      13
+    ]
+  },
+  "12": {
+    "instructions": [{"goto block_15": {
+      "eline": 29,
+      "epos": 21,
+      "spos": 12,
+      "sline": 29
+    }}],
+    "preds": [11],
+    "succs": [15]
+  },
+  "3": {
+    "instructions": [{"goto block_6": {
+      "eline": 26,
+      "epos": 20,
+      "spos": 11,
+      "sline": 26
+    }}],
+    "preds": [2],
+    "succs": [6]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<Year: int currentPos>": {
+        "eline": 26,
+        "epos": 20,
+        "spos": 11,
+        "sline": 26
+      }},
+      {"temp$2 = temp$1 % 4": {
+        "eline": 26,
+        "epos": 20,
+        "spos": 11,
+        "sline": 26
+      }},
+      {"if temp$2 == 0 goto block_4 #0": {
+        "eline": 26,
+        "epos": 20,
+        "ifpos": "(24, 2)-(25, 86)",
+        "spos": 11,
+        "sline": 26
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_9": {
+      "eline": 25,
+      "epos": 16,
+      "spos": 7,
+      "sline": 25
+    }}],
+    "preds": [0],
+    "succs": [9]
+  },
+  "10": {
+    "instructions": [{"goto block_18": {
+      "eline": 28,
+      "epos": 21,
+      "spos": 12,
+      "sline": 28
+    }}],
+    "preds": [9],
+    "succs": [18]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Year: int currentPos>": {
+        "eline": 25,
+        "epos": 16,
+        "spos": 7,
+        "sline": 25
+      }},
+      {"if temp$0 >= 0 goto block_2 #0": {
+        "eline": 25,
+        "epos": 16,
+        "ifpos": "(24, 2)-(25, 86)",
+        "spos": 7,
+        "sline": 25
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 26,
+      "epos": 73,
+      "spos": 64,
+      "sline": 26
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$5 = this.<Year: int currentPos>": {
+        "eline": 26,
+        "epos": 73,
+        "spos": 64,
+        "sline": 26
+      }},
+      {"temp$6 = temp$5 % 400": {
+        "eline": 26,
+        "epos": 73,
+        "spos": 64,
+        "sline": 26
+      }},
+      {"if temp$6 == 0 goto block_8 #0": {
+        "eline": 26,
+        "epos": 73,
+        "ifpos": "(24, 2)-(25, 86)",
+        "spos": 64,
+        "sline": 26
+      }}
+    ],
+    "preds": [
+      3,
+      5
+    ],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 26,
+      "epos": 45,
+      "spos": 36,
+      "sline": 26
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$3 = this.<Year: int currentPos>": {
+        "eline": 26,
+        "epos": 45,
+        "spos": 36,
+        "sline": 26
+      }},
+      {"temp$4 = temp$3 % 100": {
+        "eline": 26,
+        "epos": 45,
+        "spos": 36,
+        "sline": 26
+      }},
+      {"if temp$4 != 0 goto block_8 #0": {
+        "eline": 26,
+        "epos": 45,
+        "ifpos": "(24, 2)-(25, 86)",
+        "spos": 36,
+        "sline": 26
+      }}
+    ],
+    "preds": [2],
+    "succs": [
+      5,
+      8
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$8 = this.<Year: int currentPos>": {
+        "eline": 28,
+        "epos": 21,
+        "spos": 12,
+        "sline": 28
+      }},
+      {"if temp$8 < 0 goto block_11 #1": {
+        "eline": 28,
+        "epos": 21,
+        "ifpos": "(27, 7)-(28, 107)",
+        "spos": 12,
+        "sline": 28
+      }}
+    ],
+    "preds": [
+      1,
+      7
+    ],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$7 = 1": {
+        "reliable": false,
+        "eline": 26,
+        "epos": 73,
+        "spos": 64,
+        "sline": 26
+      }},
+      {"return temp$7": {
+        "eline": 27,
+        "epos": 15,
+        "spos": 4,
+        "sline": 27
+      }}
+    ],
+    "preds": [
+      4,
+      6
+    ],
+    "succs": []
+  }
+}

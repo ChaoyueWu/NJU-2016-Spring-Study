@@ -1,0 +1,90 @@
+[
+  {
+    "codes": "\t\t\tcurrentPos = 1; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn true; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isLeap() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (currentPos >= 0 ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\t\t&& (((currentPos % 4 == 0) && (currentPos % 100 != 0)) || (currentPos % 400 == 0))) ",
+    "blocks": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\treturn true; ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t\telse if (currentPos < 0 ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\t&& ((((currentPos * -1) % 4 == 1) && ((currentPos * -1) % 100 != 1)) || ((currentPos * -1) % 400 == 1))) ",
+    "blocks": [
+      16,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\treturn true; ",
+    "blocks": [17]
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": [18]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprotected boolean isValid() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (this.currentPos != 0) ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\treturn true; ",
+    "blocks": []
+  }
+]

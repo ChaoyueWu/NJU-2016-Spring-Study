@@ -1,0 +1,80 @@
+{
+  "3": {
+    "instructions": [{"return": {
+      "eline": 20,
+      "epos": 56,
+      "spos": 10,
+      "sline": 20
+    }}],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = new java.lang.IllegalArgumentException": {
+        "eline": 20,
+        "epos": 57,
+        "spos": 4,
+        "sline": 20
+      }},
+      {"specialinvoke temp$1.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>(\"Not a valid day\")": {
+        "eline": 20,
+        "epos": 56,
+        "spos": 10,
+        "sline": 20
+      }},
+      {"throw temp$1": {
+        "eline": 20,
+        "epos": 56,
+        "spos": 10,
+        "sline": 20
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 19,
+      "epos": 11,
+      "spos": 8,
+      "sline": 19
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"virtualinvoke this.<Day: void setCurrentPos(int)>(pDay)": {
+        "eline": 17,
+        "epos": 21,
+        "spos": 3,
+        "sline": 17
+      }},
+      {"this.<Day: Month m> = m": {
+        "eline": 18,
+        "epos": 8,
+        "spos": 8,
+        "sline": 18
+      }},
+      {"temp$0 = virtualinvoke this.<Day: boolean isValid()>()": {
+        "eline": 19,
+        "epos": 11,
+        "spos": 8,
+        "sline": 19
+      }},
+      {"if temp$0 == 0 goto block_2 #0": {
+        "eline": 19,
+        "epos": 11,
+        "ifpos": "(18, 2)-(18, 21)",
+        "spos": 8,
+        "sline": 19
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

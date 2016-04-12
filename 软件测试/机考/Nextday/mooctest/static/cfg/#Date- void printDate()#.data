@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t\t\td.setDay(1, m); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void printDate() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tSystem.out.println(m.getMonth() + \"/\" + d.getDay() + \"/\" + y.getYear()); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Day getDay() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn d; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "codes": "\tpublic Day(int pDay, Month m) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetDay(pDay, m); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean increment() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tcurrentPos += 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (currentPos <= m.getMonthSize()) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\treturn true; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\telse ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\treturn false; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setDay(int pDay, Month m) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetCurrentPos(pDay); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.m = m; ",
+    "blocks": []
+  }
+]

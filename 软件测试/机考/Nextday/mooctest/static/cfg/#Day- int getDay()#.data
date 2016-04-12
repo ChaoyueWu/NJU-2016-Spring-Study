@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t\t\tthrow new IllegalArgumentException(\"Not a valid day\"); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getDay() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn currentPos; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isValid() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (m != null && m.isValid()) ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tif (this.currentPos >= 1 && this.currentPos <= m.getMonthSize()) ",
+    "blocks": []
+  }
+]

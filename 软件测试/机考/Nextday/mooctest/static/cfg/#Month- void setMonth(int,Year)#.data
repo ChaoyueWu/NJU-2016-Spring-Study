@@ -1,0 +1,64 @@
+[
+  {
+    "codes": "\tpublic Month(int pMonth, Year y) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetMonth(pMonth, y); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setMonth(int pMonth, Year y) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetCurrentPos(pMonth); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.y = y; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (!this.isValid()) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tthrow new IllegalArgumentException(\"Not a valid month\"); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getMonth() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn currentPos; ",
+    "blocks": []
+  }
+]

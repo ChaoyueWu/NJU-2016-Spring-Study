@@ -1,0 +1,75 @@
+[
+  {
+    "codes": "\t\tm = new Month(pMonth, y); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\td = new Day(pDay, m); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void increment() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (!d.increment()) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tif (!m.increment()) { ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\ty.increment(); ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t\t\tm.setMonth(1, y); ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\td.setDay(1, m); ",
+    "blocks": [
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void printDate() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tSystem.out.println(m.getMonth() + \"/\" + d.getDay() + \"/\" + y.getYear()); ",
+    "blocks": []
+  }
+]

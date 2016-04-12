@@ -1,0 +1,163 @@
+[
+  {
+    "codes": "                                                     ",
+    "blocks": []
+  },
+  {
+    "codes": "                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void partition() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int tmp, pivot; ",
+    "blocks": []
+  },
+  {
+    "codes": "                           ",
+    "blocks": []
+  },
+  {
+    "codes": "        pivot = a[0]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int lo = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int hi = n - 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        while (lo <= hi) { ",
+    "blocks": [
+      1,
+      2,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                                                        ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            while (lo <= hi && a[lo] <= pivot) ",
+    "blocks": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                       ",
+    "blocks": [
+      7,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                lo++; ",
+    "blocks": [
+      7,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            while (a[hi] > pivot) ",
+    "blocks": [
+      8,
+      9,
+      10,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                hi--; ",
+    "blocks": [
+      10,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            if (lo < hi) { ",
+    "blocks": [
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                tmp = a[hi]; ",
+    "blocks": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                a[hi] = a[lo]; ",
+    "blocks": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                a[lo] = tmp; ",
+    "blocks": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "    boolean isWeaklySorted() { ",
+    "blocks": []
+  },
+  {
+    "codes": "                             ",
+    "blocks": []
+  },
+  {
+    "codes": "        boolean firstPart=true; ",
+    "blocks": []
+  },
+  {
+    "codes": "        for(int i=1; i<a.length; i++) { ",
+    "blocks": []
+  }
+]

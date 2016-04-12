@@ -1,0 +1,72 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 36,
+        "epos": 15,
+        "spos": 4,
+        "sline": 36
+      }},
+      {"return temp$2": {
+        "eline": 37,
+        "epos": 15,
+        "spos": 3,
+        "sline": 37
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = 1": {
+        "reliable": false,
+        "eline": 35,
+        "epos": 10,
+        "spos": 7,
+        "sline": 35
+      }},
+      {"return temp$1": {
+        "eline": 36,
+        "epos": 15,
+        "spos": 4,
+        "sline": 36
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 35,
+      "epos": 10,
+      "spos": 7,
+      "sline": 35
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Year: int currentPos>": {
+        "eline": 35,
+        "epos": 10,
+        "spos": 7,
+        "sline": 35
+      }},
+      {"if temp$0 != 0 goto block_2 #0": {
+        "eline": 35,
+        "epos": 10,
+        "ifpos": "(34, 2)-(34, 26)",
+        "spos": 7,
+        "sline": 35
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

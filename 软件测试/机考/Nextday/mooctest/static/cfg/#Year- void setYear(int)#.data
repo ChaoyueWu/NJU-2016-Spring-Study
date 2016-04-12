@@ -1,0 +1,60 @@
+[
+  {
+    "codes": "\tpublic Year(int pYear) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetYear(pYear); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setYear(int pYear) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetCurrentPos(pYear); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (!this.isValid()) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tthrow new IllegalArgumentException(\"Not a valid month\"); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getYear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn currentPos; ",
+    "blocks": []
+  }
+]

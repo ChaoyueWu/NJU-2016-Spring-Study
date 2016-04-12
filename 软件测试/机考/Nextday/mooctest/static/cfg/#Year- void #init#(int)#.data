@@ -1,0 +1,34 @@
+[
+  {
+    "codes": "public class Year extends CalendarUnit { ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Year(int pYear) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetYear(pYear); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setYear(int pYear) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetCurrentPos(pYear); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (!this.isValid()) { ",
+    "blocks": []
+  }
+]

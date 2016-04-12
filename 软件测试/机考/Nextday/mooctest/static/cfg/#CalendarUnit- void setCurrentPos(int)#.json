@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<CalendarUnit: int currentPos> = pCurrentPos": {
+      "eline": 5,
+      "epos": 12,
+      "spos": 3,
+      "sline": 5
+    }},
+    {"return": {
+      "eline": 5,
+      "epos": 12,
+      "spos": 3,
+      "sline": 5
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

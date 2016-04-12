@@ -1,0 +1,119 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 42,
+      "epos": 11,
+      "spos": 8,
+      "sline": 42
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = (Year) o": {
+        "eline": 42,
+        "epos": 11,
+        "spos": 8,
+        "sline": 42
+      }},
+      {"temp$2 = this.<Year: int currentPos>": {
+        "eline": 42,
+        "epos": 11,
+        "spos": 8,
+        "sline": 42
+      }},
+      {"temp$3 = temp$1.<Year: int currentPos>": {
+        "eline": 42,
+        "epos": 11,
+        "spos": 8,
+        "sline": 42
+      }},
+      {"if temp$2 == temp$3 goto block_4 #1": {
+        "eline": 42,
+        "epos": 11,
+        "ifpos": "(41, 3)-(41, 47)",
+        "spos": 8,
+        "sline": 42
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 41,
+      "epos": 23,
+      "spos": 7,
+      "sline": 41
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = o instanceof Year": {
+        "eline": 41,
+        "epos": 23,
+        "spos": 7,
+        "sline": 41
+      }},
+      {"if temp$0 == 0 goto block_5 #0": {
+        "eline": 41,
+        "epos": 23,
+        "ifpos": "(40, 2)-(40, 23)",
+        "spos": 7,
+        "sline": 41
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      5
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$5 = 0": {
+        "reliable": false,
+        "eline": 43,
+        "epos": 16,
+        "spos": 5,
+        "sline": 43
+      }},
+      {"return temp$5": {
+        "eline": 45,
+        "epos": 15,
+        "spos": 3,
+        "sline": 45
+      }}
+    ],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": []
+  },
+  "4": {
+    "instructions": [
+      {"temp$4 = 1": {
+        "reliable": false,
+        "eline": 42,
+        "epos": 11,
+        "spos": 8,
+        "sline": 42
+      }},
+      {"return temp$4": {
+        "eline": 43,
+        "epos": 16,
+        "spos": 5,
+        "sline": 43
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

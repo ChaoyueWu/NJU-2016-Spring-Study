@@ -1,0 +1,56 @@
+[
+  {
+    "codes": "\t\t\treturn true; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (o instanceof Year) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tif (this.currentPos == ((Year) o).currentPos) ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\treturn true; ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

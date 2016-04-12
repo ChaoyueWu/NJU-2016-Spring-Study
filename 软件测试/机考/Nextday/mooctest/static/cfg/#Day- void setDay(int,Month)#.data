@@ -1,0 +1,64 @@
+[
+  {
+    "codes": "\t\telse ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\treturn false; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setDay(int pDay, Month m) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsetCurrentPos(pDay); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.m = m; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (!this.isValid()) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tthrow new IllegalArgumentException(\"Not a valid day\"); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getDay() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn currentPos; ",
+    "blocks": []
+  }
+]

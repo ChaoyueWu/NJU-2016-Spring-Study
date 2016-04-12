@@ -1,0 +1,68 @@
+[
+  {
+    "codes": "\tpublic int getDay() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn currentPos; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isValid() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (m != null && m.isValid()) ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\tif (this.currentPos >= 1 && this.currentPos <= m.getMonthSize()) ",
+    "blocks": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t\treturn true; ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": [9]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (o instanceof Day) { ",
+    "blocks": []
+  }
+]

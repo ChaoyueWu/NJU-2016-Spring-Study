@@ -1,0 +1,77 @@
+[
+  {
+    "codes": "\tpublic Year getYear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn y; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (o instanceof Date) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tif (this.y.equals(((Date) o).y) && this.m.equals(((Date) o).m) ",
+    "blocks": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t&& this.d.equals(((Date) o).d)) ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t\treturn true; ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": [9]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String toString() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn (m.getMonth() + \"/\" + d.getDay() + \"/\" + y.getYear()); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]
