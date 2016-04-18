@@ -1,0 +1,64 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = 0L": {}},
+    {"this.<Triangle: long lborderA> = temp$0": {
+      "eline": 2,
+      "epos": 29,
+      "spos": 2,
+      "sline": 2
+    }},
+    {"temp$1 = 0L": {
+      "reliable": false,
+      "eline": 2,
+      "epos": 29,
+      "spos": 2,
+      "sline": 2
+    }},
+    {"this.<Triangle: long lborderB> = temp$1": {
+      "eline": 4,
+      "epos": 29,
+      "spos": 2,
+      "sline": 4
+    }},
+    {"temp$2 = 0L": {
+      "reliable": false,
+      "eline": 4,
+      "epos": 29,
+      "spos": 2,
+      "sline": 4
+    }},
+    {"this.<Triangle: long lborderC> = temp$2": {
+      "eline": 6,
+      "epos": 29,
+      "spos": 2,
+      "sline": 6
+    }},
+    {"this.<Triangle: long lborderA> = lborderA": {
+      "eline": 11,
+      "epos": 15,
+      "spos": 8,
+      "sline": 11
+    }},
+    {"this.<Triangle: long lborderB> = lborderB": {
+      "eline": 13,
+      "epos": 15,
+      "spos": 8,
+      "sline": 13
+    }},
+    {"this.<Triangle: long lborderC> = lborderC": {
+      "eline": 15,
+      "epos": 15,
+      "spos": 8,
+      "sline": 15
+    }},
+    {"return": {
+      "eline": 15,
+      "epos": 15,
+      "spos": 8,
+      "sline": 15
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

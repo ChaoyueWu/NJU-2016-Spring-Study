@@ -1,0 +1,171 @@
+[
+  {
+    "codes": "                               ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String getType(Triangle triangle) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString strType = \"Illegal\"; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (isTriangle(triangle)) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\t              ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tif (triangle.lborderA == triangle.lborderB ",
+    "blocks": [
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t&& triangle.lborderB == triangle.lborderC) { ",
+    "blocks": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "\t\t\t\tstrType = \"Regular\"; ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t\t\t              ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t\t\telse if ((triangle.lborderA != triangle.lborderB) ",
+    "blocks": [
+      6,
+      7,
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t&& (triangle.lborderB != triangle.lborderC) ",
+    "blocks": [
+      6,
+      9,
+      10,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t&& (triangle.lborderA != triangle.lborderC)) { ",
+    "blocks": [
+      6,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\tstrType = \"Scalene\"; ",
+    "blocks": [
+      6,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      6,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t                ",
+    "blocks": [
+      6,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\telse { ",
+    "blocks": [
+      6,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\tstrType = \"Isosceles\"; ",
+    "blocks": [
+      6,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      6,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn strType; ",
+    "blocks": [15]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                       ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,51 @@
+Problem Description:
+
+	Identify whether three borders with certain length can form a triangle and print the type of it.
+
+题目描述：
+
+	用来判断三边是否可以构成三角形以及构成了什么类型的三角形。
+
+
+
+
+Requirements:
+
+	Write JUnit Test Cases to achieve higher coverage.
+
+题目要求：
+
+	编写JUnit测试用例，使其满足尽可能高的覆盖度。
+
+
+
+
+
+How to do the exercise:
+
+	1. Click "mooctest" menu to Login and Download the problem
+
+	2. Write the JUnit Test Cases
+
+		2.1 Write JUnit Test Case into "junit" source folder in the directory of downloaded problem(Right click on "junit" folder -> New -> Other... -> Java/JUnit/JUnit Test Case)
+
+		2.2 Write your own test cases in the created JUnit Class
+
+	3. Run through "mooctest -> Run"
+
+	4. Submit the result to server by "mooctest -> Submit"
+
+
+怎么进行测验：
+
+	1. 通过eclipse菜单栏上的mooctest菜单进行登录并且下载测验试题。
+
+	2. 编写测试用例
+
+		2.1 在junit文件夹中编写测试用例（右击junit文件夹，new，other，选择Java/JUnit/JUnit Test Case）
+
+		2.2 在新建的java文件（junit类）中编写测试用例代码
+
+	3. 利用mooctest菜单中的Run运行程序并获得结果
+
+	4. 利用mooctest菜单中的Submit提交成绩
