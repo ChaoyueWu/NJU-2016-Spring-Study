@@ -1,0 +1,54 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static final int CUTOFF = 10; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final void swapReferences( Object [ ] a, int index1, int index2 ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Object tmp = a[ index1 ]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        a[ index1 ] = a[ index2 ]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        a[ index2 ] = tmp; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final void swap(int[] a,int index1,int index2) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int tmp = a[ index1 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index1 ] = a[ index2 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index2 ] = tmp; ",
+    "blocks": []
+  }
+]

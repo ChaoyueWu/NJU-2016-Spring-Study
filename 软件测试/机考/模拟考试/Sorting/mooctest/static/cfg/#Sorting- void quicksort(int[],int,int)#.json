@@ -1,0 +1,361 @@
+{
+  "17": {
+    "instructions": [{"return": {
+      "eline": 96,
+      "epos": 44,
+      "spos": 13,
+      "sline": 96
+    }}],
+    "preds": [
+      15,
+      16
+    ],
+    "succs": []
+  },
+  "15": {
+    "instructions": [
+      {"temp$12 = right - 1": {
+        "eline": 90,
+        "epos": 36,
+        "spos": 13,
+        "sline": 90
+      }},
+      {"staticinvoke <Sorting: void swap(int[],int,int)>(a, i, temp$12)": {
+        "eline": 90,
+        "epos": 36,
+        "spos": 13,
+        "sline": 90
+      }},
+      {"temp$13 = i - 1": {
+        "eline": 92,
+        "epos": 40,
+        "spos": 13,
+        "sline": 92
+      }},
+      {"staticinvoke <Sorting: void quicksort(int[],int,int)>(a, left, temp$13)": {
+        "eline": 92,
+        "epos": 40,
+        "spos": 13,
+        "sline": 92
+      }},
+      {"temp$14 = i": {
+        "eline": 93,
+        "epos": 41,
+        "spos": 13,
+        "sline": 93
+      }},
+      {"temp$15 = temp$14 + 1": {
+        "eline": 93,
+        "epos": 41,
+        "spos": 13,
+        "sline": 93
+      }},
+      {"staticinvoke <Sorting: void quicksort(int[],int,int)>(a, temp$15, right)": {
+        "eline": 93,
+        "epos": 41,
+        "spos": 13,
+        "sline": 93
+      }},
+      {"goto block_17": {
+        "eline": 96,
+        "epos": 44,
+        "spos": 9,
+        "sline": 75
+      }}
+    ],
+    "preds": [13],
+    "succs": [17]
+  },
+  "16": {
+    "instructions": [{"staticinvoke <Sorting: void insertionSort(int[],int,int)>(a, left, right)": {
+      "eline": 96,
+      "epos": 44,
+      "spos": 13,
+      "sline": 96
+    }}],
+    "preds": [1],
+    "succs": [17]
+  },
+  "13": {
+    "instructions": [{"goto block_15": {
+      "eline": 87,
+      "epos": 26,
+      "spos": 21,
+      "sline": 87
+    }}],
+    "preds": [11],
+    "succs": [15]
+  },
+  "14": {
+    "instructions": [{"goto block_3": {
+      "eline": 88,
+      "epos": 13,
+      "spos": 13,
+      "sline": 80
+    }}],
+    "preds": [12],
+    "succs": [3]
+  },
+  "11": {
+    "instructions": [{"goto block_13": {
+      "eline": 84,
+      "epos": 25,
+      "spos": 21,
+      "sline": 84
+    }}],
+    "preds": [10],
+    "succs": [13]
+  },
+  "12": {
+    "instructions": [
+      {"staticinvoke <Sorting: void swap(int[],int,int)>(a, i, j)": {
+        "eline": 85,
+        "epos": 37,
+        "spos": 22,
+        "sline": 85
+      }},
+      {"goto block_14": {
+        "eline": 87,
+        "epos": 26,
+        "spos": 17,
+        "sline": 84
+      }}
+    ],
+    "preds": [10],
+    "succs": [14]
+  },
+  "3": {
+    "instructions": [{"goto block_4": {}}],
+    "preds": [
+      2,
+      14
+    ],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = staticinvoke <Sorting: int median3(int[],int,int)>(a, left, right)": {
+        "eline": 77,
+        "epos": 50,
+        "spos": 13,
+        "sline": 77
+      }},
+      {"pivot = temp$2": {
+        "eline": 77,
+        "epos": 50,
+        "spos": 13,
+        "sline": 77
+      }},
+      {"i = left": {
+        "eline": 79,
+        "epos": 24,
+        "spos": 13,
+        "sline": 79
+      }},
+      {"temp$3 = right - 1": {
+        "eline": 79,
+        "epos": 39,
+        "spos": 27,
+        "sline": 79
+      }},
+      {"j = temp$3": {
+        "eline": 79,
+        "epos": 39,
+        "spos": 27,
+        "sline": 79
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_16": {
+      "eline": 75,
+      "epos": 34,
+      "spos": 13,
+      "sline": 75
+    }}],
+    "preds": [0],
+    "succs": [16]
+  },
+  "10": {
+    "instructions": [{"if i < j goto block_12 #3": {
+      "eline": 84,
+      "epos": 25,
+      "ifpos": "(83, 16)-(83, 26)",
+      "spos": 21,
+      "sline": 84
+    }}],
+    "preds": [8],
+    "succs": [
+      11,
+      12
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = left": {
+        "eline": 75,
+        "epos": 34,
+        "spos": 13,
+        "sline": 75
+      }},
+      {"temp$1 = temp$0 + 10": {
+        "eline": 75,
+        "epos": 34,
+        "spos": 13,
+        "sline": 75
+      }},
+      {"if temp$1 <= right goto block_2 #0": {
+        "eline": 75,
+        "epos": 34,
+        "ifpos": "(74, 8)-(74, 35)",
+        "spos": 13,
+        "sline": 75
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [
+      {"temp$8 = a": {
+        "eline": 83,
+        "epos": 39,
+        "spos": 24,
+        "sline": 83
+      }},
+      {"temp$9 = j + -1": {
+        "eline": 83,
+        "epos": 39,
+        "spos": 24,
+        "sline": 83
+      }},
+      {"j = temp$9": {
+        "eline": 83,
+        "epos": 29,
+        "spos": 29,
+        "sline": 83
+      }},
+      {"temp$10 = temp$9": {
+        "eline": 83,
+        "epos": 29,
+        "spos": 29,
+        "sline": 83
+      }},
+      {"temp$11 = temp$8[temp$10]": {
+        "eline": 83,
+        "epos": 29,
+        "spos": 29,
+        "sline": 83
+      }},
+      {"if temp$11 > pivot goto block_9 #2": {
+        "eline": 83,
+        "epos": 29,
+        "ifpos": "(82, 16)-(82, 40)",
+        "spos": 29,
+        "sline": 83
+      }}
+    ],
+    "preds": [
+      5,
+      9
+    ],
+    "succs": [
+      8,
+      9
+    ]
+  },
+  "6": {
+    "instructions": [{"goto block_4": {
+      "eline": 82,
+      "epos": 46,
+      "spos": 17,
+      "sline": 82
+    }}],
+    "preds": [4],
+    "succs": [4]
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 82,
+      "epos": 29,
+      "spos": 29,
+      "sline": 82
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$4 = a": {
+        "eline": 82,
+        "epos": 39,
+        "spos": 24,
+        "sline": 82
+      }},
+      {"temp$5 = i + 1": {
+        "eline": 82,
+        "epos": 39,
+        "spos": 24,
+        "sline": 82
+      }},
+      {"i = temp$5": {
+        "eline": 82,
+        "epos": 29,
+        "spos": 29,
+        "sline": 82
+      }},
+      {"temp$6 = temp$5": {
+        "eline": 82,
+        "epos": 29,
+        "spos": 29,
+        "sline": 82
+      }},
+      {"temp$7 = temp$4[temp$6]": {
+        "eline": 82,
+        "epos": 29,
+        "spos": 29,
+        "sline": 82
+      }},
+      {"if temp$7 < pivot goto block_6 #1": {
+        "eline": 82,
+        "epos": 29,
+        "ifpos": "(81, 16)-(81, 40)",
+        "spos": 29,
+        "sline": 82
+      }}
+    ],
+    "preds": [
+      3,
+      6
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_7": {
+      "eline": 83,
+      "epos": 45,
+      "spos": 17,
+      "sline": 83
+    }}],
+    "preds": [7],
+    "succs": [7]
+  },
+  "8": {
+    "instructions": [{"goto block_10": {
+      "eline": 83,
+      "epos": 29,
+      "spos": 29,
+      "sline": 83
+    }}],
+    "preds": [7],
+    "succs": [10]
+  }
+}

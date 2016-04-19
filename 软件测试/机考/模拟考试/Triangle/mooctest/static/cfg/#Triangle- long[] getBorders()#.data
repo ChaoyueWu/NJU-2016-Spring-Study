@@ -1,0 +1,50 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                          ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic long[] getBorders() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tlong[] borders = new long[3]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tborders[0] = this.lborderA; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tborders[1] = this.lborderB; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tborders[2] = this.lborderC; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\treturn borders; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

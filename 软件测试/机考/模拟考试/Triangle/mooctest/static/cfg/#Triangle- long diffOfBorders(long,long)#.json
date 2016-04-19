@@ -1,0 +1,89 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$3 = b - a": {
+        "eline": 77,
+        "epos": 15,
+        "spos": 11,
+        "sline": 77
+      }},
+      {"temp$0 = temp$3": {
+        "eline": 77,
+        "epos": 15,
+        "spos": 11,
+        "sline": 77
+      }}
+    ],
+    "preds": [0],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = a - b": {
+        "eline": 77,
+        "epos": 15,
+        "spos": 11,
+        "sline": 77
+      }},
+      {"temp$0 = temp$2": {
+        "eline": 77,
+        "epos": 15,
+        "spos": 11,
+        "sline": 77
+      }},
+      {"goto block_4": {
+        "eline": 77,
+        "epos": 15,
+        "spos": 11,
+        "sline": 77
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 77,
+      "epos": 15,
+      "spos": 11,
+      "sline": 77
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$1 = a cmp b": {
+        "eline": 77,
+        "epos": 15,
+        "spos": 11,
+        "sline": 77
+      }},
+      {"if temp$1 <= 0 goto block_3 #0": {
+        "eline": 77,
+        "epos": 15,
+        "ifpos": "(68, 16)-(76, 17)",
+        "spos": 11,
+        "sline": 77
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "4": {
+    "instructions": [{"return temp$0": {
+      "eline": 77,
+      "epos": 37,
+      "spos": 3,
+      "sline": 77
+    }}],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "    int[] a; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    int n; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public ArrayPartition(int[] a){ ",
+    "blocks": []
+  },
+  {
+    "codes": "    \tthis.a = a; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    \tthis.n = a.length; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                     ",
+    "blocks": []
+  },
+  {
+    "codes": "                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void partition() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int tmp, pivot; ",
+    "blocks": []
+  }
+]

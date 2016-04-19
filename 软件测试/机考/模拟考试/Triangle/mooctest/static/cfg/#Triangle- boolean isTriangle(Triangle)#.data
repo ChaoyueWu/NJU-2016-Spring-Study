@@ -1,0 +1,130 @@
+[
+  {
+    "codes": "                              ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "                                            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isTriangle(Triangle triangle) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tboolean isTriangle = false; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t                  ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif ((triangle.lborderA > 0 && triangle.lborderA <= Long.MAX_VALUE) ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\t&& (triangle.lborderB > 0 && triangle.lborderB <= Long.MAX_VALUE) ",
+    "blocks": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t\t&& (triangle.lborderC > 0 && triangle.lborderC <= Long.MAX_VALUE)) { ",
+    "blocks": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\t                                                            ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tif (diffOfBorders(triangle.lborderA, triangle.lborderB) < triangle.lborderC ",
+    "blocks": [
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t&& diffOfBorders(triangle.lborderB, triangle.lborderC) < triangle.lborderA ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t&& diffOfBorders(triangle.lborderC, triangle.lborderA) < triangle.lborderB) { ",
+    "blocks": [
+      17,
+      16
+    ]
+  },
+  {
+    "codes": "\t\t\t\tisTriangle = true; ",
+    "blocks": [18]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn isTriangle; ",
+    "blocks": [19]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                               ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

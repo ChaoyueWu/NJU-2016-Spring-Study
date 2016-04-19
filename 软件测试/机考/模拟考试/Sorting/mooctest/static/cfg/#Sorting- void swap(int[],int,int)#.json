@@ -1,0 +1,84 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = a": {
+      "eline": 53,
+      "epos": 30,
+      "spos": 9,
+      "sline": 53
+    }},
+    {"temp$1 = index1": {
+      "eline": 53,
+      "epos": 30,
+      "spos": 9,
+      "sline": 53
+    }},
+    {"tmp = temp$0[temp$1]": {
+      "eline": 53,
+      "epos": 30,
+      "spos": 9,
+      "sline": 53
+    }},
+    {"temp$2 = a": {
+      "eline": 54,
+      "epos": 34,
+      "spos": 9,
+      "sline": 54
+    }},
+    {"temp$3 = index1": {
+      "eline": 54,
+      "epos": 34,
+      "spos": 9,
+      "sline": 54
+    }},
+    {"temp$4 = a": {
+      "eline": 54,
+      "epos": 34,
+      "spos": 9,
+      "sline": 54
+    }},
+    {"temp$5 = index2": {
+      "eline": 54,
+      "epos": 34,
+      "spos": 9,
+      "sline": 54
+    }},
+    {"temp$6 = temp$4[temp$5]": {
+      "eline": 54,
+      "epos": 34,
+      "spos": 9,
+      "sline": 54
+    }},
+    {"temp$2[temp$3] = temp$6": {
+      "eline": 54,
+      "epos": 19,
+      "spos": 10,
+      "sline": 54
+    }},
+    {"temp$7 = a": {
+      "eline": 55,
+      "epos": 26,
+      "spos": 9,
+      "sline": 55
+    }},
+    {"temp$8 = index2": {
+      "eline": 55,
+      "epos": 26,
+      "spos": 9,
+      "sline": 55
+    }},
+    {"temp$7[temp$8] = tmp": {
+      "eline": 55,
+      "epos": 19,
+      "spos": 10,
+      "sline": 55
+    }},
+    {"return": {
+      "eline": 55,
+      "epos": 19,
+      "spos": 10,
+      "sline": 55
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,351 @@
+{
+  "15": {
+    "instructions": [{"return strType": {
+      "eline": 69,
+      "epos": 17,
+      "spos": 3,
+      "sline": 69
+    }}],
+    "preds": [
+      0,
+      6,
+      13,
+      14
+    ],
+    "succs": []
+  },
+  "13": {
+    "instructions": [
+      {"temp$17 = \"Scalene\"": {
+        "reliable": false,
+        "eline": 61,
+        "epos": 11,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"strType = temp$17": {
+        "eline": 61,
+        "epos": 11,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"goto block_15": {
+        "eline": 66,
+        "epos": 4,
+        "spos": 9,
+        "sline": 58
+      }}
+    ],
+    "preds": [12],
+    "succs": [15]
+  },
+  "14": {
+    "instructions": [
+      {"temp$18 = \"Isosceles\"": {
+        "reliable": false,
+        "eline": 65,
+        "epos": 11,
+        "spos": 5,
+        "sline": 65
+      }},
+      {"strType = temp$18": {
+        "eline": 65,
+        "epos": 11,
+        "spos": 5,
+        "sline": 65
+      }}
+    ],
+    "preds": [
+      7,
+      9,
+      11
+    ],
+    "succs": [15]
+  },
+  "11": {
+    "instructions": [
+      {"temp$14 = triangle.<Triangle: long lborderA>": {
+        "eline": 60,
+        "epos": 47,
+        "spos": 10,
+        "sline": 60
+      }},
+      {"temp$15 = triangle.<Triangle: long lborderC>": {
+        "eline": 60,
+        "epos": 47,
+        "spos": 10,
+        "sline": 60
+      }},
+      {"temp$16 = temp$14 cmp temp$15": {
+        "eline": 60,
+        "epos": 47,
+        "spos": 10,
+        "sline": 60
+      }},
+      {"if temp$16 == 0 goto block_14 #2": {
+        "eline": 60,
+        "epos": 47,
+        "ifpos": "(57, 8)-(59, 48)",
+        "spos": 10,
+        "sline": 60
+      }}
+    ],
+    "preds": [10],
+    "succs": [
+      12,
+      14
+    ]
+  },
+  "12": {
+    "instructions": [{"goto block_13": {
+      "eline": 60,
+      "epos": 47,
+      "spos": 10,
+      "sline": 60
+    }}],
+    "preds": [11],
+    "succs": [13]
+  },
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 53,
+      "epos": 45,
+      "spos": 8,
+      "sline": 53
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = triangle.<Triangle: long lborderA>": {
+        "eline": 53,
+        "epos": 45,
+        "spos": 8,
+        "sline": 53
+      }},
+      {"temp$2 = triangle.<Triangle: long lborderB>": {
+        "eline": 53,
+        "epos": 45,
+        "spos": 8,
+        "sline": 53
+      }},
+      {"temp$3 = temp$1 cmp temp$2": {
+        "eline": 53,
+        "epos": 45,
+        "spos": 8,
+        "sline": 53
+      }},
+      {"if temp$3 != 0 goto block_7 #1": {
+        "eline": 53,
+        "epos": 45,
+        "ifpos": "(52, 3)-(53, 46)",
+        "spos": 8,
+        "sline": 53
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      7
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 51,
+      "epos": 26,
+      "spos": 7,
+      "sline": 51
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "10": {
+    "instructions": [{"goto block_11": {
+      "eline": 59,
+      "epos": 47,
+      "spos": 10,
+      "sline": 59
+    }}],
+    "preds": [9],
+    "succs": [11]
+  },
+  "0": {
+    "instructions": [
+      {"strType = \"Illegal\"": {
+        "eline": 49,
+        "epos": 29,
+        "spos": 3,
+        "sline": 49
+      }},
+      {"temp$0 = virtualinvoke this.<Triangle: boolean isTriangle(Triangle)>(triangle)": {
+        "eline": 51,
+        "epos": 26,
+        "spos": 7,
+        "sline": 51
+      }},
+      {"if temp$0 == 0 goto block_15 #0": {
+        "eline": 51,
+        "epos": 26,
+        "ifpos": "(50, 2)-(50, 26)",
+        "spos": 7,
+        "sline": 51
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      15
+    ]
+  },
+  "7": {
+    "instructions": [
+      {"temp$8 = triangle.<Triangle: long lborderA>": {
+        "eline": 58,
+        "epos": 51,
+        "spos": 14,
+        "sline": 58
+      }},
+      {"temp$9 = triangle.<Triangle: long lborderB>": {
+        "eline": 58,
+        "epos": 51,
+        "spos": 14,
+        "sline": 58
+      }},
+      {"temp$10 = temp$8 cmp temp$9": {
+        "eline": 58,
+        "epos": 51,
+        "spos": 14,
+        "sline": 58
+      }},
+      {"if temp$10 == 0 goto block_14 #2": {
+        "eline": 58,
+        "epos": 51,
+        "ifpos": "(57, 8)-(59, 48)",
+        "spos": 14,
+        "sline": 58
+      }}
+    ],
+    "preds": [
+      2,
+      4
+    ],
+    "succs": [
+      8,
+      14
+    ]
+  },
+  "6": {
+    "instructions": [
+      {"temp$7 = \"Regular\"": {
+        "reliable": false,
+        "eline": 55,
+        "epos": 11,
+        "spos": 5,
+        "sline": 55
+      }},
+      {"strType = temp$7": {
+        "eline": 55,
+        "epos": 11,
+        "spos": 5,
+        "sline": 55
+      }},
+      {"goto block_15": {
+        "eline": 66,
+        "epos": 4,
+        "spos": 4,
+        "sline": 53
+      }}
+    ],
+    "preds": [5],
+    "succs": [15]
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 54,
+      "epos": 46,
+      "spos": 9,
+      "sline": 54
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$4 = triangle.<Triangle: long lborderB>": {
+        "eline": 54,
+        "epos": 46,
+        "spos": 9,
+        "sline": 54
+      }},
+      {"temp$5 = triangle.<Triangle: long lborderC>": {
+        "eline": 54,
+        "epos": 46,
+        "spos": 9,
+        "sline": 54
+      }},
+      {"temp$6 = temp$4 cmp temp$5": {
+        "eline": 54,
+        "epos": 46,
+        "spos": 9,
+        "sline": 54
+      }},
+      {"if temp$6 != 0 goto block_7 #1": {
+        "eline": 54,
+        "epos": 46,
+        "ifpos": "(52, 3)-(53, 46)",
+        "spos": 9,
+        "sline": 54
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      5,
+      7
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$11 = triangle.<Triangle: long lborderB>": {
+        "eline": 59,
+        "epos": 47,
+        "spos": 10,
+        "sline": 59
+      }},
+      {"temp$12 = triangle.<Triangle: long lborderC>": {
+        "eline": 59,
+        "epos": 47,
+        "spos": 10,
+        "sline": 59
+      }},
+      {"temp$13 = temp$11 cmp temp$12": {
+        "eline": 59,
+        "epos": 47,
+        "spos": 10,
+        "sline": 59
+      }},
+      {"if temp$13 == 0 goto block_14 #2": {
+        "eline": 59,
+        "epos": 47,
+        "ifpos": "(57, 8)-(59, 48)",
+        "spos": 10,
+        "sline": 59
+      }}
+    ],
+    "preds": [8],
+    "succs": [
+      10,
+      14
+    ]
+  },
+  "8": {
+    "instructions": [{"goto block_9": {
+      "eline": 58,
+      "epos": 51,
+      "spos": 14,
+      "sline": 58
+    }}],
+    "preds": [7],
+    "succs": [9]
+  }
+}

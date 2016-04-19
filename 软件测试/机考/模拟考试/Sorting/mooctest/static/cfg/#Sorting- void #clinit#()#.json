@@ -1,0 +1,51 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = 10": {
+      "reliable": false,
+      "eline": 115,
+      "epos": 1,
+      "spos": 1,
+      "sline": 11
+    }},
+    {"<Sorting: int CUTOFF> = temp$0": {
+      "eline": 44,
+      "epos": 41,
+      "spos": 5,
+      "sline": 44
+    }},
+    {"temp$1 = 1000": {
+      "reliable": false,
+      "eline": 44,
+      "epos": 41,
+      "spos": 5,
+      "sline": 44
+    }},
+    {"<Sorting: int NUM_ITEMS> = temp$1": {
+      "eline": 112,
+      "epos": 46,
+      "spos": 5,
+      "sline": 112
+    }},
+    {"temp$2 = 1": {
+      "reliable": false,
+      "eline": 112,
+      "epos": 46,
+      "spos": 5,
+      "sline": 112
+    }},
+    {"<Sorting: int theSeed> = temp$2": {
+      "eline": 113,
+      "epos": 35,
+      "spos": 5,
+      "sline": 113
+    }},
+    {"return": {
+      "eline": 113,
+      "epos": 35,
+      "spos": 5,
+      "sline": 113
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

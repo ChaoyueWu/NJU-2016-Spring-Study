@@ -1,0 +1,95 @@
+[
+  {
+    "codes": "        a[ index2 ] = tmp; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static int median3( int[ ] a, int left, int right ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int center = ( left + right ) / 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if( a[ center ]<a[ left ] ) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            swap( a, left, center ); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        if( a[ right ] < a[ left ] ) ",
+    "blocks": [
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "            swap( a, left, right ); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "        if( a[ right ] < a[ center ] ) ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "            swap( a, center, right ); ",
+    "blocks": [8]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "        swap( a, center, right - 1 ); ",
+    "blocks": [9]
+  },
+  {
+    "codes": "        return a[ right - 1 ]; ",
+    "blocks": [9]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static void quicksort( int[ ] a, int left, int right) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if( left + CUTOFF <= right ) ",
+    "blocks": []
+  }
+]

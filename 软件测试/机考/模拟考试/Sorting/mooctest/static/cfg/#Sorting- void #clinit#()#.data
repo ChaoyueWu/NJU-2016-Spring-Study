@@ -1,0 +1,310 @@
+[
+  {
+    "codes": "    public static void quicksort( int[ ] a ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        quicksort( a, 0, a.length - 1 ); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static final int CUTOFF = 10; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final void swapReferences( Object [ ] a, int index1, int index2 ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Object tmp = a[ index1 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index1 ] = a[ index2 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index2 ] = tmp; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final void swap(int[] a,int index1,int index2) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int tmp = a[ index1 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index1 ] = a[ index2 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index2 ] = tmp; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static int median3( int[ ] a, int left, int right ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int center = ( left + right ) / 2; ",
+    "blocks": []
+  },
+  {
+    "codes": "        if( a[ center ]<a[ left ] ) ",
+    "blocks": []
+  },
+  {
+    "codes": "            swap( a, left, center ); ",
+    "blocks": []
+  },
+  {
+    "codes": "        if( a[ right ] < a[ left ] ) ",
+    "blocks": []
+  },
+  {
+    "codes": "            swap( a, left, right ); ",
+    "blocks": []
+  },
+  {
+    "codes": "        if( a[ right ] < a[ center ] ) ",
+    "blocks": []
+  },
+  {
+    "codes": "            swap( a, center, right ); ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "        swap( a, center, right - 1 ); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return a[ right - 1 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static void quicksort( int[ ] a, int left, int right) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if( left + CUTOFF <= right ) ",
+    "blocks": []
+  },
+  {
+    "codes": "        { ",
+    "blocks": []
+  },
+  {
+    "codes": "            int pivot = median3( a, left, right ); ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "            int i = left, j = right - 1; ",
+    "blocks": []
+  },
+  {
+    "codes": "            for( ; ; ) ",
+    "blocks": []
+  },
+  {
+    "codes": "            { ",
+    "blocks": []
+  },
+  {
+    "codes": "                while( a[ ++i ] < pivot )  { } ",
+    "blocks": []
+  },
+  {
+    "codes": "                while( a[ --j ] > pivot ) { } ",
+    "blocks": []
+  },
+  {
+    "codes": "                if( i < j ) ",
+    "blocks": []
+  },
+  {
+    "codes": "                     swap( a, i, j ); ",
+    "blocks": []
+  },
+  {
+    "codes": "                else ",
+    "blocks": []
+  },
+  {
+    "codes": "                    break; ",
+    "blocks": []
+  },
+  {
+    "codes": "            } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "            swap( a, i, right - 1 );                    ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "            quicksort( a, left, i - 1 );                           ",
+    "blocks": []
+  },
+  {
+    "codes": "            quicksort( a, i + 1, right );                          ",
+    "blocks": []
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        else                                          ",
+    "blocks": []
+  },
+  {
+    "codes": "            insertionSort( a, left, right ); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static void insertionSort( int[ ] a, int left, int right ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        for( int p = left + 1; p <= right; p++ ) ",
+    "blocks": []
+  },
+  {
+    "codes": "        { ",
+    "blocks": []
+  },
+  {
+    "codes": "            int tmp = a[ p ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "            int j; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "            for( j = p; j > left && tmp < a[ j - 1 ]; j-- ) ",
+    "blocks": []
+  },
+  {
+    "codes": "                a[ j ] = a[ j - 1 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "            a[ j ] = tmp; ",
+    "blocks": []
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static final int NUM_ITEMS = 1000; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private static int theSeed = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

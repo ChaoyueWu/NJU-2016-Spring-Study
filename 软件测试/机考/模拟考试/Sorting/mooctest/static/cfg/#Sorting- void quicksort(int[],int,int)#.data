@@ -1,0 +1,184 @@
+[
+  {
+    "codes": "        return a[ right - 1 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static void quicksort( int[ ] a, int left, int right) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if( left + CUTOFF <= right ) ",
+    "blocks": [
+      0,
+      1,
+      15
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [15]
+  },
+  {
+    "codes": "            int pivot = median3( a, left, right ); ",
+    "blocks": [
+      2,
+      15
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [15]
+  },
+  {
+    "codes": "            int i = left, j = right - 1; ",
+    "blocks": [
+      2,
+      15
+    ]
+  },
+  {
+    "codes": "            for( ; ; ) ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            { ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                while( a[ ++i ] < pivot )  { } ",
+    "blocks": [
+      4,
+      5,
+      6,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                while( a[ --j ] > pivot ) { } ",
+    "blocks": [
+      7,
+      8,
+      9,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                if( i < j ) ",
+    "blocks": [
+      10,
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                     swap( a, i, j ); ",
+    "blocks": [
+      12,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                else ",
+    "blocks": [
+      12,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                    break; ",
+    "blocks": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [15]
+  },
+  {
+    "codes": "            swap( a, i, right - 1 );                    ",
+    "blocks": [15]
+  },
+  {
+    "codes": " ",
+    "blocks": [15]
+  },
+  {
+    "codes": "            quicksort( a, left, i - 1 );                           ",
+    "blocks": [15]
+  },
+  {
+    "codes": "            quicksort( a, i + 1, right );                          ",
+    "blocks": [15]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [15]
+  },
+  {
+    "codes": "        else                                          ",
+    "blocks": [15]
+  },
+  {
+    "codes": "            insertionSort( a, left, right ); ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static void insertionSort( int[ ] a, int left, int right ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        for( int p = left + 1; p <= right; p++ ) ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,189 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = a": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"temp$3 = i": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"temp$4 = a": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"temp$5 = i": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"temp$6 = temp$5 + 1": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"temp$7 = temp$2[temp$3]": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"temp$8 = temp$4[temp$6]": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"if temp$7 > temp$8 goto block_5 #1": {
+        "eline": 32,
+        "epos": 26,
+        "ifpos": "(31, 12)-(31, 26)",
+        "spos": 16,
+        "sline": 32
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_7": {
+      "eline": 31,
+      "epos": 33,
+      "spos": 22,
+      "sline": 31
+    }}],
+    "preds": [1],
+    "succs": [7]
+  },
+  "1": {
+    "instructions": [
+      {"temp$0 = lengthof a": {
+        "eline": 31,
+        "epos": 33,
+        "spos": 22,
+        "sline": 31
+      }},
+      {"temp$1 = temp$0 - 1": {
+        "eline": 31,
+        "epos": 33,
+        "spos": 22,
+        "sline": 31
+      }},
+      {"if i < temp$1 goto block_3 #0": {
+        "eline": 31,
+        "epos": 33,
+        "ifpos": "(30, 19)-(30, 33)",
+        "spos": 22,
+        "sline": 31
+      }}
+    ],
+    "preds": [
+      0,
+      6
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [{"i = 0": {
+      "eline": 31,
+      "epos": 19,
+      "spos": 13,
+      "sline": 31
+    }}],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$12 = 1": {
+        "reliable": false,
+        "eline": 35,
+        "epos": 9,
+        "spos": 9,
+        "sline": 31
+      }},
+      {"return temp$12": {
+        "eline": 36,
+        "epos": 20,
+        "spos": 9,
+        "sline": 36
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  },
+  "6": {
+    "instructions": [
+      {"temp$10 = i": {
+        "eline": 31,
+        "epos": 38,
+        "spos": 36,
+        "sline": 31
+      }},
+      {"temp$11 = temp$10 + 1": {
+        "eline": 31,
+        "epos": 36,
+        "spos": 36,
+        "sline": 31
+      }},
+      {"i = temp$11": {
+        "eline": 31,
+        "epos": 36,
+        "spos": 36,
+        "sline": 31
+      }},
+      {"goto block_1": {
+        "eline": 35,
+        "epos": 9,
+        "spos": 9,
+        "sline": 31
+      }}
+    ],
+    "preds": [4],
+    "succs": [1]
+  },
+  "5": {
+    "instructions": [
+      {"temp$9 = 0": {
+        "reliable": false,
+        "eline": 32,
+        "epos": 26,
+        "spos": 16,
+        "sline": 32
+      }},
+      {"return temp$9": {
+        "eline": 33,
+        "epos": 29,
+        "spos": 17,
+        "sline": 33
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 32,
+      "epos": 26,
+      "spos": 16,
+      "sline": 32
+    }}],
+    "preds": [3],
+    "succs": [6]
+  }
+}

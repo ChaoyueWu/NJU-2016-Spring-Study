@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "        Object tmp = a[ index1 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index1 ] = a[ index2 ]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        a[ index2 ] = tmp; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final void swap(int[] a,int index1,int index2) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int tmp = a[ index1 ]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        a[ index1 ] = a[ index2 ]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        a[ index2 ] = tmp; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static int median3( int[ ] a, int left, int right ) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int center = ( left + right ) / 2; ",
+    "blocks": []
+  }
+]
