@@ -1,4 +1,3 @@
-﻿不知所措。。90%
 Problem Description:
 
 	A simple project to simulate a calendar and calculate the posterior day of chosen date.
