@@ -76,7 +76,12 @@ public class NextdayTest {
 	public void testMonthEx1() {
 		Year y1 = new Year(2009);
 		Month m1 = new Month(0,y1);
-
+	}
+	
+	@Test
+	public void testMonthEx2() {
+		Year y1 = new Year(2009);
+		Month m1 = new Month(20,y1);
 	}
 	
 	@Test
@@ -107,10 +112,15 @@ public class NextdayTest {
 		Year y = new Year(2009);
 		Month m = new Month(2,y);
 		Day d = new Day(0,m);
-		
+	}
+	
+	@Test
+	public void testDayEx2() {
+		Year y = new Year(2009);
 		Month m1 = new Month(2,y);
 		Day d1 = new Day(30,m1);
 	}
+	
 	
 	@Test
 	public void testDayEquals() {
