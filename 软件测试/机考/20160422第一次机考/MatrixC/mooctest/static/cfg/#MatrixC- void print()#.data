@@ -1,0 +1,91 @@
+[
+  {
+    "codes": "          ",
+    "blocks": []
+  },
+  {
+    "codes": "          ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void print(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tSystem.out.println(\"\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < m; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\tfor (int j = 0; j < n-1; j++) { ",
+    "blocks": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t\tSystem.out.print(data[i][j]+\" \"); ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\tSystem.out.println(data[i][n-1]); ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t\tSystem.out.println(\"\"); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                               ",
+    "blocks": []
+  }
+]

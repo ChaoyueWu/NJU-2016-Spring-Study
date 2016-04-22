@@ -1,0 +1,127 @@
+[
+  {
+    "codes": "          ",
+    "blocks": []
+  },
+  {
+    "codes": "                  ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic MatrixC plusFromConsole(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tScanner scanner=new Scanner(System.in); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint m1=scanner.nextInt(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint n1=scanner.nextInt(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint[][] temp=new int[m1][n1]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint[][] result=new int[m][n]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif(m==m1&&n==n1){ ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\tfor (int i = 0; i < m; i++) { ",
+    "blocks": [
+      4,
+      5,
+      6,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\tfor (int j = 0; j < n; j++) { ",
+    "blocks": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\ttemp[i][j]=scanner.nextInt(); ",
+    "blocks": [
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tresult[i][j]=temp[i][j]+data[i][j]; ",
+    "blocks": [
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tMatrixC resultMatrix=new MatrixC(result); ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\treturn resultMatrix; ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "              ",
+    "blocks": []
+  }
+]

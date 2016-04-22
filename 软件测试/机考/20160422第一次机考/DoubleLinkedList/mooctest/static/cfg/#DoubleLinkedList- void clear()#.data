@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "        size += numNew; ",
+    "blocks": []
+  },
+  {
+    "codes": "        return true; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void clear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        header.next = header.previous = header; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        size = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Object get(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return entry(index).element; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

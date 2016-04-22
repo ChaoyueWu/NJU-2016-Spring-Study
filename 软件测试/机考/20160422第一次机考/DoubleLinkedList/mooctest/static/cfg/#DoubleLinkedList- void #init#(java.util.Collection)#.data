@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "    public DoubleLinkedList() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        header.next = header.previous = header; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public DoubleLinkedList(Collection c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        addAll(c); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "    boolean repOK() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (header == null) { ",
+    "blocks": []
+  }
+]

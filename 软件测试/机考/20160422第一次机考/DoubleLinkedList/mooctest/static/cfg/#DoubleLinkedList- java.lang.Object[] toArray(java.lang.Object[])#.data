@@ -1,0 +1,93 @@
+[
+  {
+    "codes": "        size--; ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Object[] toArray(Object a[]) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (a.length < size) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            a = (Object[]) java.lang.reflect.Array.newInstance(a.getClass() ",
+    "blocks": [2]
+  },
+  {
+    "codes": "                    .getComponentType(), size); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        int i = 0; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        for (Entry e = header.next; e != header; e = e.next) ",
+    "blocks": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "            a[i++] = e.element; ",
+    "blocks": [6]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (a.length > size) ",
+    "blocks": [
+      7,
+      8
+    ]
+  },
+  {
+    "codes": "            a[size] = null; ",
+    "blocks": [9]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        return a; ",
+    "blocks": [10]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

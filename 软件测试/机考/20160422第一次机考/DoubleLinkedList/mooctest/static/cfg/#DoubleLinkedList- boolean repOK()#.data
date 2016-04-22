@@ -1,0 +1,125 @@
+[
+  {
+    "codes": "        addAll(c); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "    boolean repOK() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (header == null) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            return false; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry tmp = header; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int i = 0; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        do { ",
+    "blocks": []
+  },
+  {
+    "codes": "            if (!tmp.nonNullPointers() || !tmp.repOK()) { ",
+    "blocks": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "                return false; ",
+    "blocks": [8]
+  },
+  {
+    "codes": "            } ",
+    "blocks": []
+  },
+  {
+    "codes": "            tmp = tmp.next; ",
+    "blocks": [9]
+  },
+  {
+    "codes": "            if (tmp != header) { ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "                i++; ",
+    "blocks": [11]
+  },
+  {
+    "codes": "            } ",
+    "blocks": []
+  },
+  {
+    "codes": "        } while (tmp != header); ",
+    "blocks": [
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "        tmp = header; ",
+    "blocks": []
+  },
+  {
+    "codes": "        return i == size; ",
+    "blocks": [
+      16,
+      18,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    boolean inList(Entry e) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (header == e) { ",
+    "blocks": []
+  },
+  {
+    "codes": "            return true; ",
+    "blocks": []
+  }
+]

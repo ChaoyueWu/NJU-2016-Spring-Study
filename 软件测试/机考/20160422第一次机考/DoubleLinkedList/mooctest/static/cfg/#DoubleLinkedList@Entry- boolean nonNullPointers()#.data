@@ -1,0 +1,53 @@
+[
+  {
+    "codes": "            this.next = next; ",
+    "blocks": []
+  },
+  {
+    "codes": "            this.previous = previous; ",
+    "blocks": []
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        boolean nonNullPointers() { ",
+    "blocks": []
+  },
+  {
+    "codes": "            return next != null && previous != null; ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        boolean repOK() { ",
+    "blocks": []
+  },
+  {
+    "codes": "            return next.previous == this; ",
+    "blocks": []
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  }
+]

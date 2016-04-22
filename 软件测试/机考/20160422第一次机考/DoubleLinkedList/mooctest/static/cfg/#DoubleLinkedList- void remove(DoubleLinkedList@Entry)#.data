@@ -1,0 +1,73 @@
+[
+  {
+    "codes": "        modCount++; ",
+    "blocks": []
+  },
+  {
+    "codes": "        return newEntry; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void remove(Entry e) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (e == header) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            throw new NoSuchElementException(); ",
+    "blocks": [2]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        e.previous.next = e.next; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        e.next.previous = e.previous; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        size--; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Object[] toArray(Object a[]) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (a.length < size) ",
+    "blocks": []
+  },
+  {
+    "codes": "            a = (Object[]) java.lang.reflect.Array.newInstance(a.getClass() ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        return -1; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int lastIndexOf(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int index = size; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (o == null) { ",
+    "blocks": [
+      0,
+      1,
+      9
+    ]
+  },
+  {
+    "codes": "            for (Entry e = header.previous; e != header; e = e.previous) { ",
+    "blocks": [
+      2,
+      3,
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                index--; ",
+    "blocks": [
+      5,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                if (e.element == null) ",
+    "blocks": [
+      5,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                    return index; ",
+    "blocks": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "        } else { ",
+    "blocks": [9]
+  },
+  {
+    "codes": "            for (Entry e = header.previous; e != header; e = e.previous) { ",
+    "blocks": [
+      16,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "                index--; ",
+    "blocks": [
+      16,
+      9,
+      13
+    ]
+  },
+  {
+    "codes": "                if (o == e.element) ",
+    "blocks": [
+      16,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "                    return index; ",
+    "blocks": [
+      16,
+      9,
+      15
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      16,
+      9
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [9]
+  },
+  {
+    "codes": "        return -1; ",
+    "blocks": [17]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "   ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static class Entry { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Object element; ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry next; ",
+    "blocks": []
+  }
+]

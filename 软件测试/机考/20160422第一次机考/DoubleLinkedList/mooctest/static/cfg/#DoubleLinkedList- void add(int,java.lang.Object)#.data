@@ -1,0 +1,52 @@
+[
+  {
+    "codes": "    public Object get(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return entry(index).element; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void add(int index, Object element) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        addBefore(element, (index == size ? header : entry(index))); ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Object remove(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry e = entry(index); ",
+    "blocks": []
+  },
+  {
+    "codes": "        remove(e); ",
+    "blocks": []
+  }
+]

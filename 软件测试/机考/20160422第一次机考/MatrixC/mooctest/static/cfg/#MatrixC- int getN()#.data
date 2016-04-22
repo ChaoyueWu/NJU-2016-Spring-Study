@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getN(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn n; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  }
+]

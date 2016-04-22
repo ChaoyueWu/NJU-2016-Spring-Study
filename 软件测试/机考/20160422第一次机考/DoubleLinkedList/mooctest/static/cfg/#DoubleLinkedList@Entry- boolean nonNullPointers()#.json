@@ -1,0 +1,112 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 261,
+      "epos": 43,
+      "spos": 36,
+      "sline": 261
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous>": {
+        "eline": 261,
+        "epos": 43,
+        "spos": 36,
+        "sline": 261
+      }},
+      {"if temp$1 != null goto block_5 #0": {
+        "eline": 261,
+        "epos": 43,
+        "ifpos": "(256, 36)-(260, 51)",
+        "spos": 36,
+        "sline": 261
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      5
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_4": {
+      "eline": 261,
+      "epos": 23,
+      "spos": 20,
+      "sline": 261
+    }}],
+    "preds": [0],
+    "succs": [4]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next>": {
+        "eline": 261,
+        "epos": 23,
+        "spos": 20,
+        "sline": 261
+      }},
+      {"if temp$0 != null goto block_2 #0": {
+        "eline": 261,
+        "epos": 23,
+        "ifpos": "(256, 36)-(260, 51)",
+        "spos": 20,
+        "sline": 261
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "6": {
+    "instructions": [{"return temp$2": {
+      "eline": 261,
+      "epos": 52,
+      "spos": 13,
+      "sline": 261
+    }}],
+    "preds": [
+      4,
+      5
+    ],
+    "succs": []
+  },
+  "5": {
+    "instructions": [{"temp$2 = 1": {
+      "reliable": false,
+      "eline": 261,
+      "epos": 43,
+      "spos": 36,
+      "sline": 261
+    }}],
+    "preds": [2],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 261,
+        "epos": 43,
+        "spos": 36,
+        "sline": 261
+      }},
+      {"goto block_6": {
+        "eline": 261,
+        "epos": 43,
+        "spos": 36,
+        "sline": 261
+      }}
+    ],
+    "preds": [
+      1,
+      3
+    ],
+    "succs": [6]
+  }
+}

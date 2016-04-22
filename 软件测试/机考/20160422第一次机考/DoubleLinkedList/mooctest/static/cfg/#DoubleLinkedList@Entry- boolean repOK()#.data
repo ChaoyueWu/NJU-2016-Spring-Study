@@ -1,0 +1,51 @@
+[
+  {
+    "codes": "        boolean nonNullPointers() { ",
+    "blocks": []
+  },
+  {
+    "codes": "            return next != null && previous != null; ",
+    "blocks": []
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        boolean repOK() { ",
+    "blocks": []
+  },
+  {
+    "codes": "            return next.previous == this; ",
+    "blocks": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  }
+]

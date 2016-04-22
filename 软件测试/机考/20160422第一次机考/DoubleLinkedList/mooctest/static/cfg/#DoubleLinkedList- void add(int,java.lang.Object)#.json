@@ -1,0 +1,91 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = virtualinvoke this.<DoubleLinkedList: DoubleLinkedList$Entry entry(int)>(index)": {
+        "eline": 193,
+        "epos": 65,
+        "spos": 54,
+        "sline": 193
+      }},
+      {"temp$0 = temp$2": {
+        "eline": 193,
+        "epos": 65,
+        "spos": 54,
+        "sline": 193
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+        "eline": 193,
+        "epos": 50,
+        "spos": 45,
+        "sline": 193
+      }},
+      {"goto block_4": {
+        "eline": 193,
+        "epos": 50,
+        "spos": 45,
+        "sline": 193
+      }}
+    ],
+    "preds": [0],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 193,
+      "epos": 41,
+      "spos": 38,
+      "sline": 193
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$1 = this.<DoubleLinkedList: int size>": {
+        "eline": 193,
+        "epos": 41,
+        "spos": 38,
+        "sline": 193
+      }},
+      {"if index == temp$1 goto block_2 #0": {
+        "eline": 193,
+        "epos": 41,
+        "ifpos": "(192, 27)-(192, 42)",
+        "spos": 38,
+        "sline": 193
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "4": {
+    "instructions": [
+      {"virtualinvoke this.<DoubleLinkedList: DoubleLinkedList$Entry addBefore(java.lang.Object,DoubleLinkedList$Entry)>(element, temp$0)": {
+        "eline": 193,
+        "epos": 65,
+        "spos": 54,
+        "sline": 193
+      }},
+      {"return": {
+        "eline": 193,
+        "epos": 65,
+        "spos": 54,
+        "sline": 193
+      }}
+    ],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

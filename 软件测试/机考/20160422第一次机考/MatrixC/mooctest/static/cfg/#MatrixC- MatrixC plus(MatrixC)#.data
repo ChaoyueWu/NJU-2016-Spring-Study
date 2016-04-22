@@ -1,0 +1,112 @@
+[
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic MatrixC plus(MatrixC B){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tint[][] b=new int[m][n]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint[][] result=new int[m][n]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tb=B.getArray(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif(m==B.getM()&&n==B.getN()){ ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\tfor(int i=0;i<m;i++){ ",
+    "blocks": [
+      4,
+      5,
+      6,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\tfor (int j = 0; j < n; j++) { ",
+    "blocks": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tresult[i][j]=data[i][j]+b[i][j]; ",
+    "blocks": [
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tMatrixC resultMatrix=new MatrixC(result); ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\treturn resultMatrix; ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  }
+]

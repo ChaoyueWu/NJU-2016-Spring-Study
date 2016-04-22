@@ -1,0 +1,142 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = e.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous>": {
+        "eline": 284,
+        "epos": 33,
+        "spos": 9,
+        "sline": 284
+      }},
+      {"temp$3 = e.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next>": {
+        "eline": 284,
+        "epos": 33,
+        "spos": 9,
+        "sline": 284
+      }},
+      {"temp$2.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next> = temp$3": {
+        "eline": 284,
+        "epos": 23,
+        "spos": 20,
+        "sline": 284
+      }},
+      {"temp$4 = e.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next>": {
+        "eline": 285,
+        "epos": 37,
+        "spos": 9,
+        "sline": 285
+      }},
+      {"temp$5 = e.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous>": {
+        "eline": 285,
+        "epos": 37,
+        "spos": 9,
+        "sline": 285
+      }},
+      {"temp$4.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous> = temp$5": {
+        "eline": 285,
+        "epos": 23,
+        "spos": 16,
+        "sline": 285
+      }},
+      {"temp$6 = this.<DoubleLinkedList: int size>": {
+        "eline": 286,
+        "epos": 12,
+        "spos": 9,
+        "sline": 286
+      }},
+      {"temp$7 = temp$6 + -1": {
+        "eline": 286,
+        "epos": 12,
+        "spos": 9,
+        "sline": 286
+      }},
+      {"this.<DoubleLinkedList: int size> = temp$7": {
+        "eline": 286,
+        "epos": 12,
+        "spos": 9,
+        "sline": 286
+      }},
+      {"temp$8 = this.<DoubleLinkedList: int modCount>": {
+        "eline": 287,
+        "epos": 16,
+        "spos": 9,
+        "sline": 287
+      }},
+      {"temp$9 = temp$8 + 1": {
+        "eline": 287,
+        "epos": 16,
+        "spos": 9,
+        "sline": 287
+      }},
+      {"this.<DoubleLinkedList: int modCount> = temp$9": {
+        "eline": 287,
+        "epos": 16,
+        "spos": 9,
+        "sline": 287
+      }},
+      {"return": {
+        "eline": 287,
+        "epos": 16,
+        "spos": 9,
+        "sline": 287
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = new java.util.NoSuchElementException": {
+        "eline": 282,
+        "epos": 47,
+        "spos": 13,
+        "sline": 282
+      }},
+      {"specialinvoke temp$1.<java.util.NoSuchElementException: void <init>()>()": {
+        "eline": 282,
+        "epos": 46,
+        "spos": 19,
+        "sline": 282
+      }},
+      {"throw temp$1": {
+        "eline": 282,
+        "epos": 46,
+        "spos": 19,
+        "sline": 282
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 281,
+      "epos": 23,
+      "spos": 18,
+      "sline": 281
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+        "eline": 281,
+        "epos": 23,
+        "spos": 18,
+        "sline": 281
+      }},
+      {"if e == temp$0 goto block_2 #0": {
+        "eline": 281,
+        "epos": 23,
+        "ifpos": "(280, 8)-(280, 23)",
+        "spos": 18,
+        "sline": 281
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

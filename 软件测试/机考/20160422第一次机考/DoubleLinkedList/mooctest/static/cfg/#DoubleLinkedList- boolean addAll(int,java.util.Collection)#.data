@@ -1,0 +1,124 @@
+[
+  {
+    "codes": "    public boolean addAll(Collection c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return addAll(size, c); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean addAll(int index, Collection c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Object[] a = c.toArray(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int numNew = a.length; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (numNew == 0) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            return false; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": [3]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry successor = (index == size ? header : entry(index)); ",
+    "blocks": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "        Entry predecessor = successor.previous; ",
+    "blocks": [7]
+  },
+  {
+    "codes": "        for (int i = 0; i < numNew; i++) { ",
+    "blocks": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "            Entry e = new Entry(a[i], successor, predecessor); ",
+    "blocks": [10]
+  },
+  {
+    "codes": "            predecessor.next = e; ",
+    "blocks": [10]
+  },
+  {
+    "codes": "            predecessor = e; ",
+    "blocks": [10]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [10]
+  },
+  {
+    "codes": "        successor.previous = predecessor; ",
+    "blocks": [11]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        size += numNew; ",
+    "blocks": [11]
+  },
+  {
+    "codes": "        return true; ",
+    "blocks": [11]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void clear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": []
+  },
+  {
+    "codes": "        header.next = header.previous = header; ",
+    "blocks": []
+  }
+]

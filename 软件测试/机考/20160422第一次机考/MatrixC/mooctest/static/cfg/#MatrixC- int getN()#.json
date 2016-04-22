@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<MatrixC: int n>": {
+      "eline": 54,
+      "epos": 10,
+      "spos": 10,
+      "sline": 54
+    }},
+    {"return temp$0": {
+      "eline": 54,
+      "epos": 11,
+      "spos": 3,
+      "sline": 54
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

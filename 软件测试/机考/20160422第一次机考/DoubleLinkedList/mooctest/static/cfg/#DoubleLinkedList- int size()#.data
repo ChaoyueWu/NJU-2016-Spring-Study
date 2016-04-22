@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    public boolean contains(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return indexOf(o) != -1; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int size() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return size; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean add(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        addBefore(o, header); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return true; ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "codes": "        tmp = header; ",
+    "blocks": []
+  },
+  {
+    "codes": "        return i == size; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    boolean inList(Entry e) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (header == e) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            return true; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry tmp = header.next; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        while (tmp != header) { ",
+    "blocks": [
+      4,
+      5,
+      9
+    ]
+  },
+  {
+    "codes": "            if (tmp == e) { ",
+    "blocks": [
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "codes": "                return true; ",
+    "blocks": [
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [9]
+  },
+  {
+    "codes": "            tmp = tmp.next; ",
+    "blocks": [9]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [9]
+  },
+  {
+    "codes": "        return false; ",
+    "blocks": [10]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean contains(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return indexOf(o) != -1; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

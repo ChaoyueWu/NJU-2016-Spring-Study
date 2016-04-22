@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<DoubleLinkedList$Entry: java.lang.Object element> = element": {
+      "eline": 255,
+      "epos": 24,
+      "spos": 18,
+      "sline": 255
+    }},
+    {"this.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next> = next": {
+      "eline": 256,
+      "epos": 21,
+      "spos": 18,
+      "sline": 256
+    }},
+    {"this.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous> = previous": {
+      "eline": 257,
+      "epos": 25,
+      "spos": 18,
+      "sline": 257
+    }},
+    {"return": {
+      "eline": 257,
+      "epos": 25,
+      "spos": 18,
+      "sline": 257
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

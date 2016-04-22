@@ -1,0 +1,660 @@
+{
+  "19": {
+    "instructions": [
+      {"temp$18 = result": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$19 = i": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$20 = temp$18[temp$19]": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$21 = j": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$22 = result": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$23 = i": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$24 = temp$22[temp$23]": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$25 = j": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$26 = temp$24[temp$25]": {
+        "eline": 186,
+        "epos": 54,
+        "spos": 7,
+        "sline": 186
+      }},
+      {"temp$27 = this.<MatrixC: int[][] data>": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$28 = i": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$29 = temp$27[temp$28]": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$30 = a": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$31 = temp": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$32 = a": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$33 = temp$31[temp$32]": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$34 = j": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$35 = temp$29[temp$30]": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$36 = temp$33[temp$34]": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$37 = temp$35 * temp$36": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$38 = temp$26 + temp$37": {
+        "eline": 186,
+        "epos": 36,
+        "spos": 33,
+        "sline": 186
+      }},
+      {"temp$20[temp$21] = temp$38": {
+        "eline": 186,
+        "epos": 18,
+        "spos": 16,
+        "sline": 186
+      }},
+      {"temp$39 = a": {
+        "eline": 185,
+        "epos": 31,
+        "spos": 29,
+        "sline": 185
+      }},
+      {"temp$40 = temp$39 + 1": {
+        "eline": 185,
+        "epos": 29,
+        "spos": 29,
+        "sline": 185
+      }},
+      {"a = temp$40": {
+        "eline": 185,
+        "epos": 29,
+        "spos": 29,
+        "sline": 185
+      }},
+      {"goto block_17": {
+        "eline": 187,
+        "epos": 6,
+        "spos": 6,
+        "sline": 185
+      }}
+    ],
+    "preds": [17],
+    "succs": [17]
+  },
+  "22": {
+    "instructions": [
+      {"temp$45 = new MatrixC": {
+        "eline": 193,
+        "epos": 43,
+        "spos": 3,
+        "sline": 193
+      }},
+      {"specialinvoke temp$45.<MatrixC: void <init>(int[][])>(result)": {
+        "eline": 193,
+        "epos": 42,
+        "spos": 24,
+        "sline": 193
+      }},
+      {"resultMatrix = temp$45": {
+        "eline": 193,
+        "epos": 42,
+        "spos": 24,
+        "sline": 193
+      }},
+      {"return resultMatrix": {
+        "eline": 194,
+        "epos": 22,
+        "spos": 3,
+        "sline": 194
+      }}
+    ],
+    "preds": [
+      9,
+      12
+    ],
+    "succs": []
+  },
+  "17": {
+    "instructions": [
+      {"temp$17 = this.<MatrixC: int n>": {
+        "eline": 185,
+        "epos": 26,
+        "spos": 26,
+        "sline": 185
+      }},
+      {"if a < temp$17 goto block_19 #5": {
+        "eline": 185,
+        "epos": 26,
+        "ifpos": "(184, 19)-(184, 26)",
+        "spos": 26,
+        "sline": 185
+      }}
+    ],
+    "preds": [
+      16,
+      19
+    ],
+    "succs": [
+      18,
+      19
+    ]
+  },
+  "18": {
+    "instructions": [{"goto block_20": {
+      "eline": 185,
+      "epos": 26,
+      "spos": 26,
+      "sline": 185
+    }}],
+    "preds": [17],
+    "succs": [20]
+  },
+  "15": {
+    "instructions": [{"goto block_21": {
+      "eline": 184,
+      "epos": 26,
+      "spos": 21,
+      "sline": 184
+    }}],
+    "preds": [14],
+    "succs": [21]
+  },
+  "16": {
+    "instructions": [{"a = 0": {
+      "eline": 185,
+      "epos": 19,
+      "spos": 11,
+      "sline": 185
+    }}],
+    "preds": [14],
+    "succs": [17]
+  },
+  "13": {
+    "instructions": [{"j = 0": {
+      "eline": 184,
+      "epos": 18,
+      "spos": 10,
+      "sline": 184
+    }}],
+    "preds": [11],
+    "succs": [14]
+  },
+  "14": {
+    "instructions": [{"if j < n1 goto block_16 #4": {
+      "eline": 184,
+      "epos": 26,
+      "ifpos": "(183, 18)-(183, 26)",
+      "spos": 21,
+      "sline": 184
+    }}],
+    "preds": [
+      13,
+      20
+    ],
+    "succs": [
+      15,
+      16
+    ]
+  },
+  "11": {
+    "instructions": [
+      {"temp$16 = this.<MatrixC: int m>": {
+        "eline": 183,
+        "epos": 23,
+        "spos": 23,
+        "sline": 183
+      }},
+      {"if i < temp$16 goto block_13 #3": {
+        "eline": 183,
+        "epos": 23,
+        "ifpos": "(182, 17)-(182, 24)",
+        "spos": 23,
+        "sline": 183
+      }}
+    ],
+    "preds": [
+      10,
+      21
+    ],
+    "succs": [
+      12,
+      13
+    ]
+  },
+  "12": {
+    "instructions": [{"goto block_22": {
+      "eline": 183,
+      "epos": 23,
+      "spos": 23,
+      "sline": 183
+    }}],
+    "preds": [11],
+    "succs": [22]
+  },
+  "21": {
+    "instructions": [
+      {"temp$43 = i": {
+        "eline": 183,
+        "epos": 29,
+        "spos": 27,
+        "sline": 183
+      }},
+      {"temp$44 = temp$43 + 1": {
+        "eline": 183,
+        "epos": 27,
+        "spos": 27,
+        "sline": 183
+      }},
+      {"i = temp$44": {
+        "eline": 183,
+        "epos": 27,
+        "spos": 27,
+        "sline": 183
+      }},
+      {"goto block_11": {
+        "eline": 191,
+        "epos": 4,
+        "spos": 4,
+        "sline": 183
+      }}
+    ],
+    "preds": [15],
+    "succs": [11]
+  },
+  "3": {
+    "instructions": [{"j = 0": {
+      "eline": 178,
+      "epos": 17,
+      "spos": 9,
+      "sline": 178
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "20": {
+    "instructions": [
+      {"temp$41 = j": {
+        "eline": 184,
+        "epos": 31,
+        "spos": 29,
+        "sline": 184
+      }},
+      {"temp$42 = temp$41 + 1": {
+        "eline": 184,
+        "epos": 29,
+        "spos": 29,
+        "sline": 184
+      }},
+      {"j = temp$42": {
+        "eline": 184,
+        "epos": 29,
+        "spos": 29,
+        "sline": 184
+      }},
+      {"goto block_14": {
+        "eline": 189,
+        "epos": 5,
+        "spos": 5,
+        "sline": 184
+      }}
+    ],
+    "preds": [18],
+    "succs": [14]
+  },
+  "2": {
+    "instructions": [{"goto block_8": {
+      "eline": 177,
+      "epos": 24,
+      "spos": 19,
+      "sline": 177
+    }}],
+    "preds": [1],
+    "succs": [8]
+  },
+  "1": {
+    "instructions": [{"if i < m1 goto block_3 #0": {
+      "eline": 177,
+      "epos": 24,
+      "ifpos": "(176, 16)-(176, 24)",
+      "spos": 19,
+      "sline": 177
+    }}],
+    "preds": [
+      0,
+      7
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "10": {
+    "instructions": [{"i = 0": {
+      "eline": 183,
+      "epos": 17,
+      "spos": 9,
+      "sline": 183
+    }}],
+    "preds": [8],
+    "succs": [11]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.Scanner": {
+        "eline": 172,
+        "epos": 41,
+        "spos": 3,
+        "sline": 172
+      }},
+      {"temp$1 = <java.lang.System: java.io.InputStream in>": {
+        "eline": 172,
+        "epos": 41,
+        "spos": 3,
+        "sline": 172
+      }},
+      {"specialinvoke temp$0.<java.util.Scanner: void <init>(java.io.InputStream)>(temp$1)": {
+        "eline": 172,
+        "epos": 40,
+        "spos": 19,
+        "sline": 172
+      }},
+      {"scanner = temp$0": {
+        "eline": 172,
+        "epos": 40,
+        "spos": 19,
+        "sline": 172
+      }},
+      {"temp$2 = virtualinvoke scanner.<java.util.Scanner: int nextInt()>()": {
+        "eline": 173,
+        "epos": 27,
+        "spos": 3,
+        "sline": 173
+      }},
+      {"m1 = temp$2": {
+        "eline": 173,
+        "epos": 27,
+        "spos": 3,
+        "sline": 173
+      }},
+      {"temp$3 = virtualinvoke scanner.<java.util.Scanner: int nextInt()>()": {
+        "eline": 174,
+        "epos": 27,
+        "spos": 3,
+        "sline": 174
+      }},
+      {"n1 = temp$3": {
+        "eline": 174,
+        "epos": 27,
+        "spos": 3,
+        "sline": 174
+      }},
+      {"temp = newmultiarray (int)[m1][n1]": {
+        "eline": 175,
+        "epos": 31,
+        "spos": 3,
+        "sline": 175
+      }},
+      {"temp$4 = this.<MatrixC: int m>": {
+        "eline": 176,
+        "epos": 26,
+        "spos": 26,
+        "sline": 176
+      }},
+      {"temp$5 = this.<MatrixC: int n>": {
+        "eline": 176,
+        "epos": 29,
+        "spos": 29,
+        "sline": 176
+      }},
+      {"result = newmultiarray (int)[temp$4][temp$5]": {
+        "eline": 176,
+        "epos": 29,
+        "spos": 29,
+        "sline": 176
+      }},
+      {"i = 0": {
+        "eline": 177,
+        "epos": 16,
+        "spos": 8,
+        "sline": 177
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$13 = i": {
+        "eline": 177,
+        "epos": 29,
+        "spos": 27,
+        "sline": 177
+      }},
+      {"temp$14 = temp$13 + 1": {
+        "eline": 177,
+        "epos": 27,
+        "spos": 27,
+        "sline": 177
+      }},
+      {"i = temp$14": {
+        "eline": 177,
+        "epos": 27,
+        "spos": 27,
+        "sline": 177
+      }},
+      {"goto block_1": {
+        "eline": 181,
+        "epos": 4,
+        "spos": 3,
+        "sline": 177
+      }}
+    ],
+    "preds": [5],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$6 = temp": {
+        "eline": 179,
+        "epos": 33,
+        "spos": 5,
+        "sline": 179
+      }},
+      {"temp$7 = i": {
+        "eline": 179,
+        "epos": 33,
+        "spos": 5,
+        "sline": 179
+      }},
+      {"temp$8 = temp$6[temp$7]": {
+        "eline": 179,
+        "epos": 33,
+        "spos": 5,
+        "sline": 179
+      }},
+      {"temp$9 = j": {
+        "eline": 179,
+        "epos": 33,
+        "spos": 5,
+        "sline": 179
+      }},
+      {"temp$10 = virtualinvoke scanner.<java.util.Scanner: int nextInt()>()": {
+        "eline": 179,
+        "epos": 33,
+        "spos": 5,
+        "sline": 179
+      }},
+      {"temp$8[temp$9] = temp$10": {
+        "eline": 179,
+        "epos": 14,
+        "spos": 12,
+        "sline": 179
+      }},
+      {"temp$11 = j": {
+        "eline": 178,
+        "epos": 30,
+        "spos": 28,
+        "sline": 178
+      }},
+      {"temp$12 = temp$11 + 1": {
+        "eline": 178,
+        "epos": 28,
+        "spos": 28,
+        "sline": 178
+      }},
+      {"j = temp$12": {
+        "eline": 178,
+        "epos": 28,
+        "spos": 28,
+        "sline": 178
+      }},
+      {"goto block_4": {
+        "eline": 180,
+        "epos": 5,
+        "spos": 4,
+        "sline": 178
+      }}
+    ],
+    "preds": [4],
+    "succs": [4]
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 178,
+      "epos": 25,
+      "spos": 20,
+      "sline": 178
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [{"if j < n1 goto block_6 #1": {
+      "eline": 178,
+      "epos": 25,
+      "ifpos": "(177, 17)-(177, 25)",
+      "spos": 20,
+      "sline": 178
+    }}],
+    "preds": [
+      3,
+      6
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_22": {
+      "eline": 182,
+      "epos": 6,
+      "spos": 6,
+      "sline": 182
+    }}],
+    "preds": [8],
+    "succs": [22]
+  },
+  "8": {
+    "instructions": [
+      {"temp$15 = this.<MatrixC: int n>": {
+        "eline": 182,
+        "epos": 6,
+        "spos": 6,
+        "sline": 182
+      }},
+      {"if temp$15 == m1 goto block_10 #2": {
+        "eline": 182,
+        "epos": 6,
+        "ifpos": "(181, 2)-(181, 10)",
+        "spos": 6,
+        "sline": 182
+      }}
+    ],
+    "preds": [2],
+    "succs": [
+      9,
+      10
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<DoubleLinkedList: void <init>()>()": {
+      "eline": 88,
+      "epos": 14,
+      "spos": 9,
+      "sline": 88
+    }},
+    {"virtualinvoke this.<DoubleLinkedList: boolean addAll(java.util.Collection)>(c)": {
+      "eline": 89,
+      "epos": 17,
+      "spos": 9,
+      "sline": 89
+    }},
+    {"return": {
+      "eline": 89,
+      "epos": 17,
+      "spos": 9,
+      "sline": 89
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

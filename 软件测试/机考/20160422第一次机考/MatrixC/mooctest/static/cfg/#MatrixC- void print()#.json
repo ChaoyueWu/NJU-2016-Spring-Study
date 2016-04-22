@@ -1,0 +1,322 @@
+{
+  "3": {
+    "instructions": [{"j = 0": {
+      "eline": 212,
+      "epos": 17,
+      "spos": 9,
+      "sline": 212
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [{"goto block_8": {
+      "eline": 211,
+      "epos": 23,
+      "spos": 23,
+      "sline": 211
+    }}],
+    "preds": [1],
+    "succs": [8]
+  },
+  "1": {
+    "instructions": [
+      {"temp$1 = this.<MatrixC: int m>": {
+        "eline": 211,
+        "epos": 23,
+        "spos": 23,
+        "sline": 211
+      }},
+      {"if i < temp$1 goto block_3 #0": {
+        "eline": 211,
+        "epos": 23,
+        "ifpos": "(210, 16)-(210, 23)",
+        "spos": 23,
+        "sline": 211
+      }}
+    ],
+    "preds": [
+      0,
+      7
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 210,
+        "epos": 25,
+        "spos": 3,
+        "sline": 210
+      }},
+      {"virtualinvoke temp$0.<java.io.PrintStream: void println(java.lang.String)>(\"\")": {
+        "eline": 210,
+        "epos": 25,
+        "spos": 3,
+        "sline": 210
+      }},
+      {"i = 0": {
+        "eline": 211,
+        "epos": 16,
+        "spos": 8,
+        "sline": 211
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$14 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 215,
+        "epos": 36,
+        "spos": 4,
+        "sline": 215
+      }},
+      {"temp$15 = this.<MatrixC: int[][] data>": {
+        "eline": 215,
+        "epos": 26,
+        "spos": 23,
+        "sline": 215
+      }},
+      {"temp$16 = i": {
+        "eline": 215,
+        "epos": 26,
+        "spos": 23,
+        "sline": 215
+      }},
+      {"temp$17 = temp$15[temp$16]": {
+        "eline": 215,
+        "epos": 26,
+        "spos": 23,
+        "sline": 215
+      }},
+      {"temp$18 = this.<MatrixC: int n>": {
+        "eline": 215,
+        "epos": 31,
+        "spos": 31,
+        "sline": 215
+      }},
+      {"temp$19 = temp$18 - 1": {
+        "eline": 215,
+        "epos": 31,
+        "spos": 31,
+        "sline": 215
+      }},
+      {"temp$20 = temp$19": {
+        "eline": 215,
+        "epos": 31,
+        "spos": 31,
+        "sline": 215
+      }},
+      {"temp$21 = temp$17[temp$20]": {
+        "eline": 215,
+        "epos": 31,
+        "spos": 31,
+        "sline": 215
+      }},
+      {"virtualinvoke temp$14.<java.io.PrintStream: void println(int)>(temp$21)": {
+        "eline": 215,
+        "epos": 31,
+        "spos": 31,
+        "sline": 215
+      }},
+      {"temp$22 = i": {
+        "eline": 211,
+        "epos": 28,
+        "spos": 26,
+        "sline": 211
+      }},
+      {"temp$23 = temp$22 + 1": {
+        "eline": 211,
+        "epos": 26,
+        "spos": 26,
+        "sline": 211
+      }},
+      {"i = temp$23": {
+        "eline": 211,
+        "epos": 26,
+        "spos": 26,
+        "sline": 211
+      }},
+      {"goto block_1": {
+        "eline": 216,
+        "epos": 3,
+        "spos": 3,
+        "sline": 211
+      }}
+    ],
+    "preds": [5],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$4 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 213,
+        "epos": 37,
+        "spos": 5,
+        "sline": 213
+      }},
+      {"temp$5 = new java.lang.StringBuffer": {
+        "eline": 213,
+        "epos": 37,
+        "spos": 5,
+        "sline": 213
+      }},
+      {"specialinvoke temp$5.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 213,
+        "epos": 35,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"temp$6 = this.<MatrixC: int[][] data>": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"temp$7 = i": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"temp$8 = temp$6[temp$7]": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"temp$9 = j": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"temp$10 = temp$8[temp$9]": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"virtualinvoke temp$5.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$10)": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"virtualinvoke temp$5.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" \")": {
+        "eline": 213,
+        "epos": 35,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"temp$11 = virtualinvoke temp$5.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 213,
+        "epos": 35,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"virtualinvoke temp$4.<java.io.PrintStream: void print(java.lang.String)>(temp$11)": {
+        "eline": 213,
+        "epos": 35,
+        "spos": 22,
+        "sline": 213
+      }},
+      {"temp$12 = j": {
+        "eline": 212,
+        "epos": 31,
+        "spos": 29,
+        "sline": 212
+      }},
+      {"temp$13 = temp$12 + 1": {
+        "eline": 212,
+        "epos": 29,
+        "spos": 29,
+        "sline": 212
+      }},
+      {"j = temp$13": {
+        "eline": 212,
+        "epos": 29,
+        "spos": 29,
+        "sline": 212
+      }},
+      {"goto block_4": {
+        "eline": 214,
+        "epos": 4,
+        "spos": 4,
+        "sline": 212
+      }}
+    ],
+    "preds": [4],
+    "succs": [4]
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 212,
+      "epos": 24,
+      "spos": 24,
+      "sline": 212
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$2 = this.<MatrixC: int n>": {
+        "eline": 212,
+        "epos": 24,
+        "spos": 24,
+        "sline": 212
+      }},
+      {"temp$3 = temp$2 - 1": {
+        "eline": 212,
+        "epos": 24,
+        "spos": 24,
+        "sline": 212
+      }},
+      {"if j < temp$3 goto block_6 #1": {
+        "eline": 212,
+        "epos": 24,
+        "ifpos": "(211, 17)-(211, 26)",
+        "spos": 24,
+        "sline": 212
+      }}
+    ],
+    "preds": [
+      3,
+      6
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$24 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 217,
+        "epos": 25,
+        "spos": 3,
+        "sline": 217
+      }},
+      {"virtualinvoke temp$24.<java.io.PrintStream: void println(java.lang.String)>(\"\")": {
+        "eline": 217,
+        "epos": 25,
+        "spos": 3,
+        "sline": 217
+      }},
+      {"return": {
+        "eline": 217,
+        "epos": 25,
+        "spos": 3,
+        "sline": 217
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

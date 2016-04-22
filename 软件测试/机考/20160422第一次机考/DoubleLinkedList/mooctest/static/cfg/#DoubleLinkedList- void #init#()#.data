@@ -1,0 +1,66 @@
+[
+  {
+    "codes": "              ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class DoubleLinkedList { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected transient int modCount = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private transient Entry header = new Entry(null, null, null); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private transient int size = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public DoubleLinkedList() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        header.next = header.previous = header; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public DoubleLinkedList(Collection c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        addAll(c); ",
+    "blocks": []
+  }
+]

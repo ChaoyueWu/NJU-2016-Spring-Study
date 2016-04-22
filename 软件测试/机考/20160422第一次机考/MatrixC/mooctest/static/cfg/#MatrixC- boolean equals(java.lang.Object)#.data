@@ -1,0 +1,124 @@
+[
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                               ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object obj){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(obj instanceof MatrixC){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tMatrixC matrix = (MatrixC) obj; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tif(this.data.length != matrix.data.length){ ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\treturn false; ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tfor(int i=0 ; i<this.data.length ; ++i){ ",
+    "blocks": [
+      5,
+      6,
+      7,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif(!Arrays.equals(this.data[i], matrix.data[i])){ ",
+    "blocks": [
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\treturn false; ",
+    "blocks": [
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\treturn true; ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t}else{ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\treturn false; ",
+    "blocks": [13]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

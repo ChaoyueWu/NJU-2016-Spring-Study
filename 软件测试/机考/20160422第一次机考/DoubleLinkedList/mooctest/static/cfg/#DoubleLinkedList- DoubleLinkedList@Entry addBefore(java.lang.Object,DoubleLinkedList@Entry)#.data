@@ -1,0 +1,66 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "    private Entry addBefore(Object o, Entry e) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry newEntry = new Entry(o, e, e.previous); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        newEntry.previous.next = newEntry; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        newEntry.next.previous = newEntry; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        size++; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return newEntry; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void remove(Entry e) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (e == header) ",
+    "blocks": []
+  },
+  {
+    "codes": "            throw new NoSuchElementException(); ",
+    "blocks": []
+  }
+]

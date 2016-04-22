@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "    public int size() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return size; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean add(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        addBefore(o, header); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return true; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean remove(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (o == null) { ",
+    "blocks": []
+  },
+  {
+    "codes": "            for (Entry e = header.next; e != header; e = e.next) { ",
+    "blocks": []
+  }
+]

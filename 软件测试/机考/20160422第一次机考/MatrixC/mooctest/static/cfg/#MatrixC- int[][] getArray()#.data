@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                  ",
+    "blocks": []
+  },
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int[][] getArray(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn data; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "                ",
+    "blocks": []
+  }
+]

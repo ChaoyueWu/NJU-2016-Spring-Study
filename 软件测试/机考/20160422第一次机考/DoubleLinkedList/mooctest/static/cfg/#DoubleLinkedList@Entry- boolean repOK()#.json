@@ -1,0 +1,83 @@
+{
+  "3": {
+    "instructions": [{"temp$2 = 1": {
+      "reliable": false,
+      "eline": 265,
+      "epos": 40,
+      "spos": 37,
+      "sline": 265
+    }}],
+    "preds": [0],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 265,
+        "epos": 40,
+        "spos": 37,
+        "sline": 265
+      }},
+      {"goto block_4": {
+        "eline": 265,
+        "epos": 40,
+        "spos": 37,
+        "sline": 265
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 265,
+      "epos": 40,
+      "spos": 37,
+      "sline": 265
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next>": {
+        "eline": 265,
+        "epos": 23,
+        "spos": 20,
+        "sline": 265
+      }},
+      {"temp$1 = temp$0.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous>": {
+        "eline": 265,
+        "epos": 40,
+        "spos": 37,
+        "sline": 265
+      }},
+      {"if temp$1 == this goto block_3 #0": {
+        "eline": 265,
+        "epos": 40,
+        "ifpos": "(260, 51)-(264, 40)",
+        "spos": 37,
+        "sline": 265
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "4": {
+    "instructions": [{"return temp$2": {
+      "eline": 265,
+      "epos": 41,
+      "spos": 13,
+      "sline": 265
+    }}],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

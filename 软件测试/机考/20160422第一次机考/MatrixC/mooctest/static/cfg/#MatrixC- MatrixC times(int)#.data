@@ -1,0 +1,95 @@
+[
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic MatrixC times(int b){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tint[][] result=new int[m][n]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < m; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\tfor (int j = 0; j < n; j++) { ",
+    "blocks": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t\tresult[i][j]=b*data[i][j]; ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t\tMatrixC resultMatrix=new MatrixC(result); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t\treturn resultMatrix; ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                             ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  }
+]

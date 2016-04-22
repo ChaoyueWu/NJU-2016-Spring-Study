@@ -1,0 +1,36 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = virtualinvoke this.<DoubleLinkedList: DoubleLinkedList$Entry entry(int)>(index)": {
+      "eline": 197,
+      "epos": 30,
+      "spos": 19,
+      "sline": 197
+    }},
+    {"e = temp$0": {
+      "eline": 197,
+      "epos": 30,
+      "spos": 19,
+      "sline": 197
+    }},
+    {"virtualinvoke this.<DoubleLinkedList: void remove(DoubleLinkedList$Entry)>(e)": {
+      "eline": 198,
+      "epos": 17,
+      "spos": 9,
+      "sline": 198
+    }},
+    {"temp$1 = e.<DoubleLinkedList$Entry: java.lang.Object element>": {
+      "eline": 198,
+      "epos": 17,
+      "spos": 9,
+      "sline": 198
+    }},
+    {"return temp$1": {
+      "eline": 199,
+      "epos": 25,
+      "spos": 9,
+      "sline": 199
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

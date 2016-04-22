@@ -1,0 +1,338 @@
+{
+  "17": {
+    "instructions": [{"temp$12 = 1": {
+      "reliable": false,
+      "eline": 109,
+      "epos": 24,
+      "spos": 21,
+      "sline": 109
+    }}],
+    "preds": [14],
+    "succs": [18]
+  },
+  "18": {
+    "instructions": [{"return temp$12": {
+      "eline": 109,
+      "epos": 25,
+      "spos": 9,
+      "sline": 109
+    }}],
+    "preds": [
+      16,
+      17
+    ],
+    "succs": []
+  },
+  "15": {
+    "instructions": [{"goto block_16": {
+      "eline": 109,
+      "epos": 24,
+      "spos": 21,
+      "sline": 109
+    }}],
+    "preds": [14],
+    "succs": [16]
+  },
+  "16": {
+    "instructions": [
+      {"temp$12 = 0": {
+        "reliable": false,
+        "eline": 109,
+        "epos": 24,
+        "spos": 21,
+        "sline": 109
+      }},
+      {"goto block_18": {
+        "eline": 109,
+        "epos": 24,
+        "spos": 21,
+        "sline": 109
+      }}
+    ],
+    "preds": [15],
+    "succs": [18]
+  },
+  "13": {
+    "instructions": [{"goto block_14": {
+      "eline": 107,
+      "epos": 30,
+      "spos": 25,
+      "sline": 107
+    }}],
+    "preds": [12],
+    "succs": [14]
+  },
+  "14": {
+    "instructions": [
+      {"temp$11 = this.<DoubleLinkedList: int size>": {
+        "eline": 109,
+        "epos": 24,
+        "spos": 21,
+        "sline": 109
+      }},
+      {"if i == temp$11 goto block_17 #4": {
+        "eline": 109,
+        "epos": 24,
+        "ifpos": "(107, 20)-(108, 24)",
+        "spos": 21,
+        "sline": 109
+      }}
+    ],
+    "preds": [13],
+    "succs": [
+      15,
+      17
+    ]
+  },
+  "11": {
+    "instructions": [
+      {"temp$7 = i": {
+        "eline": 105,
+        "epos": 20,
+        "spos": 17,
+        "sline": 105
+      }},
+      {"temp$8 = temp$7 + 1": {
+        "eline": 105,
+        "epos": 17,
+        "spos": 17,
+        "sline": 105
+      }},
+      {"i = temp$8": {
+        "eline": 105,
+        "epos": 17,
+        "spos": 17,
+        "sline": 105
+      }}
+    ],
+    "preds": [9],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [
+      {"temp$9 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+        "eline": 107,
+        "epos": 30,
+        "spos": 25,
+        "sline": 107
+      }},
+      {"if tmp != temp$9 goto block_4 #3": {
+        "eline": 107,
+        "epos": 30,
+        "ifpos": "(106, 10)-(106, 30)",
+        "spos": 25,
+        "sline": 107
+      }}
+    ],
+    "preds": [
+      10,
+      11
+    ],
+    "succs": [
+      13,
+      4
+    ]
+  },
+  "3": {
+    "instructions": [
+      {"tmp = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+        "eline": 97,
+        "epos": 26,
+        "spos": 21,
+        "sline": 97
+      }},
+      {"i = 0": {
+        "eline": 98,
+        "epos": 18,
+        "spos": 9,
+        "sline": 98
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 94,
+        "epos": 18,
+        "spos": 13,
+        "sline": 94
+      }},
+      {"return temp$1": {
+        "eline": 95,
+        "epos": 25,
+        "spos": 13,
+        "sline": 95
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 94,
+      "epos": 18,
+      "spos": 13,
+      "sline": 94
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 104,
+      "epos": 29,
+      "spos": 24,
+      "sline": 104
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+        "eline": 94,
+        "epos": 18,
+        "spos": 13,
+        "sline": 94
+      }},
+      {"if temp$0 == null goto block_2 #0": {
+        "eline": 94,
+        "epos": 18,
+        "ifpos": "(93, 8)-(93, 26)",
+        "spos": 13,
+        "sline": 94
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 100,
+      "epos": 54,
+      "spos": 48,
+      "sline": 100
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$3 = virtualinvoke tmp.<DoubleLinkedList$Entry: boolean repOK()>()": {
+        "eline": 100,
+        "epos": 54,
+        "spos": 48,
+        "sline": 100
+      }},
+      {"if temp$3 == 0 goto block_8 #1": {
+        "eline": 100,
+        "epos": 54,
+        "ifpos": "(99, 12)-(99, 54)",
+        "spos": 48,
+        "sline": 100
+      }}
+    ],
+    "preds": [5],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 100,
+      "epos": 38,
+      "spos": 22,
+      "sline": 100
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$2 = virtualinvoke tmp.<DoubleLinkedList$Entry: boolean nonNullPointers()>()": {
+        "eline": 100,
+        "epos": 38,
+        "spos": 22,
+        "sline": 100
+      }},
+      {"if temp$2 == 0 goto block_8 #1": {
+        "eline": 100,
+        "epos": 38,
+        "ifpos": "(99, 12)-(99, 54)",
+        "spos": 22,
+        "sline": 100
+      }}
+    ],
+    "preds": [
+      3,
+      12
+    ],
+    "succs": [
+      5,
+      8
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$5 = tmp.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next>": {
+        "eline": 103,
+        "epos": 27,
+        "spos": 13,
+        "sline": 103
+      }},
+      {"tmp = temp$5": {
+        "eline": 103,
+        "epos": 15,
+        "spos": 13,
+        "sline": 103
+      }},
+      {"temp$6 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+        "eline": 104,
+        "epos": 29,
+        "spos": 24,
+        "sline": 104
+      }},
+      {"if tmp != temp$6 goto block_11 #2": {
+        "eline": 104,
+        "epos": 29,
+        "ifpos": "(103, 12)-(103, 29)",
+        "spos": 24,
+        "sline": 104
+      }}
+    ],
+    "preds": [7],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$4 = 0": {
+        "reliable": false,
+        "eline": 100,
+        "epos": 54,
+        "spos": 48,
+        "sline": 100
+      }},
+      {"return temp$4": {
+        "eline": 101,
+        "epos": 29,
+        "spos": 17,
+        "sline": 101
+      }}
+    ],
+    "preds": [
+      4,
+      6
+    ],
+    "succs": []
+  }
+}

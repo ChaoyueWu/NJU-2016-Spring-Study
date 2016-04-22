@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<DoubleLinkedList: int size>": {
+      "eline": 159,
+      "epos": 26,
+      "spos": 23,
+      "sline": 159
+    }},
+    {"temp$1 = virtualinvoke this.<DoubleLinkedList: boolean addAll(int,java.util.Collection)>(temp$0, c)": {
+      "eline": 159,
+      "epos": 26,
+      "spos": 23,
+      "sline": 159
+    }},
+    {"return temp$1": {
+      "eline": 159,
+      "epos": 31,
+      "spos": 9,
+      "sline": 159
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

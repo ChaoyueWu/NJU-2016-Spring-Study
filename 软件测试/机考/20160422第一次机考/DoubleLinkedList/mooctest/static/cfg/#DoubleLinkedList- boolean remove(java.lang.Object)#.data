@@ -1,0 +1,160 @@
+[
+  {
+    "codes": "        addBefore(o, header); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return true; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean remove(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (o == null) { ",
+    "blocks": [
+      0,
+      1,
+      9
+    ]
+  },
+  {
+    "codes": "            for (Entry e = header.next; e != header; e = e.next) { ",
+    "blocks": [
+      2,
+      3,
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                if (e.element == null) { ",
+    "blocks": [
+      5,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                    remove(e); ",
+    "blocks": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                    return true; ",
+    "blocks": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "        } else { ",
+    "blocks": [9]
+  },
+  {
+    "codes": "            for (Entry e = header.next; e != header; e = e.next) { ",
+    "blocks": [
+      16,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "                if (o == e.element) { ",
+    "blocks": [
+      16,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "                    remove(e); ",
+    "blocks": [
+      16,
+      9,
+      15
+    ]
+  },
+  {
+    "codes": "                    return true; ",
+    "blocks": [
+      16,
+      9,
+      15
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      16,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      16,
+      9
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [9]
+  },
+  {
+    "codes": "        return false; ",
+    "blocks": [17]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean addAll(Collection c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return addAll(size, c); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

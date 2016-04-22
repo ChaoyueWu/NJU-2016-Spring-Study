@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = virtualinvoke this.<DoubleLinkedList: DoubleLinkedList$Entry entry(int)>(index)": {
+      "eline": 189,
+      "epos": 27,
+      "spos": 16,
+      "sline": 189
+    }},
+    {"temp$1 = temp$0.<DoubleLinkedList$Entry: java.lang.Object element>": {
+      "eline": 189,
+      "epos": 27,
+      "spos": 16,
+      "sline": 189
+    }},
+    {"return temp$1": {
+      "eline": 189,
+      "epos": 36,
+      "spos": 9,
+      "sline": 189
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

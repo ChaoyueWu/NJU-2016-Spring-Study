@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "    public void add(int index, Object element) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        addBefore(element, (index == size ? header : entry(index))); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Object remove(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry e = entry(index); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        remove(e); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return e.element; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private Entry entry(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (index < 0 || index >= size) ",
+    "blocks": []
+  },
+  {
+    "codes": "            throw new IndexOutOfBoundsException(\"Index: \" + index + \", Size: \" ",
+    "blocks": []
+  }
+]

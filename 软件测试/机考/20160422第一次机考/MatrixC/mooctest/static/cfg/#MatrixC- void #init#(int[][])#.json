@@ -1,0 +1,62 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<MatrixC: int[][] data> = a": {
+      "eline": 28,
+      "epos": 11,
+      "spos": 8,
+      "sline": 28
+    }},
+    {"temp$0 = lengthof a": {
+      "eline": 29,
+      "epos": 3,
+      "spos": 3,
+      "sline": 29
+    }},
+    {"this.<MatrixC: int m> = temp$0": {
+      "eline": 29,
+      "epos": 3,
+      "spos": 3,
+      "sline": 29
+    }},
+    {"temp$1 = a": {
+      "eline": 30,
+      "epos": 3,
+      "spos": 3,
+      "sline": 30
+    }},
+    {"temp$2 = 0": {
+      "reliable": false,
+      "eline": 30,
+      "epos": 3,
+      "spos": 3,
+      "sline": 30
+    }},
+    {"temp$3 = temp$1[temp$2]": {
+      "eline": 30,
+      "epos": 3,
+      "spos": 3,
+      "sline": 30
+    }},
+    {"temp$4 = lengthof temp$3": {
+      "eline": 30,
+      "epos": 3,
+      "spos": 3,
+      "sline": 30
+    }},
+    {"this.<MatrixC: int n> = temp$4": {
+      "eline": 30,
+      "epos": 3,
+      "spos": 3,
+      "sline": 30
+    }},
+    {"return": {
+      "eline": 30,
+      "epos": 3,
+      "spos": 3,
+      "sline": 30
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

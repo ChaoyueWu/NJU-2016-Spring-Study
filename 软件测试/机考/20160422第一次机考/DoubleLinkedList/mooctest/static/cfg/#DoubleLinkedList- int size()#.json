@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<DoubleLinkedList: int size>": {
+      "eline": 131,
+      "epos": 19,
+      "spos": 16,
+      "sline": 131
+    }},
+    {"return temp$0": {
+      "eline": 131,
+      "epos": 20,
+      "spos": 9,
+      "sline": 131
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

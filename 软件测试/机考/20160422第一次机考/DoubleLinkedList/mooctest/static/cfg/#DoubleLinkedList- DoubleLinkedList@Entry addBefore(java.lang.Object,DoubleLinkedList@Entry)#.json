@@ -1,0 +1,96 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new DoubleLinkedList$Entry": {
+      "eline": 272,
+      "epos": 53,
+      "spos": 9,
+      "sline": 272
+    }},
+    {"temp$1 = e.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous>": {
+      "eline": 272,
+      "epos": 53,
+      "spos": 9,
+      "sline": 272
+    }},
+    {"specialinvoke temp$0.<DoubleLinkedList$Entry: void <init>(java.lang.Object,DoubleLinkedList$Entry,DoubleLinkedList$Entry)>(o, e, temp$1)": {
+      "eline": 272,
+      "epos": 52,
+      "spos": 26,
+      "sline": 272
+    }},
+    {"newEntry = temp$0": {
+      "eline": 272,
+      "epos": 52,
+      "spos": 26,
+      "sline": 272
+    }},
+    {"temp$2 = newEntry.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous>": {
+      "eline": 273,
+      "epos": 42,
+      "spos": 9,
+      "sline": 273
+    }},
+    {"temp$2.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next> = newEntry": {
+      "eline": 273,
+      "epos": 30,
+      "spos": 27,
+      "sline": 273
+    }},
+    {"temp$3 = newEntry.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next>": {
+      "eline": 274,
+      "epos": 42,
+      "spos": 9,
+      "sline": 274
+    }},
+    {"temp$3.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous> = newEntry": {
+      "eline": 274,
+      "epos": 30,
+      "spos": 23,
+      "sline": 274
+    }},
+    {"temp$4 = this.<DoubleLinkedList: int size>": {
+      "eline": 275,
+      "epos": 12,
+      "spos": 9,
+      "sline": 275
+    }},
+    {"temp$5 = temp$4 + 1": {
+      "eline": 275,
+      "epos": 12,
+      "spos": 9,
+      "sline": 275
+    }},
+    {"this.<DoubleLinkedList: int size> = temp$5": {
+      "eline": 275,
+      "epos": 12,
+      "spos": 9,
+      "sline": 275
+    }},
+    {"temp$6 = this.<DoubleLinkedList: int modCount>": {
+      "eline": 276,
+      "epos": 16,
+      "spos": 9,
+      "sline": 276
+    }},
+    {"temp$7 = temp$6 + 1": {
+      "eline": 276,
+      "epos": 16,
+      "spos": 9,
+      "sline": 276
+    }},
+    {"this.<DoubleLinkedList: int modCount> = temp$7": {
+      "eline": 276,
+      "epos": 16,
+      "spos": 9,
+      "sline": 276
+    }},
+    {"return newEntry": {
+      "eline": 277,
+      "epos": 24,
+      "spos": 9,
+      "sline": 277
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

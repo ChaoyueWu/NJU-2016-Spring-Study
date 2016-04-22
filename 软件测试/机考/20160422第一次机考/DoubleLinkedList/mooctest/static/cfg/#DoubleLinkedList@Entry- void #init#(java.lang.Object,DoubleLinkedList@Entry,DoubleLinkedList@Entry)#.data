@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "        Object element; ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry next; ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry previous; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        Entry(Object element, Entry next, Entry previous) { ",
+    "blocks": []
+  },
+  {
+    "codes": "            this.element = element; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            this.next = next; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            this.previous = previous; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        boolean nonNullPointers() { ",
+    "blocks": []
+  },
+  {
+    "codes": "            return next != null && previous != null; ",
+    "blocks": []
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  }
+]

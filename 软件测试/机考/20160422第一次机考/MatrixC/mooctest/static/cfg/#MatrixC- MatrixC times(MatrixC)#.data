@@ -1,0 +1,141 @@
+[
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic MatrixC times(MatrixC B){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tint[][] b=new int[B.getM()][B.getN()]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint[][] result=new int[m][B.getN()]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif(n==B.getM()){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tb=B.getArray(); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\tfor (int i = 0; i <m ; i++) { ",
+    "blocks": [
+      2,
+      3,
+      4,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\tfor (int j = 0; j < B.getN(); j++) { ",
+    "blocks": [
+      5,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tfor (int a = 0; a < n; a++) { ",
+    "blocks": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tresult[i][j]=result[i][j]+data[i][a]*b[a][j]; ",
+    "blocks": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t} ",
+    "blocks": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t ",
+    "blocks": [
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t ",
+    "blocks": [13]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [13]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tMatrixC resultMatrix=new MatrixC(result); ",
+    "blocks": [14]
+  },
+  {
+    "codes": "\t\treturn resultMatrix; ",
+    "blocks": [14]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,73 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<DoubleLinkedList: int modCount>": {
+      "eline": 183,
+      "epos": 16,
+      "spos": 9,
+      "sline": 183
+    }},
+    {"temp$1 = temp$0 + 1": {
+      "eline": 183,
+      "epos": 16,
+      "spos": 9,
+      "sline": 183
+    }},
+    {"this.<DoubleLinkedList: int modCount> = temp$1": {
+      "eline": 183,
+      "epos": 16,
+      "spos": 9,
+      "sline": 183
+    }},
+    {"temp$2 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+      "eline": 184,
+      "epos": 14,
+      "spos": 9,
+      "sline": 184
+    }},
+    {"temp$3 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+      "eline": 184,
+      "epos": 28,
+      "spos": 23,
+      "sline": 184
+    }},
+    {"temp$4 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+      "eline": 184,
+      "epos": 46,
+      "spos": 41,
+      "sline": 184
+    }},
+    {"temp$3.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous> = temp$4": {
+      "eline": 184,
+      "epos": 37,
+      "spos": 30,
+      "sline": 184
+    }},
+    {"temp$2.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next> = temp$4": {
+      "eline": 184,
+      "epos": 19,
+      "spos": 16,
+      "sline": 184
+    }},
+    {"temp$5 = 0": {
+      "reliable": false,
+      "eline": 185,
+      "epos": 12,
+      "spos": 9,
+      "sline": 185
+    }},
+    {"this.<DoubleLinkedList: int size> = temp$5": {
+      "eline": 185,
+      "epos": 12,
+      "spos": 9,
+      "sline": 185
+    }},
+    {"return": {
+      "eline": 185,
+      "epos": 12,
+      "spos": 9,
+      "sline": 185
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

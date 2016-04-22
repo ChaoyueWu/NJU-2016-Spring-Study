@@ -1,0 +1,77 @@
+{
+  "3": {
+    "instructions": [{"temp$1 = 1": {
+      "reliable": false,
+      "eline": 127,
+      "epos": 25,
+      "spos": 16,
+      "sline": 127
+    }}],
+    "preds": [0],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 127,
+        "epos": 25,
+        "spos": 16,
+        "sline": 127
+      }},
+      {"goto block_4": {
+        "eline": 127,
+        "epos": 25,
+        "spos": 16,
+        "sline": 127
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 127,
+      "epos": 25,
+      "spos": 16,
+      "sline": 127
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke this.<DoubleLinkedList: int indexOf(java.lang.Object)>(o)": {
+        "eline": 127,
+        "epos": 25,
+        "spos": 16,
+        "sline": 127
+      }},
+      {"if temp$0 != -1 goto block_3 #0": {
+        "eline": 127,
+        "epos": 25,
+        "ifpos": "(122, 20)-(126, 31)",
+        "spos": 16,
+        "sline": 127
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "4": {
+    "instructions": [{"return temp$1": {
+      "eline": 127,
+      "epos": 32,
+      "spos": 9,
+      "sline": 127
+    }}],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

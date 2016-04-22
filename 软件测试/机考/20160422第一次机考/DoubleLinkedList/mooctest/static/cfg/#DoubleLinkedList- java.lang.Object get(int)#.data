@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "        header.next = header.previous = header; ",
+    "blocks": []
+  },
+  {
+    "codes": "        size = 0; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Object get(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return entry(index).element; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void add(int index, Object element) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        addBefore(element, (index == size ? header : entry(index))); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        return false; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean contains(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return indexOf(o) != -1; ",
+    "blocks": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int size() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return size; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

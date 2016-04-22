@@ -1,0 +1,81 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = 0": {}},
+    {"this.<DoubleLinkedList: int modCount> = temp$0": {
+      "eline": 79,
+      "epos": 41,
+      "spos": 5,
+      "sline": 79
+    }},
+    {"temp$1 = new DoubleLinkedList$Entry": {
+      "eline": 79,
+      "epos": 41,
+      "spos": 5,
+      "sline": 79
+    }},
+    {"specialinvoke temp$1.<DoubleLinkedList$Entry: void <init>(java.lang.Object,DoubleLinkedList$Entry,DoubleLinkedList$Entry)>(null, null, null)": {
+      "eline": 80,
+      "epos": 64,
+      "spos": 38,
+      "sline": 80
+    }},
+    {"this.<DoubleLinkedList: DoubleLinkedList$Entry header> = temp$1": {
+      "eline": 80,
+      "epos": 65,
+      "spos": 5,
+      "sline": 80
+    }},
+    {"temp$2 = 0": {
+      "reliable": false,
+      "eline": 80,
+      "epos": 65,
+      "spos": 5,
+      "sline": 80
+    }},
+    {"this.<DoubleLinkedList: int size> = temp$2": {
+      "eline": 81,
+      "epos": 35,
+      "spos": 5,
+      "sline": 81
+    }},
+    {"temp$3 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+      "eline": 84,
+      "epos": 14,
+      "spos": 9,
+      "sline": 84
+    }},
+    {"temp$4 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+      "eline": 84,
+      "epos": 28,
+      "spos": 23,
+      "sline": 84
+    }},
+    {"temp$5 = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+      "eline": 84,
+      "epos": 46,
+      "spos": 41,
+      "sline": 84
+    }},
+    {"temp$4.<DoubleLinkedList$Entry: DoubleLinkedList$Entry previous> = temp$5": {
+      "eline": 84,
+      "epos": 37,
+      "spos": 30,
+      "sline": 84
+    }},
+    {"temp$3.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next> = temp$5": {
+      "eline": 84,
+      "epos": 19,
+      "spos": 16,
+      "sline": 84
+    }},
+    {"return": {
+      "eline": 84,
+      "epos": 19,
+      "spos": 16,
+      "sline": 84
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,230 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 203,
+      "epos": 38,
+      "spos": 35,
+      "sline": 203
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = this.<DoubleLinkedList: int size>": {
+        "eline": 203,
+        "epos": 38,
+        "spos": 35,
+        "sline": 203
+      }},
+      {"if index >= temp$0 goto block_4 #0": {
+        "eline": 203,
+        "epos": 38,
+        "ifpos": "(202, 8)-(202, 38)",
+        "spos": 35,
+        "sline": 203
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 203,
+      "epos": 21,
+      "spos": 13,
+      "sline": 203
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [{"if index < 0 goto block_4 #0": {
+      "eline": 203,
+      "epos": 21,
+      "ifpos": "(202, 8)-(202, 38)",
+      "spos": 13,
+      "sline": 203
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      4
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 207,
+      "epos": 34,
+      "spos": 25,
+      "sline": 207
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [{"if i <= index goto block_8 #1": {
+      "eline": 207,
+      "epos": 34,
+      "ifpos": "(206, 22)-(206, 34)",
+      "spos": 25,
+      "sline": 207
+    }}],
+    "preds": [
+      5,
+      8
+    ],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"e = this.<DoubleLinkedList: DoubleLinkedList$Entry header>": {
+        "eline": 206,
+        "epos": 24,
+        "spos": 19,
+        "sline": 206
+      }},
+      {"i = 0": {
+        "eline": 207,
+        "epos": 22,
+        "spos": 14,
+        "sline": 207
+      }}
+    ],
+    "preds": [3],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$1 = new java.lang.IndexOutOfBoundsException": {
+        "eline": 205,
+        "epos": 56,
+        "spos": 13,
+        "sline": 204
+      }},
+      {"temp$2 = new java.lang.StringBuffer": {
+        "eline": 205,
+        "epos": 56,
+        "spos": 13,
+        "sline": 204
+      }},
+      {"specialinvoke temp$2.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 204,
+        "epos": 65,
+        "spos": 49,
+        "sline": 204
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"Index: \")": {
+        "eline": 204,
+        "epos": 65,
+        "spos": 49,
+        "sline": 204
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(index)": {
+        "eline": 204,
+        "epos": 65,
+        "spos": 49,
+        "sline": 204
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\", Size: \")": {
+        "eline": 204,
+        "epos": 78,
+        "spos": 49,
+        "sline": 204
+      }},
+      {"temp$3 = this.<DoubleLinkedList: int size>": {
+        "eline": 205,
+        "epos": 54,
+        "spos": 51,
+        "sline": 205
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$3)": {
+        "eline": 205,
+        "epos": 54,
+        "spos": 51,
+        "sline": 205
+      }},
+      {"temp$4 = virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 205,
+        "epos": 54,
+        "spos": 51,
+        "sline": 205
+      }},
+      {"specialinvoke temp$1.<java.lang.IndexOutOfBoundsException: void <init>(java.lang.String)>(temp$4)": {
+        "eline": 205,
+        "epos": 55,
+        "spos": 19,
+        "sline": 204
+      }},
+      {"throw temp$1": {
+        "eline": 205,
+        "epos": 55,
+        "spos": 19,
+        "sline": 204
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": []
+  },
+  "9": {
+    "instructions": [{"return e": {
+      "eline": 210,
+      "epos": 17,
+      "spos": 9,
+      "sline": 210
+    }}],
+    "preds": [7],
+    "succs": []
+  },
+  "8": {
+    "instructions": [
+      {"temp$5 = e.<DoubleLinkedList$Entry: DoubleLinkedList$Entry next>": {
+        "eline": 208,
+        "epos": 23,
+        "spos": 13,
+        "sline": 208
+      }},
+      {"e = temp$5": {
+        "eline": 208,
+        "epos": 13,
+        "spos": 13,
+        "sline": 208
+      }},
+      {"temp$6 = i": {
+        "eline": 207,
+        "epos": 39,
+        "spos": 37,
+        "sline": 207
+      }},
+      {"temp$7 = temp$6 + 1": {
+        "eline": 207,
+        "epos": 37,
+        "spos": 37,
+        "sline": 207
+      }},
+      {"i = temp$7": {
+        "eline": 207,
+        "epos": 37,
+        "spos": 37,
+        "sline": 207
+      }},
+      {"goto block_6": {
+        "eline": 208,
+        "epos": 23,
+        "spos": 9,
+        "sline": 207
+      }}
+    ],
+    "preds": [6],
+    "succs": [6]
+  }
+}

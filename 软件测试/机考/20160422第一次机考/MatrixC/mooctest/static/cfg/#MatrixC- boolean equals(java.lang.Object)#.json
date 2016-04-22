@@ -1,0 +1,309 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 229,
+      "epos": 10,
+      "spos": 7,
+      "sline": 229
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [
+      {"matrix = (MatrixC) obj": {
+        "eline": 227,
+        "epos": 34,
+        "spos": 4,
+        "sline": 227
+      }},
+      {"temp$1 = this.<MatrixC: int[][] data>": {
+        "eline": 229,
+        "epos": 10,
+        "spos": 7,
+        "sline": 229
+      }},
+      {"temp$2 = matrix.<MatrixC: int[][] data>": {
+        "eline": 229,
+        "epos": 10,
+        "spos": 7,
+        "sline": 229
+      }},
+      {"temp$3 = lengthof temp$1": {
+        "eline": 229,
+        "epos": 10,
+        "spos": 7,
+        "sline": 229
+      }},
+      {"temp$4 = lengthof temp$2": {
+        "eline": 229,
+        "epos": 10,
+        "spos": 7,
+        "sline": 229
+      }},
+      {"if temp$3 != temp$4 goto block_4 #1": {
+        "eline": 229,
+        "epos": 10,
+        "ifpos": "(228, 3)-(228, 44)",
+        "spos": 7,
+        "sline": 229
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "10": {
+    "instructions": [
+      {"temp$15 = 0": {
+        "reliable": false,
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"return temp$15": {
+        "eline": 235,
+        "epos": 18,
+        "spos": 6,
+        "sline": 235
+      }}
+    ],
+    "preds": [8],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 226,
+      "epos": 27,
+      "spos": 6,
+      "sline": 226
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = obj instanceof MatrixC": {
+        "eline": 226,
+        "epos": 27,
+        "spos": 6,
+        "sline": 226
+      }},
+      {"if temp$0 == 0 goto block_13 #0": {
+        "eline": 226,
+        "epos": 27,
+        "ifpos": "(225, 2)-(225, 27)",
+        "spos": 6,
+        "sline": 226
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      13
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_12": {
+      "eline": 233,
+      "epos": 23,
+      "spos": 20,
+      "sline": 233
+    }}],
+    "preds": [6],
+    "succs": [12]
+  },
+  "6": {
+    "instructions": [
+      {"temp$6 = this.<MatrixC: int[][] data>": {
+        "eline": 233,
+        "epos": 23,
+        "spos": 20,
+        "sline": 233
+      }},
+      {"temp$7 = lengthof temp$6": {
+        "eline": 233,
+        "epos": 23,
+        "spos": 20,
+        "sline": 233
+      }},
+      {"if i < temp$7 goto block_8 #2": {
+        "eline": 233,
+        "epos": 23,
+        "ifpos": "(232, 15)-(232, 36)",
+        "spos": 20,
+        "sline": 233
+      }}
+    ],
+    "preds": [
+      5,
+      11
+    ],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"i = 0": {
+      "eline": 233,
+      "epos": 14,
+      "spos": 8,
+      "sline": 233
+    }}],
+    "preds": [3],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$5 = 0": {
+        "reliable": false,
+        "eline": 229,
+        "epos": 10,
+        "spos": 7,
+        "sline": 229
+      }},
+      {"return temp$5": {
+        "eline": 230,
+        "epos": 17,
+        "spos": 5,
+        "sline": 230
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  },
+  "9": {
+    "instructions": [{"goto block_11": {
+      "eline": 234,
+      "epos": 26,
+      "spos": 23,
+      "sline": 234
+    }}],
+    "preds": [8],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [
+      {"temp$8 = this.<MatrixC: int[][] data>": {
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"temp$9 = i": {
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"temp$10 = temp$8[temp$9]": {
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"temp$11 = matrix.<MatrixC: int[][] data>": {
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"temp$12 = i": {
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"temp$13 = temp$11[temp$12]": {
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"temp$14 = staticinvoke <java.util.Arrays: boolean equals(int[],int[])>(temp$10, temp$13)": {
+        "eline": 234,
+        "epos": 26,
+        "spos": 23,
+        "sline": 234
+      }},
+      {"if temp$14 == 0 goto block_10 #3": {
+        "eline": 234,
+        "epos": 26,
+        "ifpos": "(233, 4)-(233, 51)",
+        "spos": 23,
+        "sline": 234
+      }}
+    ],
+    "preds": [6],
+    "succs": [
+      9,
+      10
+    ]
+  },
+  "13": {
+    "instructions": [
+      {"temp$18 = 0": {
+        "reliable": false,
+        "eline": 239,
+        "epos": 15,
+        "spos": 4,
+        "sline": 239
+      }},
+      {"return temp$18": {
+        "eline": 242,
+        "epos": 16,
+        "spos": 4,
+        "sline": 242
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "11": {
+    "instructions": [
+      {"temp$16 = i + 1": {
+        "eline": 233,
+        "epos": 41,
+        "spos": 39,
+        "sline": 233
+      }},
+      {"i = temp$16": {
+        "eline": 233,
+        "epos": 41,
+        "spos": 41,
+        "sline": 233
+      }},
+      {"goto block_6": {
+        "eline": 237,
+        "epos": 4,
+        "spos": 4,
+        "sline": 233
+      }}
+    ],
+    "preds": [9],
+    "succs": [6]
+  },
+  "12": {
+    "instructions": [
+      {"temp$17 = 1": {
+        "reliable": false,
+        "eline": 237,
+        "epos": 4,
+        "spos": 4,
+        "sline": 233
+      }},
+      {"return temp$17": {
+        "eline": 239,
+        "epos": 15,
+        "spos": 4,
+        "sline": 239
+      }}
+    ],
+    "preds": [7],
+    "succs": []
+  }
+}

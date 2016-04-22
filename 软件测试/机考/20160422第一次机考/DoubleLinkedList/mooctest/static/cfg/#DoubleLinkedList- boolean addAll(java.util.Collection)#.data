@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        return false; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean addAll(Collection c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return addAll(size, c); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean addAll(int index, Collection c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Object[] a = c.toArray(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        int numNew = a.length; ",
+    "blocks": []
+  }
+]
