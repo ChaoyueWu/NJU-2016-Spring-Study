@@ -1,0 +1,146 @@
+[
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void generateMinAvaiMove() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t                                ",
+    "blocks": []
+  },
+  {
+    "codes": "        int min = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int max = 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        boolean find = false; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        for (bestRowIndex = min ; bestRowIndex <= max ; bestRowIndex++){ ",
+    "blocks": [
+      0,
+      1,
+      2,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "        \tfor (bestColumnIndex = min ; bestColumnIndex <= max ; bestColumnIndex++){ ",
+    "blocks": [
+      3,
+      4,
+      5,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "            \tif (TicTacToe_c.isValidMove(bestRowIndex, bestColumnIndex)){ ",
+    "blocks": [
+      6,
+      7,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "            \t\tfind = true; ",
+    "blocks": [
+      8,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "            \t\tbreak; ",
+    "blocks": [
+      8,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "            \t} ",
+    "blocks": [
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "        \t} ",
+    "blocks": [
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "        \tif (find){ ",
+    "blocks": [
+      10,
+      11,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "        \t\tbreak; ",
+    "blocks": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "        \t} ",
+    "blocks": [
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

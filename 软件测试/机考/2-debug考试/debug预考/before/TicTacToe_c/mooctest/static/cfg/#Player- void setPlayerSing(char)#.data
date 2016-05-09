@@ -1,0 +1,34 @@
+[
+  {
+    "codes": "        return playerSing; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void setPlayerSing(char playerSing) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.playerSing = playerSing; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

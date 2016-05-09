@@ -1,0 +1,497 @@
+{
+  "17": {
+    "instructions": [
+      {"temp$31 = this.<TicTacToe_c: Field field>": {
+        "eline": 77,
+        "epos": 13,
+        "spos": 9,
+        "sline": 77
+      }},
+      {"virtualinvoke temp$31.<Field: void drawGameField()>()": {
+        "eline": 77,
+        "epos": 13,
+        "spos": 9,
+        "sline": 77
+      }},
+      {"temp$32 = virtualinvoke this.<TicTacToe_c: boolean isEndOfGame()>()": {
+        "eline": 79,
+        "epos": 28,
+        "spos": 16,
+        "sline": 79
+      }},
+      {"return temp$32": {
+        "eline": 79,
+        "epos": 29,
+        "spos": 9,
+        "sline": 79
+      }}
+    ],
+    "preds": [
+      15,
+      16
+    ],
+    "succs": []
+  },
+  "15": {
+    "instructions": [{"goto block_17": {
+      "eline": 73,
+      "epos": 18,
+      "spos": 13,
+      "sline": 73
+    }}],
+    "preds": [14],
+    "succs": [17]
+  },
+  "16": {
+    "instructions": [
+      {"temp$29 = this.<TicTacToe_c: GameRecord gameRecord>": {
+        "eline": 74,
+        "epos": 32,
+        "spos": 23,
+        "sline": 74
+      }},
+      {"temp$30 = virtualinvoke temp$29.<GameRecord: java.util.ArrayList getSteps()>()": {
+        "eline": 74,
+        "epos": 32,
+        "spos": 23,
+        "sline": 74
+      }},
+      {"virtualinvoke this.<TicTacToe_c: void nextMove(int,java.util.ArrayList)>(1, temp$30)": {
+        "eline": 74,
+        "epos": 32,
+        "spos": 23,
+        "sline": 74
+      }}
+    ],
+    "preds": [14],
+    "succs": [17]
+  },
+  "13": {
+    "instructions": [
+      {"temp$26 = this.<TicTacToe_c: Field field>": {
+        "eline": 69,
+        "epos": 17,
+        "spos": 13,
+        "sline": 69
+      }},
+      {"virtualinvoke temp$26.<Field: void drawGameField()>()": {
+        "eline": 69,
+        "epos": 17,
+        "spos": 13,
+        "sline": 69
+      }},
+      {"temp$27 = idx": {
+        "eline": 50,
+        "epos": 69,
+        "spos": 65,
+        "sline": 50
+      }},
+      {"temp$28 = temp$27 + 1": {
+        "eline": 50,
+        "epos": 67,
+        "spos": 65,
+        "sline": 50
+      }},
+      {"idx = temp$28": {
+        "eline": 50,
+        "epos": 67,
+        "spos": 65,
+        "sline": 50
+      }},
+      {"goto block_1": {
+        "eline": 70,
+        "epos": 9,
+        "spos": 9,
+        "sline": 50
+      }}
+    ],
+    "preds": [
+      8,
+      12
+    ],
+    "succs": [1]
+  },
+  "14": {
+    "instructions": [{"if i == 1 goto block_16 #4": {
+      "eline": 73,
+      "epos": 18,
+      "ifpos": "(72, 8)-(72, 18)",
+      "spos": 13,
+      "sline": 73
+    }}],
+    "preds": [
+      2,
+      7,
+      11
+    ],
+    "succs": [
+      15,
+      16
+    ]
+  },
+  "11": {
+    "instructions": [{"goto block_14": {
+      "eline": 64,
+      "epos": 17,
+      "spos": 12,
+      "sline": 64
+    }}],
+    "preds": [10],
+    "succs": [14]
+  },
+  "12": {
+    "instructions": [
+      {"temp$23 = idx * 2": {
+        "eline": 67,
+        "epos": 51,
+        "spos": 11,
+        "sline": 67
+      }},
+      {"temp$24 = this.<TicTacToe_c: GameRecord gameRecord>": {
+        "eline": 67,
+        "epos": 39,
+        "spos": 30,
+        "sline": 67
+      }},
+      {"temp$25 = virtualinvoke temp$24.<GameRecord: java.util.ArrayList getSteps()>()": {
+        "eline": 67,
+        "epos": 39,
+        "spos": 30,
+        "sline": 67
+      }},
+      {"virtualinvoke this.<TicTacToe_c: void nextMove(int,java.util.ArrayList)>(temp$23, temp$25)": {
+        "eline": 67,
+        "epos": 39,
+        "spos": 30,
+        "sline": 67
+      }}
+    ],
+    "preds": [9],
+    "succs": [13]
+  },
+  "3": {
+    "instructions": [{"if i == 0 goto block_5 #1": {
+      "eline": 51,
+      "epos": 19,
+      "ifpos": "(50, 9)-(50, 19)",
+      "spos": 14,
+      "sline": 51
+    }}],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_14": {
+      "eline": 50,
+      "epos": 43,
+      "spos": 34,
+      "sline": 50
+    }}],
+    "preds": [1],
+    "succs": [14]
+  },
+  "1": {
+    "instructions": [
+      {"temp$3 = this.<TicTacToe_c: GameRecord gameRecord>": {
+        "eline": 50,
+        "epos": 43,
+        "spos": 34,
+        "sline": 50
+      }},
+      {"temp$4 = virtualinvoke temp$3.<GameRecord: java.util.ArrayList getSteps()>()": {
+        "eline": 50,
+        "epos": 43,
+        "spos": 34,
+        "sline": 50
+      }},
+      {"temp$5 = virtualinvoke temp$4.<java.util.ArrayList: int size()>()": {
+        "eline": 50,
+        "epos": 43,
+        "spos": 34,
+        "sline": 50
+      }},
+      {"if idx < temp$5 goto block_3 #0": {
+        "eline": 50,
+        "epos": 43,
+        "ifpos": "(49, 25)-(49, 62)",
+        "spos": 34,
+        "sline": 50
+      }}
+    ],
+    "preds": [
+      0,
+      13
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "10": {
+    "instructions": [{"goto block_11": {
+      "eline": 63,
+      "epos": 27,
+      "spos": 15,
+      "sline": 63
+    }}],
+    "preds": [9],
+    "succs": [11]
+  },
+  "0": {
+    "instructions": [
+      {"staticinvoke <TicTacToe_c: void printGreetings()>()": {
+        "eline": 42,
+        "epos": 25,
+        "spos": 9,
+        "sline": 42
+      }},
+      {"temp$0 = this.<TicTacToe_c: Field field>": {
+        "eline": 44,
+        "epos": 13,
+        "spos": 9,
+        "sline": 44
+      }},
+      {"virtualinvoke temp$0.<Field: void drawGameField()>()": {
+        "eline": 44,
+        "epos": 13,
+        "spos": 9,
+        "sline": 44
+      }},
+      {"temp$1 = this.<TicTacToe_c: GameRecord gameRecord>": {
+        "eline": 48,
+        "epos": 26,
+        "spos": 17,
+        "sline": 48
+      }},
+      {"temp$2 = virtualinvoke temp$1.<GameRecord: int getFirstPlayer()>()": {
+        "eline": 48,
+        "epos": 26,
+        "spos": 17,
+        "sline": 48
+      }},
+      {"i = temp$2": {
+        "eline": 48,
+        "epos": 26,
+        "spos": 17,
+        "sline": 48
+      }},
+      {"idx = 0": {
+        "eline": 50,
+        "epos": 24,
+        "spos": 14,
+        "sline": 50
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_14": {
+      "eline": 55,
+      "epos": 17,
+      "spos": 12,
+      "sline": 55
+    }}],
+    "preds": [6],
+    "succs": [14]
+  },
+  "6": {
+    "instructions": [{"goto block_7": {
+      "eline": 54,
+      "epos": 27,
+      "spos": 15,
+      "sline": 54
+    }}],
+    "preds": [5],
+    "succs": [7]
+  },
+  "5": {
+    "instructions": [
+      {"temp$6 = idx * 2": {
+        "eline": 52,
+        "epos": 51,
+        "spos": 11,
+        "sline": 52
+      }},
+      {"temp$7 = this.<TicTacToe_c: GameRecord gameRecord>": {
+        "eline": 52,
+        "epos": 39,
+        "spos": 30,
+        "sline": 52
+      }},
+      {"temp$8 = virtualinvoke temp$7.<GameRecord: java.util.ArrayList getSteps()>()": {
+        "eline": 52,
+        "epos": 39,
+        "spos": 30,
+        "sline": 52
+      }},
+      {"virtualinvoke this.<TicTacToe_c: void nextMove(int,java.util.ArrayList)>(temp$6, temp$8)": {
+        "eline": 52,
+        "epos": 39,
+        "spos": 30,
+        "sline": 52
+      }},
+      {"temp$9 = this.<TicTacToe_c: Field field>": {
+        "eline": 53,
+        "epos": 21,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"virtualinvoke temp$9.<Field: void drawGameField()>()": {
+        "eline": 53,
+        "epos": 21,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"temp$10 = virtualinvoke this.<TicTacToe_c: boolean isEndOfGame()>()": {
+        "eline": 54,
+        "epos": 27,
+        "spos": 15,
+        "sline": 54
+      }},
+      {"if temp$10 == 0 goto block_8 #2": {
+        "eline": 54,
+        "epos": 27,
+        "ifpos": "(53, 10)-(53, 27)",
+        "spos": 15,
+        "sline": 54
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      6,
+      8
+    ]
+  },
+  "4": {
+    "instructions": [{"goto block_9": {
+      "eline": 51,
+      "epos": 19,
+      "spos": 14,
+      "sline": 51
+    }}],
+    "preds": [3],
+    "succs": [9]
+  },
+  "9": {
+    "instructions": [
+      {"temp$16 = idx * 2": {
+        "eline": 60,
+        "epos": 54,
+        "spos": 11,
+        "sline": 60
+      }},
+      {"temp$17 = temp$16": {
+        "eline": 60,
+        "epos": 54,
+        "spos": 11,
+        "sline": 60
+      }},
+      {"temp$18 = temp$17 + 1": {
+        "eline": 60,
+        "epos": 54,
+        "spos": 11,
+        "sline": 60
+      }},
+      {"temp$19 = this.<TicTacToe_c: GameRecord gameRecord>": {
+        "eline": 60,
+        "epos": 42,
+        "spos": 33,
+        "sline": 60
+      }},
+      {"temp$20 = virtualinvoke temp$19.<GameRecord: java.util.ArrayList getSteps()>()": {
+        "eline": 60,
+        "epos": 42,
+        "spos": 33,
+        "sline": 60
+      }},
+      {"virtualinvoke this.<TicTacToe_c: void nextMove(int,java.util.ArrayList)>(temp$18, temp$20)": {
+        "eline": 60,
+        "epos": 42,
+        "spos": 33,
+        "sline": 60
+      }},
+      {"temp$21 = this.<TicTacToe_c: Field field>": {
+        "eline": 61,
+        "epos": 21,
+        "spos": 17,
+        "sline": 61
+      }},
+      {"virtualinvoke temp$21.<Field: void drawGameField()>()": {
+        "eline": 61,
+        "epos": 21,
+        "spos": 17,
+        "sline": 61
+      }},
+      {"temp$22 = virtualinvoke this.<TicTacToe_c: boolean isEndOfGame()>()": {
+        "eline": 63,
+        "epos": 27,
+        "spos": 15,
+        "sline": 63
+      }},
+      {"if temp$22 == 0 goto block_12 #3": {
+        "eline": 63,
+        "epos": 27,
+        "ifpos": "(62, 10)-(62, 27)",
+        "spos": 15,
+        "sline": 63
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      10,
+      12
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$11 = idx * 2": {
+        "eline": 57,
+        "epos": 55,
+        "spos": 11,
+        "sline": 57
+      }},
+      {"temp$12 = temp$11": {
+        "eline": 57,
+        "epos": 55,
+        "spos": 11,
+        "sline": 57
+      }},
+      {"temp$13 = temp$12 + 1": {
+        "eline": 57,
+        "epos": 55,
+        "spos": 11,
+        "sline": 57
+      }},
+      {"temp$14 = this.<TicTacToe_c: GameRecord gameRecord>": {
+        "eline": 57,
+        "epos": 43,
+        "spos": 34,
+        "sline": 57
+      }},
+      {"temp$15 = virtualinvoke temp$14.<GameRecord: java.util.ArrayList getSteps()>()": {
+        "eline": 57,
+        "epos": 43,
+        "spos": 34,
+        "sline": 57
+      }},
+      {"virtualinvoke this.<TicTacToe_c: void nextMove(int,java.util.ArrayList)>(temp$13, temp$15)": {
+        "eline": 57,
+        "epos": 43,
+        "spos": 34,
+        "sline": 57
+      }},
+      {"goto block_13": {
+        "eline": 68,
+        "epos": 10,
+        "spos": 10,
+        "sline": 51
+      }}
+    ],
+    "preds": [5],
+    "succs": [13]
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "codes": "        System.out.println(\"==========================================================================\"); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void nextMove(int moveIndex, ArrayList<Integer> steps) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (moveIndex % 2 == 0) ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            human.makeMove(steps.get(moveIndex / 2)); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            checkWhoWon(); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [2]
+  },
+  {
+    "codes": " ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        else ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            computer.makeMove(-1); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            checkWhoWon(); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [2]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        movesCounter++; ",
+    "blocks": [4]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public char checkWhoWon() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "                    ",
+    "blocks": []
+  }
+]

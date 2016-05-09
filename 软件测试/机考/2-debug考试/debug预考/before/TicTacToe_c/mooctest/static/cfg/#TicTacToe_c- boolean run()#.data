@@ -1,0 +1,269 @@
+[
+  {
+    "codes": "        field = new Field(); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean run() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        printGreetings(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    \t ",
+    "blocks": []
+  },
+  {
+    "codes": "        field.drawGameField(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                ",
+    "blocks": []
+  },
+  {
+    "codes": "                      ",
+    "blocks": []
+  },
+  {
+    "codes": "        int i = gameRecord.getFirstPlayer(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        for (int idx = 0 ; idx < gameRecord.getSteps().size() ; idx++ ){ ",
+    "blocks": [
+      0,
+      1,
+      2,
+      13
+    ]
+  },
+  {
+    "codes": "        \tif (i == 0){ ",
+    "blocks": [
+      3,
+      4,
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\tnextMove(idx * 2 , gameRecord.getSteps()); ",
+    "blocks": [
+      5,
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "                field.drawGameField(); ",
+    "blocks": [
+      5,
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\tif (isEndOfGame()){ ",
+    "blocks": [
+      5,
+      6,
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\t\tbreak; ",
+    "blocks": [
+      7,
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\t} ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\tnextMove(idx * 2 + 1 , gameRecord.getSteps()); ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t} ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \telse{ ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\tnextMove(idx * 2 + 1, gameRecord.getSteps()); ",
+    "blocks": [
+      8,
+      9,
+      13
+    ]
+  },
+  {
+    "codes": "                field.drawGameField(); ",
+    "blocks": [
+      8,
+      9,
+      13
+    ]
+  },
+  {
+    "codes": "                 ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\tif (isEndOfGame()){ ",
+    "blocks": [
+      8,
+      9,
+      10,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\t\tbreak; ",
+    "blocks": [
+      8,
+      11,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\t} ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\t ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "        \t\tnextMove(idx * 2 , gameRecord.getSteps()); ",
+    "blocks": [
+      8,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "        \t} ",
+    "blocks": [
+      8,
+      13
+    ]
+  },
+  {
+    "codes": "            field.drawGameField(); ",
+    "blocks": [13]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [13]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                         ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (i == 1){ ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "        \tnextMove(1 , gameRecord.getSteps()); ",
+    "blocks": [16]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        field.drawGameField(); ",
+    "blocks": [17]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        return isEndOfGame(); ",
+    "blocks": [17]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "                   ",
+    "blocks": []
+  }
+]

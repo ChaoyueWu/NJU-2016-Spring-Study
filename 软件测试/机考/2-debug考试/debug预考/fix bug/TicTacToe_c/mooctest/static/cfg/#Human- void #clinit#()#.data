@@ -1,0 +1,314 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "           ",
+    "blocks": []
+  },
+  {
+    "codes": "   ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "public class Human extends Player ",
+    "blocks": [0]
+  },
+  {
+    "codes": "{ ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    public static Scanner playerInput = new Scanner(System.in); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private int rowIndex; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private int columnIndex; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    public Human() ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        setPlayerSing(TicTacToe_c.CROSS_CHAR); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    public void makeMove(int pos) ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        char playerSing = getPlayerSing(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            System.out.println(\"Your move, Player.\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            System.out.println(\"You put your chess on \" + pos); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            setIndexes(pos); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "             ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            TicTacToe_c.setNewSign(playerSing, rowIndex, columnIndex); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    public void setIndexes(int cellIndex) ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        switch (cellIndex) ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 1: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 2: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 3: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 4: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 5: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 6: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 7: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 8: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            case 9: ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                rowIndex = 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                columnIndex = 2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "} ",
+    "blocks": [0]
+  }
+]

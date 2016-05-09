@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "{ ",
+    "blocks": []
+  },
+  {
+    "codes": "    AI intellect; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Computer() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        setPlayerSing(TicTacToe_c.ZERO_CHAR); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        intellect = new AI(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void makeMove(int pos) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int columnIndex; ",
+    "blocks": []
+  }
+]

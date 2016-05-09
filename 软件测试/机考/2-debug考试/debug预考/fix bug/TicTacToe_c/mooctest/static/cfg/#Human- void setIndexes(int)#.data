@@ -1,0 +1,433 @@
+[
+  {
+    "codes": "            TicTacToe_c.setNewSign(playerSing, rowIndex, columnIndex); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void setIndexes(int cellIndex) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        switch (cellIndex) ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 1: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 0; ",
+    "blocks": [
+      0,
+      1,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 0; ",
+    "blocks": [
+      0,
+      1,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      1,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 2: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 0; ",
+    "blocks": [
+      0,
+      2,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 1; ",
+    "blocks": [
+      0,
+      2,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      2,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 3: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 0; ",
+    "blocks": [
+      0,
+      3,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 2; ",
+    "blocks": [
+      0,
+      3,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      3,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 4: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 1; ",
+    "blocks": [
+      0,
+      4,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 0; ",
+    "blocks": [
+      0,
+      4,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      4,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 5: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 1; ",
+    "blocks": [
+      0,
+      5,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 1; ",
+    "blocks": [
+      0,
+      5,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      5,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 6: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 1; ",
+    "blocks": [
+      0,
+      6,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 2; ",
+    "blocks": [
+      0,
+      6,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      6,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 7: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 2; ",
+    "blocks": [
+      0,
+      7,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 0; ",
+    "blocks": [
+      0,
+      7,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      7,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 8: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 2; ",
+    "blocks": [
+      0,
+      8,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 1; ",
+    "blocks": [
+      0,
+      8,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      8,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "            case 9: ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                rowIndex = 2; ",
+    "blocks": [
+      0,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                columnIndex = 2; ",
+    "blocks": [
+      0,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      0,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

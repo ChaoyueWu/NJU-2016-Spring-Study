@@ -1,0 +1,19 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<Player: void <init>()>()": {}},
+    {"virtualinvoke this.<Human: void setPlayerSing(char)>(88)": {
+      "eline": 16,
+      "epos": 45,
+      "spos": 9,
+      "sline": 16
+    }},
+    {"return": {
+      "eline": 16,
+      "epos": 45,
+      "spos": 9,
+      "sline": 16
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

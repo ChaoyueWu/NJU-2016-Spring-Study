@@ -1,0 +1,37 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<Player: void <init>()>()": {}},
+    {"virtualinvoke this.<Computer: void setPlayerSing(char)>(79)": {
+      "eline": 12,
+      "epos": 44,
+      "spos": 9,
+      "sline": 12
+    }},
+    {"temp$0 = new AI": {
+      "eline": 13,
+      "epos": 17,
+      "spos": 9,
+      "sline": 13
+    }},
+    {"specialinvoke temp$0.<AI: void <init>()>()": {
+      "eline": 13,
+      "epos": 28,
+      "spos": 21,
+      "sline": 13
+    }},
+    {"this.<Computer: AI intellect> = temp$0": {
+      "eline": 13,
+      "epos": 17,
+      "spos": 9,
+      "sline": 13
+    }},
+    {"return": {
+      "eline": 13,
+      "epos": 17,
+      "spos": 9,
+      "sline": 13
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,82 @@
+[
+  {
+    "codes": "    public static final int DEFAULT_INDEX = -1; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int bestRowIndex; ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int bestColumnIndex; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int emptyRowIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private int emptyColumnIndex = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                              ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int singCounter = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public AI() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        bestColumnIndex = DEFAULT_INDEX; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        bestRowIndex = DEFAULT_INDEX; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int getBestRowIndex() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return bestRowIndex; ",
+    "blocks": []
+  }
+]

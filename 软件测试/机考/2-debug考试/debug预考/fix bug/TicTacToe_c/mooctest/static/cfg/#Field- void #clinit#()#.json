@@ -1,0 +1,51 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = 32": {
+      "reliable": false,
+      "eline": 58,
+      "epos": 1,
+      "spos": 1,
+      "sline": 1
+    }},
+    {"<Field: char DEFAULT_VALUE> = temp$0": {
+      "eline": 3,
+      "epos": 49,
+      "spos": 5,
+      "sline": 3
+    }},
+    {"temp$1 = 3": {
+      "reliable": false,
+      "eline": 3,
+      "epos": 49,
+      "spos": 5,
+      "sline": 3
+    }},
+    {"<Field: int FIELD_SIZE> = temp$1": {
+      "eline": 5,
+      "epos": 43,
+      "spos": 5,
+      "sline": 5
+    }},
+    {"temp$2 = 1": {
+      "reliable": false,
+      "eline": 5,
+      "epos": 43,
+      "spos": 5,
+      "sline": 5
+    }},
+    {"<Field: int cellIndex> = temp$2": {
+      "eline": 7,
+      "epos": 36,
+      "spos": 5,
+      "sline": 7
+    }},
+    {"return": {
+      "eline": 7,
+      "epos": 36,
+      "spos": 5,
+      "sline": 7
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

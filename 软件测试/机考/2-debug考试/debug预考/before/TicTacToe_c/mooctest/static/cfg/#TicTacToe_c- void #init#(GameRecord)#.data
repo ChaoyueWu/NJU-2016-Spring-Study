@@ -1,0 +1,78 @@
+[
+  {
+    "codes": "    protected static int  currentXPos = 0; ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected static int  currentYPos = 0; ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected static char currentSign = CROSS_CHAR; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected Field field; ",
+    "blocks": []
+  },
+  {
+    "codes": "    private Player human = new Human(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private Player computer = new Computer(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected int movesCounter = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public TicTacToe_c(GameRecord gameRecord) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "    \tthis.gameRecord = gameRecord; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        field = new Field(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean run() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        printGreetings(); ",
+    "blocks": []
+  }
+]

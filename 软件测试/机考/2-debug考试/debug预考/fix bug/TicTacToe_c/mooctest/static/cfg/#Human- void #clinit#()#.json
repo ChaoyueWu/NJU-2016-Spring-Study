@@ -1,0 +1,36 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new java.util.Scanner": {
+      "eline": 79,
+      "epos": 1,
+      "spos": 1,
+      "sline": 7
+    }},
+    {"temp$1 = <java.lang.System: java.io.InputStream in>": {
+      "eline": 79,
+      "epos": 1,
+      "spos": 1,
+      "sline": 7
+    }},
+    {"specialinvoke temp$0.<java.util.Scanner: void <init>(java.io.InputStream)>(temp$1)": {
+      "eline": 9,
+      "epos": 62,
+      "spos": 41,
+      "sline": 9
+    }},
+    {"<Human: java.util.Scanner playerInput> = temp$0": {
+      "eline": 9,
+      "epos": 63,
+      "spos": 5,
+      "sline": 9
+    }},
+    {"return": {
+      "eline": 9,
+      "epos": 63,
+      "spos": 5,
+      "sline": 9
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

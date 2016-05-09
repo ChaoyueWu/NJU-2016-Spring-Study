@@ -1,0 +1,129 @@
+[
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void drawGameField() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "    \tcellIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        System.out.println(\"\\n-------------\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        for (int i = 0; i< gameField.length; i++) ",
+    "blocks": [
+      0,
+      1,
+      2,
+      7
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [7]
+  },
+  {
+    "codes": "        \tchar[] row = gameField[i]; ",
+    "blocks": [
+      3,
+      7
+    ]
+  },
+  {
+    "codes": "            for (int j = 0; j < row.length;j++) ",
+    "blocks": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "            { ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "                drawCell(row[j]); ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [7]
+  },
+  {
+    "codes": "            System.out.print(\"|\"); ",
+    "blocks": [7]
+  },
+  {
+    "codes": "            System.out.println(\"\\n-------------\"); ",
+    "blocks": [7]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [7]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        System.out.println(); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void drawCell(char cell) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (cell == DEFAULT_VALUE) ",
+    "blocks": []
+  }
+]

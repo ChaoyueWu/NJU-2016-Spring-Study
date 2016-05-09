@@ -1,0 +1,192 @@
+[
+  {
+    "codes": "        return false; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean findInDiagonal(char playerSing) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        singCounter = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        emptyRowIndex = -1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        emptyColumnIndex = -1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        for (int i = 0; i < Field.FIELD_SIZE; i++) ",
+    "blocks": [
+      0,
+      1,
+      2,
+      9
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [9]
+  },
+  {
+    "codes": "            if (Field.gameField[i][i] == playerSing) ",
+    "blocks": [
+      3,
+      4,
+      5,
+      9
+    ]
+  },
+  {
+    "codes": "            { ",
+    "blocks": [
+      5,
+      9
+    ]
+  },
+  {
+    "codes": "                singCounter++; ",
+    "blocks": [
+      5,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      5,
+      9
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      5,
+      9
+    ]
+  },
+  {
+    "codes": "            else if (Field.gameField[i][i] == Field.DEFAULT_VALUE) ",
+    "blocks": [
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "codes": "            { ",
+    "blocks": [
+      5,
+      9
+    ]
+  },
+  {
+    "codes": "                emptyRowIndex = i; ",
+    "blocks": [
+      5,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                emptyColumnIndex = emptyRowIndex; ",
+    "blocks": [
+      5,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      5,
+      9
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [9]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (singCounter == 2 && emptyRowIndex != -1) ",
+    "blocks": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": []
+  },
+  {
+    "codes": "            bestRowIndex = emptyRowIndex; ",
+    "blocks": [14]
+  },
+  {
+    "codes": "            bestColumnIndex = emptyColumnIndex; ",
+    "blocks": [14]
+  },
+  {
+    "codes": "            return true; ",
+    "blocks": [14]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        return false; ",
+    "blocks": [15]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean findInAntiDiagonal(char playerSing) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        singCounter = 0; ",
+    "blocks": []
+  }
+]

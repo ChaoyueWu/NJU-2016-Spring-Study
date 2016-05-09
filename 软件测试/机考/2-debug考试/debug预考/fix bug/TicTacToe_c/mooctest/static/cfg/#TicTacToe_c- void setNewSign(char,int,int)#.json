@@ -1,0 +1,60 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = <Field: char[][] gameField>": {
+      "eline": 90,
+      "epos": 44,
+      "spos": 9,
+      "sline": 90
+    }},
+    {"temp$1 = row": {
+      "eline": 90,
+      "epos": 44,
+      "spos": 9,
+      "sline": 90
+    }},
+    {"temp$2 = temp$0[temp$1]": {
+      "eline": 90,
+      "epos": 44,
+      "spos": 9,
+      "sline": 90
+    }},
+    {"temp$3 = column": {
+      "eline": 90,
+      "epos": 44,
+      "spos": 9,
+      "sline": 90
+    }},
+    {"temp$2[temp$3] = sing": {
+      "eline": 90,
+      "epos": 36,
+      "spos": 29,
+      "sline": 90
+    }},
+    {"<TicTacToe_c: int currentXPos> = row": {
+      "eline": 93,
+      "epos": 19,
+      "spos": 9,
+      "sline": 93
+    }},
+    {"<TicTacToe_c: int currentYPos> = column": {
+      "eline": 94,
+      "epos": 19,
+      "spos": 9,
+      "sline": 94
+    }},
+    {"<TicTacToe_c: char currentSign> = sing": {
+      "eline": 95,
+      "epos": 19,
+      "spos": 9,
+      "sline": 95
+    }},
+    {"return": {
+      "eline": 95,
+      "epos": 19,
+      "spos": 9,
+      "sline": 95
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,93 @@
+{"0": {
+  "instructions": [
+    {"borders = newarray (long)[3]": {
+      "eline": 86,
+      "epos": 31,
+      "spos": 3,
+      "sline": 86
+    }},
+    {"temp$0 = borders": {
+      "eline": 87,
+      "epos": 29,
+      "spos": 3,
+      "sline": 87
+    }},
+    {"temp$1 = 0": {
+      "reliable": false,
+      "eline": 87,
+      "epos": 29,
+      "spos": 3,
+      "sline": 87
+    }},
+    {"temp$2 = this.<Triangle: long lborderA>": {
+      "eline": 87,
+      "epos": 19,
+      "spos": 16,
+      "sline": 87
+    }},
+    {"temp$0[temp$1] = temp$2": {
+      "eline": 87,
+      "epos": 12,
+      "spos": 10,
+      "sline": 87
+    }},
+    {"temp$3 = borders": {
+      "eline": 88,
+      "epos": 29,
+      "spos": 3,
+      "sline": 88
+    }},
+    {"temp$4 = 1": {
+      "reliable": false,
+      "eline": 88,
+      "epos": 29,
+      "spos": 3,
+      "sline": 88
+    }},
+    {"temp$5 = this.<Triangle: long lborderB>": {
+      "eline": 88,
+      "epos": 19,
+      "spos": 16,
+      "sline": 88
+    }},
+    {"temp$3[temp$4] = temp$5": {
+      "eline": 88,
+      "epos": 12,
+      "spos": 10,
+      "sline": 88
+    }},
+    {"temp$6 = borders": {
+      "eline": 89,
+      "epos": 29,
+      "spos": 3,
+      "sline": 89
+    }},
+    {"temp$7 = 2": {
+      "reliable": false,
+      "eline": 89,
+      "epos": 29,
+      "spos": 3,
+      "sline": 89
+    }},
+    {"temp$8 = this.<Triangle: long lborderC>": {
+      "eline": 89,
+      "epos": 19,
+      "spos": 16,
+      "sline": 89
+    }},
+    {"temp$6[temp$7] = temp$8": {
+      "eline": 89,
+      "epos": 12,
+      "spos": 10,
+      "sline": 89
+    }},
+    {"return borders": {
+      "eline": 90,
+      "epos": 17,
+      "spos": 3,
+      "sline": 90
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,102 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = virtualinvoke this.<Human: char getPlayerSing()>()": {
+      "eline": 21,
+      "epos": 41,
+      "spos": 27,
+      "sline": 21
+    }},
+    {"playerSing = temp$0": {
+      "eline": 21,
+      "epos": 41,
+      "spos": 27,
+      "sline": 21
+    }},
+    {"temp$1 = <java.lang.System: java.io.PrintStream out>": {
+      "eline": 22,
+      "epos": 53,
+      "spos": 13,
+      "sline": 22
+    }},
+    {"virtualinvoke temp$1.<java.io.PrintStream: void println(java.lang.String)>(\"Your move, Player.\")": {
+      "eline": 22,
+      "epos": 53,
+      "spos": 13,
+      "sline": 22
+    }},
+    {"temp$2 = <java.lang.System: java.io.PrintStream out>": {
+      "eline": 23,
+      "epos": 63,
+      "spos": 13,
+      "sline": 23
+    }},
+    {"temp$3 = new java.lang.StringBuffer": {
+      "eline": 23,
+      "epos": 63,
+      "spos": 13,
+      "sline": 23
+    }},
+    {"specialinvoke temp$3.<java.lang.StringBuffer: void <init>()>()": {
+      "eline": 23,
+      "epos": 61,
+      "spos": 32,
+      "sline": 23
+    }},
+    {"virtualinvoke temp$3.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"You put your chess on \")": {
+      "eline": 23,
+      "epos": 61,
+      "spos": 32,
+      "sline": 23
+    }},
+    {"virtualinvoke temp$3.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(pos)": {
+      "eline": 23,
+      "epos": 61,
+      "spos": 32,
+      "sline": 23
+    }},
+    {"temp$4 = virtualinvoke temp$3.<java.lang.StringBuffer: java.lang.String toString()>()": {
+      "eline": 23,
+      "epos": 61,
+      "spos": 32,
+      "sline": 23
+    }},
+    {"virtualinvoke temp$2.<java.io.PrintStream: void println(java.lang.String)>(temp$4)": {
+      "eline": 23,
+      "epos": 61,
+      "spos": 32,
+      "sline": 23
+    }},
+    {"virtualinvoke this.<Human: void setIndexes(int)>(pos)": {
+      "eline": 24,
+      "epos": 27,
+      "spos": 13,
+      "sline": 24
+    }},
+    {"temp$5 = this.<Human: int rowIndex>": {
+      "eline": 26,
+      "epos": 55,
+      "spos": 48,
+      "sline": 26
+    }},
+    {"temp$6 = this.<Human: int columnIndex>": {
+      "eline": 26,
+      "epos": 68,
+      "spos": 58,
+      "sline": 26
+    }},
+    {"staticinvoke <TicTacToe_c: void setNewSign(char,int,int)>(playerSing, temp$5, temp$6)": {
+      "eline": 26,
+      "epos": 68,
+      "spos": 58,
+      "sline": 26
+    }},
+    {"return": {
+      "eline": 26,
+      "epos": 68,
+      "spos": 58,
+      "sline": 26
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

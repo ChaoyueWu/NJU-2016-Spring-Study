@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    private int rowIndex; ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int columnIndex; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Human() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        setPlayerSing(TicTacToe_c.CROSS_CHAR); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void makeMove(int pos) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        char playerSing = getPlayerSing(); ",
+    "blocks": []
+  }
+]

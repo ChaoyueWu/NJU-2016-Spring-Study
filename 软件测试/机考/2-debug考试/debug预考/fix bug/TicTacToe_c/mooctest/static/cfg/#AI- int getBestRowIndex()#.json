@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<AI: int bestRowIndex>": {
+      "eline": 27,
+      "epos": 27,
+      "spos": 16,
+      "sline": 27
+    }},
+    {"return temp$0": {
+      "eline": 27,
+      "epos": 28,
+      "spos": 9,
+      "sline": 27
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

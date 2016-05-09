@@ -1,0 +1,66 @@
+[
+  {
+    "codes": "        setPlayerSing(TicTacToe_c.CROSS_CHAR); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void makeMove(int pos) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        char playerSing = getPlayerSing(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            System.out.println(\"Your move, Player.\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            System.out.println(\"You put your chess on \" + pos); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            setIndexes(pos); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "             ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            TicTacToe_c.setNewSign(playerSing, rowIndex, columnIndex); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void setIndexes(int cellIndex) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        switch (cellIndex) ",
+    "blocks": []
+  }
+]

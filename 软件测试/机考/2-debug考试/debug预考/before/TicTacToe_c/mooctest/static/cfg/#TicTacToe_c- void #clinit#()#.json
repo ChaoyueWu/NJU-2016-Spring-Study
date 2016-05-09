@@ -1,0 +1,103 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = 9": {
+      "reliable": false,
+      "eline": 242,
+      "epos": 1,
+      "spos": 1,
+      "sline": 6
+    }},
+    {"<TicTacToe_c: int MAX_NUMBER_OF_MOVES> = temp$0": {
+      "eline": 10,
+      "epos": 52,
+      "spos": 5,
+      "sline": 10
+    }},
+    {"temp$1 = 68": {
+      "reliable": false,
+      "eline": 10,
+      "epos": 52,
+      "spos": 5,
+      "sline": 10
+    }},
+    {"<TicTacToe_c: char DRAW_CHAR> = temp$1": {
+      "eline": 12,
+      "epos": 45,
+      "spos": 5,
+      "sline": 12
+    }},
+    {"temp$2 = 88": {
+      "reliable": false,
+      "eline": 12,
+      "epos": 45,
+      "spos": 5,
+      "sline": 12
+    }},
+    {"<TicTacToe_c: char CROSS_CHAR> = temp$2": {
+      "eline": 17,
+      "epos": 46,
+      "spos": 5,
+      "sline": 17
+    }},
+    {"temp$3 = 79": {
+      "reliable": false,
+      "eline": 17,
+      "epos": 46,
+      "spos": 5,
+      "sline": 17
+    }},
+    {"<TicTacToe_c: char ZERO_CHAR> = temp$3": {
+      "eline": 22,
+      "epos": 45,
+      "spos": 5,
+      "sline": 22
+    }},
+    {"temp$4 = 0": {
+      "reliable": false,
+      "eline": 22,
+      "epos": 45,
+      "spos": 5,
+      "sline": 22
+    }},
+    {"<TicTacToe_c: int currentXPos> = temp$4": {
+      "eline": 24,
+      "epos": 42,
+      "spos": 5,
+      "sline": 24
+    }},
+    {"temp$5 = 0": {
+      "reliable": false,
+      "eline": 24,
+      "epos": 42,
+      "spos": 5,
+      "sline": 24
+    }},
+    {"<TicTacToe_c: int currentYPos> = temp$5": {
+      "eline": 25,
+      "epos": 42,
+      "spos": 5,
+      "sline": 25
+    }},
+    {"temp$6 = 88": {
+      "reliable": false,
+      "eline": 25,
+      "epos": 42,
+      "spos": 5,
+      "sline": 25
+    }},
+    {"<TicTacToe_c: char currentSign> = temp$6": {
+      "eline": 26,
+      "epos": 51,
+      "spos": 5,
+      "sline": 26
+    }},
+    {"return": {
+      "eline": 26,
+      "epos": 51,
+      "spos": 5,
+      "sline": 26
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

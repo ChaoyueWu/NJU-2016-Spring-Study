@@ -1,0 +1,151 @@
+[
+  {
+    "codes": "        return Field.DEFAULT_VALUE; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean isEndOfGame() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (checkWhoWon() == CROSS_CHAR) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": []
+  },
+  {
+    "codes": "            System.out.println(\"\\n  -------------------\"); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            System.out.println(\"  --- PLAYER WON! ---\"); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            System.out.println(\"  -------------------\\n\"); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            return true; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        else if (checkWhoWon() == ZERO_CHAR) ",
+    "blocks": [
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": []
+  },
+  {
+    "codes": "            System.out.println(\"\\n  ---------------------\"); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "            System.out.println(\"  --- COMPUTER WON! ---\"); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "            System.out.println(\"  ---------------------\\n\"); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "            return true; ",
+    "blocks": [5]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        else if (checkWhoWon() == DRAW_CHAR) ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": []
+  },
+  {
+    "codes": "            System.out.println(\"\\n  -------------\"); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "            System.out.println(\"  --- DRAW! ---\"); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "            System.out.println(\"  -------------\\n\"); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "            return true; ",
+    "blocks": [8]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        else ",
+    "blocks": []
+  },
+  {
+    "codes": "        { ",
+    "blocks": []
+  },
+  {
+    "codes": "            return false; ",
+    "blocks": [9]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

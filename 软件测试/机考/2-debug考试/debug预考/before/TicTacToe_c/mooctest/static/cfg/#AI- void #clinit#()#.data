@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "                                                    ",
+    "blocks": []
+  },
+  {
+    "codes": "   ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "public class AI ",
+    "blocks": []
+  },
+  {
+    "codes": "{ ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final int DEFAULT_INDEX = -1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int bestRowIndex; ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int bestColumnIndex; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int emptyRowIndex = 0; ",
+    "blocks": []
+  }
+]

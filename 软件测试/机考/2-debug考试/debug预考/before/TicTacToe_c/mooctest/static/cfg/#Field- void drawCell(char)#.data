@@ -1,0 +1,81 @@
+[
+  {
+    "codes": "        System.out.println(); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void drawCell(char cell) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (cell == DEFAULT_VALUE) ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            System.out.print(\"| \" + cellIndex + \" \"); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [2]
+  },
+  {
+    "codes": " ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        else ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        { ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            System.out.print(\"| \" + cell + \" \"); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [2]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        cellIndex++; ",
+    "blocks": [4]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "               ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static boolean haveFreeCellAt(int row, int column) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return Field.gameField[row][column] == Field.DEFAULT_VALUE; ",
+    "blocks": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static boolean isValidMove(int row, int column) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return row >= 0 && row < 3 && ",
+    "blocks": []
+  }
+]

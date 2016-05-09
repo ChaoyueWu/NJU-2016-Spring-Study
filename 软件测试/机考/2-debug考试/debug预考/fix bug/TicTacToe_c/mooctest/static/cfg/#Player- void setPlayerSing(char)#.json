@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<Player: char playerSing> = playerSing": {
+      "eline": 17,
+      "epos": 23,
+      "spos": 14,
+      "sline": 17
+    }},
+    {"return": {
+      "eline": 17,
+      "epos": 23,
+      "spos": 14,
+      "sline": 17
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

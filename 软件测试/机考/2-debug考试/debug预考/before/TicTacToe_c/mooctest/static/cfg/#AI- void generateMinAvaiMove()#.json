@@ -1,0 +1,291 @@
+{
+  "3": {
+    "instructions": [{"this.<AI: int bestColumnIndex> = min": {
+      "eline": 180,
+      "epos": 29,
+      "spos": 15,
+      "sline": 180
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [{"goto block_14": {
+      "eline": 179,
+      "epos": 46,
+      "spos": 35,
+      "sline": 179
+    }}],
+    "preds": [1],
+    "succs": [14]
+  },
+  "10": {
+    "instructions": [{"if find == 0 goto block_13 #3": {
+      "eline": 186,
+      "epos": 17,
+      "ifpos": "(185, 9)-(185, 17)",
+      "spos": 14,
+      "sline": 186
+    }}],
+    "preds": [
+      5,
+      8
+    ],
+    "succs": [
+      11,
+      13
+    ]
+  },
+  "1": {
+    "instructions": [
+      {"temp$0 = this.<AI: int bestRowIndex>": {
+        "eline": 179,
+        "epos": 46,
+        "spos": 35,
+        "sline": 179
+      }},
+      {"if temp$0 <= max goto block_3 #0": {
+        "eline": 179,
+        "epos": 46,
+        "ifpos": "(178, 32)-(178, 54)",
+        "spos": 35,
+        "sline": 179
+      }}
+    ],
+    "preds": [
+      0,
+      13
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"min = 0": {
+        "eline": 174,
+        "epos": 20,
+        "spos": 9,
+        "sline": 174
+      }},
+      {"max = 2": {
+        "eline": 175,
+        "epos": 20,
+        "spos": 9,
+        "sline": 175
+      }},
+      {"find = 0": {
+        "eline": 177,
+        "epos": 29,
+        "spos": 9,
+        "sline": 177
+      }},
+      {"this.<AI: int bestRowIndex> = min": {
+        "eline": 179,
+        "epos": 25,
+        "spos": 14,
+        "sline": 179
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 181,
+      "epos": 70,
+      "spos": 56,
+      "sline": 181
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$2 = this.<AI: int bestRowIndex>": {
+        "eline": 181,
+        "epos": 53,
+        "spos": 42,
+        "sline": 181
+      }},
+      {"temp$3 = this.<AI: int bestColumnIndex>": {
+        "eline": 181,
+        "epos": 70,
+        "spos": 56,
+        "sline": 181
+      }},
+      {"temp$4 = staticinvoke <TicTacToe_c: boolean isValidMove(int,int)>(temp$2, temp$3)": {
+        "eline": 181,
+        "epos": 70,
+        "spos": 56,
+        "sline": 181
+      }},
+      {"if temp$4 == 0 goto block_9 #2": {
+        "eline": 181,
+        "epos": 70,
+        "ifpos": "(180, 13)-(180, 71)",
+        "spos": 56,
+        "sline": 181
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      9
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_10": {
+      "eline": 180,
+      "epos": 53,
+      "spos": 39,
+      "sline": 180
+    }}],
+    "preds": [4],
+    "succs": [10]
+  },
+  "4": {
+    "instructions": [
+      {"temp$1 = this.<AI: int bestColumnIndex>": {
+        "eline": 180,
+        "epos": 53,
+        "spos": 39,
+        "sline": 180
+      }},
+      {"if temp$1 <= max goto block_6 #1": {
+        "eline": 180,
+        "epos": 53,
+        "ifpos": "(179, 36)-(179, 61)",
+        "spos": 39,
+        "sline": 180
+      }}
+    ],
+    "preds": [
+      3,
+      9
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$6 = this.<AI: int bestColumnIndex>": {
+        "eline": 180,
+        "epos": 78,
+        "spos": 64,
+        "sline": 180
+      }},
+      {"temp$7 = temp$6 + 1": {
+        "eline": 180,
+        "epos": 78,
+        "spos": 64,
+        "sline": 180
+      }},
+      {"this.<AI: int bestColumnIndex> = temp$7": {
+        "eline": 180,
+        "epos": 78,
+        "spos": 64,
+        "sline": 180
+      }},
+      {"goto block_4": {
+        "eline": 185,
+        "epos": 10,
+        "spos": 10,
+        "sline": 180
+      }}
+    ],
+    "preds": [6],
+    "succs": [4]
+  },
+  "8": {
+    "instructions": [
+      {"temp$5 = 1": {
+        "reliable": false,
+        "eline": 182,
+        "epos": 18,
+        "spos": 15,
+        "sline": 182
+      }},
+      {"find = temp$5": {
+        "eline": 182,
+        "epos": 18,
+        "spos": 15,
+        "sline": 182
+      }},
+      {"goto block_10": {
+        "eline": 183,
+        "epos": 20,
+        "spos": 15,
+        "sline": 183
+      }}
+    ],
+    "preds": [7],
+    "succs": [10]
+  },
+  "13": {
+    "instructions": [
+      {"temp$8 = this.<AI: int bestRowIndex>": {
+        "eline": 179,
+        "epos": 68,
+        "spos": 57,
+        "sline": 179
+      }},
+      {"temp$9 = temp$8 + 1": {
+        "eline": 179,
+        "epos": 68,
+        "spos": 57,
+        "sline": 179
+      }},
+      {"this.<AI: int bestRowIndex> = temp$9": {
+        "eline": 179,
+        "epos": 68,
+        "spos": 57,
+        "sline": 179
+      }},
+      {"goto block_1": {
+        "eline": 189,
+        "epos": 9,
+        "spos": 9,
+        "sline": 179
+      }}
+    ],
+    "preds": [10],
+    "succs": [1]
+  },
+  "14": {
+    "instructions": [{"return": {
+      "eline": 189,
+      "epos": 9,
+      "spos": 9,
+      "sline": 179
+    }}],
+    "preds": [
+      2,
+      12
+    ],
+    "succs": []
+  },
+  "11": {
+    "instructions": [{"goto block_12": {
+      "eline": 186,
+      "epos": 17,
+      "spos": 14,
+      "sline": 186
+    }}],
+    "preds": [10],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [{"goto block_14": {
+      "eline": 187,
+      "epos": 16,
+      "spos": 11,
+      "sline": 187
+    }}],
+    "preds": [11],
+    "succs": [14]
+  }
+}

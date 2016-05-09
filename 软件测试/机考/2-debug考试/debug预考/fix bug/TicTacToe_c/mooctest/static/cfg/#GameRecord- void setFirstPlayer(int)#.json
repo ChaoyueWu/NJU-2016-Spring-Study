@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<GameRecord: int firstPlayer> = firstPlayer": {
+      "eline": 27,
+      "epos": 18,
+      "spos": 8,
+      "sline": 27
+    }},
+    {"return": {
+      "eline": 27,
+      "epos": 18,
+      "spos": 8,
+      "sline": 27
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

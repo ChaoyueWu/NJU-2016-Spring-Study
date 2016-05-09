@@ -1,0 +1,300 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$6 = virtualinvoke this.<TicTacToe_c: char checkWhoWon()>()": {
+        "eline": 221,
+        "epos": 30,
+        "spos": 18,
+        "sline": 221
+      }},
+      {"temp$7 = (int) temp$6": {
+        "eline": 221,
+        "epos": 30,
+        "spos": 18,
+        "sline": 221
+      }},
+      {"if temp$7 == 79 goto block_5 #1": {
+        "eline": 221,
+        "epos": 30,
+        "ifpos": "(220, 13)-(220, 43)",
+        "spos": 18,
+        "sline": 221
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 215,
+        "epos": 58,
+        "spos": 13,
+        "sline": 215
+      }},
+      {"virtualinvoke temp$2.<java.io.PrintStream: void println(java.lang.String)>(\"\\n  -------------------\")": {
+        "eline": 215,
+        "epos": 58,
+        "spos": 13,
+        "sline": 215
+      }},
+      {"temp$3 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 216,
+        "epos": 56,
+        "spos": 13,
+        "sline": 216
+      }},
+      {"virtualinvoke temp$3.<java.io.PrintStream: void println(java.lang.String)>(\"  --- PLAYER WON! ---\")": {
+        "eline": 216,
+        "epos": 56,
+        "spos": 13,
+        "sline": 216
+      }},
+      {"temp$4 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 217,
+        "epos": 58,
+        "spos": 13,
+        "sline": 217
+      }},
+      {"virtualinvoke temp$4.<java.io.PrintStream: void println(java.lang.String)>(\"  -------------------\\n\")": {
+        "eline": 217,
+        "epos": 58,
+        "spos": 13,
+        "sline": 217
+      }},
+      {"temp$5 = 1": {
+        "reliable": false,
+        "eline": 217,
+        "epos": 58,
+        "spos": 13,
+        "sline": 217
+      }},
+      {"return temp$5": {
+        "eline": 218,
+        "epos": 24,
+        "spos": 13,
+        "sline": 218
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 213,
+      "epos": 25,
+      "spos": 13,
+      "sline": 213
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke this.<TicTacToe_c: char checkWhoWon()>()": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"temp$1 = (int) temp$0": {
+        "eline": 213,
+        "epos": 25,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"if temp$1 == 88 goto block_2 #0": {
+        "eline": 213,
+        "epos": 25,
+        "ifpos": "(212, 8)-(212, 39)",
+        "spos": 13,
+        "sline": 213
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 229,
+      "epos": 30,
+      "spos": 18,
+      "sline": 229
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$12 = virtualinvoke this.<TicTacToe_c: char checkWhoWon()>()": {
+        "eline": 229,
+        "epos": 30,
+        "spos": 18,
+        "sline": 229
+      }},
+      {"temp$13 = (int) temp$12": {
+        "eline": 229,
+        "epos": 30,
+        "spos": 18,
+        "sline": 229
+      }},
+      {"if temp$13 == 68 goto block_8 #2": {
+        "eline": 229,
+        "epos": 30,
+        "ifpos": "(228, 13)-(228, 43)",
+        "spos": 18,
+        "sline": 229
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$8 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 223,
+        "epos": 60,
+        "spos": 13,
+        "sline": 223
+      }},
+      {"virtualinvoke temp$8.<java.io.PrintStream: void println(java.lang.String)>(\"\\n  ---------------------\")": {
+        "eline": 223,
+        "epos": 60,
+        "spos": 13,
+        "sline": 223
+      }},
+      {"temp$9 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 224,
+        "epos": 58,
+        "spos": 13,
+        "sline": 224
+      }},
+      {"virtualinvoke temp$9.<java.io.PrintStream: void println(java.lang.String)>(\"  --- COMPUTER WON! ---\")": {
+        "eline": 224,
+        "epos": 58,
+        "spos": 13,
+        "sline": 224
+      }},
+      {"temp$10 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 225,
+        "epos": 60,
+        "spos": 13,
+        "sline": 225
+      }},
+      {"virtualinvoke temp$10.<java.io.PrintStream: void println(java.lang.String)>(\"  ---------------------\\n\")": {
+        "eline": 225,
+        "epos": 60,
+        "spos": 13,
+        "sline": 225
+      }},
+      {"temp$11 = 1": {
+        "reliable": false,
+        "eline": 225,
+        "epos": 60,
+        "spos": 13,
+        "sline": 225
+      }},
+      {"return temp$11": {
+        "eline": 226,
+        "epos": 24,
+        "spos": 13,
+        "sline": 226
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 221,
+      "epos": 30,
+      "spos": 18,
+      "sline": 221
+    }}],
+    "preds": [3],
+    "succs": [6]
+  },
+  "9": {
+    "instructions": [
+      {"temp$18 = 0": {
+        "reliable": false,
+        "eline": 234,
+        "epos": 24,
+        "spos": 13,
+        "sline": 234
+      }},
+      {"return temp$18": {
+        "eline": 239,
+        "epos": 25,
+        "spos": 13,
+        "sline": 239
+      }}
+    ],
+    "preds": [7],
+    "succs": []
+  },
+  "8": {
+    "instructions": [
+      {"temp$14 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 231,
+        "epos": 52,
+        "spos": 13,
+        "sline": 231
+      }},
+      {"virtualinvoke temp$14.<java.io.PrintStream: void println(java.lang.String)>(\"\\n  -------------\")": {
+        "eline": 231,
+        "epos": 52,
+        "spos": 13,
+        "sline": 231
+      }},
+      {"temp$15 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 232,
+        "epos": 50,
+        "spos": 13,
+        "sline": 232
+      }},
+      {"virtualinvoke temp$15.<java.io.PrintStream: void println(java.lang.String)>(\"  --- DRAW! ---\")": {
+        "eline": 232,
+        "epos": 50,
+        "spos": 13,
+        "sline": 232
+      }},
+      {"temp$16 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 233,
+        "epos": 52,
+        "spos": 13,
+        "sline": 233
+      }},
+      {"virtualinvoke temp$16.<java.io.PrintStream: void println(java.lang.String)>(\"  -------------\\n\")": {
+        "eline": 233,
+        "epos": 52,
+        "spos": 13,
+        "sline": 233
+      }},
+      {"temp$17 = 1": {
+        "reliable": false,
+        "eline": 233,
+        "epos": 52,
+        "spos": 13,
+        "sline": 233
+      }},
+      {"return temp$17": {
+        "eline": 234,
+        "epos": 24,
+        "spos": 13,
+        "sline": 234
+      }}
+    ],
+    "preds": [6],
+    "succs": []
+  }
+}

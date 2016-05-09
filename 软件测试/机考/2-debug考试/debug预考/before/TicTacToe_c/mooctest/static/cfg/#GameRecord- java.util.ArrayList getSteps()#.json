@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<GameRecord: java.util.ArrayList steps>": {
+      "eline": 31,
+      "epos": 14,
+      "spos": 10,
+      "sline": 31
+    }},
+    {"return temp$0": {
+      "eline": 31,
+      "epos": 15,
+      "spos": 3,
+      "sline": 31
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

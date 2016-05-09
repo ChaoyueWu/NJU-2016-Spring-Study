@@ -1,0 +1,25 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = \"\\nWrong move. Please check your input and try again!\\n\"": {
+      "reliable": false,
+      "eline": 19,
+      "epos": 1,
+      "spos": 1,
+      "sline": 1
+    }},
+    {"<Player: java.lang.String WRONG_MOVE_MESSAGE> = temp$0": {
+      "eline": 6,
+      "epos": 69,
+      "spos": 5,
+      "sline": 5
+    }},
+    {"return": {
+      "eline": 6,
+      "epos": 69,
+      "spos": 5,
+      "sline": 5
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

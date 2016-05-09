@@ -1,0 +1,369 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$9 = this.<Computer: AI intellect>": {
+        "eline": 30,
+        "epos": 26,
+        "spos": 18,
+        "sline": 30
+      }},
+      {"temp$10 = virtualinvoke temp$9.<AI: boolean canGenerateBestMove(char)>(humanSing)": {
+        "eline": 30,
+        "epos": 26,
+        "spos": 18,
+        "sline": 30
+      }},
+      {"if temp$10 == 0 goto block_6 #1": {
+        "eline": 30,
+        "epos": 26,
+        "ifpos": "(29, 13)-(29, 57)",
+        "spos": 18,
+        "sline": 30
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      4,
+      6
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$5 = this.<Computer: AI intellect>": {
+        "eline": 26,
+        "epos": 32,
+        "spos": 24,
+        "sline": 26
+      }},
+      {"temp$6 = virtualinvoke temp$5.<AI: int getBestRowIndex()>()": {
+        "eline": 26,
+        "epos": 32,
+        "spos": 24,
+        "sline": 26
+      }},
+      {"rowIndex = temp$6": {
+        "eline": 26,
+        "epos": 20,
+        "spos": 13,
+        "sline": 26
+      }},
+      {"temp$7 = this.<Computer: AI intellect>": {
+        "eline": 27,
+        "epos": 35,
+        "spos": 27,
+        "sline": 27
+      }},
+      {"temp$8 = virtualinvoke temp$7.<AI: int getBestColumnIndex()>()": {
+        "eline": 27,
+        "epos": 35,
+        "spos": 27,
+        "sline": 27
+      }},
+      {"columnIndex = temp$8": {
+        "eline": 27,
+        "epos": 23,
+        "spos": 13,
+        "sline": 27
+      }},
+      {"goto block_10": {
+        "eline": 47,
+        "epos": 9,
+        "spos": 9,
+        "sline": 24
+      }}
+    ],
+    "preds": [1],
+    "succs": [10]
+  },
+  "10": {
+    "instructions": [
+      {"staticinvoke <TicTacToe_c: void setNewSign(char,int,int)>(computerSing, rowIndex, columnIndex)": {
+        "eline": 49,
+        "epos": 68,
+        "spos": 9,
+        "sline": 49
+      }},
+      {"temp$23 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 51,
+        "epos": 47,
+        "spos": 9,
+        "sline": 51
+      }},
+      {"virtualinvoke temp$23.<java.io.PrintStream: void println(java.lang.String)>(\"Computer played:\")": {
+        "eline": 51,
+        "epos": 47,
+        "spos": 9,
+        "sline": 51
+      }},
+      {"return": {
+        "eline": 51,
+        "epos": 47,
+        "spos": 9,
+        "sline": 51
+      }}
+    ],
+    "preds": [
+      2,
+      5,
+      8,
+      9
+    ],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 24,
+      "epos": 21,
+      "spos": 13,
+      "sline": 24
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new Human": {
+        "eline": 21,
+        "epos": 53,
+        "spos": 9,
+        "sline": 21
+      }},
+      {"specialinvoke temp$0.<Human: void <init>()>()": {
+        "eline": 21,
+        "epos": 36,
+        "spos": 26,
+        "sline": 21
+      }},
+      {"temp$1 = virtualinvoke temp$0.<Human: char getPlayerSing()>()": {
+        "eline": 21,
+        "epos": 36,
+        "spos": 26,
+        "sline": 21
+      }},
+      {"humanSing = temp$1": {
+        "eline": 21,
+        "epos": 36,
+        "spos": 26,
+        "sline": 21
+      }},
+      {"temp$2 = virtualinvoke this.<Computer: char getPlayerSing()>()": {
+        "eline": 22,
+        "epos": 43,
+        "spos": 29,
+        "sline": 22
+      }},
+      {"computerSing = temp$2": {
+        "eline": 22,
+        "epos": 43,
+        "spos": 29,
+        "sline": 22
+      }},
+      {"temp$3 = this.<Computer: AI intellect>": {
+        "eline": 24,
+        "epos": 21,
+        "spos": 13,
+        "sline": 24
+      }},
+      {"temp$4 = virtualinvoke temp$3.<AI: boolean canGenerateBestMove(char)>(computerSing)": {
+        "eline": 24,
+        "epos": 21,
+        "spos": 13,
+        "sline": 24
+      }},
+      {"if temp$4 == 0 goto block_3 #0": {
+        "eline": 24,
+        "epos": 21,
+        "ifpos": "(23, 8)-(23, 55)",
+        "spos": 13,
+        "sline": 24
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 36,
+      "epos": 49,
+      "spos": 30,
+      "sline": 36
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$15 = staticinvoke <TicTacToe_c: boolean haveFreeCellAt(int,int)>(1, 1)": {
+        "eline": 36,
+        "epos": 49,
+        "spos": 30,
+        "sline": 36
+      }},
+      {"if temp$15 == 0 goto block_9 #2": {
+        "eline": 36,
+        "epos": 49,
+        "ifpos": "(35, 13)-(35, 49)",
+        "spos": 30,
+        "sline": 36
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      7,
+      9
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$11 = this.<Computer: AI intellect>": {
+        "eline": 32,
+        "epos": 32,
+        "spos": 24,
+        "sline": 32
+      }},
+      {"temp$12 = virtualinvoke temp$11.<AI: int getBestRowIndex()>()": {
+        "eline": 32,
+        "epos": 32,
+        "spos": 24,
+        "sline": 32
+      }},
+      {"rowIndex = temp$12": {
+        "eline": 32,
+        "epos": 20,
+        "spos": 13,
+        "sline": 32
+      }},
+      {"temp$13 = this.<Computer: AI intellect>": {
+        "eline": 33,
+        "epos": 35,
+        "spos": 27,
+        "sline": 33
+      }},
+      {"temp$14 = virtualinvoke temp$13.<AI: int getBestColumnIndex()>()": {
+        "eline": 33,
+        "epos": 35,
+        "spos": 27,
+        "sline": 33
+      }},
+      {"columnIndex = temp$14": {
+        "eline": 33,
+        "epos": 23,
+        "spos": 13,
+        "sline": 33
+      }},
+      {"goto block_10": {
+        "eline": 47,
+        "epos": 9,
+        "spos": 14,
+        "sline": 30
+      }}
+    ],
+    "preds": [4],
+    "succs": [10]
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 30,
+      "epos": 26,
+      "spos": 18,
+      "sline": 30
+    }}],
+    "preds": [3],
+    "succs": [5]
+  },
+  "9": {
+    "instructions": [
+      {"temp$18 = this.<Computer: AI intellect>": {
+        "eline": 44,
+        "epos": 21,
+        "spos": 13,
+        "sline": 44
+      }},
+      {"virtualinvoke temp$18.<AI: void generateMinAvaiMove()>()": {
+        "eline": 44,
+        "epos": 21,
+        "spos": 13,
+        "sline": 44
+      }},
+      {"temp$19 = this.<Computer: AI intellect>": {
+        "eline": 45,
+        "epos": 32,
+        "spos": 24,
+        "sline": 45
+      }},
+      {"temp$20 = virtualinvoke temp$19.<AI: int getBestRowIndex()>()": {
+        "eline": 45,
+        "epos": 32,
+        "spos": 24,
+        "sline": 45
+      }},
+      {"rowIndex = temp$20": {
+        "eline": 45,
+        "epos": 20,
+        "spos": 13,
+        "sline": 45
+      }},
+      {"temp$21 = this.<Computer: AI intellect>": {
+        "eline": 46,
+        "epos": 35,
+        "spos": 27,
+        "sline": 46
+      }},
+      {"temp$22 = virtualinvoke temp$21.<AI: int getBestColumnIndex()>()": {
+        "eline": 46,
+        "epos": 35,
+        "spos": 27,
+        "sline": 46
+      }},
+      {"columnIndex = temp$22": {
+        "eline": 46,
+        "epos": 23,
+        "spos": 13,
+        "sline": 46
+      }}
+    ],
+    "preds": [6],
+    "succs": [10]
+  },
+  "8": {
+    "instructions": [
+      {"temp$16 = 1": {
+        "reliable": false,
+        "eline": 38,
+        "epos": 20,
+        "spos": 13,
+        "sline": 38
+      }},
+      {"rowIndex = temp$16": {
+        "eline": 38,
+        "epos": 20,
+        "spos": 13,
+        "sline": 38
+      }},
+      {"temp$17 = 1": {
+        "reliable": false,
+        "eline": 39,
+        "epos": 23,
+        "spos": 13,
+        "sline": 39
+      }},
+      {"columnIndex = temp$17": {
+        "eline": 39,
+        "epos": 23,
+        "spos": 13,
+        "sline": 39
+      }},
+      {"goto block_10": {
+        "eline": 47,
+        "epos": 9,
+        "spos": 14,
+        "sline": 36
+      }}
+    ],
+    "preds": [7],
+    "succs": [10]
+  }
+}

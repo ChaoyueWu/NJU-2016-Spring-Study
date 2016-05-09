@@ -1,0 +1,66 @@
+[
+  {
+    "codes": "                  ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static void setNewSign(char sing, int row, int column) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Field.gameField[row][column] = sing; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                                     ",
+    "blocks": []
+  },
+  {
+    "codes": "        currentXPos = row; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        currentYPos = column; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        currentSign = sing; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                         ",
+    "blocks": []
+  },
+  {
+    "codes": "                  ",
+    "blocks": []
+  }
+]

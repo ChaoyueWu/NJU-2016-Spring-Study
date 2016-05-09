@@ -1,0 +1,25 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = -1": {
+      "reliable": false,
+      "eline": 191,
+      "epos": 1,
+      "spos": 1,
+      "sline": 6
+    }},
+    {"<AI: int DEFAULT_INDEX> = temp$0": {
+      "eline": 8,
+      "epos": 47,
+      "spos": 5,
+      "sline": 8
+    }},
+    {"return": {
+      "eline": 8,
+      "epos": 47,
+      "spos": 5,
+      "sline": 8
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,75 @@
+[
+  {
+    "codes": "        return bestColumnIndex; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean canGenerateBestMove(char playerSing) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return findInRows(playerSing) || ",
+    "blocks": [
+      0,
+      1,
+      10
+    ]
+  },
+  {
+    "codes": "               findInColumns(playerSing) || ",
+    "blocks": [
+      2,
+      3,
+      10
+    ]
+  },
+  {
+    "codes": "               findInDiagonal(playerSing) || ",
+    "blocks": [
+      4,
+      5,
+      10
+    ]
+  },
+  {
+    "codes": "               findInAntiDiagonal(playerSing); ",
+    "blocks": [
+      6,
+      7,
+      8,
+      10
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean findInRows(char playerSing) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        emptyColumnIndex = 0; ",
+    "blocks": []
+  }
+]

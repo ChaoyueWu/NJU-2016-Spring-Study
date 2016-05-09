@@ -1,0 +1,489 @@
+{
+  "19": {
+    "instructions": [
+      {"temp$27 = 0": {
+        "reliable": false,
+        "eline": 72,
+        "epos": 9,
+        "spos": 9,
+        "sline": 48
+      }},
+      {"return temp$27": {
+        "eline": 74,
+        "epos": 21,
+        "spos": 9,
+        "sline": 74
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  },
+  "17": {
+    "instructions": [
+      {"this.<AI: int bestRowIndex> = i": {
+        "eline": 68,
+        "epos": 28,
+        "spos": 17,
+        "sline": 68
+      }},
+      {"temp$23 = this.<AI: int emptyColumnIndex>": {
+        "eline": 69,
+        "epos": 50,
+        "spos": 35,
+        "sline": 69
+      }},
+      {"this.<AI: int bestColumnIndex> = temp$23": {
+        "eline": 69,
+        "epos": 31,
+        "spos": 17,
+        "sline": 69
+      }},
+      {"temp$24 = 1": {
+        "reliable": false,
+        "eline": 69,
+        "epos": 31,
+        "spos": 17,
+        "sline": 69
+      }},
+      {"return temp$24": {
+        "eline": 70,
+        "epos": 28,
+        "spos": 17,
+        "sline": 70
+      }}
+    ],
+    "preds": [
+      13,
+      15
+    ],
+    "succs": []
+  },
+  "18": {
+    "instructions": [
+      {"temp$25 = i": {
+        "eline": 48,
+        "epos": 49,
+        "spos": 47,
+        "sline": 48
+      }},
+      {"temp$26 = temp$25 + 1": {
+        "eline": 48,
+        "epos": 47,
+        "spos": 47,
+        "sline": 48
+      }},
+      {"i = temp$26": {
+        "eline": 48,
+        "epos": 47,
+        "spos": 47,
+        "sline": 48
+      }},
+      {"goto block_1": {
+        "eline": 72,
+        "epos": 9,
+        "spos": 9,
+        "sline": 48
+      }}
+    ],
+    "preds": [16],
+    "succs": [1]
+  },
+  "15": {
+    "instructions": [
+      {"temp$22 = this.<AI: int emptyColumnIndex>": {
+        "eline": 66,
+        "epos": 52,
+        "spos": 37,
+        "sline": 66
+      }},
+      {"if temp$22 != -1 goto block_17 #4": {
+        "eline": 66,
+        "epos": 52,
+        "ifpos": "(65, 12)-(65, 58)",
+        "spos": 37,
+        "sline": 66
+      }}
+    ],
+    "preds": [14],
+    "succs": [
+      16,
+      17
+    ]
+  },
+  "16": {
+    "instructions": [{"goto block_18": {
+      "eline": 66,
+      "epos": 52,
+      "spos": 37,
+      "sline": 66
+    }}],
+    "preds": [15],
+    "succs": [18]
+  },
+  "13": {
+    "instructions": [
+      {"temp$21 = this.<AI: int singCounter>": {
+        "eline": 66,
+        "epos": 27,
+        "spos": 17,
+        "sline": 66
+      }},
+      {"if temp$21 == 2 goto block_17 #4": {
+        "eline": 66,
+        "epos": 27,
+        "ifpos": "(65, 12)-(65, 58)",
+        "spos": 17,
+        "sline": 66
+      }}
+    ],
+    "preds": [5],
+    "succs": [
+      14,
+      17
+    ]
+  },
+  "14": {
+    "instructions": [{"goto block_15": {
+      "eline": 66,
+      "epos": 27,
+      "spos": 17,
+      "sline": 66
+    }}],
+    "preds": [13],
+    "succs": [15]
+  },
+  "11": {
+    "instructions": [{"this.<AI: int emptyColumnIndex> = j": {
+      "eline": 62,
+      "epos": 36,
+      "spos": 21,
+      "sline": 62
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [
+      {"temp$19 = j": {
+        "eline": 53,
+        "epos": 53,
+        "spos": 51,
+        "sline": 53
+      }},
+      {"temp$20 = temp$19 + 1": {
+        "eline": 53,
+        "epos": 51,
+        "spos": 51,
+        "sline": 53
+      }},
+      {"j = temp$20": {
+        "eline": 53,
+        "epos": 51,
+        "spos": 51,
+        "sline": 53
+      }},
+      {"goto block_4": {
+        "eline": 64,
+        "epos": 13,
+        "spos": 13,
+        "sline": 53
+      }}
+    ],
+    "preds": [
+      8,
+      10,
+      11
+    ],
+    "succs": [4]
+  },
+  "3": {
+    "instructions": [
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 50,
+        "epos": 23,
+        "spos": 13,
+        "sline": 50
+      }},
+      {"this.<AI: int singCounter> = temp$2": {
+        "eline": 50,
+        "epos": 23,
+        "spos": 13,
+        "sline": 50
+      }},
+      {"temp$3 = -1": {
+        "reliable": false,
+        "eline": 51,
+        "epos": 28,
+        "spos": 13,
+        "sline": 51
+      }},
+      {"this.<AI: int emptyColumnIndex> = temp$3": {
+        "eline": 51,
+        "epos": 28,
+        "spos": 13,
+        "sline": 51
+      }},
+      {"j = 0": {
+        "eline": 53,
+        "epos": 26,
+        "spos": 18,
+        "sline": 53
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [{"goto block_19": {
+      "eline": 48,
+      "epos": 44,
+      "spos": 25,
+      "sline": 48
+    }}],
+    "preds": [1],
+    "succs": [19]
+  },
+  "1": {
+    "instructions": [{"if i < 3 goto block_3 #0": {
+      "eline": 48,
+      "epos": 44,
+      "ifpos": "(47, 22)-(47, 44)",
+      "spos": 25,
+      "sline": 48
+    }}],
+    "preds": [
+      0,
+      18
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 60,
+      "epos": 69,
+      "spos": 26,
+      "sline": 60
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = 0": {
+        "reliable": false,
+        "eline": 45,
+        "epos": 24,
+        "spos": 9,
+        "sline": 45
+      }},
+      {"this.<AI: int emptyColumnIndex> = temp$0": {
+        "eline": 45,
+        "epos": 24,
+        "spos": 9,
+        "sline": 45
+      }},
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 46,
+        "epos": 19,
+        "spos": 9,
+        "sline": 46
+      }},
+      {"this.<AI: int singCounter> = temp$1": {
+        "eline": 46,
+        "epos": 19,
+        "spos": 9,
+        "sline": 46
+      }},
+      {"i = 0": {
+        "eline": 48,
+        "epos": 22,
+        "spos": 14,
+        "sline": 48
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 55,
+      "epos": 55,
+      "spos": 21,
+      "sline": 55
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$4 = <Field: char[][] gameField>": {
+        "eline": 55,
+        "epos": 55,
+        "spos": 21,
+        "sline": 55
+      }},
+      {"temp$5 = i": {
+        "eline": 55,
+        "epos": 55,
+        "spos": 21,
+        "sline": 55
+      }},
+      {"temp$6 = temp$4[temp$5]": {
+        "eline": 55,
+        "epos": 55,
+        "spos": 21,
+        "sline": 55
+      }},
+      {"temp$7 = j": {
+        "eline": 55,
+        "epos": 55,
+        "spos": 21,
+        "sline": 55
+      }},
+      {"temp$8 = temp$6[temp$7]": {
+        "eline": 55,
+        "epos": 55,
+        "spos": 21,
+        "sline": 55
+      }},
+      {"temp$9 = (int) temp$8": {
+        "eline": 55,
+        "epos": 55,
+        "spos": 21,
+        "sline": 55
+      }},
+      {"temp$10 = (int) playerSing": {
+        "eline": 55,
+        "epos": 55,
+        "spos": 21,
+        "sline": 55
+      }},
+      {"if temp$9 == temp$10 goto block_8 #2": {
+        "eline": 55,
+        "epos": 55,
+        "ifpos": "(54, 16)-(54, 55)",
+        "spos": 21,
+        "sline": 55
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_13": {
+      "eline": 53,
+      "epos": 48,
+      "spos": 29,
+      "sline": 53
+    }}],
+    "preds": [4],
+    "succs": [13]
+  },
+  "4": {
+    "instructions": [{"if j < 3 goto block_6 #1": {
+      "eline": 53,
+      "epos": 48,
+      "ifpos": "(52, 26)-(52, 48)",
+      "spos": 29,
+      "sline": 53
+    }}],
+    "preds": [
+      3,
+      12
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$13 = <Field: char[][] gameField>": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 26,
+        "sline": 60
+      }},
+      {"temp$14 = i": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 26,
+        "sline": 60
+      }},
+      {"temp$15 = temp$13[temp$14]": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 26,
+        "sline": 60
+      }},
+      {"temp$16 = j": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 26,
+        "sline": 60
+      }},
+      {"temp$17 = temp$15[temp$16]": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 26,
+        "sline": 60
+      }},
+      {"temp$18 = (int) temp$17": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 26,
+        "sline": 60
+      }},
+      {"if temp$18 == 32 goto block_11 #3": {
+        "eline": 60,
+        "epos": 69,
+        "ifpos": "(59, 21)-(59, 69)",
+        "spos": 26,
+        "sline": 60
+      }}
+    ],
+    "preds": [7],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$11 = this.<AI: int singCounter>": {
+        "eline": 57,
+        "epos": 31,
+        "spos": 21,
+        "sline": 57
+      }},
+      {"temp$12 = temp$11 + 1": {
+        "eline": 57,
+        "epos": 31,
+        "spos": 21,
+        "sline": 57
+      }},
+      {"this.<AI: int singCounter> = temp$12": {
+        "eline": 57,
+        "epos": 31,
+        "spos": 21,
+        "sline": 57
+      }},
+      {"goto block_12": {
+        "eline": 63,
+        "epos": 17,
+        "spos": 17,
+        "sline": 55
+      }}
+    ],
+    "preds": [6],
+    "succs": [12]
+  }
+}

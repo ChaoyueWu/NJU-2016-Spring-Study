@@ -1,0 +1,187 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$5 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 53,
+        "epos": 48,
+        "spos": 13,
+        "sline": 53
+      }},
+      {"temp$6 = new java.lang.StringBuffer": {
+        "eline": 53,
+        "epos": 48,
+        "spos": 13,
+        "sline": 53
+      }},
+      {"specialinvoke temp$6.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 53,
+        "epos": 40,
+        "spos": 30,
+        "sline": 53
+      }},
+      {"virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"| \")": {
+        "eline": 53,
+        "epos": 40,
+        "spos": 30,
+        "sline": 53
+      }},
+      {"virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.StringBuffer append(char)>(cell)": {
+        "eline": 53,
+        "epos": 40,
+        "spos": 30,
+        "sline": 53
+      }},
+      {"virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" \")": {
+        "eline": 53,
+        "epos": 46,
+        "spos": 30,
+        "sline": 53
+      }},
+      {"temp$7 = virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 53,
+        "epos": 46,
+        "spos": 30,
+        "sline": 53
+      }},
+      {"virtualinvoke temp$5.<java.io.PrintStream: void print(java.lang.String)>(temp$7)": {
+        "eline": 53,
+        "epos": 46,
+        "spos": 30,
+        "sline": 53
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 48,
+        "epos": 53,
+        "spos": 13,
+        "sline": 48
+      }},
+      {"temp$2 = new java.lang.StringBuffer": {
+        "eline": 48,
+        "epos": 53,
+        "spos": 13,
+        "sline": 48
+      }},
+      {"specialinvoke temp$2.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 48,
+        "epos": 45,
+        "spos": 30,
+        "sline": 48
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"| \")": {
+        "eline": 48,
+        "epos": 45,
+        "spos": 30,
+        "sline": 48
+      }},
+      {"temp$3 = <Field: int cellIndex>": {
+        "eline": 48,
+        "epos": 45,
+        "spos": 30,
+        "sline": 48
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$3)": {
+        "eline": 48,
+        "epos": 45,
+        "spos": 30,
+        "sline": 48
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" \")": {
+        "eline": 48,
+        "epos": 51,
+        "spos": 30,
+        "sline": 48
+      }},
+      {"temp$4 = virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 48,
+        "epos": 51,
+        "spos": 30,
+        "sline": 48
+      }},
+      {"virtualinvoke temp$1.<java.io.PrintStream: void print(java.lang.String)>(temp$4)": {
+        "eline": 48,
+        "epos": 51,
+        "spos": 30,
+        "sline": 48
+      }},
+      {"goto block_4": {
+        "eline": 54,
+        "epos": 9,
+        "spos": 9,
+        "sline": 46
+      }}
+    ],
+    "preds": [0],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 46,
+      "epos": 33,
+      "spos": 13,
+      "sline": 46
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = (int) cell": {
+        "eline": 46,
+        "epos": 33,
+        "spos": 13,
+        "sline": 46
+      }},
+      {"if temp$0 == 32 goto block_2 #0": {
+        "eline": 46,
+        "epos": 33,
+        "ifpos": "(45, 8)-(45, 33)",
+        "spos": 13,
+        "sline": 46
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "4": {
+    "instructions": [
+      {"temp$8 = <Field: int cellIndex>": {
+        "eline": 56,
+        "epos": 20,
+        "spos": 9,
+        "sline": 56
+      }},
+      {"temp$9 = temp$8 + 1": {
+        "eline": 56,
+        "epos": 17,
+        "spos": 9,
+        "sline": 56
+      }},
+      {"<Field: int cellIndex> = temp$9": {
+        "eline": 56,
+        "epos": 17,
+        "spos": 9,
+        "sline": 56
+      }},
+      {"return": {
+        "eline": 56,
+        "epos": 17,
+        "spos": 9,
+        "sline": 56
+      }}
+    ],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

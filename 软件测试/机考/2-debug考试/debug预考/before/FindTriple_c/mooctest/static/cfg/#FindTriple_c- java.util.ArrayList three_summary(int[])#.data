@@ -1,0 +1,335 @@
+[
+  {
+    "codes": "                                              ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                               ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "public class FindTriple_c { ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static ArrayList<ArrayList<Integer>> three_summary(int[] inputList) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (inputList.length < 3) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\treturn result; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\tArrays.sort(inputList); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < inputList.length - 2; i++) { ",
+    "blocks": [
+      35,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t\tif (i == 0 || inputList[i] > inputList[i - 1]) { ",
+    "blocks": [
+      35,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [35]
+  },
+  {
+    "codes": "\t\t\t\tint negative = -inputList[i]; ",
+    "blocks": [
+      35,
+      10
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [35]
+  },
+  {
+    "codes": "\t\t\t\tint s = i + 1; ",
+    "blocks": [
+      35,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tint e = inputList.length - 1; ",
+    "blocks": [
+      35,
+      10
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [35]
+  },
+  {
+    "codes": "\t\t\t\twhile (s < e) { ",
+    "blocks": [
+      34,
+      35,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tif (inputList[s] + inputList[e] == negative) { ",
+    "blocks": [
+      34,
+      35,
+      29,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tint[] tmpResult = { inputList[i], inputList[s], ",
+    "blocks": [
+      34,
+      35,
+      29,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\t\t\tinputList[e] }; ",
+    "blocks": [
+      34,
+      35,
+      29,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tArrayList<Integer> tmpList = new ArrayList<Integer>(); ",
+    "blocks": [
+      34,
+      35,
+      29,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tfor (int t : tmpResult) { ",
+    "blocks": [
+      34,
+      17,
+      35,
+      16,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\t\ttmpList.add(t); ",
+    "blocks": [
+      34,
+      17,
+      35,
+      16,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\t} ",
+    "blocks": [
+      34,
+      17,
+      35,
+      16,
+      29
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      34,
+      35,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tresult.add(tmpList); ",
+    "blocks": [
+      34,
+      35,
+      18,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\ts++; ",
+    "blocks": [
+      34,
+      35,
+      18,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\te--; ",
+    "blocks": [
+      34,
+      35,
+      18,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\twhile (s < e && inputList[e] == inputList[e + 1]) ",
+    "blocks": [
+      34,
+      35,
+      19,
+      21,
+      20,
+      23,
+      22,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\t\te--; ",
+    "blocks": [
+      34,
+      35,
+      23,
+      29
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      34,
+      35,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\twhile (s < e && inputList[s] == inputList[s - 1]) ",
+    "blocks": [
+      34,
+      35,
+      25,
+      24,
+      27,
+      26,
+      29,
+      28
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\t\ts++; ",
+    "blocks": [
+      34,
+      35,
+      29,
+      28
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t} else if (inputList[s - 1] + inputList[e] < negative) { ",
+    "blocks": [
+      34,
+      35,
+      32,
+      29,
+      31,
+      30
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\ts++; ",
+    "blocks": [
+      34,
+      35,
+      32,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t} else { ",
+    "blocks": [
+      34,
+      35,
+      32,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\te--; ",
+    "blocks": [
+      34,
+      35,
+      32,
+      33,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t} ",
+    "blocks": [
+      34,
+      35,
+      32,
+      29
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      34,
+      35
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [35]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [35]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [35]
+  },
+  {
+    "codes": "\t\treturn result; ",
+    "blocks": [36]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

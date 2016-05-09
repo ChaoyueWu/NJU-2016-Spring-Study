@@ -1,0 +1,2455 @@
+Part	2016-05-09-19-31-47	StaTest.java	deactivated
+Part	2016-05-09-19-31-47	StaTest.java	closed
+FileState	2016-05-09-19-31-47	1462793507582	Timer
+Part	2016-05-09-19-31-48	NativeMethodAccessorImpl.class	opened
+Part	2016-05-09-19-31-48	NativeMethodAccessorImpl.class	activated
+Part	2016-05-09-19-31-48	NativeMethodAccessorImpl.class	broughtToTop
+Part	2016-05-09-19-31-50	NativeMethodAccessorImpl.class	deactivated
+Part	2016-05-09-19-31-50	Project Explorer	activated
+Part	2016-05-09-19-31-50	NativeMethodAccessorImpl.class	closed
+Process	2016-05-09-19-32-25	Triangle	0.0	2
+Process	2016-05-09-19-32-26	FindTriple_c	0.0	3
+Process	2016-05-09-19-32-29	TicTacToe_c	0.0	29
+Part	2016-05-09-19-32-29	Project Explorer	deactivated
+Part	2016-05-09-19-32-29	MoocTest	opened
+Part	2016-05-09-19-32-29	MoocTest	broughtToTop
+Part	2016-05-09-19-32-29	MoocTest	activated
+Part	2016-05-09-19-32-34	MoocTest	deactivated
+Part	2016-05-09-19-32-34	Project Explorer	activated
+Part	2016-05-09-19-32-38	Project Explorer	deactivated
+Part	2016-05-09-19-32-38	MoocTest	activated
+FileState	2016-05-09-19-32-47	1462793567589	Timer
+Part	2016-05-09-19-32-52	MoocTest	deactivated
+Part	2016-05-09-19-32-52	Project Explorer	activated
+Part	2016-05-09-19-33-17	TestTriangle.java	opened
+Part	2016-05-09-19-33-17	TestTriangle.java	broughtToTop
+Part	2016-05-09-19-33-17	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-33-17	TestTriangle.java	1
+Part	2016-05-09-19-33-17	TestTriangle.java	activated
+FileState	2016-05-09-19-33-17	1462793597491	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-33-19	TestTriangle.java	15
+Part	2016-05-09-19-33-31	TestTriangle.java	deactivated
+Part	2016-05-09-19-33-31	MoocTest	activated
+Part	2016-05-09-19-33-33	MoocTest	deactivated
+Part	2016-05-09-19-33-34	Project Explorer	activated
+Part	2016-05-09-19-33-36	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-33-36	TestTriangle.java	15
+Part	2016-05-09-19-33-36	TestTriangle.java	activated
+FileState	2016-05-09-19-33-36	1462793616761	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-33-37	TestTriangle.java	10
+Part	2016-05-09-19-33-37	TestTriangle.java	deactivated
+Part	2016-05-09-19-33-37	Project Explorer	activated
+FileState	2016-05-09-19-33-47	1462793627598	Timer
+Part	2016-05-09-19-34-18	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-34-18	TestTriangle.java	10
+Part	2016-05-09-19-34-18	TestTriangle.java	activated
+FileState	2016-05-09-19-34-18	1462793658696	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-34-19	TestTriangle.java	13
+Part	2016-05-09-19-34-20	TestTriangle.java	deactivated
+Part	2016-05-09-19-34-20	Project Explorer	activated
+Part	2016-05-09-19-34-24	FindTriple_c.java	opened
+Part	2016-05-09-19-34-24	FindTriple_c.java	broughtToTop
+Part	2016-05-09-19-34-24	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-34-24	FindTriple_c.java	1
+Part	2016-05-09-19-34-24	FindTriple_c.java	activated
+FileState	2016-05-09-19-34-24	1462793664938	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-34-26	FindTriple_c.java	10
+Part	2016-05-09-19-34-27	FindTriple_c.java	deactivated
+CaretPosition	2016-05-09-19-34-27	TestTriangle.java	13
+Part	2016-05-09-19-34-27	TestTriangle.java	activated
+FileState	2016-05-09-19-34-27	1462793667169	ActiveEditor	Triangle/junit/TestTriangle.java
+Part	2016-05-09-19-34-27	TestTriangle.java	broughtToTop
+Part	2016-05-09-19-34-27	FindTriple_c.java	closed
+CaretPosition	2016-05-09-19-34-31	TestTriangle.java	26
+Part	2016-05-09-19-34-33	TestTriangle.java	deactivated
+Part	2016-05-09-19-34-33	Project Explorer	activated
+Part	2016-05-09-19-34-39	JUnit (TestTriangle)	broughtToTop
+Part	2016-05-09-19-34-45	Project Explorer	deactivated
+Part	2016-05-09-19-34-45	JUnit (Finished after 0.078 seconds)	activated
+FileState	2016-05-09-19-34-47	1462793687604	Timer
+Part	2016-05-09-19-34-48	JUnit (Finished after 0.078 seconds)	deactivated
+CaretPosition	2016-05-09-19-34-48	TestTriangle.java	26
+Part	2016-05-09-19-34-49	TestTriangle.java	activated
+FileState	2016-05-09-19-34-49	1462793689023	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-34-49	TestTriangle.java	16
+CaretPosition	2016-05-09-19-34-50	TestTriangle.java	9
+CaretPosition	2016-05-09-19-35-02	TestTriangle.java	10
+Part	2016-05-09-19-35-05	TestTriangle.java	deactivated
+Part	2016-05-09-19-35-05	Project Explorer	activated
+Part	2016-05-09-19-35-09	Triangle.java	opened
+Part	2016-05-09-19-35-09	Triangle.java	broughtToTop
+Part	2016-05-09-19-35-09	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-35-09	Triangle.java	1
+Part	2016-05-09-19-35-09	Triangle.java	activated
+FileState	2016-05-09-19-35-09	1462793709663	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-35-11	Triangle.java	13
+CaretPosition	2016-05-09-19-35-21	Triangle.java	16
+Part	2016-05-09-19-35-27	Triangle.java	deactivated
+Part	2016-05-09-19-35-27	JUnit (Finished after 0.078 seconds)	activated
+Part	2016-05-09-19-35-37	JUnit (Finished after 0.094 seconds)	deactivated
+CaretPosition	2016-05-09-19-35-37	Triangle.java	16
+Part	2016-05-09-19-35-37	Triangle.java	activated
+FileState	2016-05-09-19-35-37	1462793737732	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-35-38	Triangle.java	40
+Part	2016-05-09-19-35-38	Triangle.java	deactivated
+Part	2016-05-09-19-35-38	JUnit (Finished after 0.094 seconds)	activated
+Part	2016-05-09-19-35-45	JUnit (Finished after 0.062 seconds)	deactivated
+CaretPosition	2016-05-09-19-35-45	Triangle.java	40
+Part	2016-05-09-19-35-45	Triangle.java	activated
+FileState	2016-05-09-19-35-45	1462793745140	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-35-47	Triangle.java	28
+FileState	2016-05-09-19-35-47	1462793747605	Timer
+Part	2016-05-09-19-35-48	Triangle.java	deactivated
+CaretPosition	2016-05-09-19-35-48	Triangle.java	28
+Part	2016-05-09-19-35-48	Triangle.java	activated
+FileState	2016-05-09-19-35-48	1462793748463	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-35-49	Triangle.java	31
+Part	2016-05-09-19-35-50	Triangle.java	deactivated
+Part	2016-05-09-19-35-50	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-35-50	TestTriangle.java	10
+Part	2016-05-09-19-35-50	TestTriangle.java	activated
+FileState	2016-05-09-19-35-50	1462793750974	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-35-52	TestTriangle.java	14
+CaretPosition	2016-05-09-19-35-53	TestTriangle.java	9
+CaretPosition	2016-05-09-19-35-55	TestTriangle.java	8
+Part	2016-05-09-19-36-01	TestTriangle.java	deactivated
+Part	2016-05-09-19-36-01	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-36-01	Triangle.java	31
+Part	2016-05-09-19-36-01	Triangle.java	activated
+FileState	2016-05-09-19-36-01	1462793761977	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-36-05	Triangle.java	4
+Part	2016-05-09-19-36-05	Triangle.java	deactivated
+Part	2016-05-09-19-36-05	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-36-05	TestTriangle.java	8
+Part	2016-05-09-19-36-05	TestTriangle.java	activated
+FileState	2016-05-09-19-36-05	1462793765755	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-36-10	TestTriangle.java	10
+CaretPosition	2016-05-09-19-36-11	TestTriangle.java	10
+Part	2016-05-09-19-36-12	TestTriangle.java	deactivated
+Part	2016-05-09-19-36-13	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-36-13	Triangle.java	4
+Part	2016-05-09-19-36-13	Triangle.java	activated
+FileState	2016-05-09-19-36-13	1462793773091	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-36-16	Triangle.java	10
+CaretPosition	2016-05-09-19-36-18	Triangle.java	25
+Part	2016-05-09-19-36-19	Triangle.java	deactivated
+Part	2016-05-09-19-36-19	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-36-19	TestTriangle.java	10
+Part	2016-05-09-19-36-19	TestTriangle.java	activated
+FileState	2016-05-09-19-36-19	1462793779424	ActiveEditor	Triangle/junit/TestTriangle.java
+Part	2016-05-09-19-36-22	TestTriangle.java	deactivated
+Part	2016-05-09-19-36-22	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-36-22	Triangle.java	25
+Part	2016-05-09-19-36-22	Triangle.java	activated
+FileState	2016-05-09-19-36-22	1462793782498	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-36-24	Triangle.java	28
+FileState	2016-05-09-19-36-47	1462793807608	Timer
+Breakpoint	2016-05-09-19-37-41	remove	null	29	=Triangle/src<{Triangle.java[Triangle	Triangle	
+CaretPosition	2016-05-09-19-37-42	Triangle.java	29
+Part	2016-05-09-19-37-47	Triangle.java	deactivated
+Part	2016-05-09-19-37-47	JUnit (Finished after 0.062 seconds)	activated
+FileState	2016-05-09-19-37-47	1462793867614	Timer
+Part	2016-05-09-19-37-49	JUnit (Finished after 0.062 seconds)	deactivated
+CaretPosition	2016-05-09-19-37-49	Triangle.java	29
+Part	2016-05-09-19-37-49	Triangle.java	activated
+FileState	2016-05-09-19-37-49	1462793869096	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-37-49	Triangle.java	35
+CaretPosition	2016-05-09-19-37-50	Triangle.java	29
+CaretPosition	2016-05-09-19-37-54	Triangle.java	33
+CaretPosition	2016-05-09-19-38-00	Triangle.java	40
+Breakpoint	2016-05-09-19-38-10	add	null	29	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-38-10	change	Line breakpoint:Triangle [line: 29] - isTriangle(Triangle)	29	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-38-18	add	null	34	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-38-18	change	Line breakpoint:Triangle [line: 34] - isTriangle(Triangle)	34	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-38-19	Triangle.java	deactivated
+Part	2016-05-09-19-38-19	JUnit (Finished after 0.062 seconds)	activated
+Breakpoint	2016-05-09-19-38-23	change	Line breakpoint:Triangle [line: 34] - isTriangle(Triangle)	34	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-38-23	change	Line breakpoint:Triangle [line: 29] - isTriangle(Triangle)	29	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-38-24	JUnit (TestTriangle - testType1)	deactivated
+CaretPosition	2016-05-09-19-38-24	Triangle.java	29
+CaretPosition	2016-05-09-19-38-24	Triangle.java	29
+Part	2016-05-09-19-38-24	Triangle.java	activated
+FileState	2016-05-09-19-38-24	1462793904409	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-38-24	Variables	opened
+Part	2016-05-09-19-38-24	Breakpoints	opened
+Part	2016-05-09-19-38-32	Variables	broughtToTop
+Part	2016-05-09-19-38-32	Triangle.java	deactivated
+Part	2016-05-09-19-38-32	Variables	activated
+Part	2016-05-09-19-38-42	Variables	deactivated
+CaretPosition	2016-05-09-19-38-42	Triangle.java	29
+Part	2016-05-09-19-38-42	Triangle.java	activated
+FileState	2016-05-09-19-38-42	1462793922467	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-38-43	Triangle.java	17
+Part	2016-05-09-19-38-44	Triangle.java	deactivated
+Part	2016-05-09-19-38-44	TestTriangle.java	deactivated
+Part	2016-05-09-19-38-44	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-38-44	Triangle.java	17
+Part	2016-05-09-19-38-44	Triangle.java	activated
+FileState	2016-05-09-19-38-44	1462793924308	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-38-44	TestTriangle.java	broughtToTop
+Part	2016-05-09-19-38-44	Triangle.java	deactivated
+Part	2016-05-09-19-38-44	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-38-44	TestTriangle.java	10
+Part	2016-05-09-19-38-44	TestTriangle.java	activated
+FileState	2016-05-09-19-38-44	1462793924417	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-38-44	TestTriangle.java	10
+Part	2016-05-09-19-38-44	TestTriangle.java	activated
+FileState	2016-05-09-19-38-44	1462793924448	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-38-45	TestTriangle.java	7
+FileState	2016-05-09-19-38-47	1462793927617	Timer
+Part	2016-05-09-19-38-51	TestTriangle.java	deactivated
+Part	2016-05-09-19-38-51	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-38-51	Triangle.java	17
+Part	2016-05-09-19-38-51	Triangle.java	activated
+FileState	2016-05-09-19-38-51	1462793931751	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-39-06	Monitor.class	opened
+Part	2016-05-09-19-39-06	Triangle.java	deactivated
+CaretPosition	2016-05-09-19-39-06	Monitor.class	1
+Part	2016-05-09-19-39-06	Monitor.class	activated
+FileState	2016-05-09-19-39-07	1462793946996	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-19-39-07	Monitor.class	broughtToTop
+Part	2016-05-09-19-39-10	Monitor.class	deactivated
+Part	2016-05-09-19-39-10	Variables	activated
+Part	2016-05-09-19-39-14	Variables	deactivated
+CaretPosition	2016-05-09-19-39-14	Monitor.class	1
+Part	2016-05-09-19-39-14	Monitor.class	activated
+FileState	2016-05-09-19-39-14	1462793954301	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-19-39-14	Monitor.class	deactivated
+CaretPosition	2016-05-09-19-39-14	Triangle.java	17
+Part	2016-05-09-19-39-14	Triangle.java	activated
+FileState	2016-05-09-19-39-14	1462793954520	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-39-14	Triangle.java	broughtToTop
+Part	2016-05-09-19-39-14	Monitor.class	closed
+CaretPosition	2016-05-09-19-39-16	Triangle.java	29
+CaretPosition	2016-05-09-19-39-21	Triangle.java	30
+Part	2016-05-09-19-39-23	Triangle.java	deactivated
+Part	2016-05-09-19-39-23	Variables	activated
+Part	2016-05-09-19-39-30	Variables	deactivated
+CaretPosition	2016-05-09-19-39-30	Triangle.java	30
+Part	2016-05-09-19-39-30	Triangle.java	activated
+FileState	2016-05-09-19-39-30	1462793970136	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-39-30	Triangle.java	29
+CaretPosition	2016-05-09-19-39-40	Triangle.java	31
+CaretPosition	2016-05-09-19-39-41	Triangle.java	34
+CaretPosition	2016-05-09-19-39-42	Triangle.java	35
+CaretPosition	2016-05-09-19-39-44	Triangle.java	41
+CaretPosition	2016-05-09-19-39-45	Triangle.java	53
+FileState	2016-05-09-19-39-47	1462793987621	Timer
+Part	2016-05-09-19-39-52	Triangle.java	deactivated
+Part	2016-05-09-19-39-52	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-39-52	TestTriangle.java	7
+Part	2016-05-09-19-39-52	TestTriangle.java	activated
+FileState	2016-05-09-19-39-52	1462793992662	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-39-56	TestTriangle.java	8
+CaretPosition	2016-05-09-19-39-57	TestTriangle.java	9
+Breakpoint	2016-05-09-19-40-06	change	Line breakpoint:Triangle [line: 34] - isTriangle(Triangle)	34	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-40-06	change	Line breakpoint:Triangle [line: 29] - isTriangle(Triangle)	29	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-40-07	TestTriangle.java	deactivated
+CaretPosition	2016-05-09-19-40-07	TestTriangle.java	9
+Part	2016-05-09-19-40-07	TestTriangle.java	activated
+FileState	2016-05-09-19-40-07	1462794007711	ActiveEditor	Triangle/junit/TestTriangle.java
+Part	2016-05-09-19-40-09	TestTriangle.java	deactivated
+Part	2016-05-09-19-40-09	JUnit (Terminated)	activated
+Part	2016-05-09-19-40-13	JUnit (Terminated)	deactivated
+CaretPosition	2016-05-09-19-40-13	TestTriangle.java	9
+Part	2016-05-09-19-40-13	TestTriangle.java	activated
+FileState	2016-05-09-19-40-14	1462794013984	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-40-14	TestTriangle.java	8
+CaretPosition	2016-05-09-19-40-15	TestTriangle.java	7
+CaretPosition	2016-05-09-19-40-17	TestTriangle.java	9
+Part	2016-05-09-19-40-18	TestTriangle.java	deactivated
+Part	2016-05-09-19-40-18	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-40-18	Triangle.java	53
+Part	2016-05-09-19-40-18	Triangle.java	activated
+FileState	2016-05-09-19-40-18	1462794018165	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-40-19	Triangle.java	56
+Breakpoint	2016-05-09-19-40-28	add	null	12	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-40-28	change	Line breakpoint:Triangle [line: 12] - Triangle(long, long, long)	12	=Triangle/src<{Triangle.java[Triangle	Triangle	
+CaretPosition	2016-05-09-19-40-29	Triangle.java	14
+Breakpoint	2016-05-09-19-40-34	add	null	14	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-40-34	change	Line breakpoint:Triangle [line: 14] - Triangle(long, long, long)	14	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-40-39	add	null	16	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-40-39	change	Line breakpoint:Triangle [line: 16] - Triangle(long, long, long)	16	=Triangle/src<{Triangle.java[Triangle	Triangle	
+CaretPosition	2016-05-09-19-40-40	Triangle.java	17
+CaretPosition	2016-05-09-19-40-41	Triangle.java	11
+Part	2016-05-09-19-40-42	Triangle.java	deactivated
+Part	2016-05-09-19-40-42	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-40-43	TestTriangle.java	9
+Part	2016-05-09-19-40-43	TestTriangle.java	activated
+FileState	2016-05-09-19-40-43	1462794043056	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-40-44	TestTriangle.java	8
+CaretPosition	2016-05-09-19-40-45	TestTriangle.java	8
+CaretPosition	2016-05-09-19-40-46	TestTriangle.java	10
+CaretPosition	2016-05-09-19-40-47	TestTriangle.java	10
+FileState	2016-05-09-19-40-47	1462794047622	Timer
+Part	2016-05-09-19-40-48	TestTriangle.java	deactivated
+Part	2016-05-09-19-40-48	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-40-48	Triangle.java	11
+Part	2016-05-09-19-40-48	Triangle.java	activated
+FileState	2016-05-09-19-40-48	1462794048383	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-40-49	Triangle.java	deactivated
+Part	2016-05-09-19-40-49	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-40-49	TestTriangle.java	10
+Part	2016-05-09-19-40-49	TestTriangle.java	activated
+FileState	2016-05-09-19-40-49	1462794049459	ActiveEditor	Triangle/junit/TestTriangle.java
+Breakpoint	2016-05-09-19-40-56	add	null	10	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-40-56	change	Line breakpoint:TestTriangle [line: 10] - testIsTriangle1()	10	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+CaretPosition	2016-05-09-19-40-57	TestTriangle.java	8
+Part	2016-05-09-19-41-02	TestTriangle.java	deactivated
+Part	2016-05-09-19-41-02	Project Explorer	activated
+Part	2016-05-09-19-41-13	Project Explorer	deactivated
+Part	2016-05-09-19-41-13	JUnit (Finished after 0.188 seconds)	activated
+Part	2016-05-09-19-41-21	JUnit (Finished after 0.188 seconds)	deactivated
+CaretPosition	2016-05-09-19-41-21	TestTriangle.java	8
+Part	2016-05-09-19-41-21	TestTriangle.java	activated
+FileState	2016-05-09-19-41-21	1462794081919	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-41-22	TestTriangle.java	16
+Breakpoint	2016-05-09-19-41-23	remove	Line breakpoint:TestTriangle [line: 10] - testIsTriangle1()	10	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+CaretPosition	2016-05-09-19-41-24	TestTriangle.java	10
+Part	2016-05-09-19-41-24	TestTriangle.java	deactivated
+Part	2016-05-09-19-41-24	JUnit (Finished after 0.188 seconds)	activated
+Part	2016-05-09-19-41-26	JUnit (Finished after 0.188 seconds)	deactivated
+CaretPosition	2016-05-09-19-41-26	TestTriangle.java	10
+Part	2016-05-09-19-41-26	TestTriangle.java	activated
+FileState	2016-05-09-19-41-26	1462794086749	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-41-27	TestTriangle.java	53
+CaretPosition	2016-05-09-19-41-28	TestTriangle.java	51
+CaretPosition	2016-05-09-19-41-29	TestTriangle.java	53
+Part	2016-05-09-19-41-30	TestTriangle.java	deactivated
+Part	2016-05-09-19-41-30	JUnit (Finished after 0.188 seconds)	activated
+Part	2016-05-09-19-41-31	JUnit (Finished after 0.188 seconds)	deactivated
+CaretPosition	2016-05-09-19-41-31	TestTriangle.java	53
+Part	2016-05-09-19-41-31	TestTriangle.java	activated
+FileState	2016-05-09-19-41-31	1462794091523	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-41-32	TestTriangle.java	60
+Breakpoint	2016-05-09-19-41-36	add	null	53	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-41-36	change	Line breakpoint:TestTriangle [line: 53] - testType1()	53	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+CaretPosition	2016-05-09-19-41-37	TestTriangle.java	55
+Part	2016-05-09-19-41-38	TestTriangle.java	deactivated
+Part	2016-05-09-19-41-38	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-41-38	Triangle.java	11
+Part	2016-05-09-19-41-38	Triangle.java	activated
+FileState	2016-05-09-19-41-38	1462794098857	ActiveEditor	Triangle/src/Triangle.java
+Breakpoint	2016-05-09-19-41-40	remove	Line breakpoint:Triangle [line: 12] - Triangle(long, long, long)	12	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-41-40	remove	Line breakpoint:Triangle [line: 14] - Triangle(long, long, long)	14	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-41-41	remove	Line breakpoint:Triangle [line: 16] - Triangle(long, long, long)	16	=Triangle/src<{Triangle.java[Triangle	Triangle	
+CaretPosition	2016-05-09-19-41-41	Triangle.java	16
+Breakpoint	2016-05-09-19-41-43	remove	Line breakpoint:Triangle [line: 29] - isTriangle(Triangle)	29	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-41-44	remove	Line breakpoint:Triangle [line: 34] - isTriangle(Triangle)	34	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-41-45	Triangle.java	deactivated
+Part	2016-05-09-19-41-45	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-41-45	TestTriangle.java	55
+Part	2016-05-09-19-41-45	TestTriangle.java	activated
+FileState	2016-05-09-19-41-45	1462794105940	ActiveEditor	Triangle/junit/TestTriangle.java
+Part	2016-05-09-19-41-47	TestTriangle.java	deactivated
+Part	2016-05-09-19-41-47	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-41-47	Triangle.java	16
+Part	2016-05-09-19-41-47	Triangle.java	activated
+FileState	2016-05-09-19-41-47	1462794107251	ActiveEditor	Triangle/src/Triangle.java
+FileState	2016-05-09-19-41-47	1462794107625	Timer
+CaretPosition	2016-05-09-19-41-50	Triangle.java	49
+Breakpoint	2016-05-09-19-41-58	add	null	53	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-41-58	change	Line breakpoint:Triangle [line: 53] - getType(Triangle)	53	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-41-58	Triangle.java	deactivated
+Part	2016-05-09-19-41-58	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-41-58	TestTriangle.java	55
+Part	2016-05-09-19-41-58	TestTriangle.java	activated
+FileState	2016-05-09-19-41-58	1462794118804	ActiveEditor	Triangle/junit/TestTriangle.java
+Part	2016-05-09-19-42-04	TestTriangle.java	deactivated
+Part	2016-05-09-19-42-04	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-42-04	Triangle.java	49
+Part	2016-05-09-19-42-04	Triangle.java	activated
+FileState	2016-05-09-19-42-04	1462794124810	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-42-08	Triangle.java	deactivated
+Part	2016-05-09-19-42-08	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-42-08	TestTriangle.java	55
+Part	2016-05-09-19-42-08	TestTriangle.java	activated
+FileState	2016-05-09-19-42-08	1462794128324	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-42-10	TestTriangle.java	53
+Breakpoint	2016-05-09-19-42-20	add	null	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-42-23	add	null	58	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-42-23	change	Line breakpoint:TestTriangle [line: 58] - testType2()	58	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-42-25	remove	Line breakpoint:TestTriangle [line: 58] - testType2()	58	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+CaretPosition	2016-05-09-19-42-25	TestTriangle.java	58
+CaretPosition	2016-05-09-19-42-33	TestTriangle.java	53
+CaretPosition	2016-05-09-19-42-34	TestTriangle.java	54
+CaretPosition	2016-05-09-19-42-36	TestTriangle.java	53
+CaretPosition	2016-05-09-19-42-42	TestTriangle.java	54
+CaretPosition	2016-05-09-19-42-43	TestTriangle.java	53
+CaretPosition	2016-05-09-19-42-46	TestTriangle.java	53
+FileState	2016-05-09-19-42-47	1462794167635	Timer
+Part	2016-05-09-19-42-51	TestTriangle.java	deactivated
+Part	2016-05-09-19-42-51	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-42-51	Triangle.java	49
+Part	2016-05-09-19-42-51	Triangle.java	activated
+FileState	2016-05-09-19-42-51	1462794171966	ActiveEditor	Triangle/src/Triangle.java
+FileState	2016-05-09-19-43-47	1462794227636	Timer
+Part	2016-05-09-19-44-08	Triangle.java	deactivated
+Part	2016-05-09-19-44-08	JUnit (Finished after 0.188 seconds)	activated
+Part	2016-05-09-19-44-08	TestTriangle.java	broughtToTop
+Part	2016-05-09-19-44-08	JUnit (Finished after 0.188 seconds)	deactivated
+CaretPosition	2016-05-09-19-44-08	TestTriangle.java	53
+Part	2016-05-09-19-44-08	TestTriangle.java	activated
+FileState	2016-05-09-19-44-08	1462794248736	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-44-09	TestTriangle.java	53
+Part	2016-05-09-19-44-10	TestTriangle.java	deactivated
+Part	2016-05-09-19-44-11	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-44-11	Triangle.java	49
+Part	2016-05-09-19-44-11	Triangle.java	activated
+FileState	2016-05-09-19-44-11	1462794251081	ActiveEditor	Triangle/src/Triangle.java
+Breakpoint	2016-05-09-19-44-20	add	null	60	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-44-20	change	Line breakpoint:Triangle [line: 60] - getType(Triangle)	60	=Triangle/src<{Triangle.java[Triangle	Triangle	
+CaretPosition	2016-05-09-19-44-21	Triangle.java	63
+CaretPosition	2016-05-09-19-44-26	Triangle.java	56
+Breakpoint	2016-05-09-19-44-35	add	null	62	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-44-35	change	Line breakpoint:Triangle [line: 62] - getType(Triangle)	62	=Triangle/src<{Triangle.java[Triangle	Triangle	
+CaretPosition	2016-05-09-19-44-37	Triangle.java	60
+Part	2016-05-09-19-44-38	Triangle.java	deactivated
+Part	2016-05-09-19-44-38	JUnit (Finished after 0.188 seconds)	activated
+Breakpoint	2016-05-09-19-44-41	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-19-44-42	Class.class	opened
+Breakpoint	2016-05-09-19-44-42	change	Line breakpoint:TestTriangle [line: 53] - testType1()	53	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-19-44-42	Class.class	broughtToTop
+Part	2016-05-09-19-44-43	JUnit (Rerun TestTriangle.testType1)	deactivated
+CaretPosition	2016-05-09-19-44-43	Class.class	2
+Part	2016-05-09-19-44-43	Class.class	activated
+FileState	2016-05-09-19-44-43	1462794283159	ActiveEditor	java.lang.Class
+CaretPosition	2016-05-09-19-44-43	Class.class	2
+FileState	2016-05-09-19-44-47	1462794287640	Timer
+CaretPosition	2016-05-09-19-44-48	Class.class	2585
+CaretPosition	2016-05-09-19-44-54	Class.class	1522
+Part	2016-05-09-19-45-01	JUnit4Builder.class	deactivated
+CaretPosition	2016-05-09-19-45-01	Triangle.java	60
+Part	2016-05-09-19-45-01	Triangle.java	activated
+FileState	2016-05-09-19-45-01	1462794301589	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-45-01	Triangle.java	broughtToTop
+Part	2016-05-09-19-45-01	JUnit4Builder.class	closed
+CaretPosition	2016-05-09-19-45-12	Triangle.java	53
+CaretPosition	2016-05-09-19-45-13	Triangle.java	53
+CaretPosition	2016-05-09-19-45-13	Triangle.java	53
+Part	2016-05-09-19-45-15	Expressions	broughtToTop
+Part	2016-05-09-19-45-19	RunnerBuilder.class	opened
+Part	2016-05-09-19-45-19	Triangle.java	deactivated
+CaretPosition	2016-05-09-19-45-19	RunnerBuilder.class	1
+Part	2016-05-09-19-45-19	RunnerBuilder.class	activated
+FileState	2016-05-09-19-45-19	1462794319343	ActiveEditor	org.junit.runners.model.RunnerBuilder
+Part	2016-05-09-19-45-19	RunnerBuilder.class	broughtToTop
+Part	2016-05-09-19-45-31	AllDefaultPossibilitiesBuilder.class	deactivated
+CaretPosition	2016-05-09-19-45-31	Triangle.java	53
+Part	2016-05-09-19-45-31	Triangle.java	activated
+FileState	2016-05-09-19-45-31	1462794331855	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-45-31	Triangle.java	broughtToTop
+Part	2016-05-09-19-45-31	AllDefaultPossibilitiesBuilder.class	closed
+Breakpoint	2016-05-09-19-45-36	change	Line breakpoint:TestTriangle [line: 53] - testType1()	53	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-45-36	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-19-45-37	Triangle.java	deactivated
+CaretPosition	2016-05-09-19-45-37	Triangle.java	53
+Part	2016-05-09-19-45-37	Triangle.java	activated
+FileState	2016-05-09-19-45-37	1462794337701	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-45-41	Triangle.java	deactivated
+Part	2016-05-09-19-45-41	Project Explorer	activated
+FileState	2016-05-09-19-45-47	1462794347646	Timer
+Part	2016-05-09-19-45-47	Project Explorer	deactivated
+Part	2016-05-09-19-45-47	JUnit (Finished after 0.047 seconds)	activated
+Part	2016-05-09-19-45-50	Class.class	opened
+Part	2016-05-09-19-45-50	Class.class	broughtToTop
+Breakpoint	2016-05-09-19-45-50	change	Line breakpoint:TestTriangle [line: 53] - testType1()	53	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-45-50	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-19-45-51	JUnit (Rerun TestTriangle.testType1)	deactivated
+CaretPosition	2016-05-09-19-45-51	Class.class	2
+CaretPosition	2016-05-09-19-45-51	Class.class	2
+Part	2016-05-09-19-45-51	Class.class	activated
+FileState	2016-05-09-19-45-51	1462794351761	ActiveEditor	java.lang.Class
+Part	2016-05-09-19-46-01	Class.class	deactivated
+Part	2016-05-09-19-46-01	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-46-01	Triangle.java	53
+Part	2016-05-09-19-46-01	Triangle.java	activated
+FileState	2016-05-09-19-46-01	1462794361659	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-46-08	JUnit (Rerun TestTriangle.testType1)	broughtToTop
+Breakpoint	2016-05-09-19-46-08	change	Line breakpoint:Triangle [line: 62] - getType(Triangle)	62	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-46-08	change	Line breakpoint:Triangle [line: 53] - getType(Triangle)	53	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-46-08	change	Line breakpoint:Triangle [line: 60] - getType(Triangle)	60	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-46-08	Triangle.java	deactivated
+Part	2016-05-09-19-46-08	TestTriangle.java	broughtToTop
+CaretPosition	2016-05-09-19-46-08	TestTriangle.java	53
+Part	2016-05-09-19-46-08	TestTriangle.java	activated
+FileState	2016-05-09-19-46-08	1462794368363	ActiveEditor	Triangle/junit/TestTriangle.java
+CaretPosition	2016-05-09-19-46-08	TestTriangle.java	53
+Part	2016-05-09-19-46-16	TestTriangle.java	deactivated
+Part	2016-05-09-19-46-16	Triangle.java	broughtToTop
+CaretPosition	2016-05-09-19-46-16	Triangle.java	53
+Part	2016-05-09-19-46-16	Triangle.java	activated
+FileState	2016-05-09-19-46-16	1462794376280	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-46-16	Triangle.java	50
+CaretPosition	2016-05-09-19-46-22	Triangle.java	53
+CaretPosition	2016-05-09-19-46-25	Triangle.java	55
+Part	2016-05-09-19-46-27	Triangle.java	deactivated
+Part	2016-05-09-19-46-27	Expressions	activated
+Part	2016-05-09-19-46-35	Expressions	deactivated
+Part	2016-05-09-19-46-35	Variables	broughtToTop
+Part	2016-05-09-19-46-35	Variables	activated
+Part	2016-05-09-19-46-43	Variables	deactivated
+CaretPosition	2016-05-09-19-46-43	Triangle.java	55
+Part	2016-05-09-19-46-44	Triangle.java	activated
+FileState	2016-05-09-19-46-44	1462794404000	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-46-44	Triangle.java	53
+FileState	2016-05-09-19-46-47	1462794407655	Timer
+CaretPosition	2016-05-09-19-46-51	Triangle.java	60
+CaretPosition	2016-05-09-19-47-07	Triangle.java	67
+Breakpoint	2016-05-09-19-47-11	change	Line breakpoint:TestTriangle [line: 53] - testType1()	53	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-47-11	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Breakpoint	2016-05-09-19-47-11	change	Line breakpoint:Triangle [line: 62] - getType(Triangle)	62	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-47-11	change	Line breakpoint:Triangle [line: 53] - getType(Triangle)	53	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-47-11	change	Line breakpoint:Triangle [line: 60] - getType(Triangle)	60	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-47-12	Triangle.java	deactivated
+CaretPosition	2016-05-09-19-47-12	Triangle.java	67
+Part	2016-05-09-19-47-12	Triangle.java	activated
+FileState	2016-05-09-19-47-12	1462794432283	ActiveEditor	Triangle/src/Triangle.java
+CaretPosition	2016-05-09-19-47-13	Triangle.java	78
+CaretPosition	2016-05-09-19-47-14	Triangle.java	60
+FileChange	2016-05-09-19-47-17	C:\mooctest\projects\417\12972\Triangle\src\Triangle.java	[ChangeDelta, position: 59, lines: [			else if ((triangle.lborderA == triangle.lborderB)] to [			else if ((triangle.lborderA != triangle.lborderB)]]	
+Breakpoint	2016-05-09-19-47-17	change	Line breakpoint:Triangle [line: 62] - getType(Triangle)	62	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-47-17	change	Line breakpoint:Triangle [line: 53] - getType(Triangle)	53	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Breakpoint	2016-05-09-19-47-17	change	Line breakpoint:Triangle [line: 60] - getType(Triangle)	60	=Triangle/src<{Triangle.java[Triangle	Triangle	
+Part	2016-05-09-19-47-18	Triangle.java	deactivated
+Part	2016-05-09-19-47-18	Project Explorer	activated
+Part	2016-05-09-19-47-25	Project Explorer	deactivated
+Part	2016-05-09-19-47-25	JUnit (Finished after 0.031 seconds)	activated
+Process	2016-05-09-19-47-30	Triangle	100.0	0
+Process	2016-05-09-19-47-31	FindTriple_c	0.0	3
+Process	2016-05-09-19-47-34	TicTacToe_c	0.0	29
+Part	2016-05-09-19-47-35	JUnit (Finished after 0.031 seconds)	deactivated
+Part	2016-05-09-19-47-35	MoocTest	broughtToTop
+Part	2016-05-09-19-47-35	MoocTest	activated
+Part	2016-05-09-19-47-47	MoocTest	deactivated
+CaretPosition	2016-05-09-19-47-47	Triangle.java	60
+Part	2016-05-09-19-47-47	Triangle.java	activated
+FileState	2016-05-09-19-47-47	1462794467074	ActiveEditor	Triangle/src/Triangle.java
+Part	2016-05-09-19-47-47	Triangle.java	deactivated
+CaretPosition	2016-05-09-19-47-47	TestTriangle.java	53
+Part	2016-05-09-19-47-47	TestTriangle.java	activated
+FileState	2016-05-09-19-47-47	1462794467167	ActiveEditor	Triangle/junit/TestTriangle.java
+Part	2016-05-09-19-47-47	TestTriangle.java	broughtToTop
+Part	2016-05-09-19-47-47	Triangle.java	closed
+FileState	2016-05-09-19-47-47	1462794467668	Timer
+Part	2016-05-09-19-47-48	Class.class	closed
+Part	2016-05-09-19-47-49	TestTriangle.java	deactivated
+Part	2016-05-09-19-47-49	MoocTest	activated
+Part	2016-05-09-19-47-49	TestTriangle.java	closed
+Part	2016-05-09-19-47-50	MoocTest	deactivated
+Part	2016-05-09-19-47-50	Project Explorer	activated
+Process	2016-05-09-19-47-55	Triangle	100.0	0
+Process	2016-05-09-19-47-57	FindTriple_c	0.0	3
+Process	2016-05-09-19-48-00	TicTacToe_c	0.0	29
+Part	2016-05-09-19-48-04	Project Explorer	deactivated
+Part	2016-05-09-19-48-04	MoocTest	activated
+Part	2016-05-09-19-48-05	MoocTest	deactivated
+Part	2016-05-09-19-48-05	Project Explorer	activated
+Part	2016-05-09-19-48-17	JUnit (TestFindTriple_c)	broughtToTop
+Part	2016-05-09-19-48-17	Console (<terminated> TestFindTriple_c [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:48:16))	broughtToTop
+Part	2016-05-09-19-48-20	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-48-20	Console (<terminated> TestFindTriple_c [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:48:16))	1
+Part	2016-05-09-19-48-20	Console (<terminated> TestFindTriple_c [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:48:16))	activated
+CaretPosition	2016-05-09-19-48-20	Console (<terminated> TestFindTriple_c [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:48:16))	5
+Part	2016-05-09-19-48-21	Console (<terminated> TestFindTriple_c [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:48:16))	deactivated
+Part	2016-05-09-19-48-21	JUnit (Finished after 0.093 seconds)	broughtToTop
+Part	2016-05-09-19-48-21	JUnit (Finished after 0.093 seconds)	activated
+Part	2016-05-09-19-48-26	TestFindTriple_c.java	opened
+Part	2016-05-09-19-48-26	TestFindTriple_c.java	broughtToTop
+Part	2016-05-09-19-48-26	JUnit (Finished after 0.093 seconds)	deactivated
+CaretPosition	2016-05-09-19-48-26	TestFindTriple_c.java	1
+Part	2016-05-09-19-48-26	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-48-26	1462794506447	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+CaretPosition	2016-05-09-19-48-27	TestFindTriple_c.java	263
+CaretPosition	2016-05-09-19-48-28	TestFindTriple_c.java	258
+Part	2016-05-09-19-48-35	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-48-35	Project Explorer	activated
+Part	2016-05-09-19-48-36	FindTriple_c.java	opened
+Part	2016-05-09-19-48-36	FindTriple_c.java	broughtToTop
+Part	2016-05-09-19-48-36	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-48-36	FindTriple_c.java	1
+Part	2016-05-09-19-48-36	FindTriple_c.java	activated
+FileState	2016-05-09-19-48-36	1462794516737	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+FileState	2016-05-09-19-48-47	1462794527672	Timer
+FileState	2016-05-09-19-49-47	1462794587681	Timer
+CaretPosition	2016-05-09-19-49-54	FindTriple_c.java	8
+CaretPosition	2016-05-09-19-49-58	FindTriple_c.java	7
+Part	2016-05-09-19-50-10	FindTriple_c.java	deactivated
+Part	2016-05-09-19-50-10	TestFindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-50-10	TestFindTriple_c.java	258
+Part	2016-05-09-19-50-10	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-50-10	1462794610321	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+CaretPosition	2016-05-09-19-50-11	TestFindTriple_c.java	12
+Part	2016-05-09-19-50-14	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-50-14	JUnit (Finished after 0.093 seconds)	activated
+Part	2016-05-09-19-50-14	JUnit (Finished after 0.093 seconds)	deactivated
+CaretPosition	2016-05-09-19-50-14	TestFindTriple_c.java	12
+Part	2016-05-09-19-50-14	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-50-14	1462794614471	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+CaretPosition	2016-05-09-19-50-15	TestFindTriple_c.java	263
+CaretPosition	2016-05-09-19-50-16	TestFindTriple_c.java	263
+Breakpoint	2016-05-09-19-50-26	add	null	263	=FindTriple_c/junit<{TestFindTriple_c.java[TestFindTriple_c	TestFindTriple_c	
+Breakpoint	2016-05-09-19-50-26	change	Line breakpoint:TestFindTriple_c [line: 263] - test12()	263	=FindTriple_c/junit<{TestFindTriple_c.java[TestFindTriple_c	TestFindTriple_c	
+Part	2016-05-09-19-50-34	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-50-34	FindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-50-34	FindTriple_c.java	7
+Part	2016-05-09-19-50-34	FindTriple_c.java	activated
+FileState	2016-05-09-19-50-34	1462794634960	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-50-36	FindTriple_c.java	14
+CaretPosition	2016-05-09-19-50-43	FindTriple_c.java	21
+Part	2016-05-09-19-50-45	FindTriple_c.java	deactivated
+Part	2016-05-09-19-50-45	TestFindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-50-45	TestFindTriple_c.java	263
+Part	2016-05-09-19-50-45	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-50-45	1462794645368	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+FileState	2016-05-09-19-50-47	1462794647692	Timer
+Part	2016-05-09-19-50-50	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-50-50	FindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-50-50	FindTriple_c.java	21
+Part	2016-05-09-19-50-50	FindTriple_c.java	activated
+FileState	2016-05-09-19-50-50	1462794650687	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-50-52	FindTriple_c.java	15
+CaretPosition	2016-05-09-19-50-56	FindTriple_c.java	20
+Part	2016-05-09-19-50-57	FindTriple_c.java	deactivated
+Part	2016-05-09-19-50-57	TestFindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-50-57	TestFindTriple_c.java	263
+Part	2016-05-09-19-50-57	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-50-57	1462794657787	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+CaretPosition	2016-05-09-19-51-09	TestFindTriple_c.java	213
+Part	2016-05-09-19-51-10	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-51-10	FindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-51-10	FindTriple_c.java	20
+Part	2016-05-09-19-51-10	FindTriple_c.java	activated
+FileState	2016-05-09-19-51-10	1462794670760	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-51-14	FindTriple_c.java	6
+CaretPosition	2016-05-09-19-51-17	FindTriple_c.java	8
+CaretPosition	2016-05-09-19-51-19	FindTriple_c.java	6
+CaretPosition	2016-05-09-19-51-23	FindTriple_c.java	9
+CaretPosition	2016-05-09-19-51-46	FindTriple_c.java	16
+FileState	2016-05-09-19-51-47	1462794707693	Timer
+FileState	2016-05-09-19-52-47	1462794767694	Timer
+CaretPosition	2016-05-09-19-53-04	FindTriple_c.java	17
+CaretPosition	2016-05-09-19-53-09	FindTriple_c.java	18
+CaretPosition	2016-05-09-19-53-10	FindTriple_c.java	16
+FileState	2016-05-09-19-53-47	1462794827701	Timer
+FileState	2016-05-09-19-54-47	1462794887708	Timer
+Part	2016-05-09-19-55-01	FindTriple_c.java	deactivated
+Part	2016-05-09-19-55-01	JUnit (Finished after 0.093 seconds)	activated
+FileState	2016-05-09-19-55-47	1462794947713	Timer
+Part	2016-05-09-19-56-00	JUnit (Finished after 0.093 seconds)	deactivated
+CaretPosition	2016-05-09-19-56-00	FindTriple_c.java	16
+Part	2016-05-09-19-56-01	FindTriple_c.java	activated
+FileState	2016-05-09-19-56-01	1462794961066	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-56-01	FindTriple_c.java	33
+Part	2016-05-09-19-56-02	FindTriple_c.java	deactivated
+Part	2016-05-09-19-56-02	JUnit (Finished after 0.093 seconds)	activated
+Part	2016-05-09-19-56-08	JUnit (Finished after 0.093 seconds)	deactivated
+CaretPosition	2016-05-09-19-56-08	FindTriple_c.java	33
+Part	2016-05-09-19-56-08	FindTriple_c.java	activated
+FileState	2016-05-09-19-56-08	1462794968576	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-56-09	FindTriple_c.java	31
+Part	2016-05-09-19-56-11	FindTriple_c.java	deactivated
+Part	2016-05-09-19-56-11	JUnit (Finished after 0.093 seconds)	activated
+Part	2016-05-09-19-56-14	TestFindTriple_c.java	broughtToTop
+Part	2016-05-09-19-56-14	JUnit (Finished after 0.093 seconds)	deactivated
+CaretPosition	2016-05-09-19-56-14	TestFindTriple_c.java	213
+Part	2016-05-09-19-56-14	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-56-14	1462794974831	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+CaretPosition	2016-05-09-19-56-15	TestFindTriple_c.java	263
+CaretPosition	2016-05-09-19-56-16	TestFindTriple_c.java	265
+Part	2016-05-09-19-56-38	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-56-38	FindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-56-38	FindTriple_c.java	31
+Part	2016-05-09-19-56-38	FindTriple_c.java	activated
+FileState	2016-05-09-19-56-38	1462794998318	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-56-39	FindTriple_c.java	11
+Part	2016-05-09-19-56-41	FindTriple_c.java	deactivated
+Part	2016-05-09-19-56-41	JUnit (Finished after 0.093 seconds)	activated
+Part	2016-05-09-19-56-44	TestFindTriple_c.java	broughtToTop
+Part	2016-05-09-19-56-44	JUnit (Finished after 0.093 seconds)	deactivated
+CaretPosition	2016-05-09-19-56-44	TestFindTriple_c.java	265
+Part	2016-05-09-19-56-44	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-56-44	1462795004261	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+CaretPosition	2016-05-09-19-56-44	TestFindTriple_c.java	113
+FileState	2016-05-09-19-56-47	1462795007724	Timer
+Part	2016-05-09-19-56-49	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-56-49	JUnit (Finished after 0.093 seconds)	activated
+Part	2016-05-09-19-56-49	JUnit (Finished after 0.093 seconds)	deactivated
+CaretPosition	2016-05-09-19-56-50	TestFindTriple_c.java	113
+Part	2016-05-09-19-56-50	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-56-50	1462795010033	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+CaretPosition	2016-05-09-19-56-50	TestFindTriple_c.java	187
+Part	2016-05-09-19-56-52	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-56-52	FindTriple_c.java	broughtToTop
+CaretPosition	2016-05-09-19-56-52	FindTriple_c.java	11
+Part	2016-05-09-19-56-52	FindTriple_c.java	activated
+FileState	2016-05-09-19-56-52	1462795012358	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-56-55	FindTriple_c.java	14
+CaretPosition	2016-05-09-19-56-57	FindTriple_c.java	16
+CaretPosition	2016-05-09-19-57-01	FindTriple_c.java	20
+CaretPosition	2016-05-09-19-57-03	FindTriple_c.java	25
+CaretPosition	2016-05-09-19-57-05	FindTriple_c.java	25
+CaretPosition	2016-05-09-19-57-05	FindTriple_c.java	25
+CaretPosition	2016-05-09-19-57-07	FindTriple_c.java	26
+CaretPosition	2016-05-09-19-57-08	FindTriple_c.java	29
+CaretPosition	2016-05-09-19-57-11	FindTriple_c.java	32
+CaretPosition	2016-05-09-19-57-17	FindTriple_c.java	35
+CaretPosition	2016-05-09-19-57-18	FindTriple_c.java	35
+CaretPosition	2016-05-09-19-57-25	FindTriple_c.java	36
+CaretPosition	2016-05-09-19-57-28	FindTriple_c.java	35
+CaretPosition	2016-05-09-19-57-35	FindTriple_c.java	23
+CaretPosition	2016-05-09-19-57-36	FindTriple_c.java	40
+FileState	2016-05-09-19-57-47	1462795067725	Timer
+CaretPosition	2016-05-09-19-57-48	FindTriple_c.java	40
+CaretPosition	2016-05-09-19-57-50	FindTriple_c.java	40
+FileChange	2016-05-09-19-57-50	C:\mooctest\projects\417\12972\FindTriple_c\src\FindTriple_c.java	[ChangeDelta, position: 39, lines: [					} else if (inputList[s - 1] + inputList[e] < negative) {] to [					} else if (inputList[s] + inputList[e] < negative) {]]	
+Part	2016-05-09-19-57-53	FindTriple_c.java	deactivated
+Part	2016-05-09-19-57-54	Project Explorer	activated
+Part	2016-05-09-19-57-57	Console (<terminated> TestFindTriple_c [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:57:56))	broughtToTop
+Part	2016-05-09-19-58-03	JUnit (Finished after 0.031 seconds)	broughtToTop
+Part	2016-05-09-19-58-03	Project Explorer	deactivated
+Part	2016-05-09-19-58-03	JUnit (Finished after 0.031 seconds)	activated
+Process	2016-05-09-19-58-10	Triangle	100.0	0
+Process	2016-05-09-19-58-11	FindTriple_c	100.0	0
+Process	2016-05-09-19-58-13	TicTacToe_c	0.0	29
+Part	2016-05-09-19-58-13	JUnit (Finished after 0.031 seconds)	deactivated
+Part	2016-05-09-19-58-13	MoocTest	broughtToTop
+Part	2016-05-09-19-58-13	MoocTest	activated
+Process	2016-05-09-19-58-20	Triangle	100.0	0
+Process	2016-05-09-19-58-22	FindTriple_c	100.0	0
+Process	2016-05-09-19-58-25	TicTacToe_c	0.0	29
+Part	2016-05-09-19-58-32	MoocTest	deactivated
+CaretPosition	2016-05-09-19-58-32	FindTriple_c.java	40
+Part	2016-05-09-19-58-32	FindTriple_c.java	activated
+FileState	2016-05-09-19-58-32	1462795112772	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+CaretPosition	2016-05-09-19-58-33	FindTriple_c.java	25
+Part	2016-05-09-19-58-34	FindTriple_c.java	deactivated
+Part	2016-05-09-19-58-34	MoocTest	activated
+Part	2016-05-09-19-58-36	MoocTest	deactivated
+CaretPosition	2016-05-09-19-58-36	FindTriple_c.java	25
+Part	2016-05-09-19-58-36	FindTriple_c.java	activated
+FileState	2016-05-09-19-58-36	1462795116846	ActiveEditor	FindTriple_c/src/FindTriple_c.java
+Part	2016-05-09-19-58-36	FindTriple_c.java	deactivated
+CaretPosition	2016-05-09-19-58-36	TestFindTriple_c.java	187
+Part	2016-05-09-19-58-36	TestFindTriple_c.java	activated
+FileState	2016-05-09-19-58-36	1462795116940	ActiveEditor	FindTriple_c/junit/TestFindTriple_c.java
+Part	2016-05-09-19-58-36	TestFindTriple_c.java	broughtToTop
+Part	2016-05-09-19-58-36	FindTriple_c.java	closed
+Part	2016-05-09-19-58-37	TestFindTriple_c.java	deactivated
+Part	2016-05-09-19-58-37	MoocTest	activated
+Part	2016-05-09-19-58-37	TestFindTriple_c.java	closed
+Part	2016-05-09-19-58-39	MoocTest	deactivated
+Part	2016-05-09-19-58-39	Project Explorer	activated
+FileState	2016-05-09-19-58-47	1462795127737	Timer
+Part	2016-05-09-19-58-48	JUnit (TestTicTacToe)	broughtToTop
+Part	2016-05-09-19-58-48	Console (TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	broughtToTop
+Part	2016-05-09-19-58-49	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-58-49	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	5
+CaretPosition	2016-05-09-19-58-49	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	1
+Part	2016-05-09-19-58-49	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	activated
+CaretPosition	2016-05-09-19-58-50	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	3044
+CaretPosition	2016-05-09-19-58-50	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	3044
+Part	2016-05-09-19-58-56	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	deactivated
+Part	2016-05-09-19-58-56	JUnit (Finished after 0.312 seconds)	broughtToTop
+Part	2016-05-09-19-58-56	JUnit (Finished after 0.312 seconds)	activated
+Part	2016-05-09-19-59-03	TestTicTacToe.java	opened
+Part	2016-05-09-19-59-03	TestTicTacToe.java	broughtToTop
+Part	2016-05-09-19-59-03	JUnit (Finished after 0.312 seconds)	deactivated
+CaretPosition	2016-05-09-19-59-03	TestTicTacToe.java	1
+Part	2016-05-09-19-59-03	TestTicTacToe.java	activated
+FileState	2016-05-09-19-59-03	1462795143827	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-19-59-04	TestTicTacToe.java	363
+CaretPosition	2016-05-09-19-59-05	TestTicTacToe.java	363
+Part	2016-05-09-19-59-07	TestTicTacToe.java	deactivated
+Part	2016-05-09-19-59-07	JUnit (Finished after 0.312 seconds)	activated
+Part	2016-05-09-19-59-11	JUnit (Finished after 0.312 seconds)	deactivated
+Part	2016-05-09-19-59-11	Project Explorer	activated
+Part	2016-05-09-19-59-25	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-59-25	TestTicTacToe.java	363
+Part	2016-05-09-19-59-25	TestTicTacToe.java	activated
+FileState	2016-05-09-19-59-25	1462795165501	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-19-59-26	TestTicTacToe.java	370
+CaretPosition	2016-05-09-19-59-30	TestTicTacToe.java	368
+Part	2016-05-09-19-59-33	TestTicTacToe.java	deactivated
+Part	2016-05-09-19-59-33	Project Explorer	activated
+Part	2016-05-09-19-59-33	AI.java	opened
+Part	2016-05-09-19-59-34	AI.java	broughtToTop
+Part	2016-05-09-19-59-34	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-59-34	AI.java	1
+Part	2016-05-09-19-59-34	AI.java	activated
+FileState	2016-05-09-19-59-34	1462795174143	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-19-59-35	AI.java	deactivated
+CaretPosition	2016-05-09-19-59-35	TestTicTacToe.java	368
+Part	2016-05-09-19-59-35	TestTicTacToe.java	activated
+FileState	2016-05-09-19-59-35	1462795175458	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+Part	2016-05-09-19-59-35	TestTicTacToe.java	broughtToTop
+Part	2016-05-09-19-59-35	AI.java	closed
+Part	2016-05-09-19-59-38	TestTicTacToe.java	deactivated
+Part	2016-05-09-19-59-38	Project Explorer	activated
+Part	2016-05-09-19-59-39	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-59-39	TestTicTacToe.java	368
+Part	2016-05-09-19-59-39	TestTicTacToe.java	activated
+FileState	2016-05-09-19-59-39	1462795179950	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-19-59-40	TestTicTacToe.java	366
+Part	2016-05-09-19-59-41	TestTicTacToe.java	deactivated
+Part	2016-05-09-19-59-41	JUnit (Finished after 0.312 seconds)	activated
+Part	2016-05-09-19-59-44	JUnit (Finished after 0.312 seconds)	deactivated
+Part	2016-05-09-19-59-45	Project Explorer	activated
+Part	2016-05-09-19-59-45	TicTacToe_c.java	opened
+Part	2016-05-09-19-59-45	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-19-59-45	Project Explorer	deactivated
+CaretPosition	2016-05-09-19-59-45	TicTacToe_c.java	1
+Part	2016-05-09-19-59-45	TicTacToe_c.java	activated
+FileState	2016-05-09-19-59-45	1462795185414	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-19-59-46	TicTacToe_c.java	10
+FileState	2016-05-09-19-59-47	1462795187739	Timer
+FileState	2016-05-09-20-00-47	1462795247751	Timer
+CaretPosition	2016-05-09-20-01-16	TicTacToe_c.java	13
+CaretPosition	2016-05-09-20-01-21	TicTacToe_c.java	4
+CaretPosition	2016-05-09-20-01-25	TicTacToe_c.java	20
+CaretPosition	2016-05-09-20-01-28	TicTacToe_c.java	11
+CaretPosition	2016-05-09-20-01-29	TicTacToe_c.java	8
+Part	2016-05-09-20-01-32	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-01-32	JUnit (Finished after 0.312 seconds)	activated
+Part	2016-05-09-20-01-35	TestTicTacToe.java	broughtToTop
+Part	2016-05-09-20-01-35	JUnit (Finished after 0.312 seconds)	deactivated
+CaretPosition	2016-05-09-20-01-35	TestTicTacToe.java	366
+Part	2016-05-09-20-01-35	TestTicTacToe.java	activated
+FileState	2016-05-09-20-01-35	1462795295543	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-01-36	TestTicTacToe.java	470
+CaretPosition	2016-05-09-20-01-39	TestTicTacToe.java	460
+CaretPosition	2016-05-09-20-01-41	TestTicTacToe.java	463
+CaretPosition	2016-05-09-20-01-43	TestTicTacToe.java	466
+CaretPosition	2016-05-09-20-01-45	TestTicTacToe.java	469
+Part	2016-05-09-20-01-47	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-01-47	JUnit (Finished after 0.312 seconds)	activated
+FileState	2016-05-09-20-01-47	1462795307753	Timer
+Part	2016-05-09-20-01-50	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-01-50	JUnit (Finished after 0.312 seconds)	deactivated
+CaretPosition	2016-05-09-20-01-50	TicTacToe_c.java	8
+Part	2016-05-09-20-01-50	TicTacToe_c.java	activated
+FileState	2016-05-09-20-01-50	1462795310127	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-01-52	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-01-52	TestTicTacToe.java	broughtToTop
+CaretPosition	2016-05-09-20-01-52	TestTicTacToe.java	469
+Part	2016-05-09-20-01-52	TestTicTacToe.java	activated
+FileState	2016-05-09-20-01-52	1462795312267	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-01-54	TestTicTacToe.java	465
+CaretPosition	2016-05-09-20-01-56	TestTicTacToe.java	466
+CaretPosition	2016-05-09-20-01-59	TestTicTacToe.java	468
+CaretPosition	2016-05-09-20-02-03	TestTicTacToe.java	466
+Part	2016-05-09-20-02-04	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-02-04	Project Explorer	activated
+Part	2016-05-09-20-02-10	Project Explorer	deactivated
+CaretPosition	2016-05-09-20-02-10	TestTicTacToe.java	466
+Part	2016-05-09-20-02-10	TestTicTacToe.java	activated
+FileState	2016-05-09-20-02-10	1462795330288	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-02-10	TestTicTacToe.java	460
+Part	2016-05-09-20-02-12	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-02-12	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-02-12	TicTacToe_c.java	8
+Part	2016-05-09-20-02-12	TicTacToe_c.java	activated
+FileState	2016-05-09-20-02-12	1462795332866	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-02-17	TicTacToe_c.java	7
+CaretPosition	2016-05-09-20-02-23	TicTacToe_c.java	12
+CaretPosition	2016-05-09-20-02-34	TicTacToe_c.java	8
+Part	2016-05-09-20-02-36	GameRecord.java	opened
+Part	2016-05-09-20-02-36	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-02-36	GameRecord.java	1
+Part	2016-05-09-20-02-36	GameRecord.java	activated
+FileState	2016-05-09-20-02-36	1462795356732	ActiveEditor	TicTacToe_c/src/GameRecord.java
+Part	2016-05-09-20-02-36	GameRecord.java	broughtToTop
+CaretPosition	2016-05-09-20-02-37	GameRecord.java	10
+CaretPosition	2016-05-09-20-02-38	GameRecord.java	11
+CaretPosition	2016-05-09-20-02-40	GameRecord.java	8
+CaretPosition	2016-05-09-20-02-41	GameRecord.java	7
+CaretPosition	2016-05-09-20-02-42	GameRecord.java	7
+CaretPosition	2016-05-09-20-02-43	GameRecord.java	7
+CaretPosition	2016-05-09-20-02-45	GameRecord.java	7
+CaretPosition	2016-05-09-20-02-46	GameRecord.java	13
+CaretPosition	2016-05-09-20-02-47	GameRecord.java	11
+FileState	2016-05-09-20-02-47	1462795367754	Timer
+CaretPosition	2016-05-09-20-02-48	GameRecord.java	11
+CaretPosition	2016-05-09-20-02-52	GameRecord.java	13
+CaretPosition	2016-05-09-20-02-53	GameRecord.java	15
+CaretPosition	2016-05-09-20-02-56	GameRecord.java	15
+CaretPosition	2016-05-09-20-02-58	GameRecord.java	17
+CaretPosition	2016-05-09-20-02-58	GameRecord.java	18
+CaretPosition	2016-05-09-20-03-00	GameRecord.java	18
+CaretPosition	2016-05-09-20-03-01	GameRecord.java	19
+CaretPosition	2016-05-09-20-03-03	GameRecord.java	22
+Part	2016-05-09-20-03-11	GameRecord.java	deactivated
+CaretPosition	2016-05-09-20-03-11	TicTacToe_c.java	8
+CaretPosition	2016-05-09-20-03-11	TicTacToe_c.java	8
+Part	2016-05-09-20-03-11	TicTacToe_c.java	activated
+FileState	2016-05-09-20-03-11	1462795391138	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-03-11	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-03-11	GameRecord.java	closed
+CaretPosition	2016-05-09-20-03-13	TicTacToe_c.java	10
+CaretPosition	2016-05-09-20-03-14	TicTacToe_c.java	10
+CaretPosition	2016-05-09-20-03-16	TicTacToe_c.java	12
+CaretPosition	2016-05-09-20-03-18	TicTacToe_c.java	12
+CaretPosition	2016-05-09-20-03-19	TicTacToe_c.java	14
+CaretPosition	2016-05-09-20-03-21	TicTacToe_c.java	15
+CaretPosition	2016-05-09-20-03-22	TicTacToe_c.java	16
+CaretPosition	2016-05-09-20-03-24	TicTacToe_c.java	17
+CaretPosition	2016-05-09-20-03-27	TicTacToe_c.java	17
+FileState	2016-05-09-20-03-47	1462795427761	Timer
+FileState	2016-05-09-20-04-47	1462795487763	Timer
+Part	2016-05-09-20-04-56	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	broughtToTop
+Part	2016-05-09-20-04-56	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-04-56	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	3044
+Part	2016-05-09-20-04-56	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	activated
+CaretPosition	2016-05-09-20-04-57	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	2936
+CaretPosition	2016-05-09-20-04-57	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	2936
+CaretPosition	2016-05-09-20-04-59	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	2939
+CaretPosition	2016-05-09-20-04-59	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	2939
+CaretPosition	2016-05-09-20-05-03	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	2
+CaretPosition	2016-05-09-20-05-03	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	2
+CaretPosition	2016-05-09-20-05-04	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	6
+CaretPosition	2016-05-09-20-05-04	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	6
+CaretPosition	2016-05-09-20-05-06	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	14
+CaretPosition	2016-05-09-20-05-06	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	14
+CaretPosition	2016-05-09-20-05-08	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	19
+CaretPosition	2016-05-09-20-05-08	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	19
+CaretPosition	2016-05-09-20-05-10	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	26
+CaretPosition	2016-05-09-20-05-10	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	26
+CaretPosition	2016-05-09-20-05-11	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	27
+CaretPosition	2016-05-09-20-05-11	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	27
+CaretPosition	2016-05-09-20-05-13	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	36
+CaretPosition	2016-05-09-20-05-13	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	36
+CaretPosition	2016-05-09-20-05-14	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	41
+CaretPosition	2016-05-09-20-05-14	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	41
+CaretPosition	2016-05-09-20-05-23	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	77
+CaretPosition	2016-05-09-20-05-23	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	77
+Part	2016-05-09-20-05-36	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	deactivated
+CaretPosition	2016-05-09-20-05-36	TicTacToe_c.java	17
+Part	2016-05-09-20-05-36	TicTacToe_c.java	activated
+FileState	2016-05-09-20-05-36	1462795536513	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-05-37	TicTacToe_c.java	19
+CaretPosition	2016-05-09-20-05-41	TicTacToe_c.java	26
+CaretPosition	2016-05-09-20-05-45	TicTacToe_c.java	28
+Part	2016-05-09-20-05-47	Field.java	opened
+Part	2016-05-09-20-05-47	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-05-47	Field.java	1
+Part	2016-05-09-20-05-47	Field.java	activated
+FileState	2016-05-09-20-05-47	1462795547213	ActiveEditor	TicTacToe_c/src/Field.java
+Part	2016-05-09-20-05-47	Field.java	broughtToTop
+FileState	2016-05-09-20-05-47	1462795547763	Timer
+CaretPosition	2016-05-09-20-05-47	Field.java	1
+CaretPosition	2016-05-09-20-05-48	Field.java	9
+CaretPosition	2016-05-09-20-06-09	Field.java	17
+CaretPosition	2016-05-09-20-06-13	Field.java	3
+CaretPosition	2016-05-09-20-06-15	Field.java	5
+CaretPosition	2016-05-09-20-06-17	Field.java	9
+CaretPosition	2016-05-09-20-06-20	Field.java	8
+CaretPosition	2016-05-09-20-06-22	Field.java	13
+CaretPosition	2016-05-09-20-06-23	Field.java	16
+CaretPosition	2016-05-09-20-06-24	Field.java	17
+CaretPosition	2016-05-09-20-06-25	Field.java	19
+CaretPosition	2016-05-09-20-06-33	Field.java	26
+CaretPosition	2016-05-09-20-06-41	Field.java	34
+FileState	2016-05-09-20-06-47	1462795607778	Timer
+Part	2016-05-09-20-06-47	Field.java	deactivated
+CaretPosition	2016-05-09-20-06-47	TicTacToe_c.java	28
+CaretPosition	2016-05-09-20-06-47	TicTacToe_c.java	28
+Part	2016-05-09-20-06-47	TicTacToe_c.java	activated
+FileState	2016-05-09-20-06-47	1462795607949	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-06-47	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-06-48	Field.java	closed
+CaretPosition	2016-05-09-20-06-50	TicTacToe_c.java	29
+Part	2016-05-09-20-06-53	Player.java	opened
+Part	2016-05-09-20-06-53	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-06-53	Player.java	1
+Part	2016-05-09-20-06-53	Player.java	activated
+FileState	2016-05-09-20-06-53	1462795613112	ActiveEditor	TicTacToe_c/src/Player.java
+Part	2016-05-09-20-06-53	Player.java	broughtToTop
+CaretPosition	2016-05-09-20-06-53	Player.java	1
+CaretPosition	2016-05-09-20-06-54	Player.java	10
+CaretPosition	2016-05-09-20-06-56	Player.java	5
+CaretPosition	2016-05-09-20-06-57	Player.java	5
+CaretPosition	2016-05-09-20-06-57	Player.java	6
+CaretPosition	2016-05-09-20-06-59	Player.java	6
+Part	2016-05-09-20-07-02	Player.java	deactivated
+CaretPosition	2016-05-09-20-07-02	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	77
+Part	2016-05-09-20-07-02	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	activated
+CaretPosition	2016-05-09-20-07-03	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	80
+CaretPosition	2016-05-09-20-07-03	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	80
+Part	2016-05-09-20-07-04	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	deactivated
+CaretPosition	2016-05-09-20-07-04	Player.java	6
+Part	2016-05-09-20-07-04	Player.java	activated
+FileState	2016-05-09-20-07-04	1462795624277	ActiveEditor	TicTacToe_c/src/Player.java
+CaretPosition	2016-05-09-20-07-04	Player.java	11
+CaretPosition	2016-05-09-20-07-06	Player.java	12
+Part	2016-05-09-20-07-12	Player.java	deactivated
+CaretPosition	2016-05-09-20-07-12	TicTacToe_c.java	29
+CaretPosition	2016-05-09-20-07-12	TicTacToe_c.java	29
+Part	2016-05-09-20-07-12	TicTacToe_c.java	activated
+FileState	2016-05-09-20-07-12	1462795632664	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-07-12	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-07-12	Player.java	closed
+Part	2016-05-09-20-07-16	Human.java	opened
+Part	2016-05-09-20-07-16	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-07-16	Human.java	1
+Part	2016-05-09-20-07-16	Human.java	activated
+FileState	2016-05-09-20-07-16	1462795636751	ActiveEditor	TicTacToe_c/src/Human.java
+Part	2016-05-09-20-07-16	Human.java	broughtToTop
+CaretPosition	2016-05-09-20-07-17	Human.java	14
+CaretPosition	2016-05-09-20-07-18	Human.java	11
+CaretPosition	2016-05-09-20-07-20	Human.java	16
+CaretPosition	2016-05-09-20-07-28	Human.java	20
+CaretPosition	2016-05-09-20-07-30	Human.java	21
+CaretPosition	2016-05-09-20-07-31	Human.java	22
+CaretPosition	2016-05-09-20-07-33	Human.java	23
+CaretPosition	2016-05-09-20-07-40	Human.java	24
+CaretPosition	2016-05-09-20-07-42	Human.java	35
+FileState	2016-05-09-20-07-47	1462795667793	Timer
+Part	2016-05-09-20-07-56	Human.java	deactivated
+CaretPosition	2016-05-09-20-07-56	TicTacToe_c.java	29
+CaretPosition	2016-05-09-20-07-56	TicTacToe_c.java	29
+Part	2016-05-09-20-07-56	TicTacToe_c.java	activated
+FileState	2016-05-09-20-07-56	1462795676734	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-07-56	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-07-56	Human.java	closed
+Part	2016-05-09-20-07-59	Computer.java	opened
+Part	2016-05-09-20-07-59	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-07-59	Computer.java	1
+Part	2016-05-09-20-07-59	Computer.java	activated
+FileState	2016-05-09-20-07-59	1462795679281	ActiveEditor	TicTacToe_c/src/Computer.java
+Part	2016-05-09-20-07-59	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-08-00	Computer.java	12
+CaretPosition	2016-05-09-20-08-01	Computer.java	16
+CaretPosition	2016-05-09-20-08-02	Computer.java	18
+CaretPosition	2016-05-09-20-08-03	Computer.java	21
+CaretPosition	2016-05-09-20-08-10	Computer.java	22
+CaretPosition	2016-05-09-20-08-12	Computer.java	22
+Part	2016-05-09-20-08-14	Player.java	opened
+Part	2016-05-09-20-08-14	Computer.java	deactivated
+CaretPosition	2016-05-09-20-08-14	Player.java	1
+Part	2016-05-09-20-08-14	Player.java	activated
+FileState	2016-05-09-20-08-14	1462795694260	ActiveEditor	TicTacToe_c/src/Player.java
+Part	2016-05-09-20-08-14	Player.java	broughtToTop
+CaretPosition	2016-05-09-20-08-14	Player.java	10
+CaretPosition	2016-05-09-20-08-15	Player.java	10
+CaretPosition	2016-05-09-20-08-16	Player.java	12
+CaretPosition	2016-05-09-20-08-19	Player.java	3
+Part	2016-05-09-20-08-21	Player.java	deactivated
+CaretPosition	2016-05-09-20-08-21	Computer.java	21
+CaretPosition	2016-05-09-20-08-21	Computer.java	21
+Part	2016-05-09-20-08-21	Computer.java	activated
+FileState	2016-05-09-20-08-21	1462795701547	ActiveEditor	TicTacToe_c/src/Computer.java
+Part	2016-05-09-20-08-21	Computer.java	broughtToTop
+Part	2016-05-09-20-08-21	Player.java	closed
+CaretPosition	2016-05-09-20-08-23	Computer.java	21
+CaretPosition	2016-05-09-20-08-24	Computer.java	24
+CaretPosition	2016-05-09-20-08-28	Computer.java	24
+Part	2016-05-09-20-08-30	AI.java	opened
+Part	2016-05-09-20-08-30	Computer.java	deactivated
+CaretPosition	2016-05-09-20-08-30	AI.java	1
+Part	2016-05-09-20-08-30	AI.java	activated
+FileState	2016-05-09-20-08-30	1462795710488	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-20-08-30	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-08-31	AI.java	19
+CaretPosition	2016-05-09-20-08-32	AI.java	9
+CaretPosition	2016-05-09-20-08-33	AI.java	8
+CaretPosition	2016-05-09-20-08-34	AI.java	10
+CaretPosition	2016-05-09-20-08-36	AI.java	11
+CaretPosition	2016-05-09-20-08-37	AI.java	13
+CaretPosition	2016-05-09-20-08-39	AI.java	14
+CaretPosition	2016-05-09-20-08-40	AI.java	17
+CaretPosition	2016-05-09-20-08-41	AI.java	17
+CaretPosition	2016-05-09-20-08-42	AI.java	19
+CaretPosition	2016-05-09-20-08-43	AI.java	21
+CaretPosition	2016-05-09-20-08-46	AI.java	20
+CaretPosition	2016-05-09-20-08-47	AI.java	22
+FileState	2016-05-09-20-08-47	1462795727808	Timer
+CaretPosition	2016-05-09-20-08-48	AI.java	22
+CaretPosition	2016-05-09-20-08-49	AI.java	25
+CaretPosition	2016-05-09-20-08-51	AI.java	25
+CaretPosition	2016-05-09-20-08-55	AI.java	27
+CaretPosition	2016-05-09-20-08-58	AI.java	35
+CaretPosition	2016-05-09-20-09-00	AI.java	35
+Part	2016-05-09-20-09-04	AI.java	deactivated
+Part	2016-05-09-20-09-04	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-09-04	Computer.java	14
+CaretPosition	2016-05-09-20-09-04	Computer.java	14
+Part	2016-05-09-20-09-04	Computer.java	activated
+FileState	2016-05-09-20-09-04	1462795744914	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-09-07	Computer.java	24
+Part	2016-05-09-20-09-11	Computer.java	deactivated
+Part	2016-05-09-20-09-11	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-09-11	AI.java	35
+Part	2016-05-09-20-09-11	AI.java	activated
+FileState	2016-05-09-20-09-11	1462795751298	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-20-09-15	AI.java	37
+CaretPosition	2016-05-09-20-09-26	AI.java	38
+CaretPosition	2016-05-09-20-09-29	AI.java	39
+CaretPosition	2016-05-09-20-09-37	AI.java	49
+CaretPosition	2016-05-09-20-09-38	AI.java	43
+CaretPosition	2016-05-09-20-09-39	AI.java	46
+CaretPosition	2016-05-09-20-09-40	AI.java	46
+CaretPosition	2016-05-09-20-09-43	AI.java	48
+CaretPosition	2016-05-09-20-09-44	AI.java	48
+CaretPosition	2016-05-09-20-09-45	AI.java	50
+CaretPosition	2016-05-09-20-09-47	AI.java	51
+FileState	2016-05-09-20-09-47	1462795787821	Timer
+CaretPosition	2016-05-09-20-09-53	AI.java	55
+CaretPosition	2016-05-09-20-10-01	AI.java	55
+CaretPosition	2016-05-09-20-10-03	AI.java	60
+CaretPosition	2016-05-09-20-10-04	AI.java	62
+CaretPosition	2016-05-09-20-10-11	AI.java	58
+CaretPosition	2016-05-09-20-10-13	AI.java	60
+CaretPosition	2016-05-09-20-10-18	AI.java	60
+Part	2016-05-09-20-10-19	Field.java	opened
+Part	2016-05-09-20-10-19	AI.java	deactivated
+CaretPosition	2016-05-09-20-10-19	Field.java	1
+Part	2016-05-09-20-10-19	Field.java	activated
+FileState	2016-05-09-20-10-19	1462795819693	ActiveEditor	TicTacToe_c/src/Field.java
+Part	2016-05-09-20-10-19	Field.java	broughtToTop
+CaretPosition	2016-05-09-20-10-20	Field.java	3
+Part	2016-05-09-20-10-21	Field.java	deactivated
+CaretPosition	2016-05-09-20-10-21	AI.java	60
+CaretPosition	2016-05-09-20-10-21	AI.java	60
+Part	2016-05-09-20-10-21	AI.java	activated
+FileState	2016-05-09-20-10-21	1462795821629	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-20-10-21	AI.java	broughtToTop
+Part	2016-05-09-20-10-21	Field.java	closed
+CaretPosition	2016-05-09-20-10-23	AI.java	60
+CaretPosition	2016-05-09-20-10-26	AI.java	66
+CaretPosition	2016-05-09-20-10-34	AI.java	53
+CaretPosition	2016-05-09-20-10-41	AI.java	86
+FileState	2016-05-09-20-10-47	1462795847832	Timer
+CaretPosition	2016-05-09-20-11-06	AI.java	147
+Part	2016-05-09-20-11-08	Field.java	opened
+Part	2016-05-09-20-11-08	AI.java	deactivated
+CaretPosition	2016-05-09-20-11-08	Field.java	1
+Part	2016-05-09-20-11-08	Field.java	activated
+FileState	2016-05-09-20-11-08	1462795868050	ActiveEditor	TicTacToe_c/src/Field.java
+Part	2016-05-09-20-11-08	Field.java	broughtToTop
+CaretPosition	2016-05-09-20-11-08	Field.java	5
+Part	2016-05-09-20-11-09	Field.java	deactivated
+CaretPosition	2016-05-09-20-11-09	AI.java	147
+Part	2016-05-09-20-11-09	AI.java	activated
+FileState	2016-05-09-20-11-09	1462795869618	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-20-11-09	AI.java	broughtToTop
+Part	2016-05-09-20-11-09	Field.java	closed
+CaretPosition	2016-05-09-20-11-10	AI.java	147
+CaretPosition	2016-05-09-20-11-13	AI.java	172
+CaretPosition	2016-05-09-20-11-36	AI.java	40
+CaretPosition	2016-05-09-20-11-37	AI.java	35
+Part	2016-05-09-20-11-42	AI.java	deactivated
+Part	2016-05-09-20-11-42	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-11-42	Computer.java	24
+Part	2016-05-09-20-11-42	Computer.java	activated
+FileState	2016-05-09-20-11-42	1462795902145	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-11-44	Computer.java	24
+CaretPosition	2016-05-09-20-11-47	Computer.java	26
+FileState	2016-05-09-20-11-47	1462795907833	Timer
+CaretPosition	2016-05-09-20-11-49	Computer.java	26
+CaretPosition	2016-05-09-20-11-51	Computer.java	27
+CaretPosition	2016-05-09-20-11-55	Computer.java	30
+CaretPosition	2016-05-09-20-11-58	Computer.java	30
+CaretPosition	2016-05-09-20-12-05	Computer.java	32
+Part	2016-05-09-20-12-09	Computer.java	deactivated
+Part	2016-05-09-20-12-09	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-12-09	AI.java	35
+Part	2016-05-09-20-12-09	AI.java	activated
+FileState	2016-05-09-20-12-09	1462795929775	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-20-12-15	AI.java	deactivated
+Part	2016-05-09-20-12-15	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-12-15	Computer.java	32
+Part	2016-05-09-20-12-15	Computer.java	activated
+FileState	2016-05-09-20-12-15	1462795935969	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-12-20	Computer.java	36
+CaretPosition	2016-05-09-20-12-30	Computer.java	44
+Part	2016-05-09-20-12-31	Computer.java	deactivated
+Part	2016-05-09-20-12-31	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-12-31	AI.java	35
+Part	2016-05-09-20-12-31	AI.java	activated
+FileState	2016-05-09-20-12-31	1462795951125	ActiveEditor	TicTacToe_c/src/AI.java
+FileState	2016-05-09-20-12-47	1462795967833	Timer
+CaretPosition	2016-05-09-20-12-51	AI.java	186
+CaretPosition	2016-05-09-20-12-53	AI.java	181
+Part	2016-05-09-20-12-55	AI.java	deactivated
+CaretPosition	2016-05-09-20-12-55	Computer.java	44
+Part	2016-05-09-20-12-55	Computer.java	activated
+FileState	2016-05-09-20-12-55	1462795975125	ActiveEditor	TicTacToe_c/src/Computer.java
+Part	2016-05-09-20-12-55	Computer.java	broughtToTop
+Part	2016-05-09-20-12-55	AI.java	closed
+CaretPosition	2016-05-09-20-12-56	Computer.java	43
+CaretPosition	2016-05-09-20-13-00	Computer.java	46
+CaretPosition	2016-05-09-20-13-02	Computer.java	49
+Part	2016-05-09-20-13-04	Computer.java	deactivated
+Part	2016-05-09-20-13-04	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-13-04	TicTacToe_c.java	30
+CaretPosition	2016-05-09-20-13-04	TicTacToe_c.java	30
+Part	2016-05-09-20-13-04	TicTacToe_c.java	activated
+FileState	2016-05-09-20-13-04	1462795984276	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-13-07	TicTacToe_c.java	32
+CaretPosition	2016-05-09-20-13-09	TicTacToe_c.java	34
+CaretPosition	2016-05-09-20-13-10	TicTacToe_c.java	36
+CaretPosition	2016-05-09-20-13-11	TicTacToe_c.java	38
+CaretPosition	2016-05-09-20-13-13	TicTacToe_c.java	40
+CaretPosition	2016-05-09-20-13-15	TicTacToe_c.java	40
+Part	2016-05-09-20-13-19	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-13-19	TestTicTacToe.java	broughtToTop
+CaretPosition	2016-05-09-20-13-19	TestTicTacToe.java	460
+Part	2016-05-09-20-13-19	TestTicTacToe.java	activated
+FileState	2016-05-09-20-13-19	1462795999815	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+Part	2016-05-09-20-13-23	TestTicTacToe.java	deactivated
+CaretPosition	2016-05-09-20-13-23	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	80
+Part	2016-05-09-20-13-23	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	activated
+Part	2016-05-09-20-13-25	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-13-25	Console (<terminated> TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午7:58:48))	deactivated
+CaretPosition	2016-05-09-20-13-25	TicTacToe_c.java	40
+Part	2016-05-09-20-13-25	TicTacToe_c.java	activated
+FileState	2016-05-09-20-13-25	1462796005687	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-13-26	TicTacToe_c.java	43
+CaretPosition	2016-05-09-20-13-28	TicTacToe_c.java	42
+CaretPosition	2016-05-09-20-13-29	TicTacToe_c.java	44
+FileState	2016-05-09-20-13-47	1462796027834	Timer
+CaretPosition	2016-05-09-20-13-56	TicTacToe_c.java	44
+CaretPosition	2016-05-09-20-14-33	TicTacToe_c.java	48
+Part	2016-05-09-20-14-35	GameRecord.java	opened
+Part	2016-05-09-20-14-35	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-14-35	GameRecord.java	1
+Part	2016-05-09-20-14-35	GameRecord.java	activated
+FileState	2016-05-09-20-14-35	1462796075875	ActiveEditor	TicTacToe_c/src/GameRecord.java
+Part	2016-05-09-20-14-35	GameRecord.java	broughtToTop
+CaretPosition	2016-05-09-20-14-36	GameRecord.java	22
+CaretPosition	2016-05-09-20-14-42	GameRecord.java	13
+Part	2016-05-09-20-14-45	GameRecord.java	deactivated
+CaretPosition	2016-05-09-20-14-45	TicTacToe_c.java	48
+Part	2016-05-09-20-14-45	TicTacToe_c.java	activated
+FileState	2016-05-09-20-14-45	1462796085879	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-14-45	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-14-45	GameRecord.java	closed
+CaretPosition	2016-05-09-20-14-47	TicTacToe_c.java	50
+FileState	2016-05-09-20-14-47	1462796087846	Timer
+CaretPosition	2016-05-09-20-14-49	TicTacToe_c.java	54
+CaretPosition	2016-05-09-20-14-59	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-15-02	TicTacToe_c.java	68
+CaretPosition	2016-05-09-20-15-03	TicTacToe_c.java	74
+CaretPosition	2016-05-09-20-15-03	TicTacToe_c.java	75
+CaretPosition	2016-05-09-20-15-04	TicTacToe_c.java	74
+CaretPosition	2016-05-09-20-15-09	TicTacToe_c.java	90
+CaretPosition	2016-05-09-20-15-11	TicTacToe_c.java	93
+CaretPosition	2016-05-09-20-15-11	TicTacToe_c.java	95
+CaretPosition	2016-05-09-20-15-13	TicTacToe_c.java	101
+CaretPosition	2016-05-09-20-15-17	TicTacToe_c.java	108
+CaretPosition	2016-05-09-20-15-27	TicTacToe_c.java	136
+CaretPosition	2016-05-09-20-15-28	TicTacToe_c.java	138
+CaretPosition	2016-05-09-20-15-29	TicTacToe_c.java	126
+CaretPosition	2016-05-09-20-15-30	TicTacToe_c.java	126
+CaretPosition	2016-05-09-20-15-35	TicTacToe_c.java	147
+CaretPosition	2016-05-09-20-15-37	TicTacToe_c.java	146
+FileState	2016-05-09-20-15-47	1462796147851	Timer
+Part	2016-05-09-20-16-03	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-16-03	TestTicTacToe.java	broughtToTop
+CaretPosition	2016-05-09-20-16-03	TestTicTacToe.java	460
+Part	2016-05-09-20-16-03	TestTicTacToe.java	activated
+FileState	2016-05-09-20-16-03	1462796163295	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-16-04	TestTicTacToe.java	455
+Part	2016-05-09-20-16-06	JUnit (Finished after 0.312 seconds)	broughtToTop
+Part	2016-05-09-20-16-06	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-16-06	JUnit (Finished after 0.312 seconds)	activated
+Part	2016-05-09-20-16-09	JUnit (Finished after 0.312 seconds)	deactivated
+CaretPosition	2016-05-09-20-16-09	TestTicTacToe.java	455
+Part	2016-05-09-20-16-09	TestTicTacToe.java	activated
+FileState	2016-05-09-20-16-09	1462796169870	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-16-10	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-16-12	TestTicTacToe.java	30
+CaretPosition	2016-05-09-20-16-13	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-16-14	TestTicTacToe.java	28
+CaretPosition	2016-05-09-20-16-17	TestTicTacToe.java	28
+Part	2016-05-09-20-16-17	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-16-17	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-16-17	TicTacToe_c.java	146
+Part	2016-05-09-20-16-17	TicTacToe_c.java	activated
+FileState	2016-05-09-20-16-17	1462796177689	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-16-23	TicTacToe_c.java	40
+Breakpoint	2016-05-09-20-16-36	add	null	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-16-36	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-16-37	TicTacToe_c.java	61
+FileState	2016-05-09-20-16-47	1462796207853	Timer
+Breakpoint	2016-05-09-20-16-48	add	null	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-16-48	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-16-56	add	null	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-16-56	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-17-02	add	null	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-17-02	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-17-03	TicTacToe_c.java	64
+Breakpoint	2016-05-09-20-17-07	add	null	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-17-07	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-17-09	TicTacToe_c.java	70
+CaretPosition	2016-05-09-20-17-14	TicTacToe_c.java	79
+Breakpoint	2016-05-09-20-17-18	add	null	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-17-19	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-17-20	TicTacToe_c.java	79
+Breakpoint	2016-05-09-20-17-31	add	null	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-17-31	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-17-32	TicTacToe_c.java	227
+CaretPosition	2016-05-09-20-17-43	TicTacToe_c.java	213
+FileState	2016-05-09-20-17-47	1462796267858	Timer
+CaretPosition	2016-05-09-20-17-48	TicTacToe_c.java	145
+CaretPosition	2016-05-09-20-17-49	TicTacToe_c.java	146
+CaretPosition	2016-05-09-20-17-51	TicTacToe_c.java	150
+CaretPosition	2016-05-09-20-18-08	TicTacToe_c.java	153
+CaretPosition	2016-05-09-20-18-14	TicTacToe_c.java	26
+CaretPosition	2016-05-09-20-18-34	TicTacToe_c.java	141
+FileState	2016-05-09-20-18-47	1462796327861	Timer
+CaretPosition	2016-05-09-20-19-04	TicTacToe_c.java	146
+CaretPosition	2016-05-09-20-19-05	TicTacToe_c.java	24
+CaretPosition	2016-05-09-20-19-29	TicTacToe_c.java	146
+CaretPosition	2016-05-09-20-19-38	TicTacToe_c.java	168
+CaretPosition	2016-05-09-20-19-43	TicTacToe_c.java	171
+FileState	2016-05-09-20-19-47	1462796387867	Timer
+CaretPosition	2016-05-09-20-19-55	TicTacToe_c.java	181
+CaretPosition	2016-05-09-20-20-00	TicTacToe_c.java	183
+CaretPosition	2016-05-09-20-20-04	TicTacToe_c.java	193
+CaretPosition	2016-05-09-20-20-30	TicTacToe_c.java	201
+CaretPosition	2016-05-09-20-20-31	TicTacToe_c.java	203
+Part	2016-05-09-20-20-36	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-20-36	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-20-36	Computer.java	49
+Part	2016-05-09-20-20-36	Computer.java	activated
+FileState	2016-05-09-20-20-37	1462796436997	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-20-42	Computer.java	49
+FileState	2016-05-09-20-20-47	1462796447874	Timer
+CaretPosition	2016-05-09-20-20-50	Computer.java	49
+CaretPosition	2016-05-09-20-20-53	Computer.java	49
+Part	2016-05-09-20-20-57	Computer.java	deactivated
+Part	2016-05-09-20-20-57	JUnit (Finished after 0.312 seconds)	activated
+Part	2016-05-09-20-20-57	TestTicTacToe.java	broughtToTop
+Part	2016-05-09-20-20-57	JUnit (Finished after 0.312 seconds)	deactivated
+CaretPosition	2016-05-09-20-20-57	TestTicTacToe.java	28
+Part	2016-05-09-20-20-57	TestTicTacToe.java	activated
+FileState	2016-05-09-20-20-57	1462796457704	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-20-58	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-20-59	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-21-01	TestTicTacToe.java	30
+CaretPosition	2016-05-09-20-21-02	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-21-11	TestTicTacToe.java	25
+Breakpoint	2016-05-09-20-21-36	add	null	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-21-36	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+CaretPosition	2016-05-09-20-21-37	TestTicTacToe.java	27
+Breakpoint	2016-05-09-20-21-43	add	null	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-21-44	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Part	2016-05-09-20-21-44	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-21-44	JUnit (Finished after 0.312 seconds)	activated
+Part	2016-05-09-20-21-45	JUnit (Finished after 0.312 seconds)	deactivated
+CaretPosition	2016-05-09-20-21-45	TestTicTacToe.java	27
+Part	2016-05-09-20-21-45	TestTicTacToe.java	activated
+FileState	2016-05-09-20-21-45	1462796505163	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-21-45	TestTicTacToe.java	29
+Part	2016-05-09-20-21-45	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-21-45	JUnit (Finished after 0.312 seconds)	activated
+FileState	2016-05-09-20-21-47	1462796507889	Timer
+Breakpoint	2016-05-09-20-21-48	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-21-48	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-21-48	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-20-21-50	JUnit (TestTicTacToe - test_player_from1_1)	deactivated
+Part	2016-05-09-20-21-50	JUnit (TestTicTacToe - test_player_from1_1)	activated
+Part	2016-05-09-20-21-50	JUnit (TestTicTacToe - test_player_from1_1)	deactivated
+Part	2016-05-09-20-21-50	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	broughtToTop
+CaretPosition	2016-05-09-20-21-50	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	80
+CaretPosition	2016-05-09-20-21-50	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	1
+Part	2016-05-09-20-21-50	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	activated
+Part	2016-05-09-20-21-54	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	deactivated
+CaretPosition	2016-05-09-20-21-54	TestTicTacToe.java	25
+CaretPosition	2016-05-09-20-21-54	TestTicTacToe.java	25
+Part	2016-05-09-20-21-54	TestTicTacToe.java	activated
+FileState	2016-05-09-20-21-54	1462796514874	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-21-55	TestTicTacToe.java	15
+Part	2016-05-09-20-21-56	ClassLoader.class	opened
+Part	2016-05-09-20-21-56	TestTicTacToe.java	deactivated
+CaretPosition	2016-05-09-20-21-56	ClassLoader.class	2
+Part	2016-05-09-20-21-56	ClassLoader.class	activated
+FileState	2016-05-09-20-21-56	1462796516919	ActiveEditor	java.lang.ClassLoader
+Part	2016-05-09-20-21-57	ClassLoader.class	broughtToTop
+CaretPosition	2016-05-09-20-21-57	ClassLoader.class	358
+Part	2016-05-09-20-22-01	ClassLoader.class	deactivated
+CaretPosition	2016-05-09-20-22-01	TestTicTacToe.java	15
+Part	2016-05-09-20-22-01	TestTicTacToe.java	activated
+FileState	2016-05-09-20-22-01	1462796521762	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+Part	2016-05-09-20-22-01	TestTicTacToe.java	broughtToTop
+Part	2016-05-09-20-22-01	ClassLoader.class	closed
+Breakpoint	2016-05-09-20-22-03	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-22-03	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-22-03	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-22-03	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-22-03	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-22-03	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-22-03	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-22-04	TestTicTacToe.java	28
+Part	2016-05-09-20-22-07	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-22-07	Variables	activated
+Part	2016-05-09-20-22-23	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-22-27	Variables	deactivated
+CaretPosition	2016-05-09-20-22-27	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	1
+Part	2016-05-09-20-22-27	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	activated
+CaretPosition	2016-05-09-20-22-28	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	1
+CaretPosition	2016-05-09-20-22-28	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	1
+CaretPosition	2016-05-09-20-22-28	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	1
+CaretPosition	2016-05-09-20-22-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	4
+CaretPosition	2016-05-09-20-22-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	4
+CaretPosition	2016-05-09-20-22-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	4
+Part	2016-05-09-20-22-37	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	deactivated
+Part	2016-05-09-20-22-37	Variables	activated
+Part	2016-05-09-20-22-41	Variables	deactivated
+CaretPosition	2016-05-09-20-22-41	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	4
+Part	2016-05-09-20-22-41	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	activated
+CaretPosition	2016-05-09-20-22-42	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	11
+CaretPosition	2016-05-09-20-22-42	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	11
+CaretPosition	2016-05-09-20-22-42	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	11
+Part	2016-05-09-20-22-47	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	deactivated
+CaretPosition	2016-05-09-20-22-47	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-22-47	TicTacToe_c.java	50
+FileState	2016-05-09-20-22-47	1462796567900	Timer
+Part	2016-05-09-20-22-47	TicTacToe_c.java	activated
+FileState	2016-05-09-20-22-47	1462796567932	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-22-48	TicTacToe_c.java	51
+Part	2016-05-09-20-22-51	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-22-51	Variables	activated
+Part	2016-05-09-20-22-54	Variables	deactivated
+CaretPosition	2016-05-09-20-22-54	TicTacToe_c.java	51
+Part	2016-05-09-20-22-54	TicTacToe_c.java	activated
+FileState	2016-05-09-20-22-54	1462796574583	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-22-55	TicTacToe_c.java	49
+CaretPosition	2016-05-09-20-23-03	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-23-06	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-23-10	TicTacToe_c.java	50
+Part	2016-05-09-20-23-23	Monitor.class	opened
+Part	2016-05-09-20-23-23	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-23-23	Monitor.class	1
+Part	2016-05-09-20-23-23	Monitor.class	activated
+FileState	2016-05-09-20-23-23	1462796603929	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-20-23-24	Monitor.class	broughtToTop
+Part	2016-05-09-20-23-26	Monitor.class	deactivated
+Part	2016-05-09-20-23-26	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-23-26	TicTacToe_c.java	50
+Part	2016-05-09-20-23-26	TicTacToe_c.java	activated
+FileState	2016-05-09-20-23-26	1462796606633	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-23-27	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-23-29	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-23-36	TicTacToe_c.java	52
+Part	2016-05-09-20-23-39	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-23-39	Variables	activated
+Part	2016-05-09-20-23-42	Variables	deactivated
+CaretPosition	2016-05-09-20-23-42	TicTacToe_c.java	52
+Part	2016-05-09-20-23-42	TicTacToe_c.java	activated
+FileState	2016-05-09-20-23-42	1462796622849	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-23-43	TicTacToe_c.java	53
+CaretPosition	2016-05-09-20-23-45	TicTacToe_c.java	50
+FileState	2016-05-09-20-23-47	1462796627912	Timer
+Part	2016-05-09-20-23-50	GameRecord.java	opened
+Part	2016-05-09-20-23-50	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-23-50	GameRecord.java	1
+Part	2016-05-09-20-23-50	GameRecord.java	activated
+FileState	2016-05-09-20-23-50	1462796630709	ActiveEditor	TicTacToe_c/src/GameRecord.java
+Part	2016-05-09-20-23-50	GameRecord.java	broughtToTop
+CaretPosition	2016-05-09-20-23-51	GameRecord.java	30
+CaretPosition	2016-05-09-20-23-52	GameRecord.java	31
+CaretPosition	2016-05-09-20-23-55	GameRecord.java	31
+Part	2016-05-09-20-24-02	GameRecord.java	deactivated
+Part	2016-05-09-20-24-02	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-24-02	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-24-02	TicTacToe_c.java	50
+Part	2016-05-09-20-24-03	TicTacToe_c.java	activated
+FileState	2016-05-09-20-24-03	1462796643014	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-24-24	TicTacToe_c.java	52
+CaretPosition	2016-05-09-20-24-27	TicTacToe_c.java	124
+CaretPosition	2016-05-09-20-24-28	TicTacToe_c.java	126
+CaretPosition	2016-05-09-20-24-45	TicTacToe_c.java	134
+FileState	2016-05-09-20-24-47	1462796687914	Timer
+CaretPosition	2016-05-09-20-24-53	TicTacToe_c.java	128
+Part	2016-05-09-20-24-54	Player.java	opened
+Part	2016-05-09-20-24-54	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-24-54	Player.java	1
+Part	2016-05-09-20-24-54	Player.java	activated
+FileState	2016-05-09-20-24-54	1462796694976	ActiveEditor	TicTacToe_c/src/Player.java
+Part	2016-05-09-20-24-55	Player.java	broughtToTop
+CaretPosition	2016-05-09-20-24-55	Player.java	8
+CaretPosition	2016-05-09-20-24-56	Player.java	5
+CaretPosition	2016-05-09-20-24-58	Player.java	8
+CaretPosition	2016-05-09-20-25-01	Player.java	8
+Part	2016-05-09-20-25-05	Player.java	deactivated
+CaretPosition	2016-05-09-20-25-05	TicTacToe_c.java	128
+Part	2016-05-09-20-25-05	TicTacToe_c.java	activated
+FileState	2016-05-09-20-25-05	1462796705422	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-25-05	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-25-05	Player.java	closed
+Part	2016-05-09-20-25-06	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-25-06	Computer.java	deactivated
+Part	2016-05-09-20-25-06	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-25-06	TicTacToe_c.java	128
+Part	2016-05-09-20-25-06	TicTacToe_c.java	activated
+FileState	2016-05-09-20-25-06	1462796706936	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-25-06	Computer.java	broughtToTop
+Part	2016-05-09-20-25-07	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-25-07	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-25-07	Computer.java	49
+Part	2016-05-09-20-25-07	Computer.java	activated
+FileState	2016-05-09-20-25-07	1462796707061	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-25-07	Computer.java	49
+Part	2016-05-09-20-25-07	Computer.java	activated
+FileState	2016-05-09-20-25-07	1462796707108	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-25-08	Computer.java	32
+CaretPosition	2016-05-09-20-25-13	Computer.java	21
+Part	2016-05-09-20-25-15	Computer.java	deactivated
+Part	2016-05-09-20-25-15	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-25-15	TicTacToe_c.java	128
+Part	2016-05-09-20-25-15	TicTacToe_c.java	activated
+FileState	2016-05-09-20-25-15	1462796715259	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-25-16	TicTacToe_c.java	128
+Part	2016-05-09-20-25-17	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-25-17	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-25-17	Computer.java	21
+Part	2016-05-09-20-25-17	Computer.java	activated
+FileState	2016-05-09-20-25-17	1462796717433	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-25-21	Computer.java	23
+CaretPosition	2016-05-09-20-25-22	Computer.java	16
+Part	2016-05-09-20-25-26	Computer.java	deactivated
+Part	2016-05-09-20-25-26	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-25-26	TicTacToe_c.java	128
+Part	2016-05-09-20-25-26	TicTacToe_c.java	activated
+FileState	2016-05-09-20-25-26	1462796726685	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-25-27	TicTacToe_c.java	130
+Part	2016-05-09-20-25-31	Player.java	opened
+Part	2016-05-09-20-25-31	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-25-31	Player.java	1
+Part	2016-05-09-20-25-31	Player.java	activated
+FileState	2016-05-09-20-25-31	1462796731966	ActiveEditor	TicTacToe_c/src/Player.java
+Part	2016-05-09-20-25-32	Player.java	broughtToTop
+CaretPosition	2016-05-09-20-25-32	Player.java	8
+Part	2016-05-09-20-25-35	Player.java	deactivated
+Part	2016-05-09-20-25-35	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-25-35	TicTacToe_c.java	128
+CaretPosition	2016-05-09-20-25-35	TicTacToe_c.java	128
+Part	2016-05-09-20-25-35	TicTacToe_c.java	activated
+FileState	2016-05-09-20-25-35	1462796735839	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-25-37	TicTacToe_c.java	29
+Part	2016-05-09-20-25-38	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-25-38	Player.java	8
+Part	2016-05-09-20-25-38	Player.java	activated
+FileState	2016-05-09-20-25-38	1462796738450	ActiveEditor	TicTacToe_c/src/Player.java
+Part	2016-05-09-20-25-38	Player.java	broughtToTop
+CaretPosition	2016-05-09-20-25-39	Player.java	1
+CaretPosition	2016-05-09-20-25-43	Player.java	5
+CaretPosition	2016-05-09-20-25-44	Player.java	8
+Part	2016-05-09-20-25-45	Player.java	deactivated
+Part	2016-05-09-20-25-45	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-25-45	TicTacToe_c.java	29
+CaretPosition	2016-05-09-20-25-45	TicTacToe_c.java	29
+Part	2016-05-09-20-25-45	TicTacToe_c.java	activated
+FileState	2016-05-09-20-25-45	1462796745618	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-25-47	Human.java	opened
+Part	2016-05-09-20-25-47	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-25-47	Human.java	1
+Part	2016-05-09-20-25-47	Human.java	activated
+FileState	2016-05-09-20-25-47	1462796747745	ActiveEditor	TicTacToe_c/src/Human.java
+Part	2016-05-09-20-25-47	Human.java	broughtToTop
+FileState	2016-05-09-20-25-47	1462796747917	Timer
+CaretPosition	2016-05-09-20-25-48	Human.java	15
+CaretPosition	2016-05-09-20-25-50	Human.java	20
+CaretPosition	2016-05-09-20-25-52	Human.java	24
+CaretPosition	2016-05-09-20-25-52	Human.java	24
+Part	2016-05-09-20-25-53	Human.java	deactivated
+Part	2016-05-09-20-25-53	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-25-53	TicTacToe_c.java	29
+CaretPosition	2016-05-09-20-25-53	TicTacToe_c.java	29
+Part	2016-05-09-20-25-53	TicTacToe_c.java	activated
+FileState	2016-05-09-20-25-53	1462796753894	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-25-55	TicTacToe_c.java	53
+CaretPosition	2016-05-09-20-25-58	TicTacToe_c.java	53
+CaretPosition	2016-05-09-20-26-11	TicTacToe_c.java	124
+CaretPosition	2016-05-09-20-26-23	TicTacToe_c.java	52
+CaretPosition	2016-05-09-20-26-33	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-26-34	TicTacToe_c.java	51
+FileState	2016-05-09-20-26-47	1462796807930	Timer
+CaretPosition	2016-05-09-20-26-53	TicTacToe_c.java	54
+Part	2016-05-09-20-26-54	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-26-54	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	11
+Part	2016-05-09-20-26-54	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	activated
+CaretPosition	2016-05-09-20-26-54	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	22
+CaretPosition	2016-05-09-20-26-54	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	22
+CaretPosition	2016-05-09-20-26-54	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	22
+Part	2016-05-09-20-26-59	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	deactivated
+Part	2016-05-09-20-26-59	Variables	activated
+Part	2016-05-09-20-27-14	Variables	deactivated
+CaretPosition	2016-05-09-20-27-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	22
+Part	2016-05-09-20-27-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	activated
+CaretPosition	2016-05-09-20-27-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	18
+CaretPosition	2016-05-09-20-27-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	18
+CaretPosition	2016-05-09-20-27-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	18
+Part	2016-05-09-20-27-15	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	deactivated
+CaretPosition	2016-05-09-20-27-15	TicTacToe_c.java	54
+Part	2016-05-09-20-27-15	TicTacToe_c.java	activated
+FileState	2016-05-09-20-27-15	1462796835713	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-27-16	TicTacToe_c.java	55
+CaretPosition	2016-05-09-20-27-21	TicTacToe_c.java	213
+CaretPosition	2016-05-09-20-27-31	TicTacToe_c.java	213
+CaretPosition	2016-05-09-20-27-32	TicTacToe_c.java	218
+CaretPosition	2016-05-09-20-27-36	TicTacToe_c.java	213
+FileState	2016-05-09-20-27-47	1462796867937	Timer
+CaretPosition	2016-05-09-20-27-54	TicTacToe_c.java	218
+Part	2016-05-09-20-27-58	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-27-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	18
+Part	2016-05-09-20-27-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	activated
+CaretPosition	2016-05-09-20-27-59	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	18
+CaretPosition	2016-05-09-20-27-59	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	18
+CaretPosition	2016-05-09-20-27-59	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	18
+Part	2016-05-09-20-28-00	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:21:47))	deactivated
+CaretPosition	2016-05-09-20-28-00	TicTacToe_c.java	218
+Part	2016-05-09-20-28-00	TicTacToe_c.java	activated
+FileState	2016-05-09-20-28-00	1462796880273	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-28-00	TicTacToe_c.java	217
+CaretPosition	2016-05-09-20-28-05	TicTacToe_c.java	54
+CaretPosition	2016-05-09-20-28-12	TicTacToe_c.java	55
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-28-15	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-28-15	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-20-28-17	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-28-17	TicTacToe_c.java	55
+Part	2016-05-09-20-28-17	TicTacToe_c.java	activated
+FileState	2016-05-09-20-28-17	1462796897629	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-28-19	TicTacToe_c.java	68
+Part	2016-05-09-20-28-19	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-28-19	JUnit (Terminated)	activated
+Part	2016-05-09-20-28-19	TestTicTacToe.java	broughtToTop
+Part	2016-05-09-20-28-19	JUnit (Terminated)	deactivated
+CaretPosition	2016-05-09-20-28-19	TestTicTacToe.java	28
+Part	2016-05-09-20-28-19	TestTicTacToe.java	activated
+FileState	2016-05-09-20-28-20	1462796899988	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-28-20	TestTicTacToe.java	18
+CaretPosition	2016-05-09-20-28-25	TestTicTacToe.java	26
+CaretPosition	2016-05-09-20-28-27	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-28-29	TestTicTacToe.java	28
+CaretPosition	2016-05-09-20-28-38	TestTicTacToe.java	29
+Part	2016-05-09-20-28-44	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-28-45	Project Explorer	activated
+FileState	2016-05-09-20-28-47	1462796927950	Timer
+Part	2016-05-09-20-28-48	Console (TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:28:47))	broughtToTop
+Part	2016-05-09-20-28-50	JUnit (Finished after 0.297 seconds)	broughtToTop
+Part	2016-05-09-20-28-50	Project Explorer	deactivated
+Part	2016-05-09-20-28-50	JUnit (Finished after 0.297 seconds)	activated
+Part	2016-05-09-20-28-53	JUnit (Finished after 0.297 seconds)	deactivated
+CaretPosition	2016-05-09-20-28-53	TestTicTacToe.java	29
+Part	2016-05-09-20-28-53	TestTicTacToe.java	activated
+FileState	2016-05-09-20-28-53	1462796933788	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-28-54	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-28-56	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-28-57	TestTicTacToe.java	29
+Part	2016-05-09-20-28-59	TestTicTacToe.java	deactivated
+CaretPosition	2016-05-09-20-28-59	TicTacToe_c.java	68
+Part	2016-05-09-20-28-59	TicTacToe_c.java	activated
+FileState	2016-05-09-20-28-59	1462796939073	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-28-59	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-28-59	TicTacToe_c.java	40
+CaretPosition	2016-05-09-20-29-00	TicTacToe_c.java	49
+CaretPosition	2016-05-09-20-29-03	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-29-24	TicTacToe_c.java	79
+Part	2016-05-09-20-29-27	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-29-27	JUnit (Finished after 0.297 seconds)	activated
+Part	2016-05-09-20-29-29	TestTicTacToe.java	broughtToTop
+Breakpoint	2016-05-09-20-29-29	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-29-29	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-29-29	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-20-29-30	JUnit (TestTicTacToe - test_player_from1_1)	deactivated
+CaretPosition	2016-05-09-20-29-30	TestTicTacToe.java	25
+CaretPosition	2016-05-09-20-29-30	TestTicTacToe.java	25
+Part	2016-05-09-20-29-30	TestTicTacToe.java	activated
+FileState	2016-05-09-20-29-30	1462796970876	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-29-35	TestTicTacToe.java	27
+Breakpoint	2016-05-09-20-29-35	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-29-35	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-29-35	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-29-35	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-29-35	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-29-35	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-29-35	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Part	2016-05-09-20-29-36	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-29-36	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-29-36	TestTicTacToe.java	broughtToTop
+CaretPosition	2016-05-09-20-29-36	TestTicTacToe.java	28
+Part	2016-05-09-20-29-36	TestTicTacToe.java	activated
+FileState	2016-05-09-20-29-36	1462796976356	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+Part	2016-05-09-20-29-36	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-29-36	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-29-36	TicTacToe_c.java	79
+Part	2016-05-09-20-29-36	TicTacToe_c.java	activated
+FileState	2016-05-09-20-29-36	1462796976498	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-29-36	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-29-36	TicTacToe_c.java	79
+Part	2016-05-09-20-29-36	TicTacToe_c.java	activated
+FileState	2016-05-09-20-29-36	1462796976545	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-29-37	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-29-38	TicTacToe_c.java	52
+CaretPosition	2016-05-09-20-29-41	TicTacToe_c.java	53
+CaretPosition	2016-05-09-20-29-43	TicTacToe_c.java	54
+CaretPosition	2016-05-09-20-29-44	TicTacToe_c.java	213
+Part	2016-05-09-20-29-47	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-29-47	Monitor.class	broughtToTop
+CaretPosition	2016-05-09-20-29-47	Monitor.class	1
+Part	2016-05-09-20-29-47	Monitor.class	activated
+FileState	2016-05-09-20-29-47	1462796987566	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+FileState	2016-05-09-20-29-47	1462796987957	Timer
+Part	2016-05-09-20-29-57	Monitor.class	deactivated
+Part	2016-05-09-20-29-57	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-29-57	TicTacToe_c.java	213
+Part	2016-05-09-20-29-57	TicTacToe_c.java	activated
+FileState	2016-05-09-20-29-57	1462796997925	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-29-58	TicTacToe_c.java	213
+CaretPosition	2016-05-09-20-30-06	TicTacToe_c.java	144
+Part	2016-05-09-20-30-14	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-30-14	Monitor.class	broughtToTop
+CaretPosition	2016-05-09-20-30-14	Monitor.class	1
+Part	2016-05-09-20-30-14	Monitor.class	activated
+FileState	2016-05-09-20-30-14	1462797014921	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-20-30-17	Monitor.class	deactivated
+Part	2016-05-09-20-30-17	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-30-18	TicTacToe_c.java	144
+Part	2016-05-09-20-30-18	TicTacToe_c.java	activated
+FileState	2016-05-09-20-30-18	1462797018017	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-30-18	TicTacToe_c.java	144
+Part	2016-05-09-20-30-19	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-30-19	Monitor.class	broughtToTop
+CaretPosition	2016-05-09-20-30-19	Monitor.class	1
+Part	2016-05-09-20-30-19	Monitor.class	activated
+FileState	2016-05-09-20-30-19	1462797019837	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-20-30-23	Monitor.class	deactivated
+Part	2016-05-09-20-30-23	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-30-23	TicTacToe_c.java	144
+Part	2016-05-09-20-30-23	TicTacToe_c.java	activated
+FileState	2016-05-09-20-30-23	1462797023871	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-30-24	TicTacToe_c.java	144
+CaretPosition	2016-05-09-20-30-30	TicTacToe_c.java	148
+CaretPosition	2016-05-09-20-30-45	TicTacToe_c.java	146
+FileState	2016-05-09-20-30-47	1462797047966	Timer
+CaretPosition	2016-05-09-20-30-50	TicTacToe_c.java	148
+CaretPosition	2016-05-09-20-30-52	TicTacToe_c.java	151
+CaretPosition	2016-05-09-20-31-09	TicTacToe_c.java	153
+CaretPosition	2016-05-09-20-31-25	TicTacToe_c.java	151
+FileState	2016-05-09-20-31-47	1462797107978	Timer
+FileState	2016-05-09-20-32-47	1462797167985	Timer
+CaretPosition	2016-05-09-20-32-51	TicTacToe_c.java	149
+CaretPosition	2016-05-09-20-32-53	TicTacToe_c.java	154
+CaretPosition	2016-05-09-20-33-35	TicTacToe_c.java	144
+CaretPosition	2016-05-09-20-33-40	TicTacToe_c.java	146
+FileState	2016-05-09-20-33-48	1462797228000	Timer
+CaretPosition	2016-05-09-20-33-48	TicTacToe_c.java	148
+CaretPosition	2016-05-09-20-33-49	TicTacToe_c.java	144
+CaretPosition	2016-05-09-20-33-59	TicTacToe_c.java	158
+Part	2016-05-09-20-34-06	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-34-06	Monitor.class	broughtToTop
+CaretPosition	2016-05-09-20-34-06	Monitor.class	1
+Part	2016-05-09-20-34-06	Monitor.class	activated
+FileState	2016-05-09-20-34-06	1462797246665	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-20-34-08	Monitor.class	deactivated
+Part	2016-05-09-20-34-08	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-34-08	TicTacToe_c.java	158
+Part	2016-05-09-20-34-08	TicTacToe_c.java	activated
+FileState	2016-05-09-20-34-08	1462797248401	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-34-08	TicTacToe_c.java	158
+CaretPosition	2016-05-09-20-34-09	TicTacToe_c.java	160
+CaretPosition	2016-05-09-20-34-14	TicTacToe_c.java	160
+CaretPosition	2016-05-09-20-34-16	TicTacToe_c.java	160
+CaretPosition	2016-05-09-20-34-17	TicTacToe_c.java	160
+Part	2016-05-09-20-34-19	Expressions	broughtToTop
+CaretPosition	2016-05-09-20-34-21	TicTacToe_c.java	160
+CaretPosition	2016-05-09-20-34-26	TicTacToe_c.java	162
+Part	2016-05-09-20-34-30	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-34-30	Expressions	activated
+FileState	2016-05-09-20-34-48	1462797288007	Timer
+Part	2016-05-09-20-34-50	Expressions	deactivated
+CaretPosition	2016-05-09-20-34-50	TicTacToe_c.java	162
+Part	2016-05-09-20-34-50	TicTacToe_c.java	activated
+FileState	2016-05-09-20-34-50	1462797290614	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-34-56	TicTacToe_c.java	160
+CaretPosition	2016-05-09-20-35-02	TicTacToe_c.java	165
+CaretPosition	2016-05-09-20-35-06	TicTacToe_c.java	167
+CaretPosition	2016-05-09-20-35-07	TicTacToe_c.java	158
+CaretPosition	2016-05-09-20-35-10	TicTacToe_c.java	160
+CaretPosition	2016-05-09-20-35-14	TicTacToe_c.java	158
+CaretPosition	2016-05-09-20-35-15	TicTacToe_c.java	172
+CaretPosition	2016-05-09-20-35-21	TicTacToe_c.java	174
+CaretPosition	2016-05-09-20-35-23	TicTacToe_c.java	181
+CaretPosition	2016-05-09-20-35-25	TicTacToe_c.java	183
+CaretPosition	2016-05-09-20-35-25	TicTacToe_c.java	174
+CaretPosition	2016-05-09-20-35-32	TicTacToe_c.java	176
+CaretPosition	2016-05-09-20-35-34	TicTacToe_c.java	178
+CaretPosition	2016-05-09-20-35-35	TicTacToe_c.java	174
+CaretPosition	2016-05-09-20-35-36	TicTacToe_c.java	189
+CaretPosition	2016-05-09-20-35-40	TicTacToe_c.java	189
+CaretPosition	2016-05-09-20-35-41	TicTacToe_c.java	203
+CaretPosition	2016-05-09-20-35-43	TicTacToe_c.java	205
+CaretPosition	2016-05-09-20-35-44	TicTacToe_c.java	208
+CaretPosition	2016-05-09-20-35-46	TicTacToe_c.java	213
+FileState	2016-05-09-20-35-48	1462797348011	Timer
+CaretPosition	2016-05-09-20-35-48	TicTacToe_c.java	214
+CaretPosition	2016-05-09-20-35-50	TicTacToe_c.java	213
+CaretPosition	2016-05-09-20-35-57	TicTacToe_c.java	218
+CaretPosition	2016-05-09-20-36-25	TicTacToe_c.java	221
+CaretPosition	2016-05-09-20-36-28	TicTacToe_c.java	226
+CaretPosition	2016-05-09-20-36-29	TicTacToe_c.java	229
+CaretPosition	2016-05-09-20-36-32	TicTacToe_c.java	234
+CaretPosition	2016-05-09-20-36-34	TicTacToe_c.java	239
+CaretPosition	2016-05-09-20-36-35	TicTacToe_c.java	54
+CaretPosition	2016-05-09-20-36-40	TicTacToe_c.java	55
+CaretPosition	2016-05-09-20-36-42	TicTacToe_c.java	57
+CaretPosition	2016-05-09-20-36-46	TicTacToe_c.java	51
+FileState	2016-05-09-20-36-48	1462797408025	Timer
+CaretPosition	2016-05-09-20-37-05	TicTacToe_c.java	67
+CaretPosition	2016-05-09-20-37-18	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-37-19	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-37-24	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-37-25	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-37-26	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-37-27	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-37-32	TicTacToe_c.java	69
+CaretPosition	2016-05-09-20-37-36	TicTacToe_c.java	50
+Part	2016-05-09-20-37-40	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-37-40	Expressions	activated
+FileState	2016-05-09-20-37-48	1462797468031	Timer
+Part	2016-05-09-20-38-05	Expressions	deactivated
+CaretPosition	2016-05-09-20-38-05	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	18
+CaretPosition	2016-05-09-20-38-05	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	1
+Part	2016-05-09-20-38-05	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	activated
+CaretPosition	2016-05-09-20-38-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	34
+CaretPosition	2016-05-09-20-38-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	34
+CaretPosition	2016-05-09-20-38-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	34
+CaretPosition	2016-05-09-20-38-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	34
+CaretPosition	2016-05-09-20-38-10	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	42
+CaretPosition	2016-05-09-20-38-10	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	42
+CaretPosition	2016-05-09-20-38-10	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	42
+CaretPosition	2016-05-09-20-38-10	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	42
+Part	2016-05-09-20-38-31	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	deactivated
+CaretPosition	2016-05-09-20-38-31	TicTacToe_c.java	57
+CaretPosition	2016-05-09-20-38-31	TicTacToe_c.java	57
+Part	2016-05-09-20-38-32	TicTacToe_c.java	activated
+FileState	2016-05-09-20-38-32	1462797512028	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-38-32	TicTacToe_c.java	58
+CaretPosition	2016-05-09-20-38-35	TicTacToe_c.java	51
+Part	2016-05-09-20-38-37	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-38-37	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	42
+Part	2016-05-09-20-38-37	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	activated
+CaretPosition	2016-05-09-20-38-38	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	46
+CaretPosition	2016-05-09-20-38-38	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	46
+CaretPosition	2016-05-09-20-38-38	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	46
+CaretPosition	2016-05-09-20-38-38	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	46
+Part	2016-05-09-20-38-43	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	deactivated
+CaretPosition	2016-05-09-20-38-43	TicTacToe_c.java	51
+Part	2016-05-09-20-38-43	TicTacToe_c.java	activated
+FileState	2016-05-09-20-38-43	1462797523098	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-38-43	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-38-46	TicTacToe_c.java	68
+CaretPosition	2016-05-09-20-38-47	TicTacToe_c.java	67
+FileState	2016-05-09-20-38-48	1462797528043	Timer
+CaretPosition	2016-05-09-20-38-52	TicTacToe_c.java	59
+CaretPosition	2016-05-09-20-39-04	TicTacToe_c.java	69
+CaretPosition	2016-05-09-20-39-05	TicTacToe_c.java	50
+Part	2016-05-09-20-39-06	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-39-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	46
+Part	2016-05-09-20-39-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	activated
+CaretPosition	2016-05-09-20-39-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	54
+CaretPosition	2016-05-09-20-39-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	54
+CaretPosition	2016-05-09-20-39-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	54
+CaretPosition	2016-05-09-20-39-06	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	54
+CaretPosition	2016-05-09-20-39-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	64
+CaretPosition	2016-05-09-20-39-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	64
+CaretPosition	2016-05-09-20-39-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	64
+CaretPosition	2016-05-09-20-39-14	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	64
+CaretPosition	2016-05-09-20-39-24	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+CaretPosition	2016-05-09-20-39-24	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+CaretPosition	2016-05-09-20-39-24	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+CaretPosition	2016-05-09-20-39-24	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+CaretPosition	2016-05-09-20-39-39	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+CaretPosition	2016-05-09-20-39-39	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+CaretPosition	2016-05-09-20-39-39	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+CaretPosition	2016-05-09-20-39-39	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+Part	2016-05-09-20-39-41	GameRecord.java	broughtToTop
+Part	2016-05-09-20-39-47	Monitor.class	broughtToTop
+FileState	2016-05-09-20-39-48	1462797588054	Timer
+Part	2016-05-09-20-39-48	GameRecord.java	broughtToTop
+Part	2016-05-09-20-39-49	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-40-02	Monitor.class	broughtToTop
+Part	2016-05-09-20-40-04	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-40-07	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	deactivated
+CaretPosition	2016-05-09-20-40-07	TicTacToe_c.java	134
+CaretPosition	2016-05-09-20-40-07	TicTacToe_c.java	134
+Part	2016-05-09-20-40-07	TicTacToe_c.java	activated
+FileState	2016-05-09-20-40-07	1462797607547	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-40-08	TicTacToe_c.java	135
+Part	2016-05-09-20-40-08	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-40-08	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-40-08	Computer.java	16
+Part	2016-05-09-20-40-08	Computer.java	activated
+FileState	2016-05-09-20-40-08	1462797608900	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-40-09	Computer.java	21
+Part	2016-05-09-20-40-11	Computer.java	deactivated
+Part	2016-05-09-20-40-11	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-40-11	TicTacToe_c.java	135
+Part	2016-05-09-20-40-11	TicTacToe_c.java	activated
+FileState	2016-05-09-20-40-11	1462797611732	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-40-12	TicTacToe_c.java	135
+CaretPosition	2016-05-09-20-40-13	TicTacToe_c.java	138
+CaretPosition	2016-05-09-20-40-15	TicTacToe_c.java	51
+Part	2016-05-09-20-40-16	Variables	broughtToTop
+Part	2016-05-09-20-40-16	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-40-16	Variables	activated
+Part	2016-05-09-20-40-24	Variables	deactivated
+CaretPosition	2016-05-09-20-40-24	TicTacToe_c.java	51
+Part	2016-05-09-20-40-24	TicTacToe_c.java	activated
+FileState	2016-05-09-20-40-24	1462797624543	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-40-25	TicTacToe_c.java	52
+CaretPosition	2016-05-09-20-40-30	TicTacToe_c.java	59
+Part	2016-05-09-20-40-36	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-40-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	62
+Part	2016-05-09-20-40-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	activated
+CaretPosition	2016-05-09-20-40-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	67
+CaretPosition	2016-05-09-20-40-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	67
+CaretPosition	2016-05-09-20-40-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	67
+CaretPosition	2016-05-09-20-40-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	67
+Part	2016-05-09-20-40-39	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	deactivated
+CaretPosition	2016-05-09-20-40-39	TicTacToe_c.java	67
+CaretPosition	2016-05-09-20-40-39	TicTacToe_c.java	67
+Part	2016-05-09-20-40-39	TicTacToe_c.java	activated
+FileState	2016-05-09-20-40-39	1462797639807	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-40-40	TicTacToe_c.java	68
+FileState	2016-05-09-20-40-48	1462797648068	Timer
+Part	2016-05-09-20-40-54	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-40-54	Monitor.class	broughtToTop
+CaretPosition	2016-05-09-20-40-54	Monitor.class	1
+Part	2016-05-09-20-40-54	Monitor.class	activated
+FileState	2016-05-09-20-40-54	1462797654537	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-20-40-55	Monitor.class	deactivated
+Part	2016-05-09-20-40-56	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-40-56	TicTacToe_c.java	68
+Part	2016-05-09-20-40-56	TicTacToe_c.java	activated
+FileState	2016-05-09-20-40-56	1462797656055	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-40-56	TicTacToe_c.java	69
+CaretPosition	2016-05-09-20-40-57	TicTacToe_c.java	50
+Part	2016-05-09-20-40-58	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-40-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	67
+Part	2016-05-09-20-40-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	activated
+CaretPosition	2016-05-09-20-40-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	74
+CaretPosition	2016-05-09-20-40-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	74
+CaretPosition	2016-05-09-20-40-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	74
+CaretPosition	2016-05-09-20-40-58	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	74
+Part	2016-05-09-20-41-02	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	deactivated
+CaretPosition	2016-05-09-20-41-02	TicTacToe_c.java	50
+Part	2016-05-09-20-41-02	TicTacToe_c.java	activated
+FileState	2016-05-09-20-41-02	1462797662119	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-41-02	TicTacToe_c.java	52
+Part	2016-05-09-20-41-06	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-41-06	Monitor.class	broughtToTop
+CaretPosition	2016-05-09-20-41-06	Monitor.class	1
+Part	2016-05-09-20-41-06	Monitor.class	activated
+FileState	2016-05-09-20-41-06	1462797666347	ActiveEditor	cn.edu.nju.software.monitor.Monitor
+Part	2016-05-09-20-41-07	Monitor.class	deactivated
+Part	2016-05-09-20-41-07	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-41-07	TicTacToe_c.java	52
+Part	2016-05-09-20-41-07	TicTacToe_c.java	activated
+FileState	2016-05-09-20-41-07	1462797667816	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-41-08	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-41-09	TicTacToe_c.java	73
+CaretPosition	2016-05-09-20-41-19	TicTacToe_c.java	51
+CaretPosition	2016-05-09-20-41-24	TicTacToe_c.java	70
+CaretPosition	2016-05-09-20-41-29	TicTacToe_c.java	74
+CaretPosition	2016-05-09-20-41-31	TicTacToe_c.java	77
+Part	2016-05-09-20-41-33	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-41-33	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	74
+Part	2016-05-09-20-41-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	activated
+CaretPosition	2016-05-09-20-41-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	71
+CaretPosition	2016-05-09-20-41-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	71
+CaretPosition	2016-05-09-20-41-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	71
+CaretPosition	2016-05-09-20-41-34	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	71
+CaretPosition	2016-05-09-20-41-41	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	85
+CaretPosition	2016-05-09-20-41-41	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	85
+CaretPosition	2016-05-09-20-41-41	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	85
+CaretPosition	2016-05-09-20-41-41	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	85
+FileState	2016-05-09-20-41-48	1462797708075	Timer
+Part	2016-05-09-20-41-59	Monitor.class	broughtToTop
+Part	2016-05-09-20-42-00	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-42-04	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+CaretPosition	2016-05-09-20-42-04	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+CaretPosition	2016-05-09-20-42-04	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+CaretPosition	2016-05-09-20-42-04	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+Part	2016-05-09-20-42-09	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	deactivated
+CaretPosition	2016-05-09-20-42-09	TicTacToe_c.java	221
+CaretPosition	2016-05-09-20-42-09	TicTacToe_c.java	221
+Part	2016-05-09-20-42-09	TicTacToe_c.java	activated
+FileState	2016-05-09-20-42-09	1462797729809	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-42-10	TicTacToe_c.java	221
+CaretPosition	2016-05-09-20-42-14	TicTacToe_c.java	226
+CaretPosition	2016-05-09-20-42-16	TicTacToe_c.java	229
+CaretPosition	2016-05-09-20-42-20	TicTacToe_c.java	234
+CaretPosition	2016-05-09-20-42-21	TicTacToe_c.java	239
+CaretPosition	2016-05-09-20-42-23	TicTacToe_c.java	79
+Part	2016-05-09-20-42-26	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-42-26	TestTicTacToe.java	broughtToTop
+CaretPosition	2016-05-09-20-42-26	TestTicTacToe.java	28
+CaretPosition	2016-05-09-20-42-26	TestTicTacToe.java	28
+Part	2016-05-09-20-42-27	TestTicTacToe.java	activated
+FileState	2016-05-09-20-42-27	1462797747024	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-42-27	TestTicTacToe.java	28
+Part	2016-05-09-20-42-35	TestTicTacToe.java	deactivated
+CaretPosition	2016-05-09-20-42-35	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+Part	2016-05-09-20-42-35	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	activated
+CaretPosition	2016-05-09-20-42-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	78
+CaretPosition	2016-05-09-20-42-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	78
+CaretPosition	2016-05-09-20-42-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	78
+CaretPosition	2016-05-09-20-42-36	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	78
+FileState	2016-05-09-20-42-48	1462797768085	Timer
+CaretPosition	2016-05-09-20-42-53	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+CaretPosition	2016-05-09-20-42-53	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+CaretPosition	2016-05-09-20-42-53	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+CaretPosition	2016-05-09-20-42-53	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	83
+FileState	2016-05-09-20-43-48	1462797828087	Timer
+FileState	2016-05-09-20-44-48	1462797888094	Timer
+Part	2016-05-09-20-44-59	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:29:28))	deactivated
+CaretPosition	2016-05-09-20-44-59	TestTicTacToe.java	28
+Part	2016-05-09-20-44-59	TestTicTacToe.java	activated
+FileState	2016-05-09-20-44-59	1462797899388	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-44-59	TestTicTacToe.java	31
+FileState	2016-05-09-20-45-48	1462797948105	Timer
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-46-32	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-46-32	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-20-46-33	TestTicTacToe.java	deactivated
+CaretPosition	2016-05-09-20-46-33	TestTicTacToe.java	31
+Part	2016-05-09-20-46-33	TestTicTacToe.java	activated
+FileState	2016-05-09-20-46-33	1462797993379	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-46-34	TestTicTacToe.java	35
+Part	2016-05-09-20-46-36	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-46-36	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-46-36	TicTacToe_c.java	79
+Part	2016-05-09-20-46-36	TicTacToe_c.java	activated
+FileState	2016-05-09-20-46-36	1462797996907	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-46-47	TicTacToe_c.java	235
+FileState	2016-05-09-20-46-48	1462798008116	Timer
+FileState	2016-05-09-20-47-48	1462798068121	Timer
+FileState	2016-05-09-20-48-48	1462798128122	Timer
+FileState	2016-05-09-20-49-48	1462798188125	Timer
+FileState	2016-05-09-20-50-48	1462798248126	Timer
+CaretPosition	2016-05-09-20-51-02	TicTacToe_c.java	225
+CaretPosition	2016-05-09-20-51-04	TicTacToe_c.java	232
+CaretPosition	2016-05-09-20-51-07	TicTacToe_c.java	141
+CaretPosition	2016-05-09-20-51-09	TicTacToe_c.java	155
+CaretPosition	2016-05-09-20-51-26	TicTacToe_c.java	161
+CaretPosition	2016-05-09-20-51-30	TicTacToe_c.java	203
+CaretPosition	2016-05-09-20-51-36	TicTacToe_c.java	203
+CaretPosition	2016-05-09-20-51-43	TicTacToe_c.java	206
+Part	2016-05-09-20-51-44	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-51-44	Computer.java	deactivated
+Part	2016-05-09-20-51-44	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-51-44	TicTacToe_c.java	206
+Part	2016-05-09-20-51-44	TicTacToe_c.java	activated
+FileState	2016-05-09-20-51-44	1462798304424	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-51-44	Computer.java	broughtToTop
+Part	2016-05-09-20-51-44	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-51-44	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-51-44	Computer.java	21
+Part	2016-05-09-20-51-44	Computer.java	activated
+FileState	2016-05-09-20-51-44	1462798304533	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-51-44	Computer.java	21
+Part	2016-05-09-20-51-44	Computer.java	activated
+FileState	2016-05-09-20-51-44	1462798304580	ActiveEditor	TicTacToe_c/src/Computer.java
+Part	2016-05-09-20-51-45	Computer.java	deactivated
+Part	2016-05-09-20-51-45	TestTicTacToe.java	broughtToTop
+CaretPosition	2016-05-09-20-51-45	TestTicTacToe.java	35
+Part	2016-05-09-20-51-45	TestTicTacToe.java	activated
+FileState	2016-05-09-20-51-45	1462798305223	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+FileState	2016-05-09-20-51-48	1462798308128	Timer
+CaretPosition	2016-05-09-20-51-50	TestTicTacToe.java	22
+CaretPosition	2016-05-09-20-52-05	TestTicTacToe.java	27
+CaretPosition	2016-05-09-20-52-06	TestTicTacToe.java	26
+CaretPosition	2016-05-09-20-52-09	TestTicTacToe.java	31
+CaretPosition	2016-05-09-20-52-11	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-52-13	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-52-30	TestTicTacToe.java	29
+CaretPosition	2016-05-09-20-52-40	TestTicTacToe.java	28
+CaretPosition	2016-05-09-20-52-41	TestTicTacToe.java	28
+CaretPosition	2016-05-09-20-52-43	TestTicTacToe.java	28
+CaretPosition	2016-05-09-20-52-45	TestTicTacToe.java	29
+FileState	2016-05-09-20-52-48	1462798368132	Timer
+CaretPosition	2016-05-09-20-53-28	TestTicTacToe.java	16
+Part	2016-05-09-20-53-29	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-53-29	Project Explorer	activated
+Part	2016-05-09-20-53-29	AI.java	opened
+Part	2016-05-09-20-53-29	AI.java	broughtToTop
+Part	2016-05-09-20-53-29	Project Explorer	deactivated
+CaretPosition	2016-05-09-20-53-29	AI.java	1
+Part	2016-05-09-20-53-29	AI.java	activated
+FileState	2016-05-09-20-53-29	1462798409699	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-20-53-30	AI.java	10
+CaretPosition	2016-05-09-20-53-35	AI.java	39
+FileState	2016-05-09-20-53-48	1462798428133	Timer
+FileState	2016-05-09-20-54-48	1462798488136	Timer
+CaretPosition	2016-05-09-20-54-58	AI.java	43
+CaretPosition	2016-05-09-20-54-58	AI.java	42
+Part	2016-05-09-20-55-01	AI.java	deactivated
+Part	2016-05-09-20-55-01	Project Explorer	activated
+Part	2016-05-09-20-55-01	Project Explorer	deactivated
+CaretPosition	2016-05-09-20-55-01	AI.java	42
+Part	2016-05-09-20-55-01	AI.java	activated
+FileState	2016-05-09-20-55-01	1462798501301	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-20-55-08	AI.java	36
+CaretPosition	2016-05-09-20-55-09	AI.java	37
+CaretPosition	2016-05-09-20-55-12	AI.java	43
+CaretPosition	2016-05-09-20-55-15	AI.java	45
+CaretPosition	2016-05-09-20-55-28	AI.java	31
+FileState	2016-05-09-20-55-48	1462798548144	Timer
+CaretPosition	2016-05-09-20-55-54	AI.java	27
+CaretPosition	2016-05-09-20-56-00	AI.java	43
+CaretPosition	2016-05-09-20-56-02	AI.java	43
+Part	2016-05-09-20-56-20	AI.java	deactivated
+Part	2016-05-09-20-56-20	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-56-20	TicTacToe_c.java	206
+Part	2016-05-09-20-56-20	TicTacToe_c.java	activated
+FileState	2016-05-09-20-56-20	1462798580240	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-56-34	TicTacToe_c.java	58
+CaretPosition	2016-05-09-20-56-38	TicTacToe_c.java	124
+CaretPosition	2016-05-09-20-56-41	TicTacToe_c.java	134
+Part	2016-05-09-20-56-44	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-56-44	Player.java	8
+Part	2016-05-09-20-56-44	Player.java	activated
+FileState	2016-05-09-20-56-44	1462798604554	ActiveEditor	TicTacToe_c/src/Player.java
+Part	2016-05-09-20-56-44	Player.java	broughtToTop
+CaretPosition	2016-05-09-20-56-45	Player.java	8
+CaretPosition	2016-05-09-20-56-46	Player.java	14
+Part	2016-05-09-20-56-47	Player.java	deactivated
+CaretPosition	2016-05-09-20-56-47	TicTacToe_c.java	135
+CaretPosition	2016-05-09-20-56-47	TicTacToe_c.java	135
+Part	2016-05-09-20-56-47	TicTacToe_c.java	activated
+FileState	2016-05-09-20-56-47	1462798607242	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-56-47	TicTacToe_c.java	broughtToTop
+Part	2016-05-09-20-56-47	Player.java	closed
+FileState	2016-05-09-20-56-48	1462798608147	Timer
+Part	2016-05-09-20-56-48	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-56-48	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-56-48	Computer.java	21
+Part	2016-05-09-20-56-48	Computer.java	activated
+FileState	2016-05-09-20-56-48	1462798608273	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-56-49	Computer.java	25
+CaretPosition	2016-05-09-20-56-54	Computer.java	18
+CaretPosition	2016-05-09-20-56-56	Computer.java	22
+CaretPosition	2016-05-09-20-57-07	Computer.java	24
+CaretPosition	2016-05-09-20-57-15	Computer.java	14
+Part	2016-05-09-20-57-17	Computer.java	deactivated
+Part	2016-05-09-20-57-17	JUnit (Terminated)	activated
+Breakpoint	2016-05-09-20-57-19	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-57-19	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-57-19	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-20-57-20	TestTicTacToe.java	broughtToTop
+Part	2016-05-09-20-57-20	JUnit (TestTicTacToe - test_player_from1_1)	deactivated
+CaretPosition	2016-05-09-20-57-20	TestTicTacToe.java	16
+CaretPosition	2016-05-09-20-57-20	TestTicTacToe.java	25
+Part	2016-05-09-20-57-20	TestTicTacToe.java	activated
+FileState	2016-05-09-20-57-20	1462798640902	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+CaretPosition	2016-05-09-20-57-21	TestTicTacToe.java	25
+CaretPosition	2016-05-09-20-57-21	TestTicTacToe.java	25
+Breakpoint	2016-05-09-20-57-25	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-25	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-25	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-25	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-25	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-25	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-25	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-57-26	TestTicTacToe.java	28
+CaretPosition	2016-05-09-20-57-26	TestTicTacToe.java	28
+Part	2016-05-09-20-57-28	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-57-28	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-57-28	TicTacToe_c.java	135
+Part	2016-05-09-20-57-28	TicTacToe_c.java	activated
+FileState	2016-05-09-20-57-28	1462798648673	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-57-29	TicTacToe_c.java	42
+CaretPosition	2016-05-09-20-57-31	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-57-35	TicTacToe_c.java	52
+CaretPosition	2016-05-09-20-57-36	TicTacToe_c.java	213
+CaretPosition	2016-05-09-20-57-40	TicTacToe_c.java	55
+CaretPosition	2016-05-09-20-57-41	TicTacToe_c.java	57
+Part	2016-05-09-20-57-44	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-57-44	GameRecord.java	broughtToTop
+CaretPosition	2016-05-09-20-57-44	GameRecord.java	31
+CaretPosition	2016-05-09-20-57-44	GameRecord.java	31
+Part	2016-05-09-20-57-44	GameRecord.java	activated
+FileState	2016-05-09-20-57-44	1462798664167	ActiveEditor	TicTacToe_c/src/GameRecord.java
+CaretPosition	2016-05-09-20-57-44	GameRecord.java	31
+Part	2016-05-09-20-57-47	GameRecord.java	deactivated
+Part	2016-05-09-20-57-47	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-57-47	TicTacToe_c.java	57
+Part	2016-05-09-20-57-47	TicTacToe_c.java	activated
+FileState	2016-05-09-20-57-47	1462798667353	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-57-47	TicTacToe_c.java	57
+FileState	2016-05-09-20-57-48	1462798668153	Timer
+CaretPosition	2016-05-09-20-57-49	TicTacToe_c.java	51
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-52	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-57-52	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+CaretPosition	2016-05-09-20-57-53	TicTacToe_c.java	56
+Part	2016-05-09-20-57-56	TicTacToe_c.java	deactivated
+CaretPosition	2016-05-09-20-57-56	TicTacToe_c.java	56
+Part	2016-05-09-20-57-56	TicTacToe_c.java	activated
+FileState	2016-05-09-20-57-56	1462798676185	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-57-57	TicTacToe_c.java	58
+CaretPosition	2016-05-09-20-58-00	TicTacToe_c.java	57
+CaretPosition	2016-05-09-20-58-01	TicTacToe_c.java	124
+Breakpoint	2016-05-09-20-58-08	add	null	134	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-09	change	Line breakpoint:TicTacToe_c [line: 134] - nextMove(int, ArrayList<Integer>)	134	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-58-10	TicTacToe_c.java	133
+CaretPosition	2016-05-09-20-58-11	TicTacToe_c.java	134
+Part	2016-05-09-20-58-12	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-58-12	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-58-12	Computer.java	14
+Part	2016-05-09-20-58-12	Computer.java	activated
+FileState	2016-05-09-20-58-12	1462798692888	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-58-14	Computer.java	24
+Breakpoint	2016-05-09-20-58-19	add	null	24	=TicTacToe_c/src<{Computer.java[Computer	Computer	
+Breakpoint	2016-05-09-20-58-19	change	Line breakpoint:Computer [line: 24] - makeMove(int)	24	=TicTacToe_c/src<{Computer.java[Computer	Computer	
+Part	2016-05-09-20-58-23	Computer.java	deactivated
+CaretPosition	2016-05-09-20-58-23	AI.java	43
+Part	2016-05-09-20-58-23	AI.java	activated
+FileState	2016-05-09-20-58-23	1462798703441	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-20-58-23	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-58-24	AI.java	35
+Breakpoint	2016-05-09-20-58-32	add	null	37	=TicTacToe_c/src<{AI.java[AI	AI	
+Breakpoint	2016-05-09-20-58-32	change	Line breakpoint:AI [line: 37] - canGenerateBestMove(char)	37	=TicTacToe_c/src<{AI.java[AI	AI	
+Part	2016-05-09-20-58-34	AI.java	deactivated
+Part	2016-05-09-20-58-34	JUnit (Terminated)	activated
+Part	2016-05-09-20-58-36	TestTicTacToe.java	broughtToTop
+Breakpoint	2016-05-09-20-58-36	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-58-36	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-20-58-36	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-20-58-37	JUnit (TestTicTacToe - test_player_from1_1)	deactivated
+CaretPosition	2016-05-09-20-58-37	TestTicTacToe.java	25
+CaretPosition	2016-05-09-20-58-37	TestTicTacToe.java	25
+Part	2016-05-09-20-58-37	TestTicTacToe.java	activated
+FileState	2016-05-09-20-58-37	1462798717555	ActiveEditor	TicTacToe_c/junit/TestTicTacToe.java
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:AI [line: 37] - canGenerateBestMove(char)	37	=TicTacToe_c/src<{AI.java[AI	AI	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:Computer [line: 24] - makeMove(int)	24	=TicTacToe_c/src<{Computer.java[Computer	Computer	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-20-58-41	change	Line breakpoint:TicTacToe_c [line: 134] - nextMove(int, ArrayList<Integer>)	134	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+CaretPosition	2016-05-09-20-58-41	TestTicTacToe.java	28
+Part	2016-05-09-20-58-43	TestTicTacToe.java	deactivated
+Part	2016-05-09-20-58-43	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-58-43	TicTacToe_c.java	134
+Part	2016-05-09-20-58-43	TicTacToe_c.java	activated
+FileState	2016-05-09-20-58-43	1462798723245	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+CaretPosition	2016-05-09-20-58-43	TicTacToe_c.java	42
+CaretPosition	2016-05-09-20-58-45	TicTacToe_c.java	48
+CaretPosition	2016-05-09-20-58-46	TicTacToe_c.java	50
+CaretPosition	2016-05-09-20-58-47	TicTacToe_c.java	52
+FileState	2016-05-09-20-58-48	1462798728158	Timer
+CaretPosition	2016-05-09-20-58-48	TicTacToe_c.java	213
+CaretPosition	2016-05-09-20-58-49	TicTacToe_c.java	57
+CaretPosition	2016-05-09-20-58-51	TicTacToe_c.java	134
+Part	2016-05-09-20-58-52	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-58-52	Computer.java	deactivated
+Part	2016-05-09-20-58-52	TicTacToe_c.java	broughtToTop
+CaretPosition	2016-05-09-20-58-52	TicTacToe_c.java	134
+Part	2016-05-09-20-58-52	TicTacToe_c.java	activated
+FileState	2016-05-09-20-58-52	1462798732312	ActiveEditor	TicTacToe_c/src/TicTacToe_c.java
+Part	2016-05-09-20-58-52	TicTacToe_c.java	deactivated
+Part	2016-05-09-20-58-52	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-58-52	Computer.java	24
+CaretPosition	2016-05-09-20-58-52	Computer.java	24
+Part	2016-05-09-20-58-52	Computer.java	activated
+FileState	2016-05-09-20-58-52	1462798732422	ActiveEditor	TicTacToe_c/src/Computer.java
+Part	2016-05-09-20-58-52	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-58-52	Computer.java	24
+Part	2016-05-09-20-58-52	Computer.java	activated
+FileState	2016-05-09-20-58-52	1462798732500	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-58-53	Computer.java	24
+Part	2016-05-09-20-58-56	Computer.java	deactivated
+Part	2016-05-09-20-58-56	AI.java	deactivated
+Part	2016-05-09-20-58-56	Computer.java	broughtToTop
+CaretPosition	2016-05-09-20-58-56	Computer.java	24
+Part	2016-05-09-20-58-56	Computer.java	activated
+FileState	2016-05-09-20-58-56	1462798736936	ActiveEditor	TicTacToe_c/src/Computer.java
+Part	2016-05-09-20-58-56	Computer.java	deactivated
+Part	2016-05-09-20-58-56	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-58-57	AI.java	35
+Part	2016-05-09-20-58-57	AI.java	activated
+FileState	2016-05-09-20-58-57	1462798737045	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-20-58-57	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-58-57	AI.java	35
+Part	2016-05-09-20-58-57	AI.java	activated
+FileState	2016-05-09-20-58-57	1462798737076	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-20-58-57	AI.java	37
+CaretPosition	2016-05-09-20-59-00	AI.java	37
+CaretPosition	2016-05-09-20-59-01	AI.java	40
+CaretPosition	2016-05-09-20-59-06	AI.java	37
+Part	2016-05-09-20-59-08	AI.java	deactivated
+Part	2016-05-09-20-59-08	Variables	activated
+Part	2016-05-09-20-59-17	Computer.java	broughtToTop
+Part	2016-05-09-20-59-23	Variables	deactivated
+CaretPosition	2016-05-09-20-59-23	Computer.java	26
+CaretPosition	2016-05-09-20-59-23	Computer.java	26
+Part	2016-05-09-20-59-23	Computer.java	activated
+FileState	2016-05-09-20-59-23	1462798763527	ActiveEditor	TicTacToe_c/src/Computer.java
+CaretPosition	2016-05-09-20-59-24	Computer.java	24
+Part	2016-05-09-20-59-24	Computer.java	deactivated
+CaretPosition	2016-05-09-20-59-24	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	83
+CaretPosition	2016-05-09-20-59-24	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	1
+Part	2016-05-09-20-59-24	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	activated
+CaretPosition	2016-05-09-20-59-25	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	21
+CaretPosition	2016-05-09-20-59-25	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	21
+CaretPosition	2016-05-09-20-59-25	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	21
+CaretPosition	2016-05-09-20-59-25	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	21
+CaretPosition	2016-05-09-20-59-25	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	21
+Part	2016-05-09-20-59-28	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	deactivated
+CaretPosition	2016-05-09-20-59-28	Computer.java	24
+Part	2016-05-09-20-59-28	Computer.java	activated
+FileState	2016-05-09-20-59-28	1462798768938	ActiveEditor	TicTacToe_c/src/Computer.java
+Part	2016-05-09-20-59-28	Computer.java	deactivated
+CaretPosition	2016-05-09-20-59-29	AI.java	37
+Part	2016-05-09-20-59-29	AI.java	activated
+FileState	2016-05-09-20-59-29	1462798769031	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-20-59-29	AI.java	broughtToTop
+CaretPosition	2016-05-09-20-59-29	AI.java	35
+CaretPosition	2016-05-09-20-59-31	AI.java	39
+CaretPosition	2016-05-09-20-59-33	AI.java	44
+CaretPosition	2016-05-09-20-59-36	AI.java	48
+CaretPosition	2016-05-09-20-59-38	AI.java	50
+CaretPosition	2016-05-09-20-59-47	AI.java	55
+FileState	2016-05-09-20-59-48	1462798788173	Timer
+CaretPosition	2016-05-09-20-59-51	AI.java	55
+CaretPosition	2016-05-09-20-59-57	AI.java	57
+CaretPosition	2016-05-09-21-00-02	AI.java	60
+CaretPosition	2016-05-09-21-00-09	AI.java	62
+CaretPosition	2016-05-09-21-00-12	AI.java	58
+CaretPosition	2016-05-09-21-00-31	AI.java	68
+CaretPosition	2016-05-09-21-00-35	AI.java	66
+FileState	2016-05-09-21-00-48	1462798848174	Timer
+CaretPosition	2016-05-09-21-01-12	AI.java	49
+CaretPosition	2016-05-09-21-01-27	AI.java	66
+Part	2016-05-09-21-01-30	AI.java	deactivated
+CaretPosition	2016-05-09-21-01-30	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	21
+Part	2016-05-09-21-01-30	Console (Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	activated
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TestTicTacToe [line: 28] - test_player_from1_1()	28	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TestTicTacToe [line: 25] - test_player_from1_1()	25	=TicTacToe_c/junit<{TestTicTacToe.java[TestTicTacToe	TestTicTacToe	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:AI [line: 37] - canGenerateBestMove(char)	37	=TicTacToe_c/src<{AI.java[AI	AI	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:Computer [line: 24] - makeMove(int)	24	=TicTacToe_c/src<{Computer.java[Computer	Computer	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 50] - run()	50	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 52] - run()	52	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 57] - run()	57	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 60] - run()	60	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 67] - run()	67	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 79] - run()	79	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 213] - isEndOfGame()	213	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Line breakpoint:TicTacToe_c [line: 134] - nextMove(int, ArrayList<Integer>)	134	=TicTacToe_c/src<{TicTacToe_c.java[TicTacToe_c	TicTacToe_c	
+Breakpoint	2016-05-09-21-01-31	change	Breakpoint:TestTriangle	null	=Triangle/junit<{TestTriangle.java[TestTriangle	TestTriangle	
+Part	2016-05-09-21-01-32	Console (<terminated> Rerun TestTicTacToe.test_player_from1_1 [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午8:58:35))	deactivated
+Part	2016-05-09-21-01-32	JUnit (Terminated)	activated
+Part	2016-05-09-21-01-33	JUnit (Terminated)	deactivated
+CaretPosition	2016-05-09-21-01-33	AI.java	66
+Part	2016-05-09-21-01-33	AI.java	activated
+FileState	2016-05-09-21-01-33	1462798893069	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-21-01-33	AI.java	77
+CaretPosition	2016-05-09-21-01-36	AI.java	66
+CaretPosition	2016-05-09-21-01-37	AI.java	66
+CaretPosition	2016-05-09-21-01-38	AI.java	66
+FileChange	2016-05-09-21-01-43	C:\mooctest\projects\417\12972\TicTacToe_c\src\AI.java	[ChangeDelta, position: 65, lines: [            if (singCounter == 2 || emptyColumnIndex != -1)] to [            if (singCounter == 2 && emptyColumnIndex != -1)]]	
+Breakpoint	2016-05-09-21-01-44	change	Line breakpoint:AI [line: 37] - canGenerateBestMove(char)	37	=TicTacToe_c/src<{AI.java[AI	AI	
+Part	2016-05-09-21-01-45	AI.java	deactivated
+Part	2016-05-09-21-01-45	Project Explorer	activated
+FileState	2016-05-09-21-01-48	1462798908175	Timer
+Part	2016-05-09-21-01-48	Console (TestTicTacToe [JUnit] C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe (2016年5月9日 下午9:01:48))	broughtToTop
+Part	2016-05-09-21-01-50	JUnit (Finished after 0.219 seconds)	broughtToTop
+Part	2016-05-09-21-01-50	Project Explorer	deactivated
+Part	2016-05-09-21-01-50	JUnit (Finished after 0.219 seconds)	activated
+Part	2016-05-09-21-01-52	JUnit (Finished after 0.219 seconds)	deactivated
+CaretPosition	2016-05-09-21-01-52	AI.java	66
+Part	2016-05-09-21-01-52	AI.java	activated
+FileState	2016-05-09-21-01-52	1462798912853	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-21-01-53	AI.java	88
+Part	2016-05-09-21-01-54	AI.java	deactivated
+Part	2016-05-09-21-01-54	Project Explorer	activated
+Part	2016-05-09-21-01-56	Project Explorer	deactivated
+CaretPosition	2016-05-09-21-01-56	AI.java	88
+Part	2016-05-09-21-01-56	AI.java	activated
+FileState	2016-05-09-21-01-56	1462798916329	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-21-01-56	AI.java	81
+Process	2016-05-09-21-02-00	Triangle	100.0	0
+Process	2016-05-09-21-02-01	FindTriple_c	100.0	0
+Process	2016-05-09-21-02-04	TicTacToe_c	100.0	0
+Part	2016-05-09-21-02-04	AI.java	deactivated
+Part	2016-05-09-21-02-04	MoocTest	broughtToTop
+Part	2016-05-09-21-02-04	MoocTest	activated
+Process	2016-05-09-21-02-13	Triangle	100.0	0
+Process	2016-05-09-21-02-14	FindTriple_c	100.0	0
+Process	2016-05-09-21-02-18	TicTacToe_c	100.0	0
+Part	2016-05-09-21-02-26	MoocTest	deactivated
+CaretPosition	2016-05-09-21-02-26	AI.java	81
+Part	2016-05-09-21-02-27	AI.java	activated
+FileState	2016-05-09-21-02-27	1462798947041	ActiveEditor	TicTacToe_c/src/AI.java
+CaretPosition	2016-05-09-21-02-27	AI.java	90
+Part	2016-05-09-21-02-28	AI.java	deactivated
+Part	2016-05-09-21-02-28	GameRecord.java	deactivated
+Part	2016-05-09-21-02-28	AI.java	broughtToTop
+CaretPosition	2016-05-09-21-02-28	AI.java	90
+Part	2016-05-09-21-02-28	AI.java	activated
+FileState	2016-05-09-21-02-28	1462798948901	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-21-02-28	GameRecord.java	broughtToTop
+Part	2016-05-09-21-02-28	AI.java	deactivated
+Part	2016-05-09-21-02-29	GameRecord.java	broughtToTop
+CaretPosition	2016-05-09-21-02-29	GameRecord.java	31
+Part	2016-05-09-21-02-29	GameRecord.java	activated
+FileState	2016-05-09-21-02-29	1462798949042	ActiveEditor	TicTacToe_c/src/GameRecord.java
+CaretPosition	2016-05-09-21-02-29	GameRecord.java	31
+Part	2016-05-09-21-02-29	GameRecord.java	activated
+FileState	2016-05-09-21-02-29	1462798949073	ActiveEditor	TicTacToe_c/src/GameRecord.java
+CaretPosition	2016-05-09-21-02-30	GameRecord.java	21
+Part	2016-05-09-21-02-32	Monitor.class	closed
+Part	2016-05-09-21-02-39	Human.java	closed
+Part	2016-05-09-21-02-42	GameRecord.java	deactivated
+CaretPosition	2016-05-09-21-02-42	AI.java	90
+Part	2016-05-09-21-02-42	AI.java	activated
+FileState	2016-05-09-21-02-42	1462798962313	ActiveEditor	TicTacToe_c/src/AI.java
+Part	2016-05-09-21-02-42	AI.java	broughtToTop
+Part	2016-05-09-21-02-42	GameRecord.java	closed
+Part	2016-05-09-21-02-45	Computer.java	closed
+CaretPosition	2016-05-09-21-02-46	AI.java	75
+CaretPosition	2016-05-09-21-02-47	AI.java	79
+FileState	2016-05-09-21-02-48	1462798968186	Timer
+CaretPosition	2016-05-09-21-02-58	AI.java	91
+CaretPosition	2016-05-09-21-02-59	AI.java	91
+Part	2016-05-09-21-03-00	AI.java	deactivated
+Part	2016-05-09-21-03-01	Project Explorer	activated
+Process	2016-05-09-21-03-16	Triangle	100.0	0
+Process	2016-05-09-21-03-18	FindTriple_c	100.0	0
+Process	2016-05-09-21-03-21	TicTacToe_c	100.0	0
+Part	2016-05-09-21-03-28	Project Explorer	deactivated
+Part	2016-05-09-21-03-28	MoocTest	activated
+FileState	2016-05-09-21-03-48	1462799028187	Timer
+Part	2016-05-09-21-03-49	MoocTest	deactivated
+Part	2016-05-09-21-03-49	Project Explorer	activated
+Process	2016-05-09-21-03-59	Triangle	100.0	0

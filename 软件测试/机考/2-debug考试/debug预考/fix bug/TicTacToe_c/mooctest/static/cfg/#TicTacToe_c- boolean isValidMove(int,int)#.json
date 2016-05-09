@@ -1,0 +1,179 @@
+{
+  "3": {
+    "instructions": [{"goto block_10": {
+      "eline": 111,
+      "epos": 34,
+      "spos": 28,
+      "sline": 111
+    }}],
+    "preds": [2],
+    "succs": [10]
+  },
+  "2": {
+    "instructions": [{"if row < 3 goto block_4 #0": {
+      "eline": 111,
+      "epos": 34,
+      "ifpos": "(105, 66)-(112, 43)",
+      "spos": 28,
+      "sline": 111
+    }}],
+    "preds": [0],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "10": {
+    "instructions": [
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 113,
+        "epos": 43,
+        "spos": 17,
+        "sline": 113
+      }},
+      {"goto block_12": {
+        "eline": 113,
+        "epos": 43,
+        "spos": 17,
+        "sline": 113
+      }}
+    ],
+    "preds": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "succs": [12]
+  },
+  "1": {
+    "instructions": [{"goto block_10": {
+      "eline": 111,
+      "epos": 23,
+      "spos": 16,
+      "sline": 111
+    }}],
+    "preds": [0],
+    "succs": [10]
+  },
+  "0": {
+    "instructions": [{"if row >= 0 goto block_2 #0": {
+      "eline": 111,
+      "epos": 23,
+      "ifpos": "(105, 66)-(112, 43)",
+      "spos": 16,
+      "sline": 111
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_10": {
+      "eline": 112,
+      "epos": 41,
+      "spos": 32,
+      "sline": 112
+    }}],
+    "preds": [6],
+    "succs": [10]
+  },
+  "6": {
+    "instructions": [{"if column < 3 goto block_8 #0": {
+      "eline": 112,
+      "epos": 41,
+      "ifpos": "(105, 66)-(112, 43)",
+      "spos": 32,
+      "sline": 112
+    }}],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_10": {
+      "eline": 112,
+      "epos": 27,
+      "spos": 17,
+      "sline": 112
+    }}],
+    "preds": [4],
+    "succs": [10]
+  },
+  "4": {
+    "instructions": [{"if column >= 0 goto block_6 #0": {
+      "eline": 112,
+      "epos": 27,
+      "ifpos": "(105, 66)-(112, 43)",
+      "spos": 17,
+      "sline": 112
+    }}],
+    "preds": [2],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_11": {
+      "eline": 113,
+      "epos": 43,
+      "spos": 17,
+      "sline": 113
+    }}],
+    "preds": [8],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [
+      {"temp$0 = staticinvoke <TicTacToe_c: boolean haveFreeCellAt(int,int)>(row, column)": {
+        "eline": 113,
+        "epos": 43,
+        "spos": 17,
+        "sline": 113
+      }},
+      {"if temp$0 == 0 goto block_10 #0": {
+        "eline": 113,
+        "epos": 43,
+        "ifpos": "(105, 66)-(112, 43)",
+        "spos": 17,
+        "sline": 113
+      }}
+    ],
+    "preds": [6],
+    "succs": [
+      9,
+      10
+    ]
+  },
+  "11": {
+    "instructions": [{"temp$1 = 1": {
+      "reliable": false,
+      "eline": 113,
+      "epos": 43,
+      "spos": 17,
+      "sline": 113
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [{"return temp$1": {
+      "eline": 113,
+      "epos": 44,
+      "spos": 9,
+      "sline": 111
+    }}],
+    "preds": [
+      10,
+      11
+    ],
+    "succs": []
+  }
+}

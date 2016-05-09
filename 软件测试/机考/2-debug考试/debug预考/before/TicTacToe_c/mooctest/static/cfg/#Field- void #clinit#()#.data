@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "public class Field ",
+    "blocks": []
+  },
+  {
+    "codes": "{ ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final char DEFAULT_VALUE = ' '; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final int FIELD_SIZE = 3; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static int cellIndex = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected static char[][] gameField; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Field() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  }
+]

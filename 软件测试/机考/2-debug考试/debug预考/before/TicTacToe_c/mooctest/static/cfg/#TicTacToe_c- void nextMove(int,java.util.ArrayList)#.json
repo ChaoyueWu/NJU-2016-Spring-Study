@@ -1,0 +1,145 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$7 = this.<TicTacToe_c: Player computer>": {
+        "eline": 134,
+        "epos": 20,
+        "spos": 13,
+        "sline": 134
+      }},
+      {"virtualinvoke temp$7.<Player: void makeMove(int)>(-1)": {
+        "eline": 134,
+        "epos": 20,
+        "spos": 13,
+        "sline": 134
+      }},
+      {"virtualinvoke this.<TicTacToe_c: char checkWhoWon()>()": {
+        "eline": 135,
+        "epos": 25,
+        "spos": 13,
+        "sline": 135
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<TicTacToe_c: Player human>": {
+        "eline": 128,
+        "epos": 17,
+        "spos": 13,
+        "sline": 128
+      }},
+      {"temp$2 = moveIndex / 2": {
+        "eline": 128,
+        "epos": 17,
+        "spos": 13,
+        "sline": 128
+      }},
+      {"temp$3 = virtualinvoke steps.<java.util.ArrayList: java.lang.Object get(int)>(temp$2)": {
+        "eline": 128,
+        "epos": 17,
+        "spos": 13,
+        "sline": 128
+      }},
+      {"temp$4 = (java.lang.Integer) temp$3": {
+        "eline": 128,
+        "epos": 17,
+        "spos": 13,
+        "sline": 128
+      }},
+      {"temp$5 = virtualinvoke temp$4.<java.lang.Integer: int intValue()>()": {
+        "eline": 128,
+        "epos": 17,
+        "spos": 13,
+        "sline": 128
+      }},
+      {"virtualinvoke temp$1.<Player: void makeMove(int)>(temp$5)": {
+        "eline": 128,
+        "epos": 17,
+        "spos": 13,
+        "sline": 128
+      }},
+      {"virtualinvoke this.<TicTacToe_c: char checkWhoWon()>()": {
+        "eline": 129,
+        "epos": 25,
+        "spos": 13,
+        "sline": 129
+      }},
+      {"goto block_4": {
+        "eline": 136,
+        "epos": 9,
+        "spos": 9,
+        "sline": 126
+      }}
+    ],
+    "preds": [0],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 126,
+      "epos": 30,
+      "spos": 13,
+      "sline": 126
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = moveIndex % 2": {
+        "eline": 126,
+        "epos": 30,
+        "spos": 13,
+        "sline": 126
+      }},
+      {"if temp$0 == 0 goto block_2 #0": {
+        "eline": 126,
+        "epos": 30,
+        "ifpos": "(125, 8)-(125, 30)",
+        "spos": 13,
+        "sline": 126
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "4": {
+    "instructions": [
+      {"temp$9 = this.<TicTacToe_c: int movesCounter>": {
+        "eline": 138,
+        "epos": 20,
+        "spos": 9,
+        "sline": 138
+      }},
+      {"temp$10 = temp$9 + 1": {
+        "eline": 138,
+        "epos": 20,
+        "spos": 9,
+        "sline": 138
+      }},
+      {"this.<TicTacToe_c: int movesCounter> = temp$10": {
+        "eline": 138,
+        "epos": 20,
+        "spos": 9,
+        "sline": 138
+      }},
+      {"return": {
+        "eline": 138,
+        "epos": 20,
+        "spos": 9,
+        "sline": 138
+      }}
+    ],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

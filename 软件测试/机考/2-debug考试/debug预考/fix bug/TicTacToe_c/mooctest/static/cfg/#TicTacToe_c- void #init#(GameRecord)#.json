@@ -1,0 +1,81 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new Human": {}},
+    {"specialinvoke temp$0.<Human: void <init>()>()": {
+      "eline": 29,
+      "epos": 38,
+      "spos": 28,
+      "sline": 29
+    }},
+    {"this.<TicTacToe_c: Player human> = temp$0": {
+      "eline": 29,
+      "epos": 39,
+      "spos": 5,
+      "sline": 29
+    }},
+    {"temp$1 = new Computer": {
+      "eline": 29,
+      "epos": 39,
+      "spos": 5,
+      "sline": 29
+    }},
+    {"specialinvoke temp$1.<Computer: void <init>()>()": {
+      "eline": 30,
+      "epos": 44,
+      "spos": 31,
+      "sline": 30
+    }},
+    {"this.<TicTacToe_c: Player computer> = temp$1": {
+      "eline": 30,
+      "epos": 45,
+      "spos": 5,
+      "sline": 30
+    }},
+    {"temp$2 = 0": {
+      "reliable": false,
+      "eline": 30,
+      "epos": 45,
+      "spos": 5,
+      "sline": 30
+    }},
+    {"this.<TicTacToe_c: int movesCounter> = temp$2": {
+      "eline": 32,
+      "epos": 35,
+      "spos": 5,
+      "sline": 32
+    }},
+    {"this.<TicTacToe_c: GameRecord gameRecord> = gameRecord": {
+      "eline": 36,
+      "epos": 20,
+      "spos": 11,
+      "sline": 36
+    }},
+    {"temp$3 = new Field": {
+      "eline": 37,
+      "epos": 13,
+      "spos": 9,
+      "sline": 37
+    }},
+    {"specialinvoke temp$3.<Field: void <init>()>()": {
+      "eline": 37,
+      "epos": 27,
+      "spos": 17,
+      "sline": 37
+    }},
+    {"this.<TicTacToe_c: Field field> = temp$3": {
+      "eline": 37,
+      "epos": 13,
+      "spos": 9,
+      "sline": 37
+    }},
+    {"return": {
+      "eline": 37,
+      "epos": 13,
+      "spos": 9,
+      "sline": 37
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

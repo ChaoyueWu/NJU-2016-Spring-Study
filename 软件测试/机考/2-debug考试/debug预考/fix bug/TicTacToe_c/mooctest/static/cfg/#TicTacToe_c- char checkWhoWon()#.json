@@ -1,0 +1,899 @@
+{
+  "19": {
+    "instructions": [
+      {"temp$20 = i": {
+        "eline": 158,
+        "epos": 49,
+        "spos": 47,
+        "sline": 158
+      }},
+      {"temp$21 = temp$20 + 1": {
+        "eline": 158,
+        "epos": 47,
+        "spos": 47,
+        "sline": 158
+      }},
+      {"i = temp$21": {
+        "eline": 158,
+        "epos": 47,
+        "spos": 47,
+        "sline": 158
+      }},
+      {"goto block_11": {
+        "eline": 169,
+        "epos": 9,
+        "spos": 9,
+        "sline": 158
+      }}
+    ],
+    "preds": [17],
+    "succs": [11]
+  },
+  "35": {
+    "instructions": [
+      {"temp$35 = <Field: char[][] gameField>": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$36 = i": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$37 = temp$35[temp$36]": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$38 = 2 - i": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$39 = temp$38": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$40 = temp$37[temp$39]": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$41 = <TicTacToe_c: char currentSign>": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$42 = (int) temp$40": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"temp$43 = (int) temp$41": {
+        "eline": 191,
+        "epos": 75,
+        "spos": 17,
+        "sline": 191
+      }},
+      {"if temp$42 != temp$43 goto block_37 #11": {
+        "eline": 191,
+        "epos": 75,
+        "ifpos": "(190, 12)-(190, 75)",
+        "spos": 17,
+        "sline": 191
+      }}
+    ],
+    "preds": [33],
+    "succs": [
+      36,
+      37
+    ]
+  },
+  "17": {
+    "instructions": [{"goto block_19": {
+      "eline": 165,
+      "epos": 46,
+      "spos": 22,
+      "sline": 165
+    }}],
+    "preds": [16],
+    "succs": [19]
+  },
+  "36": {
+    "instructions": [{"goto block_38": {
+      "eline": 191,
+      "epos": 75,
+      "spos": 17,
+      "sline": 191
+    }}],
+    "preds": [35],
+    "succs": [38]
+  },
+  "18": {
+    "instructions": [
+      {"temp$19 = <TicTacToe_c: char currentSign>": {
+        "eline": 165,
+        "epos": 46,
+        "spos": 22,
+        "sline": 165
+      }},
+      {"return temp$19": {
+        "eline": 167,
+        "epos": 35,
+        "spos": 17,
+        "sline": 167
+      }}
+    ],
+    "preds": [16],
+    "succs": []
+  },
+  "33": {
+    "instructions": [{"if i < 3 goto block_35 #10": {
+      "eline": 189,
+      "epos": 44,
+      "ifpos": "(188, 22)-(188, 44)",
+      "spos": 25,
+      "sline": 189
+    }}],
+    "preds": [
+      32,
+      41
+    ],
+    "succs": [
+      34,
+      35
+    ]
+  },
+  "15": {
+    "instructions": [{"goto block_20": {
+      "eline": 162,
+      "epos": 22,
+      "spos": 17,
+      "sline": 162
+    }}],
+    "preds": [13],
+    "succs": [20]
+  },
+  "34": {
+    "instructions": [{"goto block_42": {
+      "eline": 189,
+      "epos": 44,
+      "spos": 25,
+      "sline": 189
+    }}],
+    "preds": [33],
+    "succs": [42]
+  },
+  "16": {
+    "instructions": [{"if i == 2 goto block_18 #5": {
+      "eline": 165,
+      "epos": 46,
+      "ifpos": "(164, 17)-(164, 46)",
+      "spos": 22,
+      "sline": 165
+    }}],
+    "preds": [14],
+    "succs": [
+      17,
+      18
+    ]
+  },
+  "39": {
+    "instructions": [{"goto block_41": {
+      "eline": 196,
+      "epos": 46,
+      "spos": 22,
+      "sline": 196
+    }}],
+    "preds": [38],
+    "succs": [41]
+  },
+  "13": {
+    "instructions": [
+      {"temp$11 = <Field: char[][] gameField>": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"temp$12 = i": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"temp$13 = temp$11[temp$12]": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"temp$14 = <TicTacToe_c: int currentYPos>": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"temp$15 = temp$13[temp$14]": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"temp$16 = <TicTacToe_c: char currentSign>": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"temp$17 = (int) temp$15": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"temp$18 = (int) temp$16": {
+        "eline": 160,
+        "epos": 62,
+        "spos": 17,
+        "sline": 160
+      }},
+      {"if temp$17 != temp$18 goto block_15 #4": {
+        "eline": 160,
+        "epos": 62,
+        "ifpos": "(159, 12)-(159, 62)",
+        "spos": 17,
+        "sline": 160
+      }}
+    ],
+    "preds": [11],
+    "succs": [
+      14,
+      15
+    ]
+  },
+  "14": {
+    "instructions": [{"goto block_16": {
+      "eline": 160,
+      "epos": 62,
+      "spos": 17,
+      "sline": 160
+    }}],
+    "preds": [13],
+    "succs": [16]
+  },
+  "37": {
+    "instructions": [{"goto block_42": {
+      "eline": 193,
+      "epos": 22,
+      "spos": 17,
+      "sline": 193
+    }}],
+    "preds": [35],
+    "succs": [42]
+  },
+  "11": {
+    "instructions": [{"if i < 3 goto block_13 #3": {
+      "eline": 158,
+      "epos": 44,
+      "ifpos": "(157, 22)-(157, 44)",
+      "spos": 25,
+      "sline": 158
+    }}],
+    "preds": [
+      10,
+      19
+    ],
+    "succs": [
+      12,
+      13
+    ]
+  },
+  "38": {
+    "instructions": [{"if i == 2 goto block_40 #12": {
+      "eline": 196,
+      "epos": 46,
+      "ifpos": "(195, 17)-(195, 46)",
+      "spos": 22,
+      "sline": 196
+    }}],
+    "preds": [36],
+    "succs": [
+      39,
+      40
+    ]
+  },
+  "12": {
+    "instructions": [{"goto block_20": {
+      "eline": 158,
+      "epos": 44,
+      "spos": 25,
+      "sline": 158
+    }}],
+    "preds": [11],
+    "succs": [20]
+  },
+  "21": {
+    "instructions": [{"goto block_32": {
+      "eline": 172,
+      "epos": 38,
+      "spos": 13,
+      "sline": 172
+    }}],
+    "preds": [20],
+    "succs": [32]
+  },
+  "20": {
+    "instructions": [
+      {"temp$22 = <TicTacToe_c: int currentXPos>": {
+        "eline": 172,
+        "epos": 38,
+        "spos": 13,
+        "sline": 172
+      }},
+      {"temp$23 = <TicTacToe_c: int currentYPos>": {
+        "eline": 172,
+        "epos": 38,
+        "spos": 13,
+        "sline": 172
+      }},
+      {"if temp$22 == temp$23 goto block_22 #6": {
+        "eline": 172,
+        "epos": 38,
+        "ifpos": "(171, 8)-(171, 38)",
+        "spos": 13,
+        "sline": 172
+      }}
+    ],
+    "preds": [
+      12,
+      15
+    ],
+    "succs": [
+      21,
+      22
+    ]
+  },
+  "43": {
+    "instructions": [{"goto block_45": {
+      "eline": 203,
+      "epos": 24,
+      "spos": 13,
+      "sline": 203
+    }}],
+    "preds": [42],
+    "succs": [45]
+  },
+  "42": {
+    "instructions": [
+      {"temp$47 = this.<TicTacToe_c: int movesCounter>": {
+        "eline": 203,
+        "epos": 24,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"if temp$47 == 9 goto block_44 #13": {
+        "eline": 203,
+        "epos": 24,
+        "ifpos": "(202, 8)-(202, 47)",
+        "spos": 13,
+        "sline": 203
+      }}
+    ],
+    "preds": [
+      34,
+      37
+    ],
+    "succs": [
+      43,
+      44
+    ]
+  },
+  "41": {
+    "instructions": [
+      {"temp$45 = i": {
+        "eline": 189,
+        "epos": 49,
+        "spos": 47,
+        "sline": 189
+      }},
+      {"temp$46 = temp$45 + 1": {
+        "eline": 189,
+        "epos": 47,
+        "spos": 47,
+        "sline": 189
+      }},
+      {"i = temp$46": {
+        "eline": 189,
+        "epos": 47,
+        "spos": 47,
+        "sline": 189
+      }},
+      {"goto block_33": {
+        "eline": 200,
+        "epos": 9,
+        "spos": 9,
+        "sline": 189
+      }}
+    ],
+    "preds": [39],
+    "succs": [33]
+  },
+  "40": {
+    "instructions": [
+      {"temp$44 = <TicTacToe_c: char currentSign>": {
+        "eline": 196,
+        "epos": 46,
+        "spos": 22,
+        "sline": 196
+      }},
+      {"return temp$44": {
+        "eline": 198,
+        "epos": 35,
+        "spos": 17,
+        "sline": 198
+      }}
+    ],
+    "preds": [38],
+    "succs": []
+  },
+  "45": {
+    "instructions": [
+      {"temp$49 = <Field: char DEFAULT_VALUE>": {
+        "eline": 205,
+        "epos": 29,
+        "spos": 13,
+        "sline": 205
+      }},
+      {"return temp$49": {
+        "eline": 208,
+        "epos": 35,
+        "spos": 9,
+        "sline": 208
+      }}
+    ],
+    "preds": [43],
+    "succs": []
+  },
+  "44": {
+    "instructions": [
+      {"temp$48 = <TicTacToe_c: char DRAW_CHAR>": {
+        "eline": 203,
+        "epos": 24,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"return temp$48": {
+        "eline": 205,
+        "epos": 29,
+        "spos": 13,
+        "sline": 205
+      }}
+    ],
+    "preds": [42],
+    "succs": []
+  },
+  "22": {
+    "instructions": [{"i = 0": {
+      "eline": 174,
+      "epos": 26,
+      "spos": 18,
+      "sline": 174
+    }}],
+    "preds": [20],
+    "succs": [23]
+  },
+  "23": {
+    "instructions": [{"if i < 3 goto block_25 #7": {
+      "eline": 174,
+      "epos": 48,
+      "ifpos": "(173, 26)-(173, 48)",
+      "spos": 29,
+      "sline": 174
+    }}],
+    "preds": [
+      22,
+      31
+    ],
+    "succs": [
+      24,
+      25
+    ]
+  },
+  "24": {
+    "instructions": [{"goto block_32": {
+      "eline": 174,
+      "epos": 48,
+      "spos": 29,
+      "sline": 174
+    }}],
+    "preds": [23],
+    "succs": [32]
+  },
+  "25": {
+    "instructions": [
+      {"temp$24 = <Field: char[][] gameField>": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"temp$25 = i": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"temp$26 = temp$24[temp$25]": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"temp$27 = i": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"temp$28 = temp$26[temp$27]": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"temp$29 = <TicTacToe_c: char currentSign>": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"temp$30 = (int) temp$28": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"temp$31 = (int) temp$29": {
+        "eline": 176,
+        "epos": 56,
+        "spos": 21,
+        "sline": 176
+      }},
+      {"if temp$30 != temp$31 goto block_27 #8": {
+        "eline": 176,
+        "epos": 56,
+        "ifpos": "(175, 16)-(175, 56)",
+        "spos": 21,
+        "sline": 176
+      }}
+    ],
+    "preds": [23],
+    "succs": [
+      26,
+      27
+    ]
+  },
+  "26": {
+    "instructions": [{"goto block_28": {
+      "eline": 176,
+      "epos": 56,
+      "spos": 21,
+      "sline": 176
+    }}],
+    "preds": [25],
+    "succs": [28]
+  },
+  "27": {
+    "instructions": [{"goto block_32": {
+      "eline": 178,
+      "epos": 26,
+      "spos": 21,
+      "sline": 178
+    }}],
+    "preds": [25],
+    "succs": [32]
+  },
+  "28": {
+    "instructions": [{"if i == 2 goto block_30 #9": {
+      "eline": 181,
+      "epos": 50,
+      "ifpos": "(180, 21)-(180, 50)",
+      "spos": 26,
+      "sline": 181
+    }}],
+    "preds": [26],
+    "succs": [
+      29,
+      30
+    ]
+  },
+  "29": {
+    "instructions": [{"goto block_31": {
+      "eline": 181,
+      "epos": 50,
+      "spos": 26,
+      "sline": 181
+    }}],
+    "preds": [28],
+    "succs": [31]
+  },
+  "3": {
+    "instructions": [
+      {"temp$0 = <Field: char[][] gameField>": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$1 = <TicTacToe_c: int currentXPos>": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$2 = temp$0[temp$1]": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$3 = i": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$4 = temp$2[temp$3]": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$5 = <TicTacToe_c: char currentSign>": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$6 = (int) temp$4": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$7 = (int) temp$5": {
+        "eline": 146,
+        "epos": 62,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"if temp$6 != temp$7 goto block_5 #1": {
+        "eline": 146,
+        "epos": 62,
+        "ifpos": "(145, 12)-(145, 62)",
+        "spos": 17,
+        "sline": 146
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_10": {
+      "eline": 144,
+      "epos": 44,
+      "spos": 25,
+      "sline": 144
+    }}],
+    "preds": [1],
+    "succs": [10]
+  },
+  "10": {
+    "instructions": [{"i = 0": {
+      "eline": 158,
+      "epos": 22,
+      "spos": 14,
+      "sline": 158
+    }}],
+    "preds": [
+      2,
+      5
+    ],
+    "succs": [11]
+  },
+  "1": {
+    "instructions": [{"if i < 3 goto block_3 #0": {
+      "eline": 144,
+      "epos": 44,
+      "ifpos": "(143, 22)-(143, 44)",
+      "spos": 25,
+      "sline": 144
+    }}],
+    "preds": [
+      0,
+      9
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [{"i = 0": {
+      "eline": 144,
+      "epos": 22,
+      "spos": 14,
+      "sline": 144
+    }}],
+    "preds": [],
+    "succs": [1]
+  },
+  "30": {
+    "instructions": [
+      {"temp$32 = <TicTacToe_c: char currentSign>": {
+        "eline": 181,
+        "epos": 50,
+        "spos": 26,
+        "sline": 181
+      }},
+      {"return temp$32": {
+        "eline": 183,
+        "epos": 39,
+        "spos": 21,
+        "sline": 183
+      }}
+    ],
+    "preds": [28],
+    "succs": []
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 151,
+      "epos": 46,
+      "spos": 22,
+      "sline": 151
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [{"if i == 2 goto block_8 #2": {
+      "eline": 151,
+      "epos": 46,
+      "ifpos": "(150, 17)-(150, 46)",
+      "spos": 22,
+      "sline": 151
+    }}],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "32": {
+    "instructions": [{"i = 0": {
+      "eline": 189,
+      "epos": 22,
+      "spos": 14,
+      "sline": 189
+    }}],
+    "preds": [
+      21,
+      24,
+      27
+    ],
+    "succs": [33]
+  },
+  "5": {
+    "instructions": [{"goto block_10": {
+      "eline": 148,
+      "epos": 22,
+      "spos": 17,
+      "sline": 148
+    }}],
+    "preds": [3],
+    "succs": [10]
+  },
+  "31": {
+    "instructions": [
+      {"temp$33 = i": {
+        "eline": 174,
+        "epos": 53,
+        "spos": 51,
+        "sline": 174
+      }},
+      {"temp$34 = temp$33 + 1": {
+        "eline": 174,
+        "epos": 51,
+        "spos": 51,
+        "sline": 174
+      }},
+      {"i = temp$34": {
+        "eline": 174,
+        "epos": 51,
+        "spos": 51,
+        "sline": 174
+      }},
+      {"goto block_23": {
+        "eline": 185,
+        "epos": 13,
+        "spos": 13,
+        "sline": 174
+      }}
+    ],
+    "preds": [29],
+    "succs": [23]
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 146,
+      "epos": 62,
+      "spos": 17,
+      "sline": 146
+    }}],
+    "preds": [3],
+    "succs": [6]
+  },
+  "9": {
+    "instructions": [
+      {"temp$9 = i": {
+        "eline": 144,
+        "epos": 49,
+        "spos": 47,
+        "sline": 144
+      }},
+      {"temp$10 = temp$9 + 1": {
+        "eline": 144,
+        "epos": 47,
+        "spos": 47,
+        "sline": 144
+      }},
+      {"i = temp$10": {
+        "eline": 144,
+        "epos": 47,
+        "spos": 47,
+        "sline": 144
+      }},
+      {"goto block_1": {
+        "eline": 155,
+        "epos": 9,
+        "spos": 9,
+        "sline": 144
+      }}
+    ],
+    "preds": [7],
+    "succs": [1]
+  },
+  "8": {
+    "instructions": [
+      {"temp$8 = <TicTacToe_c: char currentSign>": {
+        "eline": 151,
+        "epos": 46,
+        "spos": 22,
+        "sline": 151
+      }},
+      {"return temp$8": {
+        "eline": 153,
+        "epos": 35,
+        "spos": 17,
+        "sline": 153
+      }}
+    ],
+    "preds": [6],
+    "succs": []
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic void setFirstPlayer(int firstPlayer) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.firstPlayer = firstPlayer; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic ArrayList<Integer> getSteps() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn steps; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setSteps(ArrayList<Integer> steps) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.steps = steps; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

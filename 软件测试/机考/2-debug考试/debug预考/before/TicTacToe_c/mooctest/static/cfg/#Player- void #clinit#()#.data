@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "public abstract class Player ",
+    "blocks": []
+  },
+  {
+    "codes": "{ ",
+    "blocks": []
+  },
+  {
+    "codes": "    private char playerSing = TicTacToe_c.CROSS_CHAR; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final String WRONG_MOVE_MESSAGE = ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            \"\\nWrong move. Please check your input and try again!\\n\"; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected abstract void makeMove(int pos); ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public char getPlayerSing() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  }
+]

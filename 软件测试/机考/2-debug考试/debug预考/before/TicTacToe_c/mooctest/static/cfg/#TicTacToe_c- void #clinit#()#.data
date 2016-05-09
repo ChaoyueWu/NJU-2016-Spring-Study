@@ -1,0 +1,110 @@
+[
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "public class TicTacToe_c ",
+    "blocks": []
+  },
+  {
+    "codes": "{ ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate GameRecord gameRecord; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final int MAX_NUMBER_OF_MOVES = 9; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final char DRAW_CHAR = 'D'; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                    ",
+    "blocks": []
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final char CROSS_CHAR = 'X'; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                   ",
+    "blocks": []
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static final char ZERO_CHAR = 'O'; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected static int  currentXPos = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    protected static int  currentYPos = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    protected static char currentSign = CROSS_CHAR; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected Field field; ",
+    "blocks": []
+  },
+  {
+    "codes": "    private Player human = new Human(); ",
+    "blocks": []
+  },
+  {
+    "codes": "    private Player computer = new Computer(); ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  }
+]

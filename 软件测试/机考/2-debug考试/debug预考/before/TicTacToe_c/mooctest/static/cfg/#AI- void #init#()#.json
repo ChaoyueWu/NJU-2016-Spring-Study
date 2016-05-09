@@ -1,0 +1,72 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = 0": {}},
+    {"this.<AI: int emptyRowIndex> = temp$0": {
+      "eline": 13,
+      "epos": 34,
+      "spos": 5,
+      "sline": 13
+    }},
+    {"temp$1 = 0": {
+      "reliable": false,
+      "eline": 13,
+      "epos": 34,
+      "spos": 5,
+      "sline": 13
+    }},
+    {"this.<AI: int emptyColumnIndex> = temp$1": {
+      "eline": 14,
+      "epos": 37,
+      "spos": 5,
+      "sline": 14
+    }},
+    {"temp$2 = 0": {
+      "reliable": false,
+      "eline": 14,
+      "epos": 37,
+      "spos": 5,
+      "sline": 14
+    }},
+    {"this.<AI: int singCounter> = temp$2": {
+      "eline": 17,
+      "epos": 32,
+      "spos": 5,
+      "sline": 17
+    }},
+    {"temp$3 = -1": {
+      "reliable": false,
+      "eline": 21,
+      "epos": 23,
+      "spos": 9,
+      "sline": 21
+    }},
+    {"this.<AI: int bestColumnIndex> = temp$3": {
+      "eline": 21,
+      "epos": 23,
+      "spos": 9,
+      "sline": 21
+    }},
+    {"temp$4 = -1": {
+      "reliable": false,
+      "eline": 22,
+      "epos": 20,
+      "spos": 9,
+      "sline": 22
+    }},
+    {"this.<AI: int bestRowIndex> = temp$4": {
+      "eline": 22,
+      "epos": 20,
+      "spos": 9,
+      "sline": 22
+    }},
+    {"return": {
+      "eline": 22,
+      "epos": 20,
+      "spos": 9,
+      "sline": 22
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

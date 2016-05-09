@@ -1,0 +1,396 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = 0": {
+        "reliable": false,
+        "eline": 44,
+        "epos": 24,
+        "spos": 17,
+        "sline": 44
+      }},
+      {"this.<Human: int rowIndex> = temp$4": {
+        "eline": 44,
+        "epos": 24,
+        "spos": 17,
+        "sline": 44
+      }},
+      {"temp$5 = 2": {
+        "reliable": false,
+        "eline": 45,
+        "epos": 27,
+        "spos": 17,
+        "sline": 45
+      }},
+      {"this.<Human: int columnIndex> = temp$5": {
+        "eline": 45,
+        "epos": 27,
+        "spos": 17,
+        "sline": 45
+      }},
+      {"goto block_11": {
+        "eline": 46,
+        "epos": 22,
+        "spos": 17,
+        "sline": 46
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 39,
+        "epos": 24,
+        "spos": 17,
+        "sline": 39
+      }},
+      {"this.<Human: int rowIndex> = temp$2": {
+        "eline": 39,
+        "epos": 24,
+        "spos": 17,
+        "sline": 39
+      }},
+      {"temp$3 = 1": {
+        "reliable": false,
+        "eline": 40,
+        "epos": 27,
+        "spos": 17,
+        "sline": 40
+      }},
+      {"this.<Human: int columnIndex> = temp$3": {
+        "eline": 40,
+        "epos": 27,
+        "spos": 17,
+        "sline": 40
+      }},
+      {"goto block_11": {
+        "eline": 41,
+        "epos": 22,
+        "spos": 17,
+        "sline": 41
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "10": {
+    "instructions": [{"tableswitch(cellIndex) { case 1: goto block_1;   case 2: goto block_2;   case 3: goto block_3;   case 4: goto block_4;   case 5: goto block_5;   case 6: goto block_6;   case 7: goto block_7;   case 8: goto block_8;   case 9: goto block_9;   default: goto block_11;} #0": {
+      "eline": 77,
+      "epos": 9,
+      "spos": 9,
+      "sline": 31
+    }}],
+    "preds": [0],
+    "succs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ]
+  },
+  "1": {
+    "instructions": [
+      {"temp$0 = 0": {
+        "reliable": false,
+        "eline": 34,
+        "epos": 24,
+        "spos": 17,
+        "sline": 34
+      }},
+      {"this.<Human: int rowIndex> = temp$0": {
+        "eline": 34,
+        "epos": 24,
+        "spos": 17,
+        "sline": 34
+      }},
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 35,
+        "epos": 27,
+        "spos": 17,
+        "sline": 35
+      }},
+      {"this.<Human: int columnIndex> = temp$1": {
+        "eline": 35,
+        "epos": 27,
+        "spos": 17,
+        "sline": 35
+      }},
+      {"goto block_11": {
+        "eline": 36,
+        "epos": 22,
+        "spos": 17,
+        "sline": 36
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "0": {
+    "instructions": [{"goto block_10": {
+      "eline": 77,
+      "epos": 9,
+      "spos": 9,
+      "sline": 31
+    }}],
+    "preds": [],
+    "succs": [10]
+  },
+  "7": {
+    "instructions": [
+      {"temp$12 = 2": {
+        "reliable": false,
+        "eline": 64,
+        "epos": 24,
+        "spos": 17,
+        "sline": 64
+      }},
+      {"this.<Human: int rowIndex> = temp$12": {
+        "eline": 64,
+        "epos": 24,
+        "spos": 17,
+        "sline": 64
+      }},
+      {"temp$13 = 0": {
+        "reliable": false,
+        "eline": 65,
+        "epos": 27,
+        "spos": 17,
+        "sline": 65
+      }},
+      {"this.<Human: int columnIndex> = temp$13": {
+        "eline": 65,
+        "epos": 27,
+        "spos": 17,
+        "sline": 65
+      }},
+      {"goto block_11": {
+        "eline": 66,
+        "epos": 22,
+        "spos": 17,
+        "sline": 66
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "6": {
+    "instructions": [
+      {"temp$10 = 1": {
+        "reliable": false,
+        "eline": 59,
+        "epos": 24,
+        "spos": 17,
+        "sline": 59
+      }},
+      {"this.<Human: int rowIndex> = temp$10": {
+        "eline": 59,
+        "epos": 24,
+        "spos": 17,
+        "sline": 59
+      }},
+      {"temp$11 = 2": {
+        "reliable": false,
+        "eline": 60,
+        "epos": 27,
+        "spos": 17,
+        "sline": 60
+      }},
+      {"this.<Human: int columnIndex> = temp$11": {
+        "eline": 60,
+        "epos": 27,
+        "spos": 17,
+        "sline": 60
+      }},
+      {"goto block_11": {
+        "eline": 61,
+        "epos": 22,
+        "spos": 17,
+        "sline": 61
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "5": {
+    "instructions": [
+      {"temp$8 = 1": {
+        "reliable": false,
+        "eline": 54,
+        "epos": 24,
+        "spos": 17,
+        "sline": 54
+      }},
+      {"this.<Human: int rowIndex> = temp$8": {
+        "eline": 54,
+        "epos": 24,
+        "spos": 17,
+        "sline": 54
+      }},
+      {"temp$9 = 1": {
+        "reliable": false,
+        "eline": 55,
+        "epos": 27,
+        "spos": 17,
+        "sline": 55
+      }},
+      {"this.<Human: int columnIndex> = temp$9": {
+        "eline": 55,
+        "epos": 27,
+        "spos": 17,
+        "sline": 55
+      }},
+      {"goto block_11": {
+        "eline": 56,
+        "epos": 22,
+        "spos": 17,
+        "sline": 56
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "4": {
+    "instructions": [
+      {"temp$6 = 1": {
+        "reliable": false,
+        "eline": 49,
+        "epos": 24,
+        "spos": 17,
+        "sline": 49
+      }},
+      {"this.<Human: int rowIndex> = temp$6": {
+        "eline": 49,
+        "epos": 24,
+        "spos": 17,
+        "sline": 49
+      }},
+      {"temp$7 = 0": {
+        "reliable": false,
+        "eline": 50,
+        "epos": 27,
+        "spos": 17,
+        "sline": 50
+      }},
+      {"this.<Human: int columnIndex> = temp$7": {
+        "eline": 50,
+        "epos": 27,
+        "spos": 17,
+        "sline": 50
+      }},
+      {"goto block_11": {
+        "eline": 51,
+        "epos": 22,
+        "spos": 17,
+        "sline": 51
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "9": {
+    "instructions": [
+      {"temp$16 = 2": {
+        "reliable": false,
+        "eline": 74,
+        "epos": 24,
+        "spos": 17,
+        "sline": 74
+      }},
+      {"this.<Human: int rowIndex> = temp$16": {
+        "eline": 74,
+        "epos": 24,
+        "spos": 17,
+        "sline": 74
+      }},
+      {"temp$17 = 2": {
+        "reliable": false,
+        "eline": 75,
+        "epos": 27,
+        "spos": 17,
+        "sline": 75
+      }},
+      {"this.<Human: int columnIndex> = temp$17": {
+        "eline": 75,
+        "epos": 27,
+        "spos": 17,
+        "sline": 75
+      }},
+      {"goto block_11": {
+        "eline": 76,
+        "epos": 22,
+        "spos": 17,
+        "sline": 76
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [
+      {"temp$14 = 2": {
+        "reliable": false,
+        "eline": 69,
+        "epos": 24,
+        "spos": 17,
+        "sline": 69
+      }},
+      {"this.<Human: int rowIndex> = temp$14": {
+        "eline": 69,
+        "epos": 24,
+        "spos": 17,
+        "sline": 69
+      }},
+      {"temp$15 = 1": {
+        "reliable": false,
+        "eline": 70,
+        "epos": 27,
+        "spos": 17,
+        "sline": 70
+      }},
+      {"this.<Human: int columnIndex> = temp$15": {
+        "eline": 70,
+        "epos": 27,
+        "spos": 17,
+        "sline": 70
+      }},
+      {"goto block_11": {
+        "eline": 71,
+        "epos": 22,
+        "spos": 17,
+        "sline": 71
+      }}
+    ],
+    "preds": [10],
+    "succs": [11]
+  },
+  "11": {
+    "instructions": [{"return": {
+      "eline": 77,
+      "epos": 9,
+      "spos": 9,
+      "sline": 31
+    }}],
+    "preds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "succs": []
+  }
+}

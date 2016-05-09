@@ -1,0 +1,277 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = <Field: char[][] gameField>": {
+        "eline": 31,
+        "epos": 35,
+        "spos": 10,
+        "sline": 31
+      }},
+      {"temp$5 = i": {
+        "eline": 31,
+        "epos": 35,
+        "spos": 10,
+        "sline": 31
+      }},
+      {"row = temp$4[temp$5]": {
+        "eline": 31,
+        "epos": 35,
+        "spos": 10,
+        "sline": 31
+      }},
+      {"j = 0": {
+        "eline": 32,
+        "epos": 26,
+        "spos": 18,
+        "sline": 32
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [{"goto block_8": {
+      "eline": 29,
+      "epos": 43,
+      "spos": 25,
+      "sline": 29
+    }}],
+    "preds": [1],
+    "succs": [8]
+  },
+  "1": {
+    "instructions": [
+      {"temp$2 = <Field: char[][] gameField>": {
+        "eline": 29,
+        "epos": 43,
+        "spos": 25,
+        "sline": 29
+      }},
+      {"temp$3 = lengthof temp$2": {
+        "eline": 29,
+        "epos": 43,
+        "spos": 25,
+        "sline": 29
+      }},
+      {"if i < temp$3 goto block_3 #0": {
+        "eline": 29,
+        "epos": 43,
+        "ifpos": "(28, 22)-(28, 43)",
+        "spos": 25,
+        "sline": 29
+      }}
+    ],
+    "preds": [
+      0,
+      7
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = 1": {
+        "reliable": false,
+        "eline": 26,
+        "epos": 14,
+        "spos": 6,
+        "sline": 26
+      }},
+      {"<Field: int cellIndex> = temp$0": {
+        "eline": 26,
+        "epos": 14,
+        "spos": 6,
+        "sline": 26
+      }},
+      {"temp$1 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 27,
+        "epos": 46,
+        "spos": 9,
+        "sline": 27
+      }},
+      {"virtualinvoke temp$1.<java.io.PrintStream: void println(java.lang.String)>(\"\\n-------------\")": {
+        "eline": 27,
+        "epos": 46,
+        "spos": 9,
+        "sline": 27
+      }},
+      {"i = 0": {
+        "eline": 29,
+        "epos": 22,
+        "spos": 14,
+        "sline": 29
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$12 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 37,
+        "epos": 34,
+        "spos": 13,
+        "sline": 37
+      }},
+      {"virtualinvoke temp$12.<java.io.PrintStream: void print(java.lang.String)>(\"|\")": {
+        "eline": 37,
+        "epos": 34,
+        "spos": 13,
+        "sline": 37
+      }},
+      {"temp$13 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 38,
+        "epos": 50,
+        "spos": 13,
+        "sline": 38
+      }},
+      {"virtualinvoke temp$13.<java.io.PrintStream: void println(java.lang.String)>(\"\\n-------------\")": {
+        "eline": 38,
+        "epos": 50,
+        "spos": 13,
+        "sline": 38
+      }},
+      {"temp$14 = i": {
+        "eline": 29,
+        "epos": 48,
+        "spos": 46,
+        "sline": 29
+      }},
+      {"temp$15 = temp$14 + 1": {
+        "eline": 29,
+        "epos": 46,
+        "spos": 46,
+        "sline": 29
+      }},
+      {"i = temp$15": {
+        "eline": 29,
+        "epos": 46,
+        "spos": 46,
+        "sline": 29
+      }},
+      {"goto block_1": {
+        "eline": 39,
+        "epos": 9,
+        "spos": 9,
+        "sline": 29
+      }}
+    ],
+    "preds": [5],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$7 = row": {
+        "eline": 34,
+        "epos": 32,
+        "spos": 17,
+        "sline": 34
+      }},
+      {"temp$8 = j": {
+        "eline": 34,
+        "epos": 32,
+        "spos": 17,
+        "sline": 34
+      }},
+      {"temp$9 = temp$7[temp$8]": {
+        "eline": 34,
+        "epos": 32,
+        "spos": 17,
+        "sline": 34
+      }},
+      {"virtualinvoke this.<Field: void drawCell(char)>(temp$9)": {
+        "eline": 34,
+        "epos": 32,
+        "spos": 17,
+        "sline": 34
+      }},
+      {"temp$10 = j": {
+        "eline": 32,
+        "epos": 46,
+        "spos": 44,
+        "sline": 32
+      }},
+      {"temp$11 = temp$10 + 1": {
+        "eline": 32,
+        "epos": 44,
+        "spos": 44,
+        "sline": 32
+      }},
+      {"j = temp$11": {
+        "eline": 32,
+        "epos": 44,
+        "spos": 44,
+        "sline": 32
+      }},
+      {"goto block_4": {
+        "eline": 35,
+        "epos": 13,
+        "spos": 13,
+        "sline": 32
+      }}
+    ],
+    "preds": [4],
+    "succs": [4]
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 32,
+      "epos": 42,
+      "spos": 29,
+      "sline": 32
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$6 = lengthof row": {
+        "eline": 32,
+        "epos": 42,
+        "spos": 29,
+        "sline": 32
+      }},
+      {"if j < temp$6 goto block_6 #1": {
+        "eline": 32,
+        "epos": 42,
+        "ifpos": "(31, 26)-(31, 42)",
+        "spos": 29,
+        "sline": 32
+      }}
+    ],
+    "preds": [
+      3,
+      6
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$16 = <java.lang.System: java.io.PrintStream out>": {
+        "eline": 41,
+        "epos": 29,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"virtualinvoke temp$16.<java.io.PrintStream: void println()>()": {
+        "eline": 41,
+        "epos": 29,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"return": {
+        "eline": 41,
+        "epos": 29,
+        "spos": 9,
+        "sline": 41
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

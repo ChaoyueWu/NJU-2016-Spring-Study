@@ -1,0 +1,20 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = 88": {}},
+    {"this.<Player: char playerSing> = temp$0": {
+      "eline": 3,
+      "epos": 53,
+      "spos": 5,
+      "sline": 3
+    }},
+    {"return": {
+      "eline": 3,
+      "epos": 53,
+      "spos": 5,
+      "sline": 3
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

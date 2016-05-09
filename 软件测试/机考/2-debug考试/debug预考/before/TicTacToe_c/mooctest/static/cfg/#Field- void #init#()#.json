@@ -1,0 +1,238 @@
+{
+  "3": {
+    "instructions": [{"j = 0": {
+      "eline": 17,
+      "epos": 26,
+      "spos": 18,
+      "sline": 17
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [{"goto block_8": {
+      "eline": 15,
+      "epos": 44,
+      "spos": 25,
+      "sline": 15
+    }}],
+    "preds": [1],
+    "succs": [8]
+  },
+  "1": {
+    "instructions": [
+      {"temp$3 = <Field: char[][] gameField>": {
+        "eline": 15,
+        "epos": 44,
+        "spos": 25,
+        "sline": 15
+      }},
+      {"temp$4 = lengthof temp$3": {
+        "eline": 15,
+        "epos": 44,
+        "spos": 25,
+        "sline": 15
+      }},
+      {"if i < temp$4 goto block_3 #0": {
+        "eline": 15,
+        "epos": 44,
+        "ifpos": "(14, 22)-(14, 44)",
+        "spos": 25,
+        "sline": 15
+      }}
+    ],
+    "preds": [
+      0,
+      7
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+      {"temp$0 = <Field: int FIELD_SIZE>": {
+        "eline": 13,
+        "epos": 53,
+        "spos": 9,
+        "sline": 13
+      }},
+      {"temp$1 = <Field: int FIELD_SIZE>": {
+        "eline": 13,
+        "epos": 53,
+        "spos": 9,
+        "sline": 13
+      }},
+      {"temp$2 = newmultiarray (char)[temp$0][temp$1]": {
+        "eline": 13,
+        "epos": 53,
+        "spos": 9,
+        "sline": 13
+      }},
+      {"<Field: char[][] gameField> = temp$2": {
+        "eline": 13,
+        "epos": 17,
+        "spos": 9,
+        "sline": 13
+      }},
+      {"i = 0": {
+        "eline": 15,
+        "epos": 22,
+        "spos": 14,
+        "sline": 15
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$15 = i + 1": {
+        "eline": 15,
+        "epos": 49,
+        "spos": 47,
+        "sline": 15
+      }},
+      {"i = temp$15": {
+        "eline": 15,
+        "epos": 49,
+        "spos": 49,
+        "sline": 15
+      }},
+      {"goto block_1": {
+        "eline": 21,
+        "epos": 9,
+        "spos": 9,
+        "sline": 15
+      }}
+    ],
+    "preds": [5],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$9 = <Field: char[][] gameField>": {
+        "eline": 19,
+        "epos": 48,
+        "spos": 17,
+        "sline": 19
+      }},
+      {"temp$10 = i": {
+        "eline": 19,
+        "epos": 48,
+        "spos": 17,
+        "sline": 19
+      }},
+      {"temp$11 = temp$9[temp$10]": {
+        "eline": 19,
+        "epos": 48,
+        "spos": 17,
+        "sline": 19
+      }},
+      {"temp$12 = j": {
+        "eline": 19,
+        "epos": 48,
+        "spos": 17,
+        "sline": 19
+      }},
+      {"temp$13 = 32": {
+        "reliable": false,
+        "eline": 19,
+        "epos": 31,
+        "spos": 29,
+        "sline": 19
+      }},
+      {"temp$11[temp$12] = temp$13": {
+        "eline": 19,
+        "epos": 31,
+        "spos": 29,
+        "sline": 19
+      }},
+      {"temp$14 = j + 1": {
+        "eline": 17,
+        "epos": 56,
+        "spos": 54,
+        "sline": 17
+      }},
+      {"j = temp$14": {
+        "eline": 17,
+        "epos": 56,
+        "spos": 56,
+        "sline": 17
+      }},
+      {"goto block_4": {
+        "eline": 20,
+        "epos": 13,
+        "spos": 13,
+        "sline": 17
+      }}
+    ],
+    "preds": [4],
+    "succs": [4]
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 17,
+      "epos": 51,
+      "spos": 29,
+      "sline": 17
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$5 = <Field: char[][] gameField>": {
+        "eline": 17,
+        "epos": 51,
+        "spos": 29,
+        "sline": 17
+      }},
+      {"temp$6 = i": {
+        "eline": 17,
+        "epos": 51,
+        "spos": 29,
+        "sline": 17
+      }},
+      {"temp$7 = temp$5[temp$6]": {
+        "eline": 17,
+        "epos": 51,
+        "spos": 29,
+        "sline": 17
+      }},
+      {"temp$8 = lengthof temp$7": {
+        "eline": 17,
+        "epos": 51,
+        "spos": 29,
+        "sline": 17
+      }},
+      {"if j < temp$8 goto block_6 #1": {
+        "eline": 17,
+        "epos": 51,
+        "ifpos": "(16, 26)-(16, 51)",
+        "spos": 29,
+        "sline": 17
+      }}
+    ],
+    "preds": [
+      3,
+      6
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "8": {
+    "instructions": [{"return": {
+      "eline": 21,
+      "epos": 9,
+      "spos": 9,
+      "sline": 15
+    }}],
+    "preds": [2],
+    "succs": []
+  }
+}

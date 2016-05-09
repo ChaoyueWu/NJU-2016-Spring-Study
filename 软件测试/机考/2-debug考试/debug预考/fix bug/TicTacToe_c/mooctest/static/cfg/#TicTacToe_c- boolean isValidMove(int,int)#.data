@@ -1,0 +1,71 @@
+[
+  {
+    "codes": "        return Field.gameField[row][column] == Field.DEFAULT_VALUE; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static boolean isValidMove(int row, int column) ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return row >= 0 && row < 3 && ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "codes": "                column >= 0 && column < 3 && ",
+    "blocks": [
+      4,
+      5,
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "codes": "                haveFreeCellAt(row, column); ",
+    "blocks": [
+      8,
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static void printGreetings() ",
+    "blocks": []
+  },
+  {
+    "codes": "    { ",
+    "blocks": []
+  }
+]

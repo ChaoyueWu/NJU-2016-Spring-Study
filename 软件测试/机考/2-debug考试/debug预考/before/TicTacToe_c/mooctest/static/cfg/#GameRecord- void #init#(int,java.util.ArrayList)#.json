@@ -1,0 +1,38 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new java.util.ArrayList": {}},
+    {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+      "eline": 15,
+      "epos": 60,
+      "spos": 37,
+      "sline": 15
+    }},
+    {"this.<GameRecord: java.util.ArrayList steps> = temp$0": {
+      "eline": 15,
+      "epos": 61,
+      "spos": 2,
+      "sline": 15
+    }},
+    {"this.<GameRecord: int firstPlayer> = firstPlayer": {
+      "eline": 18,
+      "epos": 18,
+      "spos": 8,
+      "sline": 18
+    }},
+    {"this.<GameRecord: java.util.ArrayList steps> = steps": {
+      "eline": 19,
+      "epos": 12,
+      "spos": 8,
+      "sline": 19
+    }},
+    {"return": {
+      "eline": 19,
+      "epos": 12,
+      "spos": 8,
+      "sline": 19
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}
