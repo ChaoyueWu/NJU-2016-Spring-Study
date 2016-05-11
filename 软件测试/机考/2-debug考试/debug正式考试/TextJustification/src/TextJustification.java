@@ -19,7 +19,7 @@ public class TextJustification {
             int curWidth = 0;
             int startIdx = curIdx;
             String newLine = "";
-            while (curIdx < words.length && curWidth + words[curIdx].length() + curIdx - startIdx - 1 <= maxWidth){
+            while (curIdx < words.length && curWidth + words[curIdx].length() + curIdx - startIdx<= maxWidth){
                 curWidth += words[curIdx ++].length();
             }
             if (curIdx == words.length){
