@@ -1,0 +1,352 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$6 = operators": {
+        "eline": 65,
+        "epos": 34,
+        "spos": 4,
+        "sline": 65
+      }},
+      {"temp$7 = i": {
+        "eline": 65,
+        "epos": 34,
+        "spos": 4,
+        "sline": 65
+      }},
+      {"operator = temp$6[temp$7]": {
+        "eline": 65,
+        "epos": 34,
+        "spos": 4,
+        "sline": 65
+      }},
+      {"temp$8 = i": {
+        "eline": 67,
+        "epos": 60,
+        "spos": 24,
+        "sline": 67
+      }},
+      {"temp$9 = temp$8 + 1": {
+        "eline": 67,
+        "epos": 60,
+        "spos": 24,
+        "sline": 67
+      }},
+      {"temp$10 = virtualinvoke this.<SimpleCalculator: java.lang.String retrieveNumString(java.lang.String[],int)>(numberStrings, temp$9)": {
+        "eline": 67,
+        "epos": 60,
+        "spos": 24,
+        "sline": 67
+      }},
+      {"numString2 = temp$10": {
+        "eline": 67,
+        "epos": 60,
+        "spos": 24,
+        "sline": 67
+      }},
+      {"temp$11 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>(numString2)": {
+        "eline": 69,
+        "epos": 46,
+        "spos": 4,
+        "sline": 69
+      }},
+      {"num2 = temp$11": {
+        "eline": 69,
+        "epos": 46,
+        "spos": 4,
+        "sline": 69
+      }},
+      {"temp$12 = virtualinvoke operator.<java.lang.String: boolean equals(java.lang.Object)>(\"+\")": {
+        "eline": 71,
+        "epos": 27,
+        "spos": 17,
+        "sline": 71
+      }},
+      {"if temp$12 == 0 goto block_6 #1": {
+        "eline": 71,
+        "epos": 27,
+        "ifpos": "(70, 3)-(70, 27)",
+        "spos": 17,
+        "sline": 71
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      6
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_10": {
+      "eline": 64,
+      "epos": 38,
+      "spos": 19,
+      "sline": 64
+    }}],
+    "preds": [1],
+    "succs": [10]
+  },
+  "10": {
+    "instructions": [
+      {"temp$24 = virtualinvoke num1.<java.lang.Integer: int intValue()>()": {
+        "eline": 76,
+        "epos": 3,
+        "spos": 3,
+        "sline": 64
+      }},
+      {"return temp$24": {
+        "eline": 78,
+        "epos": 14,
+        "spos": 3,
+        "sline": 78
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  },
+  "1": {
+    "instructions": [
+      {"temp$5 = lengthof operators": {
+        "eline": 64,
+        "epos": 38,
+        "spos": 19,
+        "sline": 64
+      }},
+      {"if i < temp$5 goto block_3 #0": {
+        "eline": 64,
+        "epos": 38,
+        "ifpos": "(63, 16)-(63, 38)",
+        "spos": 19,
+        "sline": 64
+      }}
+    ],
+    "preds": [
+      0,
+      9
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke this.<SimpleCalculator: java.lang.String[] parseOperators(java.lang.String)>(simpleExpression)": {
+        "eline": 58,
+        "epos": 55,
+        "spos": 24,
+        "sline": 58
+      }},
+      {"operators = temp$0": {
+        "eline": 58,
+        "epos": 55,
+        "spos": 24,
+        "sline": 58
+      }},
+      {"temp$1 = virtualinvoke simpleExpression.<java.lang.String: java.lang.String[] split(java.lang.String)>(\"\\\\+|-\")": {
+        "eline": 59,
+        "epos": 59,
+        "spos": 3,
+        "sline": 59
+      }},
+      {"numberStrings = temp$1": {
+        "eline": 59,
+        "epos": 59,
+        "spos": 3,
+        "sline": 59
+      }},
+      {"temp$2 = numberStrings": {
+        "eline": 61,
+        "epos": 39,
+        "spos": 3,
+        "sline": 61
+      }},
+      {"temp$3 = 0": {
+        "reliable": false,
+        "eline": 61,
+        "epos": 39,
+        "spos": 3,
+        "sline": 61
+      }},
+      {"numString1 = temp$2[temp$3]": {
+        "eline": 61,
+        "epos": 39,
+        "spos": 3,
+        "sline": 61
+      }},
+      {"temp$4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>(numString1)": {
+        "eline": 62,
+        "epos": 45,
+        "spos": 3,
+        "sline": 62
+      }},
+      {"num1 = temp$4": {
+        "eline": 62,
+        "epos": 45,
+        "spos": 3,
+        "sline": 62
+      }},
+      {"i = 0": {
+        "eline": 64,
+        "epos": 16,
+        "spos": 8,
+        "sline": 64
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 73,
+      "epos": 34,
+      "spos": 24,
+      "sline": 73
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$17 = virtualinvoke operator.<java.lang.String: boolean equals(java.lang.Object)>(\"-\")": {
+        "eline": 73,
+        "epos": 34,
+        "spos": 24,
+        "sline": 73
+      }},
+      {"if temp$17 == 0 goto block_9 #2": {
+        "eline": 73,
+        "epos": 34,
+        "ifpos": "(72, 10)-(72, 34)",
+        "spos": 24,
+        "sline": 73
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      7,
+      9
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$13 = virtualinvoke num1.<java.lang.Integer: int intValue()>()": {
+        "eline": 72,
+        "epos": 23,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"temp$14 = virtualinvoke num2.<java.lang.Integer: int intValue()>()": {
+        "eline": 72,
+        "epos": 23,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"temp$15 = temp$13 + temp$14": {
+        "eline": 72,
+        "epos": 23,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"temp$16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$15)": {
+        "eline": 72,
+        "epos": 23,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"num1 = temp$16": {
+        "eline": 72,
+        "epos": 8,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"goto block_9": {
+        "eline": 75,
+        "epos": 4,
+        "spos": 4,
+        "sline": 71
+      }}
+    ],
+    "preds": [4],
+    "succs": [9]
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 71,
+      "epos": 27,
+      "spos": 17,
+      "sline": 71
+    }}],
+    "preds": [3],
+    "succs": [5]
+  },
+  "9": {
+    "instructions": [
+      {"temp$22 = i": {
+        "eline": 64,
+        "epos": 43,
+        "spos": 41,
+        "sline": 64
+      }},
+      {"temp$23 = temp$22 + 1": {
+        "eline": 64,
+        "epos": 41,
+        "spos": 41,
+        "sline": 64
+      }},
+      {"i = temp$23": {
+        "eline": 64,
+        "epos": 41,
+        "spos": 41,
+        "sline": 64
+      }},
+      {"goto block_1": {
+        "eline": 76,
+        "epos": 3,
+        "spos": 3,
+        "sline": 64
+      }}
+    ],
+    "preds": [
+      5,
+      6,
+      8
+    ],
+    "succs": [1]
+  },
+  "8": {
+    "instructions": [
+      {"temp$18 = virtualinvoke num1.<java.lang.Integer: int intValue()>()": {
+        "eline": 74,
+        "epos": 23,
+        "spos": 5,
+        "sline": 74
+      }},
+      {"temp$19 = virtualinvoke num2.<java.lang.Integer: int intValue()>()": {
+        "eline": 74,
+        "epos": 23,
+        "spos": 5,
+        "sline": 74
+      }},
+      {"temp$20 = temp$18 - temp$19": {
+        "eline": 74,
+        "epos": 23,
+        "spos": 5,
+        "sline": 74
+      }},
+      {"temp$21 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$20)": {
+        "eline": 74,
+        "epos": 23,
+        "spos": 5,
+        "sline": 74
+      }},
+      {"num1 = temp$21": {
+        "eline": 74,
+        "epos": 8,
+        "spos": 5,
+        "sline": 74
+      }}
+    ],
+    "preds": [7],
+    "succs": [9]
+  }
+}

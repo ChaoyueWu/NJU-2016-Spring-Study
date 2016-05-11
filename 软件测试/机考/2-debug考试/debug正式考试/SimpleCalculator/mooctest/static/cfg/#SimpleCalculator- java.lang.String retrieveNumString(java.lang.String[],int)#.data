@@ -1,0 +1,87 @@
+[
+  {
+    "codes": "\t\treturn num1; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String retrieveNumString(String[] numberStrings, int index){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString str = \"\"; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\ttry{ ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t\tstr = numberStrings[index]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t\tInteger.valueOf(str); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tcatch(Exception e){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tstr = Number.DEFAULT; ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn str; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String[] parseOperators(String simpleExpression) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tArrayList<String> operatorList = new ArrayList<String>(); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tchar[] charList = simpleExpression.toCharArray(); ",
+    "blocks": []
+  }
+]

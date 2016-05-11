@@ -1,0 +1,391 @@
+[
+  {
+    "codes": "  ",
+    "blocks": []
+  },
+  {
+    "codes": "   ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class TextJustification { ",
+    "blocks": []
+  },
+  {
+    "codes": "    public List<String> fullJustify(String[] words, int maxWidth) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (words.length == 0){ ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "            return new ArrayList<String>(); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        List<String> result = new ArrayList<String>(); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        boolean lastLine = false; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int curIdx = 0; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        while (!lastLine && curIdx < words.length){ ",
+    "blocks": [
+      4,
+      5,
+      6,
+      7,
+      43
+    ]
+  },
+  {
+    "codes": "            int curWidth = 0; ",
+    "blocks": [
+      8,
+      43
+    ]
+  },
+  {
+    "codes": "            int startIdx = curIdx; ",
+    "blocks": [
+      8,
+      43
+    ]
+  },
+  {
+    "codes": "            String newLine = \"\"; ",
+    "blocks": [
+      8,
+      43
+    ]
+  },
+  {
+    "codes": "            while (curIdx < words.length && curWidth + words[curIdx].length() + curIdx - startIdx - 1 <= maxWidth){ ",
+    "blocks": [
+      43,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "                curWidth += words[curIdx ++].length(); ",
+    "blocks": [
+      43,
+      13
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      43,
+      13
+    ]
+  },
+  {
+    "codes": "            if (curIdx == words.length){ ",
+    "blocks": [
+      43,
+      27,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                lastLine = true; ",
+    "blocks": [
+      16,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                for (int i = startIdx ; i < curIdx ; i++){ ",
+    "blocks": [
+      17,
+      16,
+      18,
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                    newLine += words[i]; ",
+    "blocks": [
+      19,
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                    if (i != curIdx - 1){ ",
+    "blocks": [
+      19,
+      20,
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                        newLine += \" \"; ",
+    "blocks": [
+      21,
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                    } ",
+    "blocks": [
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                    int spaceCnt = maxWidth - newLine.length(); ",
+    "blocks": [
+      22,
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                    for (int spaceIdx = 0 ; spaceIdx < spaceCnt ; spaceIdx ++){ ",
+    "blocks": [
+      23,
+      22,
+      25,
+      43,
+      24,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                        newLine += \" \"; ",
+    "blocks": [
+      25,
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                    } ",
+    "blocks": [
+      25,
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      43,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "            else{ ",
+    "blocks": [
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                int spaceCnt = maxWidth - curWidth; ",
+    "blocks": [
+      43,
+      27,
+      28
+    ]
+  },
+  {
+    "codes": "                for (int i = startIdx; i < curIdx ; i ++){ ",
+    "blocks": [
+      38,
+      43,
+      27,
+      29,
+      28,
+      30
+    ]
+  },
+  {
+    "codes": "                    newLine += words[i]; ",
+    "blocks": [
+      38,
+      43,
+      27,
+      31
+    ]
+  },
+  {
+    "codes": "                    if (i != curIdx - 1){ ",
+    "blocks": [
+      32,
+      38,
+      43,
+      27,
+      31
+    ]
+  },
+  {
+    "codes": "                        int curSpaceCnt = (int) Math.ceil(spaceCnt * 1.0 / (curIdx - i - 1)); ",
+    "blocks": [
+      33,
+      38,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                        for (int spaceIdx = 0 ; spaceIdx < curSpaceCnt ; spaceIdx ++){ ",
+    "blocks": [
+      34,
+      35,
+      33,
+      38,
+      36,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                            newLine += \" \"; ",
+    "blocks": [
+      38,
+      36,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                        } ",
+    "blocks": [
+      38,
+      36,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                        spaceCnt -= curSpaceCnt; ",
+    "blocks": [
+      38,
+      37,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                    } ",
+    "blocks": [
+      38,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      38,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                for (int spaceIdx = 0 ; spaceIdx < spaceCnt; spaceIdx ++){ ",
+    "blocks": [
+      39,
+      42,
+      43,
+      40,
+      27,
+      41
+    ]
+  },
+  {
+    "codes": "                    newLine += \" \"; ",
+    "blocks": [
+      42,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      42,
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      43,
+      27
+    ]
+  },
+  {
+    "codes": "            result.add(newLine); ",
+    "blocks": [43]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [43]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        return result; ",
+    "blocks": [44]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

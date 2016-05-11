@@ -1,0 +1,25 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = \"-1\"": {
+      "reliable": false,
+      "eline": 3,
+      "epos": 1,
+      "spos": 1,
+      "sline": 1
+    }},
+    {"<Number: java.lang.String DEFAULT> = temp$0": {
+      "eline": 2,
+      "epos": 43,
+      "spos": 2,
+      "sline": 2
+    }},
+    {"return": {
+      "eline": 2,
+      "epos": 43,
+      "spos": 2,
+      "sline": 2
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

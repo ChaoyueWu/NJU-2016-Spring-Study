@@ -1,0 +1,1193 @@
+{
+  "19": {
+    "instructions": [
+      {"temp$24 = new java.lang.StringBuffer": {
+        "eline": 28,
+        "epos": 40,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"specialinvoke temp$24.<java.lang.StringBuffer: void <init>(java.lang.String)>(newLine)": {
+        "eline": 28,
+        "epos": 39,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"temp$25 = words": {
+        "eline": 28,
+        "epos": 39,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"temp$26 = i": {
+        "eline": 28,
+        "epos": 39,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"temp$27 = temp$25[temp$26]": {
+        "eline": 28,
+        "epos": 39,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"temp$28 = virtualinvoke temp$24.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$27)": {
+        "eline": 28,
+        "epos": 39,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"temp$29 = virtualinvoke temp$28.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 28,
+        "epos": 39,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"newLine = temp$29": {
+        "eline": 28,
+        "epos": 27,
+        "spos": 21,
+        "sline": 28
+      }},
+      {"temp$30 = curIdx - 1": {
+        "eline": 29,
+        "epos": 39,
+        "spos": 25,
+        "sline": 29
+      }},
+      {"if i != temp$30 goto block_21 #5": {
+        "eline": 29,
+        "epos": 39,
+        "ifpos": "(28, 20)-(28, 39)",
+        "spos": 25,
+        "sline": 29
+      }}
+    ],
+    "preds": [17],
+    "succs": [
+      20,
+      21
+    ]
+  },
+  "35": {
+    "instructions": [{"goto block_37": {
+      "eline": 44,
+      "epos": 70,
+      "spos": 49,
+      "sline": 44
+    }}],
+    "preds": [34],
+    "succs": [37]
+  },
+  "17": {
+    "instructions": [{"if i < curIdx goto block_19 #4": {
+      "eline": 27,
+      "epos": 50,
+      "ifpos": "(26, 38)-(26, 51)",
+      "spos": 41,
+      "sline": 27
+    }}],
+    "preds": [
+      16,
+      26
+    ],
+    "succs": [
+      18,
+      19
+    ]
+  },
+  "36": {
+    "instructions": [
+      {"temp$58 = new java.lang.StringBuffer": {
+        "eline": 45,
+        "epos": 43,
+        "spos": 29,
+        "sline": 45
+      }},
+      {"specialinvoke temp$58.<java.lang.StringBuffer: void <init>(java.lang.String)>(newLine)": {
+        "eline": 45,
+        "epos": 42,
+        "spos": 29,
+        "sline": 45
+      }},
+      {"temp$59 = virtualinvoke temp$58.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" \")": {
+        "eline": 45,
+        "epos": 42,
+        "spos": 29,
+        "sline": 45
+      }},
+      {"temp$60 = virtualinvoke temp$59.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 45,
+        "epos": 42,
+        "spos": 29,
+        "sline": 45
+      }},
+      {"newLine = temp$60": {
+        "eline": 45,
+        "epos": 35,
+        "spos": 29,
+        "sline": 45
+      }},
+      {"temp$61 = spaceIdx": {
+        "eline": 44,
+        "epos": 84,
+        "spos": 74,
+        "sline": 44
+      }},
+      {"temp$62 = temp$61 + 1": {
+        "eline": 44,
+        "epos": 81,
+        "spos": 74,
+        "sline": 44
+      }},
+      {"spaceIdx = temp$62": {
+        "eline": 44,
+        "epos": 81,
+        "spos": 74,
+        "sline": 44
+      }},
+      {"goto block_34": {
+        "eline": 46,
+        "epos": 25,
+        "spos": 25,
+        "sline": 44
+      }}
+    ],
+    "preds": [34],
+    "succs": [34]
+  },
+  "18": {
+    "instructions": [{"goto block_27": {
+      "eline": 27,
+      "epos": 50,
+      "spos": 41,
+      "sline": 27
+    }}],
+    "preds": [17],
+    "succs": [27]
+  },
+  "33": {
+    "instructions": [
+      {"temp$51 = (double) spaceCnt": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"temp$52 = temp$51 * 1.0": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"temp$53 = curIdx - i": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"temp$54 = temp$53 - 1": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"temp$55 = (double) temp$54": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"temp$56 = temp$52 / temp$55": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"temp$57 = staticinvoke <java.lang.Math: double ceil(double)>(temp$56)": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"curSpaceCnt = (int) temp$57": {
+        "eline": 43,
+        "epos": 93,
+        "spos": 25,
+        "sline": 43
+      }},
+      {"spaceIdx = 0": {
+        "eline": 44,
+        "epos": 45,
+        "spos": 30,
+        "sline": 44
+      }}
+    ],
+    "preds": [31],
+    "succs": [34]
+  },
+  "15": {
+    "instructions": [{"goto block_28": {
+      "eline": 25,
+      "epos": 38,
+      "spos": 17,
+      "sline": 25
+    }}],
+    "preds": [14],
+    "succs": [28]
+  },
+  "34": {
+    "instructions": [{"if spaceIdx < curSpaceCnt goto block_36 #9": {
+      "eline": 44,
+      "epos": 70,
+      "ifpos": "(43, 46)-(43, 71)",
+      "spos": 49,
+      "sline": 44
+    }}],
+    "preds": [
+      33,
+      36
+    ],
+    "succs": [
+      35,
+      36
+    ]
+  },
+  "16": {
+    "instructions": [
+      {"temp$23 = 1": {
+        "reliable": false,
+        "eline": 26,
+        "epos": 24,
+        "spos": 17,
+        "sline": 26
+      }},
+      {"lastLine = temp$23": {
+        "eline": 26,
+        "epos": 24,
+        "spos": 17,
+        "sline": 26
+      }},
+      {"i = startIdx": {
+        "eline": 27,
+        "epos": 37,
+        "spos": 22,
+        "sline": 27
+      }}
+    ],
+    "preds": [14],
+    "succs": [17]
+  },
+  "39": {
+    "instructions": [{"spaceIdx = 0": {
+      "eline": 50,
+      "epos": 37,
+      "spos": 22,
+      "sline": 50
+    }}],
+    "preds": [30],
+    "succs": [40]
+  },
+  "13": {
+    "instructions": [
+      {"temp$14 = curWidth": {
+        "eline": 23,
+        "epos": 54,
+        "spos": 17,
+        "sline": 23
+      }},
+      {"temp$15 = words": {
+        "eline": 23,
+        "epos": 54,
+        "spos": 17,
+        "sline": 23
+      }},
+      {"temp$16 = curIdx": {
+        "eline": 23,
+        "epos": 54,
+        "spos": 17,
+        "sline": 23
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 23,
+        "epos": 40,
+        "spos": 35,
+        "sline": 23
+      }},
+      {"curIdx = temp$17": {
+        "eline": 23,
+        "epos": 40,
+        "spos": 35,
+        "sline": 23
+      }},
+      {"temp$18 = temp$16": {
+        "eline": 23,
+        "epos": 40,
+        "spos": 35,
+        "sline": 23
+      }},
+      {"temp$19 = temp$15[temp$18]": {
+        "eline": 23,
+        "epos": 40,
+        "spos": 35,
+        "sline": 23
+      }},
+      {"temp$20 = virtualinvoke temp$19.<java.lang.String: int length()>()": {
+        "eline": 23,
+        "epos": 40,
+        "spos": 35,
+        "sline": 23
+      }},
+      {"temp$21 = temp$14 + temp$20": {
+        "eline": 23,
+        "epos": 40,
+        "spos": 35,
+        "sline": 23
+      }},
+      {"curWidth = temp$21": {
+        "eline": 23,
+        "epos": 24,
+        "spos": 17,
+        "sline": 23
+      }},
+      {"goto block_9": {
+        "eline": 24,
+        "epos": 13,
+        "spos": 13,
+        "sline": 22
+      }}
+    ],
+    "preds": [11],
+    "succs": [9]
+  },
+  "14": {
+    "instructions": [
+      {"temp$22 = lengthof words": {
+        "eline": 25,
+        "epos": 38,
+        "spos": 17,
+        "sline": 25
+      }},
+      {"if curIdx == temp$22 goto block_16 #3": {
+        "eline": 25,
+        "epos": 38,
+        "ifpos": "(24, 12)-(24, 38)",
+        "spos": 17,
+        "sline": 25
+      }}
+    ],
+    "preds": [
+      10,
+      12
+    ],
+    "succs": [
+      15,
+      16
+    ]
+  },
+  "37": {
+    "instructions": [
+      {"temp$63 = spaceCnt": {
+        "eline": 47,
+        "epos": 48,
+        "spos": 25,
+        "sline": 47
+      }},
+      {"temp$64 = temp$63 - curSpaceCnt": {
+        "eline": 47,
+        "epos": 48,
+        "spos": 25,
+        "sline": 47
+      }},
+      {"spaceCnt = temp$64": {
+        "eline": 47,
+        "epos": 32,
+        "spos": 25,
+        "sline": 47
+      }}
+    ],
+    "preds": [35],
+    "succs": [38]
+  },
+  "11": {
+    "instructions": [
+      {"temp$5 = curWidth": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$6 = words": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$7 = curIdx": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$8 = temp$6[temp$7]": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$9 = virtualinvoke temp$8.<java.lang.String: int length()>()": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$10 = temp$5 + temp$9": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$11 = temp$10 + curIdx": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$12 = temp$11 - startIdx": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"temp$13 = temp$12 - 1": {
+        "eline": 22,
+        "epos": 113,
+        "spos": 45,
+        "sline": 22
+      }},
+      {"if temp$13 <= maxWidth goto block_13 #2": {
+        "eline": 22,
+        "epos": 113,
+        "ifpos": "(21, 12)-(21, 113)",
+        "spos": 45,
+        "sline": 22
+      }}
+    ],
+    "preds": [9],
+    "succs": [
+      12,
+      13
+    ]
+  },
+  "38": {
+    "instructions": [
+      {"temp$65 = i": {
+        "eline": 40,
+        "epos": 56,
+        "spos": 53,
+        "sline": 40
+      }},
+      {"temp$66 = temp$65 + 1": {
+        "eline": 40,
+        "epos": 53,
+        "spos": 53,
+        "sline": 40
+      }},
+      {"i = temp$66": {
+        "eline": 40,
+        "epos": 53,
+        "spos": 53,
+        "sline": 40
+      }},
+      {"goto block_29": {
+        "eline": 49,
+        "epos": 17,
+        "spos": 17,
+        "sline": 40
+      }}
+    ],
+    "preds": [
+      32,
+      37
+    ],
+    "succs": [29]
+  },
+  "12": {
+    "instructions": [{"goto block_14": {
+      "eline": 22,
+      "epos": 113,
+      "spos": 45,
+      "sline": 22
+    }}],
+    "preds": [11],
+    "succs": [14]
+  },
+  "21": {
+    "instructions": [
+      {"temp$31 = new java.lang.StringBuffer": {
+        "eline": 30,
+        "epos": 39,
+        "spos": 25,
+        "sline": 30
+      }},
+      {"specialinvoke temp$31.<java.lang.StringBuffer: void <init>(java.lang.String)>(newLine)": {
+        "eline": 30,
+        "epos": 38,
+        "spos": 25,
+        "sline": 30
+      }},
+      {"temp$32 = virtualinvoke temp$31.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" \")": {
+        "eline": 30,
+        "epos": 38,
+        "spos": 25,
+        "sline": 30
+      }},
+      {"temp$33 = virtualinvoke temp$32.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 30,
+        "epos": 38,
+        "spos": 25,
+        "sline": 30
+      }},
+      {"newLine = temp$33": {
+        "eline": 30,
+        "epos": 31,
+        "spos": 25,
+        "sline": 30
+      }}
+    ],
+    "preds": [19],
+    "succs": [22]
+  },
+  "20": {
+    "instructions": [{"goto block_22": {
+      "eline": 29,
+      "epos": 39,
+      "spos": 25,
+      "sline": 29
+    }}],
+    "preds": [19],
+    "succs": [22]
+  },
+  "43": {
+    "instructions": [
+      {"interfaceinvoke result.<java.util.List: boolean add(java.lang.Object)>(newLine)": {
+        "eline": 54,
+        "epos": 32,
+        "spos": 13,
+        "sline": 54
+      }},
+      {"goto block_4": {
+        "eline": 55,
+        "epos": 9,
+        "spos": 9,
+        "sline": 18
+      }}
+    ],
+    "preds": [
+      27,
+      41
+    ],
+    "succs": [4]
+  },
+  "42": {
+    "instructions": [
+      {"temp$67 = new java.lang.StringBuffer": {
+        "eline": 51,
+        "epos": 35,
+        "spos": 21,
+        "sline": 51
+      }},
+      {"specialinvoke temp$67.<java.lang.StringBuffer: void <init>(java.lang.String)>(newLine)": {
+        "eline": 51,
+        "epos": 34,
+        "spos": 21,
+        "sline": 51
+      }},
+      {"temp$68 = virtualinvoke temp$67.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" \")": {
+        "eline": 51,
+        "epos": 34,
+        "spos": 21,
+        "sline": 51
+      }},
+      {"temp$69 = virtualinvoke temp$68.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 51,
+        "epos": 34,
+        "spos": 21,
+        "sline": 51
+      }},
+      {"newLine = temp$69": {
+        "eline": 51,
+        "epos": 27,
+        "spos": 21,
+        "sline": 51
+      }},
+      {"temp$70 = spaceIdx": {
+        "eline": 50,
+        "epos": 72,
+        "spos": 62,
+        "sline": 50
+      }},
+      {"temp$71 = temp$70 + 1": {
+        "eline": 50,
+        "epos": 69,
+        "spos": 62,
+        "sline": 50
+      }},
+      {"spaceIdx = temp$71": {
+        "eline": 50,
+        "epos": 69,
+        "spos": 62,
+        "sline": 50
+      }},
+      {"goto block_40": {
+        "eline": 52,
+        "epos": 17,
+        "spos": 17,
+        "sline": 50
+      }}
+    ],
+    "preds": [40],
+    "succs": [40]
+  },
+  "41": {
+    "instructions": [{"goto block_43": {
+      "eline": 50,
+      "epos": 59,
+      "spos": 41,
+      "sline": 50
+    }}],
+    "preds": [40],
+    "succs": [43]
+  },
+  "40": {
+    "instructions": [{"if spaceIdx < spaceCnt goto block_42 #10": {
+      "eline": 50,
+      "epos": 59,
+      "ifpos": "(49, 38)-(49, 59)",
+      "spos": 41,
+      "sline": 50
+    }}],
+    "preds": [
+      39,
+      42
+    ],
+    "succs": [
+      41,
+      42
+    ]
+  },
+  "44": {
+    "instructions": [{"return result": {
+      "eline": 57,
+      "epos": 22,
+      "spos": 9,
+      "sline": 57
+    }}],
+    "preds": [
+      5,
+      7
+    ],
+    "succs": []
+  },
+  "22": {
+    "instructions": [
+      {"temp$34 = virtualinvoke newLine.<java.lang.String: int length()>()": {
+        "eline": 32,
+        "epos": 63,
+        "spos": 21,
+        "sline": 32
+      }},
+      {"temp$35 = maxWidth - temp$34": {
+        "eline": 32,
+        "epos": 63,
+        "spos": 21,
+        "sline": 32
+      }},
+      {"spaceCnt = temp$35": {
+        "eline": 32,
+        "epos": 63,
+        "spos": 21,
+        "sline": 32
+      }},
+      {"spaceIdx = 0": {
+        "eline": 33,
+        "epos": 41,
+        "spos": 26,
+        "sline": 33
+      }}
+    ],
+    "preds": [
+      20,
+      21
+    ],
+    "succs": [23]
+  },
+  "23": {
+    "instructions": [{"if spaceIdx < spaceCnt goto block_25 #6": {
+      "eline": 33,
+      "epos": 63,
+      "ifpos": "(32, 42)-(32, 64)",
+      "spos": 45,
+      "sline": 33
+    }}],
+    "preds": [
+      22,
+      25
+    ],
+    "succs": [
+      24,
+      25
+    ]
+  },
+  "24": {
+    "instructions": [{"goto block_26": {
+      "eline": 33,
+      "epos": 63,
+      "spos": 45,
+      "sline": 33
+    }}],
+    "preds": [23],
+    "succs": [26]
+  },
+  "25": {
+    "instructions": [
+      {"temp$36 = new java.lang.StringBuffer": {
+        "eline": 34,
+        "epos": 39,
+        "spos": 25,
+        "sline": 34
+      }},
+      {"specialinvoke temp$36.<java.lang.StringBuffer: void <init>(java.lang.String)>(newLine)": {
+        "eline": 34,
+        "epos": 38,
+        "spos": 25,
+        "sline": 34
+      }},
+      {"temp$37 = virtualinvoke temp$36.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" \")": {
+        "eline": 34,
+        "epos": 38,
+        "spos": 25,
+        "sline": 34
+      }},
+      {"temp$38 = virtualinvoke temp$37.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 34,
+        "epos": 38,
+        "spos": 25,
+        "sline": 34
+      }},
+      {"newLine = temp$38": {
+        "eline": 34,
+        "epos": 31,
+        "spos": 25,
+        "sline": 34
+      }},
+      {"temp$39 = spaceIdx": {
+        "eline": 33,
+        "epos": 77,
+        "spos": 67,
+        "sline": 33
+      }},
+      {"temp$40 = temp$39 + 1": {
+        "eline": 33,
+        "epos": 74,
+        "spos": 67,
+        "sline": 33
+      }},
+      {"spaceIdx = temp$40": {
+        "eline": 33,
+        "epos": 74,
+        "spos": 67,
+        "sline": 33
+      }},
+      {"goto block_23": {
+        "eline": 35,
+        "epos": 21,
+        "spos": 21,
+        "sline": 33
+      }}
+    ],
+    "preds": [23],
+    "succs": [23]
+  },
+  "26": {
+    "instructions": [
+      {"temp$41 = i": {
+        "eline": 27,
+        "epos": 56,
+        "spos": 54,
+        "sline": 27
+      }},
+      {"temp$42 = temp$41 + 1": {
+        "eline": 27,
+        "epos": 54,
+        "spos": 54,
+        "sline": 27
+      }},
+      {"i = temp$42": {
+        "eline": 27,
+        "epos": 54,
+        "spos": 54,
+        "sline": 27
+      }},
+      {"goto block_17": {
+        "eline": 36,
+        "epos": 17,
+        "spos": 17,
+        "sline": 27
+      }}
+    ],
+    "preds": [24],
+    "succs": [17]
+  },
+  "27": {
+    "instructions": [{"goto block_43": {
+      "eline": 53,
+      "epos": 13,
+      "spos": 13,
+      "sline": 25
+    }}],
+    "preds": [18],
+    "succs": [43]
+  },
+  "28": {
+    "instructions": [
+      {"temp$43 = maxWidth - curWidth": {
+        "eline": 39,
+        "epos": 51,
+        "spos": 17,
+        "sline": 39
+      }},
+      {"spaceCnt = temp$43": {
+        "eline": 39,
+        "epos": 51,
+        "spos": 17,
+        "sline": 39
+      }},
+      {"i = startIdx": {
+        "eline": 40,
+        "epos": 37,
+        "spos": 22,
+        "sline": 40
+      }}
+    ],
+    "preds": [15],
+    "succs": [29]
+  },
+  "29": {
+    "instructions": [{"if i < curIdx goto block_31 #7": {
+      "eline": 40,
+      "epos": 49,
+      "ifpos": "(39, 37)-(39, 50)",
+      "spos": 40,
+      "sline": 40
+    }}],
+    "preds": [
+      28,
+      38
+    ],
+    "succs": [
+      30,
+      31
+    ]
+  },
+  "3": {
+    "instructions": [
+      {"temp$2 = new java.util.ArrayList": {
+        "eline": 15,
+        "epos": 54,
+        "spos": 9,
+        "sline": 15
+      }},
+      {"specialinvoke temp$2.<java.util.ArrayList: void <init>()>()": {
+        "eline": 15,
+        "epos": 53,
+        "spos": 31,
+        "sline": 15
+      }},
+      {"result = temp$2": {
+        "eline": 15,
+        "epos": 53,
+        "spos": 31,
+        "sline": 15
+      }},
+      {"lastLine = 0": {
+        "eline": 16,
+        "epos": 33,
+        "spos": 9,
+        "sline": 16
+      }},
+      {"curIdx = 0": {
+        "eline": 17,
+        "epos": 23,
+        "spos": 9,
+        "sline": 17
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = new java.util.ArrayList": {
+        "eline": 12,
+        "epos": 29,
+        "spos": 13,
+        "sline": 12
+      }},
+      {"specialinvoke temp$1.<java.util.ArrayList: void <init>()>()": {
+        "eline": 13,
+        "epos": 42,
+        "spos": 20,
+        "sline": 13
+      }},
+      {"return temp$1": {
+        "eline": 13,
+        "epos": 43,
+        "spos": 13,
+        "sline": 13
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "10": {
+    "instructions": [{"goto block_14": {
+      "eline": 22,
+      "epos": 40,
+      "spos": 20,
+      "sline": 22
+    }}],
+    "preds": [9],
+    "succs": [14]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 12,
+      "epos": 29,
+      "spos": 13,
+      "sline": 12
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = lengthof words": {
+        "eline": 12,
+        "epos": 29,
+        "spos": 13,
+        "sline": 12
+      }},
+      {"if temp$0 == 0 goto block_2 #0": {
+        "eline": 12,
+        "epos": 29,
+        "ifpos": "(11, 8)-(11, 29)",
+        "spos": 13,
+        "sline": 12
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "30": {
+    "instructions": [{"goto block_39": {
+      "eline": 40,
+      "epos": 49,
+      "spos": 40,
+      "sline": 40
+    }}],
+    "preds": [29],
+    "succs": [39]
+  },
+  "7": {
+    "instructions": [{"goto block_44": {
+      "eline": 18,
+      "epos": 49,
+      "spos": 29,
+      "sline": 18
+    }}],
+    "preds": [6],
+    "succs": [44]
+  },
+  "6": {
+    "instructions": [
+      {"temp$3 = lengthof words": {
+        "eline": 18,
+        "epos": 49,
+        "spos": 29,
+        "sline": 18
+      }},
+      {"if curIdx < temp$3 goto block_8 #1": {
+        "eline": 18,
+        "epos": 49,
+        "ifpos": "(17, 8)-(17, 49)",
+        "spos": 29,
+        "sline": 18
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "32": {
+    "instructions": [{"goto block_38": {
+      "eline": 42,
+      "epos": 39,
+      "spos": 25,
+      "sline": 42
+    }}],
+    "preds": [31],
+    "succs": [38]
+  },
+  "5": {
+    "instructions": [{"goto block_44": {
+      "eline": 18,
+      "epos": 24,
+      "spos": 17,
+      "sline": 18
+    }}],
+    "preds": [4],
+    "succs": [44]
+  },
+  "31": {
+    "instructions": [
+      {"temp$44 = new java.lang.StringBuffer": {
+        "eline": 41,
+        "epos": 40,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"specialinvoke temp$44.<java.lang.StringBuffer: void <init>(java.lang.String)>(newLine)": {
+        "eline": 41,
+        "epos": 39,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"temp$45 = words": {
+        "eline": 41,
+        "epos": 39,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"temp$46 = i": {
+        "eline": 41,
+        "epos": 39,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"temp$47 = temp$45[temp$46]": {
+        "eline": 41,
+        "epos": 39,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"temp$48 = virtualinvoke temp$44.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$47)": {
+        "eline": 41,
+        "epos": 39,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"temp$49 = virtualinvoke temp$48.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 41,
+        "epos": 39,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"newLine = temp$49": {
+        "eline": 41,
+        "epos": 27,
+        "spos": 21,
+        "sline": 41
+      }},
+      {"temp$50 = curIdx - 1": {
+        "eline": 42,
+        "epos": 39,
+        "spos": 25,
+        "sline": 42
+      }},
+      {"if i != temp$50 goto block_33 #8": {
+        "eline": 42,
+        "epos": 39,
+        "ifpos": "(41, 20)-(41, 39)",
+        "spos": 25,
+        "sline": 42
+      }}
+    ],
+    "preds": [29],
+    "succs": [
+      32,
+      33
+    ]
+  },
+  "4": {
+    "instructions": [{"if lastLine == 0 goto block_6 #1": {
+      "eline": 18,
+      "epos": 24,
+      "ifpos": "(17, 8)-(17, 49)",
+      "spos": 17,
+      "sline": 18
+    }}],
+    "preds": [
+      3,
+      43
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$4 = lengthof words": {
+        "eline": 22,
+        "epos": 40,
+        "spos": 20,
+        "sline": 22
+      }},
+      {"if curIdx < temp$4 goto block_11 #2": {
+        "eline": 22,
+        "epos": 40,
+        "ifpos": "(21, 12)-(21, 113)",
+        "spos": 20,
+        "sline": 22
+      }}
+    ],
+    "preds": [
+      8,
+      13
+    ],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"curWidth = 0": {
+        "eline": 19,
+        "epos": 29,
+        "spos": 13,
+        "sline": 19
+      }},
+      {"startIdx = curIdx": {
+        "eline": 20,
+        "epos": 34,
+        "spos": 13,
+        "sline": 20
+      }},
+      {"newLine = \"\"": {
+        "eline": 21,
+        "epos": 32,
+        "spos": 13,
+        "sline": 21
+      }}
+    ],
+    "preds": [6],
+    "succs": [9]
+  }
+}

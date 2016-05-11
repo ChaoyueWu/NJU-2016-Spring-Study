@@ -1,0 +1,347 @@
+[
+  {
+    "codes": "   ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "public class SimpleCalculator { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int calculate(String expression) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tStack<StackElement> parenthesisStack = new Stack<StackElement>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\twhile (expression.contains(\"+\") || expression.contains(\"-\") || expression.contains(\"(\")) { ",
+    "blocks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      25,
+      24
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": "\t\t\tif (!expression.contains(\"(\")) { ",
+    "blocks": [
+      7,
+      25,
+      8,
+      24
+    ]
+  },
+  {
+    "codes": "\t\t\t\tint value = evaluateSimpleFormula(expression); ",
+    "blocks": [
+      25,
+      24,
+      9
+    ]
+  },
+  {
+    "codes": "\t\t\t\treturn value; ",
+    "blocks": [
+      25,
+      24,
+      9
+    ]
+  },
+  {
+    "codes": "\t\t\t} else { ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": "\t\t\t\t    ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": "                                                               ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": "        ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": "\t\t\t\tchar[] charList = expression.toCharArray(); ",
+    "blocks": [
+      25,
+      24,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tfor (int i = 0; i < charList.length; i++) { ",
+    "blocks": [
+      23,
+      25,
+      24,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tchar ch = charList[i]; ",
+    "blocks": [
+      23,
+      25,
+      24,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tif (ch == '(') { ",
+    "blocks": [
+      23,
+      25,
+      24,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tStackElement element = new StackElement(ch, i); ",
+    "blocks": [
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tparenthesisStack.push(element); ",
+    "blocks": [
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t} else if (ch == ')') { ",
+    "blocks": [
+      17,
+      16,
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tStackElement element = parenthesisStack.pop(); ",
+    "blocks": [
+      18,
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tString simpleExpression = expression.substring(element.index + 1, i); ",
+    "blocks": [
+      18,
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tint value = evaluateSimpleFormula(simpleExpression); ",
+    "blocks": [
+      18,
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tString beforeExpression = expression.substring(0, element.index); ",
+    "blocks": [
+      18,
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tString afterExpression = (i >= expression.length()) ? \"\" ",
+    "blocks": [
+      19,
+      18,
+      21,
+      20,
+      23,
+      22,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\t\t\t: expression.substring(i + 1, expression.length()); ",
+    "blocks": [
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\texpression = beforeExpression + value + afterExpression; ",
+    "blocks": [
+      23,
+      22,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\tbreak; ",
+    "blocks": [
+      23,
+      22,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t} ",
+    "blocks": [
+      23,
+      25,
+      24,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      23,
+      25,
+      24
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [
+      25,
+      24
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn Integer.valueOf(expression); ",
+    "blocks": [25]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                               ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "codes": "                                               ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int evaluateSimpleFormula(String simpleExpression) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString[] operators = parseOperators(simpleExpression); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tString[] numberStrings = simpleExpression.split(\"\\\\+|-\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString numString1 = numberStrings[0]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tInteger num1 = Integer.valueOf(numString1); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < operators.length; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\tString operator = operators[i]; ",
+    "blocks": [
+      3,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\tString numString2 = retrieveNumString(numberStrings, i+1);  ",
+    "blocks": [
+      3,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\tInteger num2 = Integer.valueOf(numString2); ",
+    "blocks": [
+      3,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\tif (operator.equals(\"+\")) { ",
+    "blocks": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnum1 = num1 + num2; ",
+    "blocks": [
+      5,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t} else if (operator.equals(\"-\")) { ",
+    "blocks": [
+      5,
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnum1 = num1 - num2; ",
+    "blocks": [
+      5,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      5,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn num1; ",
+    "blocks": [10]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String retrieveNumString(String[] numberStrings, int index){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString str = \"\"; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\ttry{ ",
+    "blocks": []
+  }
+]

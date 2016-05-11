@@ -1,0 +1,30 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {
+      "eline": 7,
+      "epos": 10,
+      "spos": 3,
+      "sline": 7
+    }},
+    {"this.<StackElement: char paranthesis> = paranthesis": {
+      "eline": 8,
+      "epos": 18,
+      "spos": 8,
+      "sline": 8
+    }},
+    {"this.<StackElement: int index> = index": {
+      "eline": 9,
+      "epos": 12,
+      "spos": 8,
+      "sline": 9
+    }},
+    {"return": {
+      "eline": 9,
+      "epos": 12,
+      "spos": 8,
+      "sline": 9
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,213 @@
+[
+  {
+    "codes": "   ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class RepeatedDNASequences { ",
+    "blocks": []
+  },
+  {
+    "codes": "    public List<String> findRepeatedDnaSequences(String s) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        List<String> result = new ArrayList<String>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (s.length() <= 9){ ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "            return new ArrayList<String>(); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        HashMap<Character, Integer> digitMapping = new HashMap<Character, Integer>(); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        digitMapping.put('A', 0); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        digitMapping.put('C', 1); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        digitMapping.put('G', 2); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        digitMapping.put('T', 3); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        HashMap<Integer, Integer> countMapping = new HashMap<Integer, Integer>(); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        int hash = 0; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int curLen = 0; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        for (int strIdx = 0 ; strIdx < s.length() ; strIdx ++){ ",
+    "blocks": [
+      3,
+      4,
+      5,
+      14
+    ]
+  },
+  {
+    "codes": "            curLen ++; ",
+    "blocks": [
+      6,
+      14
+    ]
+  },
+  {
+    "codes": "             ",
+    "blocks": [14]
+  },
+  {
+    "codes": "            hash = (hash << 2) + digitMapping.get(s.charAt(strIdx)); ",
+    "blocks": [
+      6,
+      14
+    ]
+  },
+  {
+    "codes": "            if(curLen > 9) { ",
+    "blocks": [
+      6,
+      7,
+      14
+    ]
+  },
+  {
+    "codes": "                hash = (hash & ((1 << 20) - 1)); ",
+    "blocks": [
+      8,
+      14
+    ]
+  },
+  {
+    "codes": "                if (countMapping.containsKey(hash) && countMapping.get(hash) == 1){ ",
+    "blocks": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "                    countMapping.put(hash, countMapping.get(hash) + 1); ",
+    "blocks": [
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "                    String repeatedStr = s.substring(strIdx - 9 , strIdx + 1); ",
+    "blocks": [
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "                    result.add(repeatedStr); ",
+    "blocks": [
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "                else{ ",
+    "blocks": [
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "                    countMapping.put(hash, 1); ",
+    "blocks": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [14]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [14]
+  },
+  {
+    "codes": "         ",
+    "blocks": []
+  },
+  {
+    "codes": "        return result; ",
+    "blocks": [15]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

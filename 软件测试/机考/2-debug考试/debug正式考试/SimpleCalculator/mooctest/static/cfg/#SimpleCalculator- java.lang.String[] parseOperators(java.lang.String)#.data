@@ -1,0 +1,87 @@
+[
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn str; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String[] parseOperators(String simpleExpression) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tArrayList<String> operatorList = new ArrayList<String>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tchar[] charList = simpleExpression.toCharArray(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tfor (char ch : charList) { ",
+    "blocks": [
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\t\tif (ch == '+' || ch == '-') { ",
+    "blocks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t\t\toperatorList.add(String.valueOf(ch)); ",
+    "blocks": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [
+      1,
+      2
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn operatorList.toArray(new String[0]); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "codes": "public class Number { ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static final String DEFAULT = \"-1\"; ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "public class StackElement { ",
+    "blocks": []
+  },
+  {
+    "codes": "\tchar paranthesis; ",
+    "blocks": []
+  },
+  {
+    "codes": "\tint index; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic StackElement(char paranthesis, int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsuper(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.paranthesis = paranthesis; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.index = index; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

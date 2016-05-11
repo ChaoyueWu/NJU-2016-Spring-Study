@@ -1,0 +1,218 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 98,
+      "epos": 16,
+      "spos": 8,
+      "sline": 98
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$4 = charList[temp$2]": {
+        "eline": 101,
+        "epos": 3,
+        "spos": 3,
+        "sline": 97
+      }},
+      {"ch = temp$4": {
+        "eline": 101,
+        "epos": 3,
+        "spos": 3,
+        "sline": 97
+      }},
+      {"temp$5 = (int) ch": {
+        "eline": 98,
+        "epos": 16,
+        "spos": 8,
+        "sline": 98
+      }},
+      {"if temp$5 == 43 goto block_6 #1": {
+        "eline": 98,
+        "epos": 16,
+        "ifpos": "(97, 3)-(97, 29)",
+        "spos": 8,
+        "sline": 98
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      6
+    ]
+  },
+  "1": {
+    "instructions": [
+      {"temp$3 = lengthof charList": {
+        "eline": 101,
+        "epos": 3,
+        "spos": 3,
+        "sline": 97
+      }},
+      {"if temp$2 >= temp$3 goto block_8 #0": {
+        "eline": 101,
+        "epos": 3,
+        "ifpos": "(95, 50)-(102, 44)",
+        "spos": 3,
+        "sline": 97
+      }}
+    ],
+    "preds": [
+      0,
+      7
+    ],
+    "succs": [
+      2,
+      8
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.ArrayList": {
+        "eline": 95,
+        "epos": 59,
+        "spos": 3,
+        "sline": 95
+      }},
+      {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+        "eline": 95,
+        "epos": 58,
+        "spos": 36,
+        "sline": 95
+      }},
+      {"operatorList = temp$0": {
+        "eline": 95,
+        "epos": 58,
+        "spos": 36,
+        "sline": 95
+      }},
+      {"temp$1 = virtualinvoke simpleExpression.<java.lang.String: char[] toCharArray()>()": {
+        "eline": 96,
+        "epos": 51,
+        "spos": 3,
+        "sline": 96
+      }},
+      {"charList = temp$1": {
+        "eline": 96,
+        "epos": 51,
+        "spos": 3,
+        "sline": 96
+      }},
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 96,
+        "epos": 51,
+        "spos": 3,
+        "sline": 96
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$2 = temp$2 + 1": {
+        "eline": 99,
+        "epos": 41,
+        "spos": 5,
+        "sline": 99
+      }},
+      {"goto block_1": {
+        "eline": 99,
+        "epos": 41,
+        "spos": 5,
+        "sline": 99
+      }}
+    ],
+    "preds": [
+      5,
+      6
+    ],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$7 = staticinvoke <java.lang.String: java.lang.String valueOf(char)>(ch)": {
+        "eline": 99,
+        "epos": 41,
+        "spos": 5,
+        "sline": 99
+      }},
+      {"virtualinvoke operatorList.<java.util.ArrayList: boolean add(java.lang.Object)>(temp$7)": {
+        "eline": 99,
+        "epos": 41,
+        "spos": 5,
+        "sline": 99
+      }}
+    ],
+    "preds": [
+      2,
+      4
+    ],
+    "succs": [7]
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 98,
+      "epos": 29,
+      "spos": 21,
+      "sline": 98
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$6 = (int) ch": {
+        "eline": 98,
+        "epos": 29,
+        "spos": 21,
+        "sline": 98
+      }},
+      {"if temp$6 == 45 goto block_6 #1": {
+        "eline": 98,
+        "epos": 29,
+        "ifpos": "(97, 3)-(97, 29)",
+        "spos": 21,
+        "sline": 98
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$9 = newarray (java.lang.String)[0]": {
+        "eline": 99,
+        "epos": 41,
+        "spos": 5,
+        "sline": 99
+      }},
+      {"temp$10 = virtualinvoke operatorList.<java.util.ArrayList: java.lang.Object[] toArray(java.lang.Object[])>(temp$9)": {
+        "eline": 99,
+        "epos": 41,
+        "spos": 5,
+        "sline": 99
+      }},
+      {"temp$11 = (java.lang.String[]) temp$10": {
+        "eline": 99,
+        "epos": 41,
+        "spos": 5,
+        "sline": 99
+      }},
+      {"return temp$11": {
+        "eline": 103,
+        "epos": 45,
+        "spos": 3,
+        "sline": 103
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  }
+}

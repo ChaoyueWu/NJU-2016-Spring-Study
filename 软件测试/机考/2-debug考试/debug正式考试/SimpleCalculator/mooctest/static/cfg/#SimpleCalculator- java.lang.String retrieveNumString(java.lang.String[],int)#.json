@@ -1,0 +1,82 @@
+{
+  "2": {
+    "instructions": [{"return str": {
+      "eline": 91,
+      "epos": 13,
+      "spos": 3,
+      "sline": 91
+    }}],
+    "preds": [
+      0,
+      1
+    ],
+    "succs": []
+  },
+  "1": {
+    "instructions": [
+      {"temp$4 = \"-1\"": {
+        "reliable": false,
+        "eline": 88,
+        "epos": 6,
+        "spos": 4,
+        "sline": 88
+      }},
+      {"str = temp$4": {
+        "eline": 88,
+        "epos": 6,
+        "spos": 4,
+        "sline": 88
+      }},
+      {"goto block_2": {
+        "eline": 89,
+        "epos": 3,
+        "spos": 3,
+        "sline": 87
+      }}
+    ],
+    "preds": [],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = numberStrings": {
+        "eline": 84,
+        "epos": 30,
+        "spos": 4,
+        "sline": 84
+      }},
+      {"temp$1 = index": {
+        "eline": 84,
+        "epos": 30,
+        "spos": 4,
+        "sline": 84
+      }},
+      {"temp$2 = temp$0[temp$1]": {
+        "eline": 84,
+        "epos": 30,
+        "spos": 4,
+        "sline": 84
+      }},
+      {"str = temp$2": {
+        "eline": 84,
+        "epos": 6,
+        "spos": 4,
+        "sline": 84
+      }},
+      {"staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>(str)": {
+        "eline": 85,
+        "epos": 24,
+        "spos": 4,
+        "sline": 85
+      }},
+      {"goto block_2": {
+        "eline": 89,
+        "epos": 3,
+        "spos": 3,
+        "sline": 83
+      }}
+    ],
+    "preds": [],
+    "succs": [2]
+  }
+}

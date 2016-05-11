@@ -1,0 +1,707 @@
+{
+  "15": {
+    "instructions": [{"return result": {
+      "eline": 44,
+      "epos": 22,
+      "spos": 9,
+      "sline": 44
+    }}],
+    "preds": [5],
+    "succs": []
+  },
+  "13": {
+    "instructions": [
+      {"temp$61 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(hash)": {
+        "eline": 39,
+        "epos": 46,
+        "spos": 21,
+        "sline": 39
+      }},
+      {"temp$62 = 1": {
+        "reliable": false,
+        "eline": 39,
+        "epos": 46,
+        "spos": 21,
+        "sline": 39
+      }},
+      {"temp$63 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$62)": {
+        "eline": 39,
+        "epos": 46,
+        "spos": 21,
+        "sline": 39
+      }},
+      {"temp$64 = virtualinvoke countMapping.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$61, temp$63)": {
+        "eline": 39,
+        "epos": 46,
+        "spos": 21,
+        "sline": 39
+      }},
+      {"temp$65 = (java.lang.Integer) temp$64": {
+        "eline": 39,
+        "epos": 46,
+        "spos": 21,
+        "sline": 39
+      }}
+    ],
+    "preds": [
+      8,
+      11
+    ],
+    "succs": [14]
+  },
+  "14": {
+    "instructions": [
+      {"temp$66 = strIdx": {
+        "eline": 27,
+        "epos": 61,
+        "spos": 53,
+        "sline": 27
+      }},
+      {"temp$67 = temp$66 + 1": {
+        "eline": 27,
+        "epos": 58,
+        "spos": 53,
+        "sline": 27
+      }},
+      {"strIdx = temp$67": {
+        "eline": 27,
+        "epos": 58,
+        "spos": 53,
+        "sline": 27
+      }},
+      {"goto block_4": {
+        "eline": 42,
+        "epos": 9,
+        "spos": 9,
+        "sline": 27
+      }}
+    ],
+    "preds": [
+      7,
+      12,
+      13
+    ],
+    "succs": [4]
+  },
+  "11": {
+    "instructions": [{"goto block_13": {
+      "eline": 33,
+      "epos": 81,
+      "spos": 55,
+      "sline": 33
+    }}],
+    "preds": [10],
+    "succs": [13]
+  },
+  "12": {
+    "instructions": [
+      {"temp$47 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(hash)": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$48 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(hash)": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$49 = virtualinvoke countMapping.<java.util.HashMap: java.lang.Object get(java.lang.Object)>(temp$48)": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$50 = (java.lang.Integer) temp$49": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$51 = virtualinvoke temp$50.<java.lang.Integer: int intValue()>()": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$52 = temp$51 + 1": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$53 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$52)": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$54 = virtualinvoke countMapping.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$47, temp$53)": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$55 = (java.lang.Integer) temp$54": {
+        "eline": 34,
+        "epos": 71,
+        "spos": 21,
+        "sline": 34
+      }},
+      {"temp$56 = strIdx - 9": {
+        "eline": 35,
+        "epos": 78,
+        "spos": 21,
+        "sline": 35
+      }},
+      {"temp$57 = strIdx": {
+        "eline": 35,
+        "epos": 78,
+        "spos": 21,
+        "sline": 35
+      }},
+      {"temp$58 = temp$57 + 1": {
+        "eline": 35,
+        "epos": 78,
+        "spos": 21,
+        "sline": 35
+      }},
+      {"temp$59 = virtualinvoke s.<java.lang.String: java.lang.String substring(int,int)>(temp$56, temp$58)": {
+        "eline": 35,
+        "epos": 78,
+        "spos": 21,
+        "sline": 35
+      }},
+      {"repeatedStr = temp$59": {
+        "eline": 35,
+        "epos": 78,
+        "spos": 21,
+        "sline": 35
+      }},
+      {"interfaceinvoke result.<java.util.List: boolean add(java.lang.Object)>(repeatedStr)": {
+        "eline": 36,
+        "epos": 44,
+        "spos": 21,
+        "sline": 36
+      }},
+      {"goto block_14": {
+        "eline": 40,
+        "epos": 17,
+        "spos": 17,
+        "sline": 33
+      }}
+    ],
+    "preds": [10],
+    "succs": [14]
+  },
+  "3": {
+    "instructions": [
+      {"temp$3 = new java.util.HashMap": {
+        "eline": 17,
+        "epos": 85,
+        "spos": 9,
+        "sline": 17
+      }},
+      {"specialinvoke temp$3.<java.util.HashMap: void <init>()>()": {
+        "eline": 17,
+        "epos": 84,
+        "spos": 52,
+        "sline": 17
+      }},
+      {"digitMapping = temp$3": {
+        "eline": 17,
+        "epos": 84,
+        "spos": 52,
+        "sline": 17
+      }},
+      {"temp$4 = 65": {
+        "reliable": false,
+        "eline": 18,
+        "epos": 33,
+        "spos": 9,
+        "sline": 18
+      }},
+      {"temp$5 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(temp$4)": {
+        "eline": 18,
+        "epos": 33,
+        "spos": 9,
+        "sline": 18
+      }},
+      {"temp$6 = 0": {
+        "reliable": false,
+        "eline": 18,
+        "epos": 33,
+        "spos": 9,
+        "sline": 18
+      }},
+      {"temp$7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$6)": {
+        "eline": 18,
+        "epos": 33,
+        "spos": 9,
+        "sline": 18
+      }},
+      {"temp$8 = virtualinvoke digitMapping.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$5, temp$7)": {
+        "eline": 18,
+        "epos": 33,
+        "spos": 9,
+        "sline": 18
+      }},
+      {"temp$9 = (java.lang.Integer) temp$8": {
+        "eline": 18,
+        "epos": 33,
+        "spos": 9,
+        "sline": 18
+      }},
+      {"temp$10 = 67": {
+        "reliable": false,
+        "eline": 19,
+        "epos": 33,
+        "spos": 9,
+        "sline": 19
+      }},
+      {"temp$11 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(temp$10)": {
+        "eline": 19,
+        "epos": 33,
+        "spos": 9,
+        "sline": 19
+      }},
+      {"temp$12 = 1": {
+        "reliable": false,
+        "eline": 19,
+        "epos": 33,
+        "spos": 9,
+        "sline": 19
+      }},
+      {"temp$13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$12)": {
+        "eline": 19,
+        "epos": 33,
+        "spos": 9,
+        "sline": 19
+      }},
+      {"temp$14 = virtualinvoke digitMapping.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$11, temp$13)": {
+        "eline": 19,
+        "epos": 33,
+        "spos": 9,
+        "sline": 19
+      }},
+      {"temp$15 = (java.lang.Integer) temp$14": {
+        "eline": 19,
+        "epos": 33,
+        "spos": 9,
+        "sline": 19
+      }},
+      {"temp$16 = 71": {
+        "reliable": false,
+        "eline": 20,
+        "epos": 33,
+        "spos": 9,
+        "sline": 20
+      }},
+      {"temp$17 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(temp$16)": {
+        "eline": 20,
+        "epos": 33,
+        "spos": 9,
+        "sline": 20
+      }},
+      {"temp$18 = 2": {
+        "reliable": false,
+        "eline": 20,
+        "epos": 33,
+        "spos": 9,
+        "sline": 20
+      }},
+      {"temp$19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$18)": {
+        "eline": 20,
+        "epos": 33,
+        "spos": 9,
+        "sline": 20
+      }},
+      {"temp$20 = virtualinvoke digitMapping.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$17, temp$19)": {
+        "eline": 20,
+        "epos": 33,
+        "spos": 9,
+        "sline": 20
+      }},
+      {"temp$21 = (java.lang.Integer) temp$20": {
+        "eline": 20,
+        "epos": 33,
+        "spos": 9,
+        "sline": 20
+      }},
+      {"temp$22 = 84": {
+        "reliable": false,
+        "eline": 21,
+        "epos": 33,
+        "spos": 9,
+        "sline": 21
+      }},
+      {"temp$23 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(temp$22)": {
+        "eline": 21,
+        "epos": 33,
+        "spos": 9,
+        "sline": 21
+      }},
+      {"temp$24 = 3": {
+        "reliable": false,
+        "eline": 21,
+        "epos": 33,
+        "spos": 9,
+        "sline": 21
+      }},
+      {"temp$25 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$24)": {
+        "eline": 21,
+        "epos": 33,
+        "spos": 9,
+        "sline": 21
+      }},
+      {"temp$26 = virtualinvoke digitMapping.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$23, temp$25)": {
+        "eline": 21,
+        "epos": 33,
+        "spos": 9,
+        "sline": 21
+      }},
+      {"temp$27 = (java.lang.Integer) temp$26": {
+        "eline": 21,
+        "epos": 33,
+        "spos": 9,
+        "sline": 21
+      }},
+      {"temp$28 = new java.util.HashMap": {
+        "eline": 23,
+        "epos": 81,
+        "spos": 9,
+        "sline": 23
+      }},
+      {"specialinvoke temp$28.<java.util.HashMap: void <init>()>()": {
+        "eline": 23,
+        "epos": 80,
+        "spos": 50,
+        "sline": 23
+      }},
+      {"countMapping = temp$28": {
+        "eline": 23,
+        "epos": 80,
+        "spos": 50,
+        "sline": 23
+      }},
+      {"hash = 0": {
+        "eline": 25,
+        "epos": 21,
+        "spos": 9,
+        "sline": 25
+      }},
+      {"curLen = 0": {
+        "eline": 26,
+        "epos": 23,
+        "spos": 9,
+        "sline": 26
+      }},
+      {"strIdx = 0": {
+        "eline": 27,
+        "epos": 27,
+        "spos": 14,
+        "sline": 27
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = new java.util.ArrayList": {
+        "eline": 13,
+        "epos": 27,
+        "spos": 13,
+        "sline": 13
+      }},
+      {"specialinvoke temp$2.<java.util.ArrayList: void <init>()>()": {
+        "eline": 14,
+        "epos": 42,
+        "spos": 20,
+        "sline": 14
+      }},
+      {"return temp$2": {
+        "eline": 14,
+        "epos": 43,
+        "spos": 13,
+        "sline": 14
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 13,
+      "epos": 27,
+      "spos": 13,
+      "sline": 13
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "10": {
+    "instructions": [
+      {"temp$43 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(hash)": {
+        "eline": 33,
+        "epos": 81,
+        "spos": 55,
+        "sline": 33
+      }},
+      {"temp$44 = virtualinvoke countMapping.<java.util.HashMap: java.lang.Object get(java.lang.Object)>(temp$43)": {
+        "eline": 33,
+        "epos": 81,
+        "spos": 55,
+        "sline": 33
+      }},
+      {"temp$45 = (java.lang.Integer) temp$44": {
+        "eline": 33,
+        "epos": 81,
+        "spos": 55,
+        "sline": 33
+      }},
+      {"temp$46 = virtualinvoke temp$45.<java.lang.Integer: int intValue()>()": {
+        "eline": 33,
+        "epos": 81,
+        "spos": 55,
+        "sline": 33
+      }},
+      {"if temp$46 == 1 goto block_12 #3": {
+        "eline": 33,
+        "epos": 81,
+        "ifpos": "(32, 16)-(32, 81)",
+        "spos": 55,
+        "sline": 33
+      }}
+    ],
+    "preds": [9],
+    "succs": [
+      11,
+      12
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.ArrayList": {
+        "eline": 12,
+        "epos": 54,
+        "spos": 9,
+        "sline": 12
+      }},
+      {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+        "eline": 12,
+        "epos": 53,
+        "spos": 31,
+        "sline": 12
+      }},
+      {"result = temp$0": {
+        "eline": 12,
+        "epos": 53,
+        "spos": 31,
+        "sline": 12
+      }},
+      {"temp$1 = virtualinvoke s.<java.lang.String: int length()>()": {
+        "eline": 13,
+        "epos": 27,
+        "spos": 13,
+        "sline": 13
+      }},
+      {"if temp$1 <= 9 goto block_2 #0": {
+        "eline": 13,
+        "epos": 27,
+        "ifpos": "(12, 8)-(12, 27)",
+        "spos": 13,
+        "sline": 13
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_14": {
+      "eline": 31,
+      "epos": 25,
+      "spos": 16,
+      "sline": 31
+    }}],
+    "preds": [6],
+    "succs": [14]
+  },
+  "6": {
+    "instructions": [
+      {"temp$30 = curLen": {
+        "eline": 28,
+        "epos": 22,
+        "spos": 13,
+        "sline": 28
+      }},
+      {"temp$31 = temp$30 + 1": {
+        "eline": 28,
+        "epos": 18,
+        "spos": 13,
+        "sline": 28
+      }},
+      {"curLen = temp$31": {
+        "eline": 28,
+        "epos": 18,
+        "spos": 13,
+        "sline": 28
+      }},
+      {"temp$32 = hash << 2": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$33 = temp$32": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$34 = virtualinvoke s.<java.lang.String: char charAt(int)>(strIdx)": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$35 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(temp$34)": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$36 = virtualinvoke digitMapping.<java.util.HashMap: java.lang.Object get(java.lang.Object)>(temp$35)": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$37 = (java.lang.Integer) temp$36": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$38 = virtualinvoke temp$37.<java.lang.Integer: int intValue()>()": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$39 = temp$33 + temp$38": {
+        "eline": 30,
+        "epos": 68,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"hash = temp$39": {
+        "eline": 30,
+        "epos": 16,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"if curLen > 9 goto block_8 #2": {
+        "eline": 31,
+        "epos": 25,
+        "ifpos": "(30, 12)-(30, 25)",
+        "spos": 16,
+        "sline": 31
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_15": {
+      "eline": 27,
+      "epos": 49,
+      "spos": 31,
+      "sline": 27
+    }}],
+    "preds": [4],
+    "succs": [15]
+  },
+  "4": {
+    "instructions": [
+      {"temp$29 = virtualinvoke s.<java.lang.String: int length()>()": {
+        "eline": 27,
+        "epos": 49,
+        "spos": 31,
+        "sline": 27
+      }},
+      {"if strIdx < temp$29 goto block_6 #1": {
+        "eline": 27,
+        "epos": 49,
+        "ifpos": "(26, 28)-(26, 50)",
+        "spos": 31,
+        "sline": 27
+      }}
+    ],
+    "preds": [
+      3,
+      14
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_10": {
+      "eline": 33,
+      "epos": 50,
+      "spos": 34,
+      "sline": 33
+    }}],
+    "preds": [8],
+    "succs": [10]
+  },
+  "8": {
+    "instructions": [
+      {"temp$40 = hash & 1048575": {
+        "eline": 32,
+        "epos": 48,
+        "spos": 17,
+        "sline": 32
+      }},
+      {"hash = temp$40": {
+        "eline": 32,
+        "epos": 20,
+        "spos": 17,
+        "sline": 32
+      }},
+      {"temp$41 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(hash)": {
+        "eline": 33,
+        "epos": 50,
+        "spos": 34,
+        "sline": 33
+      }},
+      {"temp$42 = virtualinvoke countMapping.<java.util.HashMap: boolean containsKey(java.lang.Object)>(temp$41)": {
+        "eline": 33,
+        "epos": 50,
+        "spos": 34,
+        "sline": 33
+      }},
+      {"if temp$42 == 0 goto block_13 #3": {
+        "eline": 33,
+        "epos": 50,
+        "ifpos": "(32, 16)-(32, 81)",
+        "spos": 34,
+        "sline": 33
+      }}
+    ],
+    "preds": [6],
+    "succs": [
+      9,
+      13
+    ]
+  }
+}
