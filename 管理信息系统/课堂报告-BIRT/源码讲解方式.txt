@@ -1,0 +1,7 @@
+1.直接从report engine开始讲
+构造函数中有engine config 拓展
+Platform-IReportEngineFactory-ReportEngineFactory
+2.report engine-openReportDesign-IReportRunnable
+3.createGetParameterDefinitionTask()-IGetParameterDefinitionTask
+4.createRunAndRenderTask()-IRunAndRenderTask-setRenderOption()-IRenderOption-HTMLRenderOption-PDFRenderOption
+5.RunAndRenderTask-run()-doRun()  比较RunTask和5.RunAndRenderTask的doRun方法
