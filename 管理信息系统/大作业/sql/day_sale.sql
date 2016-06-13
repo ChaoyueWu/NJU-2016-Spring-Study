@@ -1,0 +1,1 @@
+select * from day_total_sale_view m left join day_notmember_sale_view nm on m.date=nm.date
