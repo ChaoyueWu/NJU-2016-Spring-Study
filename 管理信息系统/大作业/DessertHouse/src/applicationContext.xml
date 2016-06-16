@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:cache="http://www.springframework.org/schema/cache" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans         
+      http://www.springframework.org/schema/beans/spring-beans-4.0.xsd        
+      http://www.springframework.org/schema/aop         
+      http://www.springframework.org/schema/aop/spring-aop-4.0.xsd        
+      http://www.springframework.org/schema/context         
+      http://www.springframework.org/schema/context/spring-context-4.0.xsd        
+      http://www.springframework.org/schema/tx         
+      http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+      http://www.springframework.org/schema/cache 
+      http://www.springframework.org/schema/cache/spring-cache-4.0.xsd">
+	<!-- <bean id="..." class="..."> collaborators and configuration for this 
+		bean go here </bean> <bean id="..." class="..."> collaborators and configuration 
+		for this bean go here </bean> more bean definitions go here -->
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/desserthouse?characterEncoding=utf-8" />
+		<property name="username" value="root" />
+		<property name="password" value="" />
+	</bean>
+
+	<!-- 配置sessionFactory -->
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan" value="edu.nju.desserthouse.model" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+				<prop key="hibernate.connection.autocommit">true</prop>
+			</props>
+		</property>
+
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<!-- define xxDao -->
+	<bean id="baseDao" class="edu.nju.desserthouse.dao.impl.BaseDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	<bean id="userDao" class="edu.nju.desserthouse.dao.impl.UserDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="memberDao" class="edu.nju.desserthouse.dao.impl.MemberDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="bankDao" class="edu.nju.desserthouse.dao.impl.BankDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="paymentRecordDao" class="edu.nju.desserthouse.dao.impl.PaymentRecordDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="shopDao" class="edu.nju.desserthouse.dao.impl.ShopDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="shopClerkDao" class="edu.nju.desserthouse.dao.impl.ShopClerkDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="dessertDao" class="edu.nju.desserthouse.dao.impl.DessertDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="salesRecordDao" class="edu.nju.desserthouse.dao.impl.SalesRecordDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="planListDao" class="edu.nju.desserthouse.dao.impl.PlanListDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="planDao" class="edu.nju.desserthouse.dao.impl.PlanDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="dessertAvaliableDao" class="edu.nju.desserthouse.dao.impl.DessertAvaliableDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="productCategoryDao" class="edu.nju.desserthouse.dao.impl.ProductCategoryDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="districtDao" class="edu.nju.desserthouse.dao.impl.DistrictDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="orderDao" class="edu.nju.desserthouse.dao.impl.OrderDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<bean id="promotionDao" class="edu.nju.desserthouse.dao.impl.PromotionDaoImpl">
+		<property name="baseDao" ref="baseDao"></property>
+	</bean>
+	
+	<!-- define xxService -->
+	<bean id="userService" class="edu.nju.desserthouse.service.impl.UserServiceImpl">
+		<property name="userDao" ref="userDao"></property>
+	</bean>
+	
+	<bean id="memberService" class="edu.nju.desserthouse.service.impl.MemberServiceImpl">
+		<property name="userDao" ref="userDao"></property>
+		<property name="memberDao" ref="memberDao"></property>
+		<property name="bankDao" ref="bankDao"></property>
+	</bean>
+	
+	<bean id="paymentRecordService" class="edu.nju.desserthouse.service.impl.PaymentRecordServiceImpl">
+		<property name="paymentRecordDao" ref="paymentRecordDao"></property>
+	</bean>
+	
+	<bean id="shopService" class="edu.nju.desserthouse.service.impl.ShopServiceImpl">
+		<property name="shopDao" ref="shopDao"></property>
+	</bean>
+	
+	<bean id="shopClerkService" class="edu.nju.desserthouse.service.impl.ShopClerkServiceImpl">
+		<property name="shopClerkDao" ref="shopClerkDao"></property>
+		<property name="userDao" ref="userDao"></property>
+	</bean>
+	
+	<bean id="dessertService" class="edu.nju.desserthouse.service.impl.DessertServiceImpl">
+		<property name="dessertDao" ref="dessertDao"></property>
+	</bean>
+	
+	<bean id="salesRecordService" class="edu.nju.desserthouse.service.impl.SalesRecordServiceImpl">
+		<property name="salesRecordDao" ref="salesRecordDao"></property>
+	</bean>
+	
+	<bean id="planService" class="edu.nju.desserthouse.service.impl.PlanServiceImpl">
+		<property name="planDao" ref="planDao"></property>
+		<property name="planListDao" ref="planListDao"></property>
+	</bean>	
+	
+	<bean id="dessertAvaliableService" class="edu.nju.desserthouse.service.impl.DessertAvaliableServiceImpl">
+		<property name="planDao" ref="planDao"></property>
+		<property name="planListDao" ref="planListDao"></property>
+		<property name="dessertAvaliableDao" ref="dessertAvaliableDao"></property>
+		<property name="dessertDao" ref="dessertDao"></property>
+		<property name="shopDao" ref="shopDao"></property>
+		<property name="shopClerkDao" ref="shopClerkDao"></property>
+	</bean>	
+	
+	<bean id="productStaService" class="edu.nju.desserthouse.service.impl.ProductStaServiceImpl">
+		<property name="orderDao" ref="orderDao"></property>
+		<property name="districtDao" ref="districtDao"></property>
+		<property name="shopDao" ref="shopDao"></property>
+	</bean>	
+	
+	<bean id="categoryStaService" class="edu.nju.desserthouse.service.impl.CategoryStaServiceImpl">
+		<property name="orderDao" ref="orderDao"></property>
+		<property name="districtDao" ref="districtDao"></property>
+		<property name="shopDao" ref="shopDao"></property>
+		<property name="productCategoryDao" ref="productCategoryDao"></property>
+	</bean>	
+	
+	<bean id="shopStaService" class="edu.nju.desserthouse.service.impl.ShopStaServiceImpl">
+		<property name="orderDao" ref="orderDao"></property>
+		<property name="districtDao" ref="districtDao"></property>
+		<property name="shopDao" ref="shopDao"></property>
+	</bean>	
+	
+	<bean id="productTrendService" class="edu.nju.desserthouse.service.impl.ProductTrendServiceImpl">
+		<property name="orderDao" ref="orderDao"></property>
+		<property name="districtDao" ref="districtDao"></property>
+		<property name="shopDao" ref="shopDao"></property>
+		<property name="dessertDao" ref="dessertDao"></property>
+	</bean>	
+	
+	<bean id="shopRankService" class="edu.nju.desserthouse.service.impl.ShopRankServiceImpl">
+		<property name="orderDao" ref="orderDao"></property>
+	</bean>	
+	
+	<bean id="planAutoGenerateService" class="edu.nju.desserthouse.service.impl.PlanAutoGenerateServiceImpl">
+		<property name="orderDao" ref="orderDao"></property>
+	</bean>	
+	
+	<bean id="promotionService" class="edu.nju.desserthouse.service.impl.PromotionServiceImpl">
+		<property name="promotionDao" ref="promotionDao"></property>
+	</bean>	
+	
+	<!-- define xxAction -->
+	<bean id="StartAction" class="edu.nju.desserthouse.action.StartAction">
+	</bean>
+	
+	<bean id="LoginAction" class="edu.nju.desserthouse.action.LoginAction">
+		<property name="userService" ref="userService"></property>
+	</bean>
+	
+	<bean id="GetMemberIdAction" class="edu.nju.desserthouse.action.GetMemberIdAction">
+		<property name="userService" ref="userService"></property>
+	</bean>
+	
+	<bean id="RegisterAction" class="edu.nju.desserthouse.action.RegisterAction">
+		<property name="userService" ref="userService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="LogoutAction" class="edu.nju.desserthouse.action.LogoutAction">
+	</bean>
+	
+	<bean id="MemberMainAction" class="edu.nju.desserthouse.action.MemberMainAction">
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="ActiveMemberAction" class="edu.nju.desserthouse.action.ActiveMemberAction">
+		<property name="memberService" ref="memberService"></property>
+		<property name="paymentRecordService" ref="paymentRecordService"></property>
+	</bean>
+	
+	<bean id="ExchangeCreditAction" class="edu.nju.desserthouse.action.ExchangeCreditAction">
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="StopMemberAction" class="edu.nju.desserthouse.action.StopMemberAction">
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="PayRecordAction" class="edu.nju.desserthouse.action.PayRecordAction">
+		<property name="paymentRecordService" ref="paymentRecordService"></property>
+	</bean>
+	
+	<bean id="PersonalInfoAction" class="edu.nju.desserthouse.action.PersonalInfoAction">
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="UpdateInfoAction" class="edu.nju.desserthouse.action.UpdateInfoAction">
+		<property name="userService" ref="userService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="ShopManageAction" class="edu.nju.desserthouse.action.ShopManageAction">
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="AddShopAction" class="edu.nju.desserthouse.action.AddShopAction">
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="DeleteShopAction" class="edu.nju.desserthouse.action.DeleteShopAction">
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="UpdateShopAction" class="edu.nju.desserthouse.action.UpdateShopAction">
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="ShopClerkManageAction" class="edu.nju.desserthouse.action.ShopClerkManageAction">
+		<property name="shopClerkService" ref="shopClerkService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="AddShopClerkAction" class="edu.nju.desserthouse.action.AddShopClerkAction">
+		<property name="shopClerkService" ref="shopClerkService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="UpdateShopClerkAction" class="edu.nju.desserthouse.action.UpdateShopClerkAction">
+		<property name="shopClerkService" ref="shopClerkService"></property>
+		<property name="userService" ref="userService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="DeleteShopClerkAction" class="edu.nju.desserthouse.action.DeleteShopClerkAction">
+		<property name="shopClerkService" ref="shopClerkService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="DessertManageAction" class="edu.nju.desserthouse.action.DessertManageAction">
+		<property name="dessertService" ref="dessertService"></property>
+	</bean>
+	
+	<bean id="AddDessertAction" class="edu.nju.desserthouse.action.AddDessertAction">
+		<property name="dessertService" ref="dessertService"></property>
+	</bean>
+	
+	<bean id="UpdateDessertAction" class="edu.nju.desserthouse.action.UpdateDessertAction">
+		<property name="dessertService" ref="dessertService"></property>
+	</bean>
+	
+	<bean id="DeleteDessertAction" class="edu.nju.desserthouse.action.DeleteDessertAction">
+		<property name="dessertService" ref="dessertService"></property>
+	</bean>
+	
+	<bean id="MemberManageAction" class="edu.nju.desserthouse.action.MemberManageAction">
+		<property name="memberService" ref="memberService"></property>
+		<property name="paymentRecordService" ref="paymentRecordService"></property>
+		<property name="salesRecordService" ref="salesRecordService"></property>
+	</bean>
+	
+	<bean id="PlanManageAction" class="edu.nju.desserthouse.action.PlanManageAction">
+		<property name="planService" ref="planService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="PlanPendingAction" class="edu.nju.desserthouse.action.PlanPendingAction">
+		<property name="planService" ref="planService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="PlanRejectedAction" class="edu.nju.desserthouse.action.PlanRejectedAction">
+		<property name="planService" ref="planService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="PlanNewAction" class="edu.nju.desserthouse.action.PlanNewAction">
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="CreatePlanAction" class="edu.nju.desserthouse.action.CreatePlanAction">
+		<property name="planService" ref="planService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="HandlePlanAction" class="edu.nju.desserthouse.action.HandlePlanAction">
+		<property name="planService" ref="planService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+		<property name="dessertAvaliableService" ref="dessertAvaliableService"></property>
+	</bean>
+	
+	<bean id="ModifyPlanAction" class="edu.nju.desserthouse.action.ModifyPlanAction">
+		<property name="planService" ref="planService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+	</bean>
+	
+	<bean id="ReserveProductAction" class="edu.nju.desserthouse.action.ReserveProductAction">
+		<property name="dessertAvaliableService" ref="dessertAvaliableService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="BuyDessertAction" class="edu.nju.desserthouse.action.BuyDessertAction">
+		<property name="dessertAvaliableService" ref="dessertAvaliableService"></property>
+		<property name="memberService" ref="memberService"></property>
+		<property name="salesRecordService" ref="salesRecordService"></property>
+	</bean>
+	
+	<bean id="ConsumeRecordAction" class="edu.nju.desserthouse.action.ConsumeRecordAction">
+		<property name="salesRecordService" ref="salesRecordService"></property>
+	</bean>
+	
+	<bean id="SaleDessertAction" class="edu.nju.desserthouse.action.SaleDessertAction">
+		<property name="dessertAvaliableService" ref="dessertAvaliableService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="SaleDessertMoneyAction" class="edu.nju.desserthouse.action.SaleDessertMoneyAction">
+		<property name="dessertAvaliableService" ref="dessertAvaliableService"></property>
+		<property name="salesRecordService" ref="salesRecordService"></property>
+		<property name="shopClerkService" ref="shopClerkService"></property>
+	</bean>
+	
+	<bean id="SaleDessertMemberAction" class="edu.nju.desserthouse.action.SaleDessertMemberAction">
+		<property name="dessertAvaliableService" ref="dessertAvaliableService"></property>
+		<property name="salesRecordService" ref="salesRecordService"></property>
+		<property name="shopClerkService" ref="shopClerkService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="MyOrderAction" class="edu.nju.desserthouse.action.MyOrderAction">
+		<property name="salesRecordService" ref="salesRecordService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+	</bean>
+	
+	<bean id="CancelOrderAction" class="edu.nju.desserthouse.action.CancelOrderAction">
+		<property name="salesRecordService" ref="salesRecordService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="dessertAvaliableService" ref="dessertAvaliableService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="StatisticsAction" class="edu.nju.desserthouse.action.StatisticsAction">
+		<property name="salesRecordService" ref="salesRecordService"></property>
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="ProductStaAction" class="edu.nju.desserthouse.action.ProductStaAction">
+		<property name="productStaService" ref="productStaService"></property>
+	</bean>
+	
+	<bean id="CategoryStaAction" class="edu.nju.desserthouse.action.CategoryStaAction">
+		<property name="categoryStaService" ref="categoryStaService"></property>
+	</bean>
+	
+	<bean id="ShopStaAction" class="edu.nju.desserthouse.action.ShopStaAction">
+		<property name="shopStaService" ref="shopStaService"></property>
+	</bean>
+	
+	<bean id="ProductTrendAction" class="edu.nju.desserthouse.action.ProductTrendAction">
+		<property name="productTrendService" ref="productTrendService"></property>
+	</bean>
+	
+	<bean id="ShopRankAction" class="edu.nju.desserthouse.action.ShopRankAction">
+		<property name="shopRankService" ref="shopRankService"></property>
+	</bean>
+	
+	<bean id="CreatePlanAutoAction" class="edu.nju.desserthouse.action.CreatePlanAutoAction">
+		<property name="dessertService" ref="dessertService"></property>
+		<property name="shopService" ref="shopService"></property>
+		<property name="planAutoGenerateService" ref="planAutoGenerateService"></property>
+	</bean>
+	
+	<bean id="CrmAction" class="edu.nju.desserthouse.action.CrmAction">
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<bean id="MakePromotionAction" class="edu.nju.desserthouse.action.MakePromotionAction">
+		<property name="memberService" ref="memberService"></property>
+		<property name="promotionService" ref="promotionService"></property>
+	</bean>
+	
+	<bean id="PromotionManageAction" class="edu.nju.desserthouse.action.PromotionManageAction">
+		<property name="promotionService" ref="promotionService"></property>
+	</bean>
+	
+	<bean id="NewPromotionAction" class="edu.nju.desserthouse.action.NewPromotionAction">
+		<property name="promotionService" ref="promotionService"></property>
+	</bean>
+	
+	<bean id="MemberStaAction" class="edu.nju.desserthouse.action.MemberStaAction">
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	
+	<!-- 定义 Autowired 自动注入 bean -->
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
+
+	<!-- 扫描有注解的文件 base-package 包路径 -->
+	<context:component-scan base-package="edu.nju.desserthouse" />
+	<!-- 声明式容器事务管理 ,transaction-manager指定事务管理器为transactionManager -->
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="*User" propagation="REQUIRED" />
+			<tx:method name="*" propagation="NOT_SUPPORTED" read-only="true" />
+		</tx:attributes>
+	</tx:advice>
+	<!-- 定义切面，在edu.nju.onlinestock.service包及子包中所有以Service结尾的方法中,执行有关的hibernate session的事务操作 -->
+	<aop:config>
+		<!-- 只对业务逻辑层实施事务 -->
+		<aop:pointcut id="serviceOperation"
+			expression="execution( * edu.nju.desserthouse.service..*Service.*(..))" />
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation" />
+	</aop:config>
+</beans>
