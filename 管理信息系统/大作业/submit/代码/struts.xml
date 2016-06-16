@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.i18n.encoding" value="utf-8"></constant>  
+	
+	<package name="struts2" namespace="/" extends="struts-default">
+		<action name="start" class="StartAction">
+			<result name="login">/jsp/login.jsp</result>
+			<result name="memberMain">/jsp/memberMain.jsp</result>
+			<result name="adminMain">/jsp/adminMain.jsp</result>
+			<result name="headMain">/jsp/headMain.jsp</result>
+			<result name="branchMain">/jsp/branchMain.jsp</result>
+			<result name="managerMain">/jsp/managerMain.jsp</result>
+			<result name="topManagerMain">/jsp/topManagerMain.jsp</result>
+		</action>
+		
+		<action name="login" class="LoginAction">
+			<result name="login">/jsp/login.jsp</result>
+			<result name="relogin">/jsp/relogin.jsp</result>
+			<result name="memberMain">/jsp/memberMain.jsp</result>
+			<result name="adminMain">/jsp/adminMain.jsp</result>
+			<result name="headMain">/jsp/headMain.jsp</result>
+			<result name="branchMain">/jsp/branchMain.jsp</result>
+			<result name="managerMain">/jsp/managerMain.jsp</result>
+			<result name="topManagerMain">/jsp/topManagerMain.jsp</result>
+		</action>
+		
+		<action name="getMemberId" class="GetMemberIdAction">
+			<result name="register">/jsp/register.jsp</result>
+		</action>
+		
+		<action name="register" class="RegisterAction">
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="logout" class="LogoutAction">
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="memberMain" class="MemberMainAction">
+			<result name="unactiveMember">/jsp/unactiveMember.jsp</result>
+			<result name="activeMember">/jsp/activeMember.jsp</result>
+			<result name="suspendedMember">/jsp/suspendedMember.jsp</result>
+			<result name="stoppedMember">/jsp/stoppedMember.jsp</result>
+		</action>
+		
+		<action name="activeMember" class="ActiveMemberAction">
+			<result name="activeMember">/jsp/activeMember.jsp</result>
+		</action>
+		
+		<action name="exchangeCredit" class="ExchangeCreditAction">
+			<result name="activeMember">/jsp/activeMember.jsp</result>
+		</action>
+		
+		<action name="stopMember" class="StopMemberAction">
+			<result name="stoppedMember">/jsp/stoppedMember.jsp</result>
+		</action>
+		
+		<action name="payRecord" class="PayRecordAction">
+			<result name="paymentRecordHY">/jsp/paymentRecordHY.jsp</result>
+		</action>
+		
+		<action name="personalInfo" class="PersonalInfoAction">
+			<result name="personalInfo">/jsp/personalInfo.jsp</result>
+		</action>
+		
+		<action name="updateInfo" class="UpdateInfoAction">
+			<result name="personalInfo">/jsp/personalInfo.jsp</result>
+		</action>
+		
+		<action name="shopManage" class="ShopManageAction">
+			<result name="shopManage">/jsp/shopManage.jsp</result>
+		</action>
+		
+		<action name="addShop" class="AddShopAction">
+			<result name="shopManage">/jsp/shopManage.jsp</result>
+		</action>
+		
+		<action name="deleteShop" class="DeleteShopAction">
+			<result name="shopManage">/jsp/shopManage.jsp</result>
+		</action>
+		
+		<action name="updateShop" class="UpdateShopAction">
+			<result name="shopManage">/jsp/shopManage.jsp</result>
+		</action>
+		
+		<action name="shopClerkManage" class="ShopClerkManageAction">
+			<result name="shopClerkManage">/jsp/shopClerkManage.jsp</result>
+		</action>
+		
+		<action name="addShopClerk" class="AddShopClerkAction">
+			<result name="shopClerkManage">/jsp/shopClerkManage.jsp</result>
+		</action>
+		
+		<action name="updateShopClerk" class="UpdateShopClerkAction">
+			<result name="shopClerkManage">/jsp/shopClerkManage.jsp</result>
+		</action>
+		
+		<action name="deleteShopClerk" class="DeleteShopClerkAction">
+			<result name="shopClerkManage">/jsp/shopClerkManage.jsp</result>
+		</action>
+		
+		<action name="dessertManage" class="DessertManageAction">
+			<result name="dessertManage">/jsp/dessertManage.jsp</result>
+		</action>
+		
+		<action name="addDessert" class="AddDessertAction">
+			<result name="dessertManage">/jsp/dessertManage.jsp</result>
+		</action>
+		
+		<action name="updateDessert" class="UpdateDessertAction">
+			<result name="dessertManage">/jsp/dessertManage.jsp</result>
+		</action>
+		
+		<action name="deleteDessert" class="DeleteDessertAction">
+			<result name="dessertManage">/jsp/dessertManage.jsp</result>
+		</action>
+		
+		<action name="memberManage" class="MemberManageAction">
+			<result name="memberManageZD">/jsp/memberManageZD.jsp</result>
+			<result name="memberManageFD">/jsp/memberManageFD.jsp</result>
+		</action>
+		
+		<action name="planManage" class="PlanManageAction">
+			<result name="planApproved">/jsp/planApproved.jsp</result>
+		</action>
+		
+		<action name="planPending" class="PlanPendingAction">
+			<result name="planPending">/jsp/planPending.jsp</result>
+			<result name="dessertPlanJL">/jsp/dessertPlanJL.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="planRejected" class="PlanRejectedAction">
+			<result name="planRejected">/jsp/planRejected.jsp</result>
+		</action>
+		
+		<action name="planNew" class="PlanNewAction">
+			<result name="planNew">/jsp/planNew.jsp</result>
+		</action>
+		
+		<action name="createPlan" class="CreatePlanAction">
+			<result name="planApproved">/jsp/planApproved.jsp</result>
+		</action>
+		
+		<action name="handlePlan" class="HandlePlanAction">
+			<result name="dessertPlanJL">/jsp/dessertPlanJL.jsp</result>
+		</action>
+		
+		<action name="modifyPlan" class="ModifyPlanAction">
+			<result name="planRejected">/jsp/planRejected.jsp</result>
+		</action>
+		
+		<action name="reserveProduct" class="ReserveProductAction">
+			<result name="reserveProductHY">/jsp/reserveProductHY.jsp</result>
+		</action>
+		
+		<action name="buyDessert" class="BuyDessertAction">
+			<result name="reserveProductHY">/jsp/reserveProductHY.jsp</result>
+		</action>
+		
+		<action name="consumeRecord" class="ConsumeRecordAction">
+			<result name="consumeRecord">/jsp/consumeRecord.jsp</result>
+		</action>
+		
+		<action name="saleDessert" class="SaleDessertAction">
+			<result name="saleDessertFD">/jsp/saleDessertFD.jsp</result>
+		</action>
+		
+		<action name="saleDessertMoney" class="SaleDessertMoneyAction">
+			<result name="saleDessertFD">/jsp/saleDessertFD.jsp</result>
+		</action>
+		
+		<action name="saleDessertMember" class="SaleDessertMemberAction">
+			<result name="saleDessertFD">/jsp/saleDessertFD.jsp</result>
+		</action>
+		
+		<action name="myOrder" class="MyOrderAction">
+			<result name="myOrderHY">/jsp/myOrderHY.jsp</result>
+		</action>
+		
+		<action name="cancelOrder" class="CancelOrderAction">
+			<result name="myOrderHY">/jsp/myOrderHY.jsp</result>
+		</action>
+		
+		<action name="statistics" class="StatisticsAction">
+			<result name="statistics">/jsp/statistics.jsp</result>
+		</action>
+		
+		<action name="productSta" class="ProductStaAction">
+			<result name="productSta">/jsp/productSta.jsp</result>
+			<result name="productStaZJL">/jsp/productStaZJL.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="categorySta" class="CategoryStaAction">
+			<result name="categorySta">/jsp/categorySta.jsp</result>
+			<result name="categoryStaZJL">/jsp/categoryStaZJL.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="shopSta" class="ShopStaAction">
+			<result name="shopSta">/jsp/shopSta.jsp</result>
+			<result name="shopStaZJL">/jsp/shopStaZJL.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="productTrend" class="ProductTrendAction">
+			<result name="productTrend">/jsp/productTrend.jsp</result>
+			<result name="productTrendZJL">/jsp/productTrendZJL.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="shopRank" class="ShopRankAction">
+			<result name="shopRank">/jsp/shopRank.jsp</result>
+			<result name="shopRankZJL">/jsp/shopRankZJL.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="createPlanAuto" class="CreatePlanAutoAction">
+			<result name="createPlanAuto">/jsp/createPlanAuto.jsp</result>
+		</action>
+		
+		<action name="crm" class="CrmAction">
+			<result name="crm">/jsp/crm.jsp</result>
+		</action>
+		
+		<action name="makePromotion" class="MakePromotionAction">
+			<result name="makePromotion">/jsp/makePromotion.jsp</result>
+		</action>
+		
+		<action name="promotionManage" class="PromotionManageAction">
+			<result name="promotionManage">/jsp/promotionManage.jsp</result>
+		</action>
+		
+		<action name="newPromotion" class="NewPromotionAction">
+			<result name="newPromotion">/jsp/newPromotion.jsp</result>
+		</action>
+		
+		<action name="memberSta" class="MemberStaAction">
+			<result name="memberSta">/jsp/memberSta.jsp</result>
+		</action>
+		
+	</package>
+</struts>
+
