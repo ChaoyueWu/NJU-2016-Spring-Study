@@ -1,0 +1,5 @@
+易用性测试（可用性测试）又叫UI测试
+-how to get good usability
+——易见 映射 反馈
+-what makes a good ui
+——
